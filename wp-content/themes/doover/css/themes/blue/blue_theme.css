@@ -1,0 +1,800 @@
+@charset "UTF-8";
+
+/*
+ *	 @Theme:	Doover
+ * 	 @Author:   Muffin Group
+ *	 @WWW:      www.muffingroup.com
+ * 
+ *   1.  Global
+ *   3.  Header
+ *   4.  Navigation
+ *   5.  Offer slider
+ *   6.  Content
+ *   7.  Homepage boxes
+ *   8.  Call to action
+ *   9.  Homepage illustration
+ *   10. Homepage features
+ *   11. Footer
+ *   12. Subpage header
+ *   13. Submenu
+ *   14. Error 404
+ *   15. Offer
+ *   16. Portfolio
+ *   17. Select category
+ *   18. Pager
+ *   19. Gallery
+ *   20. Our team
+ *   21. FAQ
+ *   22. Features
+ *   23. Blog
+ *   24. Clients
+ *   25. Contact
+ *   26. Forms
+ *   27. Headers
+ *   28. Pricing table
+ *   29. Blockquote
+ *   30. Lists
+ *   31. Slider in article
+ *   32. Images in article
+ *   33. Text hightlight
+ *   34. Video in article
+ *   35. Code Hightlighter 
+ *   36. Table
+ *   37. Alerts
+ *   38. Dropcaps
+ *   39. Links
+ *   40. Photo slider
+ */
+
+/************** Global **************/
+
+html {
+	background: #f2f2f2;
+}
+
+body {
+	color: #515e6c;
+}
+
+a {
+	color: #2d70ca;
+}
+
+hr {
+	background: transparent url(images/texture_dark_strips.png);
+}
+
+/************** Header **************/
+
+#Header {
+    background: #09234e url(images/header_bg.png) no-repeat center top;
+}
+
+#Header .header_overlay {
+    background: url(images/header_overlay.png) no-repeat center top;
+}
+
+#Header .top #logo {
+	color: #fff;
+}
+
+#Header .top_options .call_us {
+    background: url(images/icons/top_ico_phone.png) no-repeat left 3px;
+    color: #f7d678;
+}
+
+#Header .top_options .call_us span {
+	color: #fff0c4;
+}
+
+#Header .top_options ul.top_links li a {
+    background: url(images/top_links.png) no-repeat;
+}
+
+/************** Navigation **************/
+
+#navigation ul > li.hover.submenu {
+    background: url(images/nav_submenu_hover.png) no-repeat bottom center;
+}
+
+#navigation > ul > li > a {
+    color: #fff;
+}
+
+#navigation ul > li a:hover, #navigation ul > li.active a, #navigation ul li.hover > a {
+    background: #3eaaf3;
+}
+
+#megamenu > ul > li > a:hover, #megamenu > ul > li.hover > a {
+	background: #3eaaf3;
+}
+
+#navigation ul > li ul {
+	background: #000;
+}
+
+#navigation ul > li ul li {
+	
+}
+
+#navigation ul > li ul li a {
+    color: #fff;
+	border-bottom: 1px solid #111111;
+}
+
+#navigation ul > li ul li.submenu a {
+	background: url(images/nav_submenu_li_hover.png) no-repeat 155px center;
+}
+
+#navigation ul > li ul li.submenu a:hover, #navigation ul > li ul li.submenu.hover a  {
+    background: #191919 url(images/nav_submenu_li_hover.png) no-repeat 155px center;
+}
+
+#navigation ul > li ul li a:hover, #navigation ul > li ul li.submenu ul li a:hover {
+    background: #191919;
+	color: #fff;
+}
+
+/************** Offer slider **************/
+
+
+#Offer_slider .slides li h2 {
+    color: #3eaaf3;
+}
+
+#Offer_slider .slides li h2 span {
+    color: #fff;
+}
+
+#Offer_slider .slides li .desc p {
+    color: #fff;
+}
+
+#Offer_slider div.controls h3 {
+    color: #3eaaf3;
+}
+
+#Offer_slider div.controls h2 {
+    color: #fff;
+}
+
+#Offer_slider div.controls .header a#prev_arrow, #Offer_slider div.controls .header a#next_arrow {
+	background: url(images/home_slider_controls.png) no-repeat;
+}
+
+#Offer_slider div.controls li a {
+    color: #fff;
+}
+
+#Offer_slider div.controls li a:hover, #Offer_slider div.controls li.activeSlide a {
+    color: #3eaaf3;
+}
+
+#Offer_slider #see_our_works {
+    background: url(images/see_our_works.png) no-repeat;
+}
+
+/************** Content **************/
+
+#Content {
+    background: #fff;
+}
+
+/************** Homepage boxes **************/
+
+.homepage-box {
+    border-right: 1px solid #e5e5e5;
+}
+
+/************** Call to action **************/
+
+.Call-to-action {
+    background: url(images/texture_dark_strips.png);
+}
+
+.Call-to-action .inside {
+    background: url(images/texture_light_strips.png);
+}
+
+.Call-to-action .inside h5 {
+	color: #818181;
+}
+
+a.call_to_action {
+	background: url(images/buttons/button_calltoaction.png) no-repeat top right;
+}
+
+a.call_to_action span { 
+	background: url(images/buttons/button_calltoaction_span.png) no-repeat top left;
+	color: #fff;
+	text-shadow: 1px 1px 0 #02458f;
+}
+
+a.call_to_action:hover span, a.call_to_action:active span { 
+	color: #fff; 
+	text-shadow: 1px 1px 0 #092646; 
+}
+
+a.call_to_action_contact {
+	background: url(images/buttons/button_calltoaction_contact.png) no-repeat top right;
+}
+
+
+/************** Illustration **************/
+
+#homepage-illustration .overlay {
+    background: transparent url(../../../images/samples/homepage_illustration_overlay.png) no-repeat top center;
+}
+
+/************** Homepage features **************/
+
+#homepage-features > h5 {
+	color: #818181;
+}
+
+#homepage-features li h5 {
+    color: #000;
+}
+
+#homepage-features li a {
+    background: url(images/icons/ico_clip.png) no-repeat left 2px;
+}
+
+#homepage-features a.help {
+    background: url(images/icons/ico_help.png) no-repeat left center;
+    color: #ef461a;
+}
+
+/************** Footer **************/
+
+#Footer {
+    background: #f2f2f2 url(images/footer_bg.png) repeat-x left -5px;
+}
+
+#Footer .widget {
+    background: url(images/footer_arrow.png) no-repeat top center;
+}
+
+#Footer .widget h5 {
+    color: #000;
+}
+
+#Footer .widget li {
+    background: url(images/footer_link.png) no-repeat left center;
+}
+
+#Footer .widget li a {
+    color: #909090;
+}
+
+#Footer .widget li a:hover {
+    color: #797979;
+}
+
+.copyrights {
+    padding-left: 10px;
+    color: #969696;
+}
+
+#Footer a.back_to_top {
+    background: url(images/back_top_top.png) no-repeat;
+}
+
+/************** Subpage header **************/
+
+.subpage_header h1,
+.homepage_header h1,
+.homepage_header h2 {
+	color: #fff;
+}
+
+.subpage_header ul.breadcrumbs li {
+	color: #4c90eb;
+	background: url(images/breadcrumbs_arrow.png) no-repeat right center;
+}
+
+/************** Submenu **************/
+
+.sidebar .submenu ul,
+.sidebar .widget_nav_menu ul {
+	background: #f6f6f6;
+}
+ 
+.sidebar .submenu ul li a,
+.sidebar .widget_nav_menu ul li a {
+	border-bottom: 1px solid #eceaea;
+	color: #5c5c5c;
+	text-shadow: 1px 1px 0 #fff;
+}
+ 
+.sidebar .submenu ul li a:hover,
+.sidebar .submenu ul li.current_page_item a,
+.sidebar .widget_nav_menu ul li a:hover,
+.sidebar .widget_nav_menu ul li.current_page_item a {
+ 	background: #2d70ca;
+	color: #fff;
+	border-bottom: 1px solid #2d70ca;
+}
+ 
+.left_submenu .sidebar ul li a em {
+	background: url(images/submenu_hover.png) no-repeat 0 0;
+}
+
+.right_submenu .sidebar ul li a em {
+	background: url(images/submenu_hover.png) no-repeat 0 -10px;
+}
+ 
+ /************** Error 404 **************/
+
+#error_404 h2 {
+	color: #fff;
+}
+
+#error_404 h4 {
+	color: #fff;
+}
+
+#error_404 p .check {
+	color: #5898e9;
+}
+
+#error_404 p em {
+	color: #3eaaf3;
+}
+ 
+
+/************** Portfolio **************/
+
+.portfolio .photo {
+	border: 1px solid #e9e6e6;
+	-moz-box-shadow: 1px 1px 5px #ccc;
+	-webkit-box-shadow: 1px 1px 5px #ccc;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+.portfolio .photo a .ico {
+	background: url(images/portfolio_ico.png) no-repeat;
+}
+
+.portfolio .overlay {
+	background: url(images/hover_texture.png);
+}
+
+ /************** Pager **************/
+
+.pager {
+	border-top: 1px solid #E5E5E5;
+}
+
+.pager a.page {
+	background: url(images/buttons/pager.png) 0 0;
+	color: #525252;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.pager a:hover.page, .pager a.active.page {
+	color: #fff;
+	text-shadow: 1px 1px 0 #0d0d0d;
+}
+
+/************** Gallery **************/
+
+.gallery .photo {
+	border: 1px solid #e9e6e6;
+	-moz-box-shadow: 1px 1px 5px #ccc;
+	-webkit-box-shadow: 1px 1px 5px #ccc;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+.gallery .photo a .ico {
+	background: url(images/portfolio_ico.png) no-repeat;
+}
+
+.gallery .overlay {
+	background: url(images/hover_texture.png);
+}
+
+/************** Our team **************/
+
+.our_team .item .overlay {
+	background: url(images/our_team_overlay.png) no-repeat 0 0;
+}
+
+.our_team .item .desc {
+	background: url(images/our_team_active.png);
+}
+
+.our_team .item .desc h6 {
+	color: #fff;
+}
+
+.our_team .item .desc .job {
+	color: #c8c8c8;
+}
+
+.our_team .item .desc .email a {
+	color: #f7d678;
+}
+
+.our_team .item .desc .phone {
+	color: #e6e6e6;
+}
+
+.our_team .item .desc .contact {
+	background: red;
+}
+
+.our_team .item .line {
+	background: #C8C8C8;
+}
+
+/************** FAQ **************/
+
+.faq .question h5 {
+	border-top: 1px solid #efefef;
+	background: url(images/faq_inactive.png) no-repeat 0 7px;
+}
+
+.faq .active h5 {
+	background: url(images/faq_active.png) no-repeat 0 7px;
+}
+
+/************** Features **************/
+
+.features li h5 {
+    color: #000;
+}
+
+.features li a {
+    background: url(images/icons/ico_clip.png) no-repeat left 2px;
+}
+
+/************** Blog **************/
+
+.post .image {
+	border: 1px solid #e9e6e6;
+	-moz-box-shadow: 1px 1px 5px #ccc;
+	-webkit-box-shadow: 1px 1px 5px #ccc;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+.post .category {
+	color: #b0b0b0;
+}
+
+.post .comments {
+	color: #b0b0b0;
+}
+
+.post .comments a {
+	color: #b0b0b0;
+}
+
+.post .category .label {
+	background: url(images/icons/ico_cat.png) no-repeat left center;
+}
+
+.post .date {
+	background: url(images/icons/ico_time.png) no-repeat 8px 18px;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.post .date .year {
+	background: url(images/bg_year.png) no-repeat;
+	color: #5c5c5c;
+	text-shadow: 1px 1px 0 #f9f9f9;
+}
+
+.post .category {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.post .desc footer p.tags {
+	color: #b0b0b0;
+}
+
+.post .desc footer p.tags span {
+	background: url(images/icons/ico_tags.png) no-repeat right center;
+}
+
+.post .desc footer p.tags a {
+	color: #b0b0b0;
+}
+
+.widget h3 {
+	color: #000000;
+}
+
+.widget_search input[type="text"] {
+	background: #f2f2f2;
+}
+
+
+
+.widget_search input#s {
+	background: url(images/search.png) no-repeat;
+	color: #959595;
+}
+
+.widget_categories li {
+	color: #b0b0b0;
+}
+
+.widget_recent_comments li,
+.widget_recent_entries  li {
+	background: url(images/icons/ico_doc_small.png) no-repeat 0 0;
+	color: #637A96;
+}
+
+.widget_recent_comments li a,
+.widget_recent_entries li a {
+	color: #515E6C;
+}
+
+.widget_recent_comments li .date {
+	background: url(images/icons/ico_time.png) no-repeat left center;
+	color: #b0b0b0;
+}
+
+.widget_archive li {
+	color: #b0b0b0;
+}
+
+.widget_meta ul li {
+	background: url(images/lists/li.png) no-repeat 3px 3px;
+}
+
+/************** Contact **************/
+
+.contact .details ul li.phone {
+	background: url(images/icons/ico_phone.png) no-repeat left center;
+}
+
+.contact .details ul li.email {
+	background: url(images/icons/ico_email.png) no-repeat left center;
+}
+
+.contact .details ul li.twitter {
+	background: url(images/icons/ico_twitter.png) no-repeat left center;
+}
+
+.contact .contact_form .nick_ico {
+	background: url(images/icons/ico_user.png) no-repeat center center;
+}
+
+.contact .contact_form .email_ico {
+	background: url(images/icons/ico_email.png) no-repeat center center;
+}
+
+/************** Forms **************/
+
+form input[type="text"], form input[type="password"], form select, textarea {
+	border-top: 1px solid #b2b2b2;
+	border-left: 1px solid #b2b2b2;
+	border-right: 1px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+	background: #f3f3f3 url(images/input_bg.png) repeat-x;
+	color: #868686;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus, form select:focus, textarea:focus {
+
+}
+
+form input[type="submit"] {
+	color: #fff;
+	text-shadow: 1px 1px 0 #162e4d;
+	border: 1px solid #13325c;
+	background: #23466e;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#28517d', endColorstr='#182b48');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#28517d, endColorstr=#182b48)";
+	background: -webkit-gradient(linear, left top, left bottom, from(#28517d), to(#182b48));
+	background-image: -o-linear-gradient(#28517d, #182b48);
+	background: -moz-linear-gradient(top,#28517d,#182b48);
+}
+
+form input[type="submit"]:hover {
+	text-shadow: 1px 1px 0 #15308e;
+	border: 1px solid #0a2349;
+	background: #1a385b;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d4065', endColorstr='#0e1c31');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#1d4065, endColorstr=#0e1c31)";
+	background: -webkit-gradient(linear, left top, left bottom, from(#1d4065), to(#0e1c31));
+	background-image: -o-linear-gradient(#1d4065, #0e1c31);
+	background: -moz-linear-gradient(top,#1d4065,#0e1c31);
+}
+
+/************** Headers **************/
+
+h2 { color: #000; }
+
+h3 { color: #093869; }
+
+h4 { color: #000000; }
+
+h5 { color: #000000; }
+
+h6 { color: #081f43; }
+
+/************* Pricing table *************/
+
+table.pricing .clear {
+	border-bottom: 1px solid #E9E6E6;
+}
+
+table.pricing .clear_bottom {
+	border-right: 1px solid #E9E6E6;
+}
+
+table.pricing tbody th {
+	border-bottom: 1px solid #e9e6e6;
+	border-left: 1px solid #e9e6e6;
+}
+
+table.pricing thead th{
+	background: url(images/pricing_thead.png) repeat-x;
+	border-right: 1px solid #0e457f;
+}
+
+table.pricing thead th h4{
+	color: #fff;
+	text-shadow: 1px 1px 0 #0c3f75;
+}
+
+table.pricing thead th span{
+	color: #fff;
+	text-shadow: 1px 1px 0 #0c3f75;
+}
+
+table.pricing thead th span em {
+	color: #3eaaf3;
+}
+
+table.pricing thead th p{
+	color: #5290d0;
+}
+
+table.pricing tbody td, table.pricing tbody th {
+	background: #fbfafa;
+}
+
+table.pricing tbody th {
+	color: #000;
+	border-right: 1px solid #E9E6E6;
+}
+
+table.pricing tbody tr.odd td, table.pricing tbody tr.odd th {
+	background: #f6f6f6;
+}
+
+/************* Blockquote *************/
+
+blockquote {
+	background: url(images/blockquote.png) no-repeat 5px 0px;
+}
+
+blockquote p {
+	color: #005ea0;
+}
+
+blockquote address {
+	color: #8D8D8D;
+}
+
+/***************** Lists *****************/
+
+.content ul li {
+	background: url(images/lists/li.png) no-repeat 3px 3px;
+}
+
+ul.questions li {
+	background: url(images/lists/li_questions.png) no-repeat 3px 3px;
+}
+
+ul.plus li {
+	background: url(images/lists/li_plus.png) no-repeat 3px 3px;
+}
+
+ul.checks li {
+	background: url(images/lists/li_checkboxes.png) no-repeat 3px 3px;
+}
+
+/************* Slider in article *************/
+
+.article_slider {
+	background: url(images/bg_slider.png) no-repeat bottom center;
+}
+
+.article_slider ul li {
+	background: url(images/texture_dark_strips.png);
+}
+
+.article_slider ul.controls li a {
+	background: url(images/slider_controls.png) no-repeat 0 0;
+}
+
+/*************** Images in article ***************/
+
+.image_frame img {
+	background: #fff;
+	border: 1px solid #e9e6e6;
+	-moz-box-shadow: 0 0 3px #e9e6e6, 0 1px 2px rgba(0, 0, 0, .15) inset;
+	-webkit-box-shadow: 0 0 3px #e9e6e6, 0 1px 2px rgba(0, 0, 0, .15) inset;
+	box-shadow: 0 0 3px #e9e6e6, 0 1px 2px rgba(0, 0, 0, .15) inset;
+}
+
+/**************** Text hightlight  ****************/
+
+.highlight {
+	background: #515e6c;
+	color: #fff;
+}
+
+/***************** Code Hightlighter *****************/
+code, pre {
+	color: #626262;
+	border: 1px solid #D9D9D9;
+}
+
+/****************** Table ******************/
+
+table {
+	border: 1px solid #e9e6e6;
+}
+
+table thead th, table tbody td {
+	border-bottom: 1px solid #e9e6e6;
+	border-right: 1px solid #e9e6e6;
+}
+
+table thead th {
+	color: #363636;
+	text-shadow: 1px 1px 0px #fff;
+	background: url(images/bg_table.png) no-repeat 0 0;
+}
+
+table tbody td {
+	color: #8d8d8d;
+}
+
+table tbody tr:nth-child(even) td,
+table tbody tr:nth-child(even) th {
+	background: #F2F2F2;
+}
+
+/**************** Dropcaps ******************/
+
+.dropcap_circle {
+	background: url(images/dropcaps.png) no-repeat 0 0;
+	color: #fff;
+}
+
+.dropcap_circle_blue {
+	background-position: 0 -120px;
+}
+
+.dropcap_circle_gray {
+	background-position: 0 -60px;
+}
+
+/************** Links **************/
+
+.links { 
+	background: #f7f7f7 url(images/highlighter_shadow.png) repeat-x 0 0;
+	text-shadow: 1px 1px 0 #fff;
+	border: 1px solid #ededed;
+}
+
+.links ul li {
+	background: url(images/icons/ico_clip.png) no-repeat left center;
+}
+
+/************** Photo slider **************/
+
+#Photo_slider ul.slider li img  {
+	background: url(images/photo_slider_shadow.png) no-repeat center bottom;
+}
+
+#Photo_slider ul.controls li a {
+	background: url(images/slider_controls.png) no-repeat 0 0;
+}
