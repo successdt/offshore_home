@@ -451,7 +451,7 @@ function wp_list_categories( $args = '' ) {
 	if ( empty( $categories ) ) {
 		if ( ! empty( $show_option_none ) ) {
 			if ( 'list' == $style )
-				$output .= '<li>' . $show_option_none . '</li>';
+				$output .= '<li class="empty-category">' . $show_option_none . '</li>';
 			else
 				$output .= $show_option_none;
 		}

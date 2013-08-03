@@ -22,8 +22,7 @@
 			
 			<div class="one_third col">
 				<div class="copyrights">
-					<p class="author">&copy; <?php echo date( 'Y' ); ?> <span><?php bloginfo( 'name' ); ?></span>. <?php _e('All Rights Reserved. Powered by','doover'); ?> <a href="http://wordpress.org">WordPress</a>.</p>
-					<p><?php _e('Created by','doover'); ?> <a href="http://muffingroup.com">Muffin group</a>.</p>
+					<p class="author">&copy; <?php echo date( 'Y' ); ?> <span><?php bloginfo( 'name' ); ?></span>. <?php _e('All Rights Reserved. Powered by','doover'); ?> <a href="http://ecomwebpro.com">EWP</a>.</p>
 				</div>
 			</div>
 			
@@ -37,15 +36,15 @@
 					<li>
 						Kinh doanh
 						<ul>
-							<li>Email: info@ecomwebpro.com</li>
-							<li>SDT: 097 748 6318 - 0168 998 5978</li>
+							<li class="email">Email: info@ecomwebpro.com</li>
+							<li class="phone">SDT: 097 748 6318 - 0168 998 5978</li>
 						</ul>
 					</li>
 					<li>
 						SEO
 						<ul>
-							<li>Email: seo@ecomwebpro.com</li>
-							<li>SDT: 016 777 58881</li>
+							<li class="email">Email: seo@ecomwebpro.com</li>
+							<li class="phone">SDT: 016 777 58881</li>
 						</ul>
 					</li>
 				</ul>
@@ -58,6 +57,6 @@
 </footer>
 
 <?php wp_footer(); ?>
-	
+<script type="text/javascript">var subiz_account_id = "1953";(function() { var sbz = document.createElement("script"); sbz.type = "text/javascript"; sbz.async = true; sbz.src = ("https:" == document.location.protocol ? "https://" : "http://") + "widget.subiz.com/static/js/loader.js?v="+ (new Date()).getFullYear() + ("0" + ((new Date()).getMonth() + 1)).slice(-2) + ("0" + (new Date()).getDate()).slice(-2); var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(sbz, s);})();</script>	
 </body>
 </html>

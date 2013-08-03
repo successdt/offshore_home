@@ -1,0 +1,60 @@
+body {
+	background-color: #edeae1;
+	color: #555555;
+	font-size: 12px;
+}
+
+h1, h2, h3, h4 {
+	color: #FFF;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+.margin5 {
+	margin: 5px;
+}
+
+.margin10 {
+	margin: 10px;
+}
+
+.bold-link {
+	font-weight: bold;	
+}
+
+.image30 {
+	height: 30px;
+	width: 30px;
+}
+
+.image50 {
+	height: 50px;
+	width: 50px;
+}
+
+.image80 {
+	height: 80px;
+	width: 80px;
+}
+
+
+.image200 {
+	height: 200px;
+	width: 200px;
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.block{
+	display: block;
+}
