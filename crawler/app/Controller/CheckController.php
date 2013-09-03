@@ -58,7 +58,6 @@ class CheckController extends AppController {
 				'content' => '.content',
 				'category' => '31'
 			),
-			
 			array(
 				'name' => 'http://www.onboom.com/',
 				'page-link' => array(
@@ -68,7 +67,7 @@ class CheckController extends AppController {
 				), 
 				'link' => '.contentheading a',
 				'title' => '.contentheading a',
-				'content' => '.article-content',
+				'content' => '.article-content > div',
 				'category' => '25'
 			),
 			/* 

@@ -1,0 +1,40 @@
+
+.f_left{float: left;}
+.f_right{float: right;}
+
+.wid_50{width: 50%;}
+
+.cb{clear: both;}
+
+#mkSliderWrap ul li{list-style: none;}
+#mkSliderWrap label{float: left; width: 25%;}
+#mkSliderWrap input, #mkSliderWrap textarea, #mkSliderWrap select{}
+
+/* =================== Toggle CSS =========================== */
+.mkToggle {clear: both;margin: 0;padding-bottom: 0.75em;text-indent: 10px;}
+a:link, a:visited {color: #2E4793;text-decoration: none;}
+.mkToggle a:link, .mkToggle a:visited { background: url("images/minus.png") no-repeat 98% 50%;border-width: 1px; padding: 3px 0;}
+.mkToggle a.open:link, .mkToggle a.open:visited {background: url("images/plus.png") no-repeat scroll 98% 50%;}
+.mkSliderContent{margin: 7px auto;}
+h3.mkToggleTitle{color:#333;border: solid 1px #CCC;-moz-border-radius: 5px 5px 0px 0px;-webkit-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px;
+                 background: rgb(255,255,255); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+h3.mkToggleTitle a{color:#333;}
+.mkToggleContent{padding: 0px 10px;background: #FFF;border: solid 1px #CCC;-moz-border-radius: 0px 0px 5px 5px;-webkit-border-radius: 0px 0px 5px 5px;border-radius: 0px 0px 5px 5px;}
+.mkToggleContent input, .mkToggleContent textarea, .mkToggleContent select{width: 90%;}
+.mkToggleContent input[type='button']{width: auto;}
+.mkThumb{border: solid 1px #CCC; padding: 2px;}
+
+#mk-slider-settings{}
+#mk-slider-settings label{width: 25%;display: block;float: left;}
+#mk-slider-settings input, #mk-slider-settings select, #mk-slider-settings textarea{width: 100px;}
+#mk-slider-settings li{width: 100%;}
+#mk-slider-settings small{font-style: italic;padding-left: 10px;color: #9D9D9D;}
