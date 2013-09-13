@@ -1,0 +1,450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form Builder 1.0.1\n"
+"POT-Creation-Date: 2012-10-23 12:10+0200\n"
+"PO-Revision-Date: 2013-03-15 10:56+0200\n"
+"Last-Translator: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contact-form-builder.php:68
+msgid "plugin requires"
+msgstr "требуется для работы плагина"
+
+#: contact-form-builder.php:68
+msgid "WordPress themes!"
+msgstr "WordPress темы!"
+
+#: contact-form-builder.php:68
+msgid "Deactivating Plugin."
+msgstr "Отключение плагина."
+
+#: contact-form-builder.php:68
+msgid "Back to"
+msgstr "Назад к"
+
+#: contact-form-builder.php:68
+msgid "WordPress admin panel"
+msgstr "Админ-панель WordPress"
+
+#: contact-form-builder.php:110
+msgid "Contact Form Builder"
+msgstr "Создатель контактных форм"
+
+#: contact-form-builder.php:112
+msgid "Form settings succesfully saved."
+msgstr "Настройки формы успешно сохранены."
+
+#: contact-form-builder.php:113
+msgid "Form succesfully deleted."
+msgstr "Форма успешно удалена."
+
+#: contact-form-builder.php:123
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: contact-form-builder.php:124
+msgid "Cancel"
+msgstr "Отменить"
+
+#: contact-form-builder.php:126 contact-form-builder.php:143
+#: contact-form-builder.php:148 contact-form-builder.php:154
+#: contact-form-builder.php:223
+msgid "Loading"
+msgstr "Загрузка"
+
+#: contact-form-builder.php:129
+msgid "Select your form here"
+msgstr "Выберите форму"
+
+#: contact-form-builder.php:141
+msgid "Edit"
+msgstr "Редактировать"
+
+#: contact-form-builder.php:146
+msgid "Delete"
+msgstr "Удалить"
+
+#: contact-form-builder.php:152
+msgid "Save As..."
+msgstr "Сохранить как ..."
+
+#: contact-form-builder.php:170
+msgid "Enter Form Name!"
+msgstr "Введите название формы!"
+
+#: contact-form-builder.php:171
+msgid "Enter your message text!"
+msgstr "Введите текст сообщения!"
+
+#: contact-form-builder.php:172
+msgid "Enter your message subject text!"
+msgstr "Введите тему вашего сообщения!"
+
+#: contact-form-builder.php:173
+msgid "Enter the text about your message successfully sending!"
+msgstr "Введите текст сообщения об успешной отправке!"
+
+#: contact-form-builder.php:174
+msgid "Please fill all field labels!"
+msgstr "Пожалуйста, заполните все поля!"
+
+#: contact-form-builder.php:175
+msgid "Please fill all field options!"
+msgstr "Пожалуйста, заполните все поля элементов!"
+
+#: contact-form-builder.php:176
+msgid "Error on page! Please reload page and try again."
+msgstr ""
+"Ошибка на странице! Пожалуйста, перезагрузите страницу и попробуйте еще раз."
+
+#: contact-form-builder.php:177
+msgid "Form with this name already exists, try another name."
+msgstr "Форма с таким именем уже существует, попробуйте другое имя."
+
+#: contact-form-builder.php:178
+msgid "Form saving error was detected! Please try again."
+msgstr "Ошибка формы! Пожалуйста, попробуйте еще раз."
+
+#: contact-form-builder.php:179
+msgid ""
+"It is no form with this name in your database. \n"
+"Save this form as"
+msgstr ""
+"В базе данных нет формы с таким названием. \n"
+"Сохранить эту форму как"
+
+#: contact-form-builder.php:180
+msgid "Please enter new form name."
+msgstr "Пожалуйста, введите название новой формы."
+
+#: contact-form-builder.php:181
+msgid "Form name is invalid."
+msgstr "Неправильное имя формы."
+
+#: contact-form-builder.php:182
+msgid "Text"
+msgstr "Текст"
+
+#: contact-form-builder.php:183
+msgid "Field Label"
+msgstr "- введите название поля"
+
+#: contact-form-builder.php:184
+msgid "Required"
+msgstr "Обязательно"
+
+#: contact-form-builder.php:185
+msgid "Field Description"
+msgstr "- описание поля"
+
+#: contact-form-builder.php:186
+msgid "Field Options"
+msgstr "- параметры поля"
+
+#: contact-form-builder.php:187
+msgid "Min text size"
+msgstr "Минимальный размер текста"
+
+#: contact-form-builder.php:188
+msgid "Max text size"
+msgstr "Максимальный размер текста"
+
+#: contact-form-builder.php:189
+msgid "Choose verification"
+msgstr "Выберите тип проверки"
+
+#: contact-form-builder.php:190 inc/form-builder-widget.php:325
+msgid "Email"
+msgstr "Электронная почта"
+
+#: contact-form-builder.php:191
+msgid "URL"
+msgstr "Ссылка"
+
+#: contact-form-builder.php:192
+msgid "Number"
+msgstr "Число"
+
+#: contact-form-builder.php:193
+msgid "Only Numbers & Spaces"
+msgstr "Только цифры и пробелы"
+
+#: contact-form-builder.php:194
+msgid "Only Letters & Spaces"
+msgstr "Только буквы и пробелы"
+
+#: contact-form-builder.php:195
+msgid "Items"
+msgstr "- пункты списка"
+
+#: contact-form-builder.php:196
+msgid "Label"
+msgstr "- метка"
+
+#: contact-form-builder.php:197
+msgid ""
+"Thank You! \n"
+"Your message has been sent successfully."
+msgstr ""
+"Спасибо! \n"
+"Ваше сообщение было успешно отправлено."
+
+#: contact-form-builder.php:198
+msgid "Form Subject"
+msgstr "Тема формы"
+
+#: contact-form-builder.php:199
+msgid "Your message text..."
+msgstr "Текст вашего сообщения..."
+
+#: contact-form-builder.php:200
+msgid ""
+"Form deleting error was detected! \n"
+"It is no such form in your database."
+msgstr ""
+"При удалении формы была обнаружена ошибка! \n"
+"Нет такой формы в базе данных."
+
+#: contact-form-builder.php:201
+msgid "Are you sure you want to delete the form"
+msgstr "Вы уверены, что хотите удалить форму"
+
+#: contact-form-builder.php:202
+msgid "and all the fields it contains?"
+msgstr "и все поля в ней?"
+
+#: contact-form-builder.php:203
+msgid "Please choose form!"
+msgstr "Пожалуйста, выберите форму!"
+
+#: contact-form-builder.php:204
+msgid ""
+"All unsaved changes will be lost! \n"
+"Do you want to proceed?"
+msgstr ""
+"Все несохраненные изменения будут потеряны! \n"
+"Вы хотите продолжить?"
+
+#: contact-form-builder.php:205
+msgid ""
+"Error was detected! \n"
+"It is no such form in your database."
+msgstr ""
+"Была обнаружена ошибка! \n"
+"Нет такой формы в базе данных."
+
+#: contact-form-builder.php:206 inc/form-builder-widget.php:330
+msgid "Form Name"
+msgstr "Название формы"
+
+#: contact-form-builder.php:207
+msgid "Drag & Drop to change fields order"
+msgstr "Перетащите, для изменения порядка полей"
+
+#: contact-form-builder.php:208
+msgid "Add / Remove / Edit Fields"
+msgstr "Добавить / удалить / редактировать поля"
+
+#: contact-form-builder.php:209
+msgid "Add New Field"
+msgstr "Добавить новое поле"
+
+#: contact-form-builder.php:210
+msgid "Text Field"
+msgstr "Текстовое поле"
+
+#: contact-form-builder.php:211
+msgid "Email Field"
+msgstr "Электронная почта"
+
+#: contact-form-builder.php:212
+msgid "Text Area"
+msgstr "Текстовая область"
+
+#: contact-form-builder.php:213
+msgid "Dropdown"
+msgstr "Выпадающий список"
+
+#: contact-form-builder.php:214
+msgid "Radiobuttons"
+msgstr "Переключатели"
+
+#: contact-form-builder.php:215
+msgid "Checkbox"
+msgstr "Флажок"
+
+#: contact-form-builder.php:216
+msgid "Checkboxes"
+msgstr "Флажки"
+
+#: contact-form-builder.php:217
+msgid "Message Composer"
+msgstr "Составитель сообщения"
+
+#: contact-form-builder.php:218
+msgid "The Message Subject"
+msgstr "Тема сообщения"
+
+#: contact-form-builder.php:244
+msgid "Submit Button Text"
+msgstr "Текст кнопки отправки"
+
+#: contact-form-builder.php:245
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: contact-form-builder.php:219
+msgid "The Message About Succesful Sending Text"
+msgstr "Текст сообщение об успешной отправке"
+
+#: contact-form-builder.php:220
+msgid "Use CAPTCHA"
+msgstr "Использовать CAPTCHA"
+
+#: contact-form-builder.php:221
+msgid "Add Reset Button"
+msgstr "Добавить кнопку сброса"
+
+#: contact-form-builder.php:222
+msgid "Save Form"
+msgstr "Сохранить форму"
+
+#: contact-form-builder.php:224
+msgid "Form not saved! Form name is invalid."
+msgstr "Форма не сохранена! Имя формы недействительно."
+
+#: contact-form-builder.php:225
+msgid "Please enter valid number."
+msgstr "Пожалуйста, введите корректный номер."
+
+#: contact-form-builder.php:226
+msgid "Please choose field type!"
+msgstr "Пожалуйста, выберите тип поля!"
+
+#: contact-form-builder.php:227
+msgid "Are you sure you want to delete this field?"
+msgstr "Вы уверены, что хотите удалить это поле?"
+
+#: contact-form-builder.php:228
+msgid ""
+"Field deleting error was detected! \n"
+"It is no such field in your database."
+msgstr ""
+"При удалении поля была обнаружена ошибка! \n"
+"Нет такого поля в базе данных."
+
+#: contact-form-builder.php:229
+msgid "Are you sure you want to delete this option?"
+msgstr "Вы уверены, что хотите удалить этот элемент?"
+
+#: contact-form-builder.php:230
+msgid "Here can't be less than 2 options!"
+msgstr "Здесь не может быть менее 2 элементов!"
+
+#: contact-form-builder.php:231
+msgid "Field"
+msgstr "Поле"
+
+#: contact-form-builder.php:232
+msgid ""
+"All unsaved changes will be lost! \n"
+"Are you sure you want to leave this page?"
+msgstr ""
+"Все несохраненные изменения будут утеряны! \n"
+"Вы уверены, что хотите покинуть эту страницу?"
+
+#: contact-form-builder.php:242 contact-form-builder.php:243
+msgid "Form Builder"
+msgstr "Создатель форм"
+
+#: inc/form-builder-shortcode.php:334 inc/form-builder-widget.php:281
+msgid "Do you really want to reset the form?"
+msgstr "Вы действительно хотите очистить форму?"
+
+#: inc/form-builder-shortcode.php:334 inc/form-builder-widget.php:281
+msgid "Reset"
+msgstr "Очистить"
+
+#: inc/form-builder-widget.php:17
+msgid "Your website contact form widget"
+msgstr "Виджет контактной формы вашего сайта"
+
+#: inc/form-builder-widget.php:20
+msgid "CMSMS - Contact Form"
+msgstr "CMSMS - Контактная форма"
+
+#: inc/form-builder-widget.php:26
+msgid "Contact Form"
+msgstr "Контактная форма"
+
+#: inc/form-builder-widget.php:320
+msgid "Title"
+msgstr "Название"
+
+#: inc/form-builder-widget.php:332
+msgid "Choose Form Name Here"
+msgstr "Выбор названия формы"
+
+#: inc/form-builder-widget.php:352
+msgid "Choose the width of widget"
+msgstr "Выберите ширину виджета"
+
+#: inc/form-builder-widget.php:353
+msgid "Only for horizontal sidebars"
+msgstr ""
+"Только для горизонтальных \n"
+"сайдбаров"
+
+#: js/jquery.validationEngine-lang.php:27
+msgid "* This field is required"
+msgstr "* Это поле обязательно для заполнения"
+
+#: js/jquery.validationEngine-lang.php:28
+msgid "* Please select an option"
+msgstr "* Пожалуйста, выберите элемент"
+
+#: js/jquery.validationEngine-lang.php:29
+msgid "* This checkbox is required"
+msgstr "* Этот флажок обязателен"
+
+#: js/jquery.validationEngine-lang.php:33
+msgid "* Minimum"
+msgstr "* Минимально"
+
+#: js/jquery.validationEngine-lang.php:34
+#: js/jquery.validationEngine-lang.php:39
+msgid "characters allowed"
+msgstr "символов"
+
+#: js/jquery.validationEngine-lang.php:38
+msgid "* Maximum"
+msgstr "* Максимально"
+
+#: js/jquery.validationEngine-lang.php:43
+msgid "* Invalid email address"
+msgstr "* Неправильный адрес электронной почты"
+
+#: js/jquery.validationEngine-lang.php:47
+msgid "* Invalid number"
+msgstr "* Неверный номер"
+
+#: js/jquery.validationEngine-lang.php:51
+msgid "* Invalid URL"
+msgstr "* Неправильная ссылка"
+
+#: js/jquery.validationEngine-lang.php:55
+msgid "* Numbers and spaces only"
+msgstr "* Только цифры и пробелы"
+
+#: js/jquery.validationEngine-lang.php:59
+msgid "* Letters and spaces only"
+msgstr "* Только буквы и пробелы"

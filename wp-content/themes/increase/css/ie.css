@@ -1,0 +1,105 @@
+/**
+ * @package WordPress
+ * @subpackage Increase
+ * @since Increase 1.0
+ * 
+ * Custom CSS Rules for Internet Explorer < 9
+ * Created by CMSMasters
+ * 
+ */
+
+
+.p_options_block, 
+.p_filter_container:hover ul.p_filter {filter:alpha(opacity=100);}
+
+.p_filter_container ul.p_filter, 
+.cmsms-form-builder .check_parent input[type="checkbox"], 
+.cmsms-form-builder .check_parent input[type="radio"], 
+.loading {filter:alpha(opacity=0);}
+
+.button,
+.button_small,
+.button_medium,
+.button_large,
+.dropcap2,
+.comment-reply-link {
+	position:relative;
+	z-index:0;
+}
+
+ul, 
+ul li {list-style-type:none;}
+
+.tabs li a {
+	min-width:63px;
+	min-height:19px;
+}
+
+.tab.lpr .tabs li a {
+	min-width:91px;
+	min-height:18px;
+}
+
+.cmsms_plus {z-index:0;}
+
+div.p_filter {height:1000px;}
+
+html.ie .cmsms-form-builder form .check_parent input[type="radio"] + label:before, 
+html.ie .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"] + span.wpcf7-list-item-label,
+html.ie .cmsms-form-builder form .check_parent input[type="checkbox"] + label:before,
+html.ie .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"] + span.wpcf7-list-item-label {}
+
+html.ie .cmsms-form-builder .check_parent input[type="radio"],
+html.ie .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"],
+html.ie .cmsms-form-builder .check_parent input[type="checkbox"],
+html.ie .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"] {
+	margin-top:11px;
+	visibility:visible;
+	filter:alpha(opacity=100);
+}
+
+input[type="text"],
+input[type="password"] {padding-top:0px;}
+
+.search_line input[type="text"], 
+.bottom_inner input[type="text"] {
+	padding-right:0;
+	padding-top:7px !important;
+}
+
+select, 
+.bottom_inner select {padding:5px 5px 10px;}
+
+select option, 
+.bottom_inner  select option {height:18px;}
+
+.search_line input[type="submit"] {
+	padding-right:0;
+	padding-left:0;
+	right:0;
+}
+
+select option {padding:7px 10px 5px;}
+
+.cmsms_slider_video.hidden {display:none;}
+
+.tp-bannershadow.tp-shadow2 {
+	background:none !important;
+}
+
+#navigation > li {padding:0;}
+
+#navigation > li > a {padding:0 10px;}
+
+#navigation > li > a > span {
+	width:100%;
+	padding:0;
+}
+
+#navigation ul {border:1px solid #e5e5e5;}
+
+#navigation ul li a {
+	width:120px;
+	min-width:120px;
+	min-height:25px;
+}

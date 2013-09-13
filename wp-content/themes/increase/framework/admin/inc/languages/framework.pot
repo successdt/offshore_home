@@ -1,0 +1,4598 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Increase 1.0\n"
+"POT-Creation-Date: 2013-04-24 11:29+0200\n"
+"PO-Revision-Date: 2013-04-24 11:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:116
+#: framework/admin/composer/inc/slider/composer_popup.php:368
+#: framework/admin/customizer/cmsms-theme-customizer.php:446
+#: framework/admin/settings/cmsms-theme-settings-style.php:299
+msgid "None"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:62
+msgid "Clear Composer Content"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:63
+msgid "Add New Template"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:65
+msgid "Select Composer Template..."
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:76
+msgid "Insert Selected Template"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:77
+msgid "Delete Selected Template"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:80
+#: framework/admin/composer/cmsms-content-composer.php:81
+#: framework/admin/composer/cmsms-content-composer.php:82
+#: framework/admin/composer/cmsms-content-composer.php:83
+#: framework/admin/composer/cmsms-content-composer.php:84
+#: framework/admin/composer/cmsms-content-composer.php:85
+#: framework/admin/composer/cmsms-content-composer.php:86
+#: framework/admin/composer/cmsms-content-composer.php:87
+#: framework/admin/composer/cmsms-content-composer.php:88
+#: framework/admin/composer/cmsms-content-composer.php:89
+#: framework/admin/composer/cmsms-content-composer.php:90
+#: framework/admin/composer/cmsms-content-composer.php:91
+msgid "Column"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:92
+#: framework/admin/composer/cmsms-content-composer.php:117
+msgid "Divider"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:93
+#: framework/admin/composer/cmsms-content-composer.php:118
+msgid "Clear"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:96
+#: framework/admin/composer/inc/text/composer_popup.php:153
+msgid "Content Block"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:97
+msgid "Information Box"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:98
+#: framework/admin/composer/inc/box/composer_popup.php:364
+#: framework/class/widgets.php:636
+msgid "Featured Block"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:99
+#: framework/admin/composer/inc/box/composer_popup.php:366
+msgid "Colored Block"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:100
+#: framework/admin/composer/inc/person/composer_popup.php:348
+msgid "Person Block"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:101
+#: framework/admin/composer/inc/tab/composer_popup.php:1195
+msgid "Tabs"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:102
+#: framework/admin/composer/inc/tab/composer_popup.php:1197
+msgid "Toggles"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:103
+#: framework/admin/composer/inc/tab/composer_popup.php:1199
+msgid "Tour"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:104
+#: framework/admin/composer/inc/price/composer_popup.php:258
+msgid "Pricing Table"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:105
+#: framework/admin/composer/inc/stat/composer_popup.php:267
+msgid "Stats"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:106
+msgid "Embedded Video"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:107
+#: framework/admin/composer/inc/video/composer_popup.php:523
+#: framework/class/widgets.php:1081
+msgid "HTML5 Video"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:108
+msgid "Single Video Player"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:109
+msgid "Multiple Video Player"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:110
+#: framework/admin/composer/inc/audio/composer_popup.php:445
+#: framework/class/widgets.php:896
+msgid "HTML5 Audio"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:111
+msgid "Single Audio Player"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:112
+msgid "Multiple Audio Player"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:113
+#: framework/admin/composer/inc/post/composer_popup.php:332
+msgid "Post Types"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:114
+#: framework/admin/composer/inc/slider/composer_popup.php:252
+msgid "Content Slider"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:115
+#: framework/admin/composer/inc/map/composer_popup.php:296
+msgid "Google Map"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:116
+#: framework/admin/composer/inc/email/composer_popup.php:174
+msgid "Contact Form"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:125
+msgid "Visual composer template was saved successfully."
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:128
+msgid "Visual composer template was added successfully."
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:131
+msgid "Visual composer template was deleted successfully."
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:134
+msgid "Wider"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:135
+msgid "Narrower"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:136
+#: framework/admin/composer/inc/audio/composer_popup.php:173
+#: framework/admin/composer/inc/audio/composer_popup.php:699
+#: framework/admin/composer/inc/person/composer_popup.php:123
+#: framework/admin/composer/inc/person/composer_popup.php:567
+#: framework/admin/composer/inc/stat/composer_popup.php:106
+#: framework/admin/composer/inc/stat/composer_popup.php:277
+#: framework/admin/composer/inc/stat/composer_popup.php:331
+#: framework/admin/composer/inc/tab/composer_popup.php:217
+#: framework/admin/composer/inc/tab/composer_popup.php:403
+#: framework/admin/composer/inc/tab/composer_popup.php:1215
+#: framework/admin/composer/inc/tab/composer_popup.php:1384
+#: framework/admin/composer/inc/tab/composer_popup.php:1554
+#: framework/admin/composer/inc/tab/composer_popup.php:1747
+#: framework/admin/composer/inc/tab/composer_popup.php:1916
+#: framework/admin/composer/inc/tab/composer_popup.php:2086
+#: framework/admin/composer/inc/tab/composer_popup.php:2268
+#: framework/admin/composer/inc/tab/composer_popup.php:2437
+#: framework/admin/composer/inc/tab/composer_popup.php:2610
+#: framework/admin/composer/inc/video/composer_popup.php:186
+#: framework/admin/composer/inc/video/composer_popup.php:832
+#: framework/admin/settings/cmsms-theme-settings.php:779
+#: framework/admin/settings/cmsms-theme-settings.php:805
+#: framework/admin/settings/cmsms-theme-settings.php:841
+#: framework/admin/settings/cmsms-theme-settings.php:861
+#: framework/admin/settings/cmsms-theme-settings.php:920
+#: framework/admin/settings/cmsms-theme-settings.php:940
+msgid "Delete"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:137
+#: framework/admin/settings/cmsms-theme-settings.php:921
+#: framework/admin/settings/cmsms-theme-settings.php:941
+#: framework/function/single-comment.php:21
+msgid "Edit"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:138
+msgid "Copy"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:139
+msgid "Align Column Right"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:140
+#: framework/class/widgets.php:447
+msgid "Show Divider Line"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:141
+msgid "Shortcode"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:142
+msgid ""
+"Do you really want delete this element?\n"
+"All data from this element will be lost!"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:143
+msgid ""
+"Do you really want to remove all composer content?\n"
+"All data will be lost!"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:144
+msgid "Enter the name for your template."
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:145
+msgid "Error! Enter valid name."
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:146
+msgid "Error! Select content template."
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:147
+msgid ""
+"Do you really want delete this template?\n"
+"All data from this template will be lost!"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:148
+#: framework/admin/composer/inc/slider/composer_popup.php:267
+msgid "Choose slider images"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:149
+#: framework/admin/options/cmsms-theme-options.php:357
+#: framework/admin/options/cmsms-theme-options.php:646
+#: framework/admin/settings/cmsms-theme-settings.php:650
+#: framework/admin/settings/cmsms-theme-settings.php:858
+#: framework/admin/settings/cmsms-theme-settings.php:959
+msgid "Choose"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:150
+msgid "Choose person block images"
+msgstr ""
+
+#: framework/admin/composer/cmsms-content-composer.php:164
+msgid "Visual Content Composer"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:171
+#: framework/admin/composer/inc/audio/composer_popup.php:597
+#: framework/admin/composer/inc/audio/composer_popup.php:644
+#: framework/admin/composer/inc/audio/composer_popup.php:697
+#: framework/class/widgets.php:989 framework/class/widgets.php:994
+#: framework/class/widgets.php:999
+msgid "Audio"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:183
+#: framework/admin/composer/inc/audio/composer_popup.php:196
+#: framework/admin/composer/inc/audio/composer_popup.php:210
+#: framework/admin/composer/inc/audio/composer_popup.php:466
+#: framework/admin/composer/inc/audio/composer_popup.php:480
+#: framework/admin/composer/inc/audio/composer_popup.php:494
+#: framework/admin/composer/inc/audio/composer_popup.php:507
+#: framework/admin/composer/inc/audio/composer_popup.php:558
+#: framework/admin/composer/inc/audio/composer_popup.php:571
+#: framework/admin/composer/inc/audio/composer_popup.php:585
+#: framework/admin/composer/inc/audio/composer_popup.php:606
+#: framework/admin/composer/inc/audio/composer_popup.php:619
+#: framework/admin/composer/inc/audio/composer_popup.php:633
+#: framework/admin/composer/inc/audio/composer_popup.php:653
+#: framework/admin/composer/inc/audio/composer_popup.php:666
+#: framework/admin/composer/inc/audio/composer_popup.php:680
+#: framework/admin/composer/inc/audio/composer_popup.php:709
+#: framework/admin/composer/inc/audio/composer_popup.php:722
+#: framework/admin/composer/inc/audio/composer_popup.php:736
+#: framework/admin/composer/inc/box/composer_popup.php:402
+#: framework/admin/composer/inc/box/composer_popup.php:415
+#: framework/admin/composer/inc/box/composer_popup.php:458
+#: framework/admin/composer/inc/box/composer_popup.php:471
+#: framework/admin/composer/inc/box/composer_popup.php:484
+#: framework/admin/composer/inc/box/composer_popup.php:567
+#: framework/admin/composer/inc/box/composer_popup.php:610
+#: framework/admin/composer/inc/box/composer_popup.php:623
+#: framework/admin/composer/inc/box/composer_popup.php:666
+#: framework/admin/composer/inc/box/composer_popup.php:679
+#: framework/admin/composer/inc/box/composer_popup.php:692
+#: framework/admin/composer/inc/box/composer_popup.php:789
+#: framework/admin/composer/inc/box/composer_popup.php:802
+#: framework/admin/composer/inc/box/composer_popup.php:845
+#: framework/admin/composer/inc/box/composer_popup.php:858
+#: framework/admin/composer/inc/box/composer_popup.php:871
+#: framework/admin/composer/inc/email/composer_popup.php:185
+#: framework/admin/composer/inc/email/composer_popup.php:209
+#: framework/admin/composer/inc/map/composer_popup.php:307
+#: framework/admin/composer/inc/map/composer_popup.php:325
+#: framework/admin/composer/inc/map/composer_popup.php:338
+#: framework/admin/composer/inc/map/composer_popup.php:355
+#: framework/admin/composer/inc/map/composer_popup.php:368
+#: framework/admin/composer/inc/map/composer_popup.php:381
+#: framework/admin/composer/inc/person/composer_popup.php:133
+#: framework/admin/composer/inc/person/composer_popup.php:146
+#: framework/admin/composer/inc/person/composer_popup.php:159
+#: framework/admin/composer/inc/person/composer_popup.php:394
+#: framework/admin/composer/inc/person/composer_popup.php:435
+#: framework/admin/composer/inc/person/composer_popup.php:448
+#: framework/admin/composer/inc/person/composer_popup.php:491
+#: framework/admin/composer/inc/person/composer_popup.php:504
+#: framework/admin/composer/inc/person/composer_popup.php:517
+#: framework/admin/composer/inc/person/composer_popup.php:577
+#: framework/admin/composer/inc/person/composer_popup.php:590
+#: framework/admin/composer/inc/person/composer_popup.php:603
+#: framework/admin/composer/inc/post/composer_popup.php:353
+#: framework/admin/composer/inc/post/composer_popup.php:370
+#: framework/admin/composer/inc/post/composer_popup.php:387
+#: framework/admin/composer/inc/post/composer_popup.php:418
+#: framework/admin/composer/inc/post/composer_popup.php:449
+#: framework/admin/composer/inc/post/composer_popup.php:480
+#: framework/admin/composer/inc/price/composer_popup.php:269
+#: framework/admin/composer/inc/price/composer_popup.php:297
+#: framework/admin/composer/inc/price/composer_popup.php:340
+#: framework/admin/composer/inc/price/composer_popup.php:353
+#: framework/admin/composer/inc/slider/composer_popup.php:263
+#: framework/admin/composer/inc/slider/composer_popup.php:301
+#: framework/admin/composer/inc/slider/composer_popup.php:318
+#: framework/admin/composer/inc/slider/composer_popup.php:332
+#: framework/admin/composer/inc/slider/composer_popup.php:346
+#: framework/admin/composer/inc/slider/composer_popup.php:363
+#: framework/admin/composer/inc/slider/composer_popup.php:408
+#: framework/admin/composer/inc/slider/composer_popup.php:422
+#: framework/admin/composer/inc/stat/composer_popup.php:116
+#: framework/admin/composer/inc/stat/composer_popup.php:129
+#: framework/admin/composer/inc/stat/composer_popup.php:142
+#: framework/admin/composer/inc/stat/composer_popup.php:287
+#: framework/admin/composer/inc/stat/composer_popup.php:300
+#: framework/admin/composer/inc/stat/composer_popup.php:313
+#: framework/admin/composer/inc/stat/composer_popup.php:341
+#: framework/admin/composer/inc/stat/composer_popup.php:354
+#: framework/admin/composer/inc/stat/composer_popup.php:367
+#: framework/admin/composer/inc/tab/composer_popup.php:227
+#: framework/admin/composer/inc/tab/composer_popup.php:260
+#: framework/admin/composer/inc/tab/composer_popup.php:273
+#: framework/admin/composer/inc/tab/composer_popup.php:316
+#: framework/admin/composer/inc/tab/composer_popup.php:329
+#: framework/admin/composer/inc/tab/composer_popup.php:342
+#: framework/admin/composer/inc/tab/composer_popup.php:413
+#: framework/admin/composer/inc/tab/composer_popup.php:446
+#: framework/admin/composer/inc/tab/composer_popup.php:459
+#: framework/admin/composer/inc/tab/composer_popup.php:502
+#: framework/admin/composer/inc/tab/composer_popup.php:515
+#: framework/admin/composer/inc/tab/composer_popup.php:528
+#: framework/admin/composer/inc/tab/composer_popup.php:1225
+#: framework/admin/composer/inc/tab/composer_popup.php:1256
+#: framework/admin/composer/inc/tab/composer_popup.php:1269
+#: framework/admin/composer/inc/tab/composer_popup.php:1312
+#: framework/admin/composer/inc/tab/composer_popup.php:1325
+#: framework/admin/composer/inc/tab/composer_popup.php:1338
+#: framework/admin/composer/inc/tab/composer_popup.php:1394
+#: framework/admin/composer/inc/tab/composer_popup.php:1425
+#: framework/admin/composer/inc/tab/composer_popup.php:1438
+#: framework/admin/composer/inc/tab/composer_popup.php:1481
+#: framework/admin/composer/inc/tab/composer_popup.php:1494
+#: framework/admin/composer/inc/tab/composer_popup.php:1507
+#: framework/admin/composer/inc/tab/composer_popup.php:1564
+#: framework/admin/composer/inc/tab/composer_popup.php:1595
+#: framework/admin/composer/inc/tab/composer_popup.php:1608
+#: framework/admin/composer/inc/tab/composer_popup.php:1651
+#: framework/admin/composer/inc/tab/composer_popup.php:1664
+#: framework/admin/composer/inc/tab/composer_popup.php:1677
+#: framework/admin/composer/inc/tab/composer_popup.php:1757
+#: framework/admin/composer/inc/tab/composer_popup.php:1788
+#: framework/admin/composer/inc/tab/composer_popup.php:1801
+#: framework/admin/composer/inc/tab/composer_popup.php:1844
+#: framework/admin/composer/inc/tab/composer_popup.php:1857
+#: framework/admin/composer/inc/tab/composer_popup.php:1870
+#: framework/admin/composer/inc/tab/composer_popup.php:1926
+#: framework/admin/composer/inc/tab/composer_popup.php:1957
+#: framework/admin/composer/inc/tab/composer_popup.php:1970
+#: framework/admin/composer/inc/tab/composer_popup.php:2013
+#: framework/admin/composer/inc/tab/composer_popup.php:2026
+#: framework/admin/composer/inc/tab/composer_popup.php:2039
+#: framework/admin/composer/inc/tab/composer_popup.php:2096
+#: framework/admin/composer/inc/tab/composer_popup.php:2127
+#: framework/admin/composer/inc/tab/composer_popup.php:2140
+#: framework/admin/composer/inc/tab/composer_popup.php:2183
+#: framework/admin/composer/inc/tab/composer_popup.php:2196
+#: framework/admin/composer/inc/tab/composer_popup.php:2209
+#: framework/admin/composer/inc/tab/composer_popup.php:2278
+#: framework/admin/composer/inc/tab/composer_popup.php:2309
+#: framework/admin/composer/inc/tab/composer_popup.php:2322
+#: framework/admin/composer/inc/tab/composer_popup.php:2365
+#: framework/admin/composer/inc/tab/composer_popup.php:2378
+#: framework/admin/composer/inc/tab/composer_popup.php:2391
+#: framework/admin/composer/inc/tab/composer_popup.php:2447
+#: framework/admin/composer/inc/tab/composer_popup.php:2478
+#: framework/admin/composer/inc/tab/composer_popup.php:2491
+#: framework/admin/composer/inc/tab/composer_popup.php:2534
+#: framework/admin/composer/inc/tab/composer_popup.php:2547
+#: framework/admin/composer/inc/tab/composer_popup.php:2560
+#: framework/admin/composer/inc/tab/composer_popup.php:2620
+#: framework/admin/composer/inc/tab/composer_popup.php:2651
+#: framework/admin/composer/inc/tab/composer_popup.php:2664
+#: framework/admin/composer/inc/tab/composer_popup.php:2707
+#: framework/admin/composer/inc/tab/composer_popup.php:2720
+#: framework/admin/composer/inc/tab/composer_popup.php:2733
+#: framework/admin/composer/inc/text/composer_popup.php:182
+#: framework/admin/composer/inc/text/composer_popup.php:195
+#: framework/admin/composer/inc/text/composer_popup.php:238
+#: framework/admin/composer/inc/text/composer_popup.php:251
+#: framework/admin/composer/inc/text/composer_popup.php:264
+#: framework/admin/composer/inc/video/composer_popup.php:196
+#: framework/admin/composer/inc/video/composer_popup.php:209
+#: framework/admin/composer/inc/video/composer_popup.php:223
+#: framework/admin/composer/inc/video/composer_popup.php:544
+#: framework/admin/composer/inc/video/composer_popup.php:559
+#: framework/admin/composer/inc/video/composer_popup.php:573
+#: framework/admin/composer/inc/video/composer_popup.php:597
+#: framework/admin/composer/inc/video/composer_popup.php:610
+#: framework/admin/composer/inc/video/composer_popup.php:661
+#: framework/admin/composer/inc/video/composer_popup.php:674
+#: framework/admin/composer/inc/video/composer_popup.php:688
+#: framework/admin/composer/inc/video/composer_popup.php:719
+#: framework/admin/composer/inc/video/composer_popup.php:732
+#: framework/admin/composer/inc/video/composer_popup.php:746
+#: framework/admin/composer/inc/video/composer_popup.php:776
+#: framework/admin/composer/inc/video/composer_popup.php:789
+#: framework/admin/composer/inc/video/composer_popup.php:803
+#: framework/admin/composer/inc/video/composer_popup.php:842
+#: framework/admin/composer/inc/video/composer_popup.php:855
+#: framework/admin/composer/inc/video/composer_popup.php:869
+msgid "required"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:193
+#: framework/admin/composer/inc/audio/composer_popup.php:207
+#: framework/admin/composer/inc/audio/composer_popup.php:463
+#: framework/admin/composer/inc/audio/composer_popup.php:477
+#: framework/admin/composer/inc/audio/composer_popup.php:568
+#: framework/admin/composer/inc/audio/composer_popup.php:582
+#: framework/admin/composer/inc/audio/composer_popup.php:616
+#: framework/admin/composer/inc/audio/composer_popup.php:630
+#: framework/admin/composer/inc/audio/composer_popup.php:663
+#: framework/admin/composer/inc/audio/composer_popup.php:677
+#: framework/admin/composer/inc/audio/composer_popup.php:719
+#: framework/admin/composer/inc/audio/composer_popup.php:733
+#: framework/admin/composer/inc/video/composer_popup.php:206
+#: framework/admin/composer/inc/video/composer_popup.php:220
+#: framework/admin/composer/inc/video/composer_popup.php:541
+#: framework/admin/composer/inc/video/composer_popup.php:556
+#: framework/admin/composer/inc/video/composer_popup.php:570
+#: framework/admin/composer/inc/video/composer_popup.php:671
+#: framework/admin/composer/inc/video/composer_popup.php:685
+#: framework/admin/composer/inc/video/composer_popup.php:729
+#: framework/admin/composer/inc/video/composer_popup.php:743
+#: framework/admin/composer/inc/video/composer_popup.php:786
+#: framework/admin/composer/inc/video/composer_popup.php:800
+#: framework/admin/composer/inc/video/composer_popup.php:852
+#: framework/admin/composer/inc/video/composer_popup.php:866
+msgid "URL"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:201
+#: framework/admin/composer/inc/audio/composer_popup.php:576
+#: framework/admin/composer/inc/audio/composer_popup.php:624
+#: framework/admin/composer/inc/audio/composer_popup.php:671
+#: framework/admin/composer/inc/audio/composer_popup.php:727
+#: framework/admin/composer/inc/video/composer_popup.php:679
+#: framework/admin/composer/inc/video/composer_popup.php:737
+#: framework/admin/composer/inc/video/composer_popup.php:794
+#: framework/admin/composer/inc/video/composer_popup.php:860
+msgid "For Internet Explorer, Google Chrome and Apple Safari"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:215
+#: framework/admin/composer/inc/audio/composer_popup.php:485
+#: framework/admin/composer/inc/audio/composer_popup.php:590
+#: framework/admin/composer/inc/audio/composer_popup.php:638
+#: framework/admin/composer/inc/audio/composer_popup.php:685
+#: framework/admin/composer/inc/audio/composer_popup.php:741
+#: framework/admin/composer/inc/video/composer_popup.php:578
+#: framework/admin/composer/inc/video/composer_popup.php:693
+#: framework/admin/composer/inc/video/composer_popup.php:751
+#: framework/admin/composer/inc/video/composer_popup.php:808
+#: framework/admin/composer/inc/video/composer_popup.php:874
+msgid "For Firefox, Google Chrome and Opera"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:225
+#: framework/admin/composer/inc/video/composer_popup.php:248
+msgid "Are you sure that you want to delete this playlist item?"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:258
+#: framework/admin/composer/inc/audio/composer_popup.php:316
+#: framework/admin/composer/inc/audio/composer_popup.php:354
+#: framework/admin/composer/inc/box/composer_popup.php:184
+#: framework/admin/composer/inc/box/composer_popup.php:245
+#: framework/admin/composer/inc/email/composer_popup.php:100
+#: framework/admin/composer/inc/map/composer_popup.php:153
+#: framework/admin/composer/inc/person/composer_popup.php:211
+#: framework/admin/composer/inc/post/composer_popup.php:194
+#: framework/admin/composer/inc/price/composer_popup.php:156
+#: framework/admin/composer/inc/slider/composer_popup.php:167
+#: framework/admin/composer/inc/stat/composer_popup.php:185
+#: framework/admin/composer/inc/tab/composer_popup.php:627
+#: framework/admin/composer/inc/tab/composer_popup.php:703
+#: framework/admin/composer/inc/tab/composer_popup.php:786
+#: framework/admin/composer/inc/video/composer_popup.php:276
+#: framework/admin/composer/inc/video/composer_popup.php:321
+#: framework/admin/composer/inc/video/composer_popup.php:385
+#: framework/admin/composer/inc/video/composer_popup.php:430
+msgid "Enter required fields!"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:441
+#: framework/admin/composer/inc/box/composer_popup.php:361
+#: framework/admin/composer/inc/email/composer_popup.php:174
+#: framework/admin/composer/inc/map/composer_popup.php:296
+#: framework/admin/composer/inc/person/composer_popup.php:348
+#: framework/admin/composer/inc/post/composer_popup.php:332
+#: framework/admin/composer/inc/price/composer_popup.php:258
+#: framework/admin/composer/inc/slider/composer_popup.php:252
+#: framework/admin/composer/inc/stat/composer_popup.php:267
+#: framework/admin/composer/inc/tab/composer_popup.php:1191
+#: framework/admin/composer/inc/text/composer_popup.php:153
+#: framework/admin/composer/inc/video/composer_popup.php:517
+msgid "Set"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:447
+msgid "Audio Player"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:449
+msgid "Audio Player with Playlist"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:453
+#: framework/admin/composer/inc/box/composer_popup.php:371
+#: framework/admin/composer/inc/email/composer_popup.php:174
+#: framework/admin/composer/inc/map/composer_popup.php:296
+#: framework/admin/composer/inc/person/composer_popup.php:348
+#: framework/admin/composer/inc/post/composer_popup.php:332
+#: framework/admin/composer/inc/price/composer_popup.php:258
+#: framework/admin/composer/inc/slider/composer_popup.php:252
+#: framework/admin/composer/inc/stat/composer_popup.php:267
+#: framework/admin/composer/inc/tab/composer_popup.php:1203
+#: framework/admin/composer/inc/text/composer_popup.php:153
+#: framework/admin/composer/inc/video/composer_popup.php:531
+msgid "Shortcode Options"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:471
+#: framework/admin/composer/inc/video/composer_popup.php:564
+msgid "For Internet Explorer (9+), Google Chrome and Apple Safari"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:491
+#: framework/admin/composer/inc/video/composer_popup.php:594
+msgid "Not Support Text"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:498
+#: framework/class/widgets.php:900 framework/class/widgets.php:976
+msgid "Your browser does not support the audio tag."
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:504
+#: framework/admin/composer/inc/video/composer_popup.php:607
+msgid "Preloading"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:512
+#: framework/admin/composer/inc/video/composer_popup.php:615
+msgid "Not preload"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:513
+#: framework/admin/composer/inc/video/composer_popup.php:616
+msgid "Preload auto"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:514
+#: framework/admin/composer/inc/video/composer_popup.php:617
+msgid "Preload as metadata"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:521
+#: framework/admin/composer/inc/video/composer_popup.php:624
+#: framework/class/widgets.php:1009 framework/class/widgets.php:1208
+msgid "Controls"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:526
+#: framework/admin/composer/inc/video/composer_popup.php:629
+msgid "Show controls"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:532
+#: framework/admin/composer/inc/video/composer_popup.php:635
+#: framework/class/widgets.php:1017 framework/class/widgets.php:1216
+msgid "Autoplay"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:537
+msgid "Autoplay audio"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:543
+#: framework/admin/composer/inc/video/composer_popup.php:646
+#: framework/admin/customizer/cmsms-theme-customizer.php:361
+#: framework/admin/options/cmsms-theme-options-general.php:86
+#: framework/admin/settings/cmsms-theme-settings-style.php:108
+#: framework/class/widgets.php:1025 framework/class/widgets.php:1224
+msgid "Repeat"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:548
+msgid "Repeat audio"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:752
+msgid "Add Audio to Playlist"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:762
+#: framework/admin/composer/inc/box/composer_popup.php:446
+#: framework/admin/composer/inc/box/composer_popup.php:519
+#: framework/admin/composer/inc/box/composer_popup.php:654
+#: framework/admin/composer/inc/box/composer_popup.php:727
+#: framework/admin/composer/inc/box/composer_popup.php:833
+#: framework/admin/composer/inc/box/composer_popup.php:906
+#: framework/admin/composer/inc/box/composer_popup.php:919
+#: framework/admin/composer/inc/email/composer_popup.php:223
+#: framework/admin/composer/inc/map/composer_popup.php:498
+#: framework/admin/composer/inc/person/composer_popup.php:366
+#: framework/admin/composer/inc/person/composer_popup.php:479
+#: framework/admin/composer/inc/person/composer_popup.php:552
+#: framework/admin/composer/inc/person/composer_popup.php:626
+#: framework/admin/composer/inc/post/composer_popup.php:537
+#: framework/admin/composer/inc/price/composer_popup.php:416
+#: framework/admin/composer/inc/slider/composer_popup.php:485
+#: framework/admin/composer/inc/stat/composer_popup.php:396
+#: framework/admin/composer/inc/tab/composer_popup.php:304
+#: framework/admin/composer/inc/tab/composer_popup.php:377
+#: framework/admin/composer/inc/tab/composer_popup.php:490
+#: framework/admin/composer/inc/tab/composer_popup.php:563
+#: framework/admin/composer/inc/tab/composer_popup.php:1300
+#: framework/admin/composer/inc/tab/composer_popup.php:1373
+#: framework/admin/composer/inc/tab/composer_popup.php:1469
+#: framework/admin/composer/inc/tab/composer_popup.php:1542
+#: framework/admin/composer/inc/tab/composer_popup.php:1639
+#: framework/admin/composer/inc/tab/composer_popup.php:1712
+#: framework/admin/composer/inc/tab/composer_popup.php:1832
+#: framework/admin/composer/inc/tab/composer_popup.php:1905
+#: framework/admin/composer/inc/tab/composer_popup.php:2001
+#: framework/admin/composer/inc/tab/composer_popup.php:2074
+#: framework/admin/composer/inc/tab/composer_popup.php:2171
+#: framework/admin/composer/inc/tab/composer_popup.php:2244
+#: framework/admin/composer/inc/tab/composer_popup.php:2353
+#: framework/admin/composer/inc/tab/composer_popup.php:2426
+#: framework/admin/composer/inc/tab/composer_popup.php:2522
+#: framework/admin/composer/inc/tab/composer_popup.php:2595
+#: framework/admin/composer/inc/tab/composer_popup.php:2695
+#: framework/admin/composer/inc/tab/composer_popup.php:2768
+#: framework/admin/composer/inc/tab/composer_popup.php:2796
+#: framework/admin/composer/inc/text/composer_popup.php:226
+#: framework/admin/composer/inc/text/composer_popup.php:299
+#: framework/admin/composer/inc/text/composer_popup.php:311
+#: framework/admin/composer/inc/video/composer_popup.php:905
+#: framework/admin/options/cmsms-theme-options.php:343
+#: framework/admin/options/cmsms-theme-options.php:397
+#: framework/admin/settings/cmsms-theme-settings.php:876
+msgid "Cancel"
+msgstr ""
+
+#: framework/admin/composer/inc/audio/composer_popup.php:765
+#: framework/admin/composer/inc/box/composer_popup.php:922
+#: framework/admin/composer/inc/email/composer_popup.php:226
+#: framework/admin/composer/inc/map/composer_popup.php:501
+#: framework/admin/composer/inc/person/composer_popup.php:629
+#: framework/admin/composer/inc/post/composer_popup.php:540
+#: framework/admin/composer/inc/price/composer_popup.php:419
+#: framework/admin/composer/inc/slider/composer_popup.php:488
+#: framework/admin/composer/inc/stat/composer_popup.php:399
+#: framework/admin/composer/inc/tab/composer_popup.php:2799
+#: framework/admin/composer/inc/text/composer_popup.php:314
+#: framework/admin/composer/inc/video/composer_popup.php:908
+msgid "Update Shortcode"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:368
+msgid "Box"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:381
+#: framework/admin/composer/inc/box/composer_popup.php:589
+#: framework/admin/composer/inc/person/composer_popup.php:414
+msgid "Block Text"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:399
+#: framework/admin/composer/inc/box/composer_popup.php:607
+#: framework/admin/composer/inc/box/composer_popup.php:786
+#: framework/admin/composer/inc/person/composer_popup.php:432
+#: framework/admin/composer/inc/tab/composer_popup.php:257
+#: framework/admin/composer/inc/tab/composer_popup.php:443
+#: framework/admin/composer/inc/tab/composer_popup.php:1253
+#: framework/admin/composer/inc/tab/composer_popup.php:1422
+#: framework/admin/composer/inc/tab/composer_popup.php:1592
+#: framework/admin/composer/inc/tab/composer_popup.php:1785
+#: framework/admin/composer/inc/tab/composer_popup.php:1954
+#: framework/admin/composer/inc/tab/composer_popup.php:2124
+#: framework/admin/composer/inc/tab/composer_popup.php:2306
+#: framework/admin/composer/inc/tab/composer_popup.php:2475
+#: framework/admin/composer/inc/tab/composer_popup.php:2648
+#: framework/admin/composer/inc/text/composer_popup.php:179
+msgid "Columns Count"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:412
+#: framework/admin/composer/inc/box/composer_popup.php:620
+#: framework/admin/composer/inc/box/composer_popup.php:799
+#: framework/admin/composer/inc/person/composer_popup.php:445
+#: framework/admin/composer/inc/tab/composer_popup.php:270
+#: framework/admin/composer/inc/tab/composer_popup.php:456
+#: framework/admin/composer/inc/tab/composer_popup.php:1266
+#: framework/admin/composer/inc/tab/composer_popup.php:1435
+#: framework/admin/composer/inc/tab/composer_popup.php:1605
+#: framework/admin/composer/inc/tab/composer_popup.php:1798
+#: framework/admin/composer/inc/tab/composer_popup.php:1967
+#: framework/admin/composer/inc/tab/composer_popup.php:2137
+#: framework/admin/composer/inc/tab/composer_popup.php:2319
+#: framework/admin/composer/inc/tab/composer_popup.php:2488
+#: framework/admin/composer/inc/tab/composer_popup.php:2661
+#: framework/admin/composer/inc/text/composer_popup.php:192
+msgid "Rows Count"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:425
+#: framework/admin/composer/inc/box/composer_popup.php:430
+#: framework/admin/composer/inc/box/composer_popup.php:633
+#: framework/admin/composer/inc/box/composer_popup.php:638
+#: framework/admin/composer/inc/box/composer_popup.php:812
+#: framework/admin/composer/inc/box/composer_popup.php:817
+#: framework/admin/composer/inc/person/composer_popup.php:458
+#: framework/admin/composer/inc/person/composer_popup.php:463
+#: framework/admin/composer/inc/tab/composer_popup.php:283
+#: framework/admin/composer/inc/tab/composer_popup.php:288
+#: framework/admin/composer/inc/tab/composer_popup.php:469
+#: framework/admin/composer/inc/tab/composer_popup.php:474
+#: framework/admin/composer/inc/tab/composer_popup.php:1279
+#: framework/admin/composer/inc/tab/composer_popup.php:1284
+#: framework/admin/composer/inc/tab/composer_popup.php:1448
+#: framework/admin/composer/inc/tab/composer_popup.php:1453
+#: framework/admin/composer/inc/tab/composer_popup.php:1618
+#: framework/admin/composer/inc/tab/composer_popup.php:1623
+#: framework/admin/composer/inc/tab/composer_popup.php:1811
+#: framework/admin/composer/inc/tab/composer_popup.php:1816
+#: framework/admin/composer/inc/tab/composer_popup.php:1980
+#: framework/admin/composer/inc/tab/composer_popup.php:1985
+#: framework/admin/composer/inc/tab/composer_popup.php:2150
+#: framework/admin/composer/inc/tab/composer_popup.php:2155
+#: framework/admin/composer/inc/tab/composer_popup.php:2332
+#: framework/admin/composer/inc/tab/composer_popup.php:2337
+#: framework/admin/composer/inc/tab/composer_popup.php:2501
+#: framework/admin/composer/inc/tab/composer_popup.php:2506
+#: framework/admin/composer/inc/tab/composer_popup.php:2674
+#: framework/admin/composer/inc/tab/composer_popup.php:2679
+#: framework/admin/composer/inc/text/composer_popup.php:205
+#: framework/admin/composer/inc/text/composer_popup.php:210
+msgid "Table Header"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:430
+#: framework/admin/composer/inc/box/composer_popup.php:441
+#: framework/admin/composer/inc/box/composer_popup.php:638
+#: framework/admin/composer/inc/box/composer_popup.php:649
+#: framework/admin/composer/inc/box/composer_popup.php:817
+#: framework/admin/composer/inc/box/composer_popup.php:828
+#: framework/admin/composer/inc/person/composer_popup.php:463
+#: framework/admin/composer/inc/person/composer_popup.php:474
+#: framework/admin/composer/inc/tab/composer_popup.php:288
+#: framework/admin/composer/inc/tab/composer_popup.php:299
+#: framework/admin/composer/inc/tab/composer_popup.php:474
+#: framework/admin/composer/inc/tab/composer_popup.php:485
+#: framework/admin/composer/inc/tab/composer_popup.php:1284
+#: framework/admin/composer/inc/tab/composer_popup.php:1295
+#: framework/admin/composer/inc/tab/composer_popup.php:1453
+#: framework/admin/composer/inc/tab/composer_popup.php:1464
+#: framework/admin/composer/inc/tab/composer_popup.php:1623
+#: framework/admin/composer/inc/tab/composer_popup.php:1634
+#: framework/admin/composer/inc/tab/composer_popup.php:1816
+#: framework/admin/composer/inc/tab/composer_popup.php:1827
+#: framework/admin/composer/inc/tab/composer_popup.php:1985
+#: framework/admin/composer/inc/tab/composer_popup.php:1996
+#: framework/admin/composer/inc/tab/composer_popup.php:2155
+#: framework/admin/composer/inc/tab/composer_popup.php:2166
+#: framework/admin/composer/inc/tab/composer_popup.php:2337
+#: framework/admin/composer/inc/tab/composer_popup.php:2348
+#: framework/admin/composer/inc/tab/composer_popup.php:2506
+#: framework/admin/composer/inc/tab/composer_popup.php:2517
+#: framework/admin/composer/inc/tab/composer_popup.php:2679
+#: framework/admin/composer/inc/tab/composer_popup.php:2690
+#: framework/admin/composer/inc/text/composer_popup.php:210
+#: framework/admin/composer/inc/text/composer_popup.php:221
+#: framework/admin/options/cmsms-theme-options-general.php:50
+#: framework/admin/options/cmsms-theme-options-page.php:174
+#: framework/admin/options/cmsms-theme-options-page.php:246
+#: framework/admin/options/cmsms-theme-options-page.php:262
+#: framework/admin/options/cmsms-theme-options-page.php:278
+#: framework/admin/options/cmsms-theme-options-post.php:309
+#: framework/admin/options/cmsms-theme-options-post.php:317
+#: framework/admin/options/cmsms-theme-options-post.php:325
+#: framework/admin/options/cmsms-theme-options-post.php:397
+#: framework/admin/options/cmsms-theme-options-post.php:413
+#: framework/admin/options/cmsms-theme-options-post.php:429
+#: framework/admin/options/cmsms-theme-options-project.php:234
+#: framework/admin/options/cmsms-theme-options-project.php:274
+#: framework/admin/options/cmsms-theme-options-project.php:282
+#: framework/admin/options/cmsms-theme-options-project.php:321
+#: framework/admin/options/cmsms-theme-options-project.php:337
+#: framework/admin/options/cmsms-theme-options-project.php:353
+#: framework/admin/options/cmsms-theme-options-testimonial.php:137
+#: framework/admin/options/cmsms-theme-options-testimonial.php:205
+#: framework/admin/options/cmsms-theme-options-testimonial.php:221
+#: framework/admin/options/cmsms-theme-options-testimonial.php:237
+msgid "Show"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:436
+#: framework/admin/composer/inc/box/composer_popup.php:441
+#: framework/admin/composer/inc/box/composer_popup.php:644
+#: framework/admin/composer/inc/box/composer_popup.php:649
+#: framework/admin/composer/inc/box/composer_popup.php:823
+#: framework/admin/composer/inc/box/composer_popup.php:828
+#: framework/admin/composer/inc/person/composer_popup.php:469
+#: framework/admin/composer/inc/person/composer_popup.php:474
+#: framework/admin/composer/inc/tab/composer_popup.php:294
+#: framework/admin/composer/inc/tab/composer_popup.php:299
+#: framework/admin/composer/inc/tab/composer_popup.php:480
+#: framework/admin/composer/inc/tab/composer_popup.php:485
+#: framework/admin/composer/inc/tab/composer_popup.php:1290
+#: framework/admin/composer/inc/tab/composer_popup.php:1295
+#: framework/admin/composer/inc/tab/composer_popup.php:1459
+#: framework/admin/composer/inc/tab/composer_popup.php:1464
+#: framework/admin/composer/inc/tab/composer_popup.php:1629
+#: framework/admin/composer/inc/tab/composer_popup.php:1634
+#: framework/admin/composer/inc/tab/composer_popup.php:1822
+#: framework/admin/composer/inc/tab/composer_popup.php:1827
+#: framework/admin/composer/inc/tab/composer_popup.php:1991
+#: framework/admin/composer/inc/tab/composer_popup.php:1996
+#: framework/admin/composer/inc/tab/composer_popup.php:2161
+#: framework/admin/composer/inc/tab/composer_popup.php:2166
+#: framework/admin/composer/inc/tab/composer_popup.php:2343
+#: framework/admin/composer/inc/tab/composer_popup.php:2348
+#: framework/admin/composer/inc/tab/composer_popup.php:2512
+#: framework/admin/composer/inc/tab/composer_popup.php:2517
+#: framework/admin/composer/inc/tab/composer_popup.php:2685
+#: framework/admin/composer/inc/tab/composer_popup.php:2690
+#: framework/admin/composer/inc/text/composer_popup.php:216
+#: framework/admin/composer/inc/text/composer_popup.php:221
+msgid "Table Footer"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:449
+#: framework/admin/composer/inc/box/composer_popup.php:522
+#: framework/admin/composer/inc/box/composer_popup.php:657
+#: framework/admin/composer/inc/box/composer_popup.php:730
+#: framework/admin/composer/inc/box/composer_popup.php:836
+#: framework/admin/composer/inc/box/composer_popup.php:909
+#: framework/admin/composer/inc/person/composer_popup.php:482
+#: framework/admin/composer/inc/person/composer_popup.php:555
+#: framework/admin/composer/inc/tab/composer_popup.php:307
+#: framework/admin/composer/inc/tab/composer_popup.php:380
+#: framework/admin/composer/inc/tab/composer_popup.php:493
+#: framework/admin/composer/inc/tab/composer_popup.php:566
+#: framework/admin/composer/inc/tab/composer_popup.php:1303
+#: framework/admin/composer/inc/tab/composer_popup.php:1376
+#: framework/admin/composer/inc/tab/composer_popup.php:1472
+#: framework/admin/composer/inc/tab/composer_popup.php:1545
+#: framework/admin/composer/inc/tab/composer_popup.php:1642
+#: framework/admin/composer/inc/tab/composer_popup.php:1715
+#: framework/admin/composer/inc/tab/composer_popup.php:1835
+#: framework/admin/composer/inc/tab/composer_popup.php:1908
+#: framework/admin/composer/inc/tab/composer_popup.php:2004
+#: framework/admin/composer/inc/tab/composer_popup.php:2077
+#: framework/admin/composer/inc/tab/composer_popup.php:2174
+#: framework/admin/composer/inc/tab/composer_popup.php:2247
+#: framework/admin/composer/inc/tab/composer_popup.php:2356
+#: framework/admin/composer/inc/tab/composer_popup.php:2429
+#: framework/admin/composer/inc/tab/composer_popup.php:2525
+#: framework/admin/composer/inc/tab/composer_popup.php:2598
+#: framework/admin/composer/inc/tab/composer_popup.php:2698
+#: framework/admin/composer/inc/tab/composer_popup.php:2771
+#: framework/admin/composer/inc/text/composer_popup.php:229
+#: framework/admin/composer/inc/text/composer_popup.php:302
+msgid "Insert"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:455
+#: framework/admin/composer/inc/box/composer_popup.php:663
+#: framework/admin/composer/inc/box/composer_popup.php:842
+#: framework/admin/composer/inc/person/composer_popup.php:130
+#: framework/admin/composer/inc/person/composer_popup.php:488
+#: framework/admin/composer/inc/person/composer_popup.php:574
+#: framework/admin/composer/inc/tab/composer_popup.php:313
+#: framework/admin/composer/inc/tab/composer_popup.php:499
+#: framework/admin/composer/inc/tab/composer_popup.php:1309
+#: framework/admin/composer/inc/tab/composer_popup.php:1478
+#: framework/admin/composer/inc/tab/composer_popup.php:1648
+#: framework/admin/composer/inc/tab/composer_popup.php:1841
+#: framework/admin/composer/inc/tab/composer_popup.php:2010
+#: framework/admin/composer/inc/tab/composer_popup.php:2180
+#: framework/admin/composer/inc/tab/composer_popup.php:2362
+#: framework/admin/composer/inc/tab/composer_popup.php:2531
+#: framework/admin/composer/inc/tab/composer_popup.php:2704
+#: framework/admin/composer/inc/text/composer_popup.php:235
+#: framework/class/widgets-default.php:452 framework/class/widgets.php:751
+msgid "Text"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:468
+#: framework/admin/composer/inc/box/composer_popup.php:676
+#: framework/admin/composer/inc/box/composer_popup.php:855
+#: framework/admin/composer/inc/person/composer_popup.php:143
+#: framework/admin/composer/inc/person/composer_popup.php:501
+#: framework/admin/composer/inc/person/composer_popup.php:587
+#: framework/admin/composer/inc/tab/composer_popup.php:326
+#: framework/admin/composer/inc/tab/composer_popup.php:512
+#: framework/admin/composer/inc/tab/composer_popup.php:1322
+#: framework/admin/composer/inc/tab/composer_popup.php:1491
+#: framework/admin/composer/inc/tab/composer_popup.php:1661
+#: framework/admin/composer/inc/tab/composer_popup.php:1854
+#: framework/admin/composer/inc/tab/composer_popup.php:2023
+#: framework/admin/composer/inc/tab/composer_popup.php:2193
+#: framework/admin/composer/inc/tab/composer_popup.php:2375
+#: framework/admin/composer/inc/tab/composer_popup.php:2544
+#: framework/admin/composer/inc/tab/composer_popup.php:2717
+#: framework/admin/composer/inc/text/composer_popup.php:248
+#: framework/admin/options/cmsms-theme-options.php:456
+#: framework/class/widgets.php:155 framework/class/widgets.php:165
+#: framework/class/widgets.php:175 framework/class/widgets.php:185
+#: framework/class/widgets.php:195 framework/class/widgets.php:205
+msgid "Link"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:481
+#: framework/admin/composer/inc/box/composer_popup.php:689
+#: framework/admin/composer/inc/box/composer_popup.php:868
+#: framework/admin/composer/inc/person/composer_popup.php:514
+#: framework/admin/composer/inc/tab/composer_popup.php:339
+#: framework/admin/composer/inc/tab/composer_popup.php:525
+#: framework/admin/composer/inc/tab/composer_popup.php:1335
+#: framework/admin/composer/inc/tab/composer_popup.php:1504
+#: framework/admin/composer/inc/tab/composer_popup.php:1674
+#: framework/admin/composer/inc/tab/composer_popup.php:1867
+#: framework/admin/composer/inc/tab/composer_popup.php:2036
+#: framework/admin/composer/inc/tab/composer_popup.php:2206
+#: framework/admin/composer/inc/tab/composer_popup.php:2388
+#: framework/admin/composer/inc/tab/composer_popup.php:2557
+#: framework/admin/composer/inc/tab/composer_popup.php:2730
+#: framework/admin/composer/inc/text/composer_popup.php:261
+#: framework/class/projects-posttype.php:87
+msgid "Type"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:489
+#: framework/admin/composer/inc/box/composer_popup.php:697
+#: framework/admin/composer/inc/box/composer_popup.php:876
+#: framework/admin/composer/inc/person/composer_popup.php:522
+#: framework/admin/composer/inc/tab/composer_popup.php:347
+#: framework/admin/composer/inc/tab/composer_popup.php:533
+#: framework/admin/composer/inc/tab/composer_popup.php:1343
+#: framework/admin/composer/inc/tab/composer_popup.php:1512
+#: framework/admin/composer/inc/tab/composer_popup.php:1682
+#: framework/admin/composer/inc/tab/composer_popup.php:1875
+#: framework/admin/composer/inc/tab/composer_popup.php:2044
+#: framework/admin/composer/inc/tab/composer_popup.php:2214
+#: framework/admin/composer/inc/tab/composer_popup.php:2396
+#: framework/admin/composer/inc/tab/composer_popup.php:2565
+#: framework/admin/composer/inc/tab/composer_popup.php:2738
+#: framework/admin/composer/inc/text/composer_popup.php:269
+msgid "Small button"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:490
+#: framework/admin/composer/inc/box/composer_popup.php:698
+#: framework/admin/composer/inc/box/composer_popup.php:877
+#: framework/admin/composer/inc/person/composer_popup.php:523
+#: framework/admin/composer/inc/tab/composer_popup.php:348
+#: framework/admin/composer/inc/tab/composer_popup.php:534
+#: framework/admin/composer/inc/tab/composer_popup.php:1344
+#: framework/admin/composer/inc/tab/composer_popup.php:1513
+#: framework/admin/composer/inc/tab/composer_popup.php:1683
+#: framework/admin/composer/inc/tab/composer_popup.php:1876
+#: framework/admin/composer/inc/tab/composer_popup.php:2045
+#: framework/admin/composer/inc/tab/composer_popup.php:2215
+#: framework/admin/composer/inc/tab/composer_popup.php:2397
+#: framework/admin/composer/inc/tab/composer_popup.php:2566
+#: framework/admin/composer/inc/tab/composer_popup.php:2739
+#: framework/admin/composer/inc/text/composer_popup.php:270
+msgid "Medium button"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:491
+#: framework/admin/composer/inc/box/composer_popup.php:699
+#: framework/admin/composer/inc/box/composer_popup.php:878
+#: framework/admin/composer/inc/person/composer_popup.php:524
+#: framework/admin/composer/inc/tab/composer_popup.php:349
+#: framework/admin/composer/inc/tab/composer_popup.php:535
+#: framework/admin/composer/inc/tab/composer_popup.php:1345
+#: framework/admin/composer/inc/tab/composer_popup.php:1514
+#: framework/admin/composer/inc/tab/composer_popup.php:1684
+#: framework/admin/composer/inc/tab/composer_popup.php:1877
+#: framework/admin/composer/inc/tab/composer_popup.php:2046
+#: framework/admin/composer/inc/tab/composer_popup.php:2216
+#: framework/admin/composer/inc/tab/composer_popup.php:2398
+#: framework/admin/composer/inc/tab/composer_popup.php:2567
+#: framework/admin/composer/inc/tab/composer_popup.php:2740
+#: framework/admin/composer/inc/text/composer_popup.php:271
+msgid "Large button"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:498
+#: framework/admin/composer/inc/box/composer_popup.php:706
+#: framework/admin/composer/inc/box/composer_popup.php:885
+#: framework/admin/composer/inc/person/composer_popup.php:531
+#: framework/admin/composer/inc/tab/composer_popup.php:356
+#: framework/admin/composer/inc/tab/composer_popup.php:542
+#: framework/admin/composer/inc/tab/composer_popup.php:1352
+#: framework/admin/composer/inc/tab/composer_popup.php:1521
+#: framework/admin/composer/inc/tab/composer_popup.php:1691
+#: framework/admin/composer/inc/tab/composer_popup.php:1884
+#: framework/admin/composer/inc/tab/composer_popup.php:2053
+#: framework/admin/composer/inc/tab/composer_popup.php:2223
+#: framework/admin/composer/inc/tab/composer_popup.php:2405
+#: framework/admin/composer/inc/tab/composer_popup.php:2574
+#: framework/admin/composer/inc/tab/composer_popup.php:2747
+#: framework/admin/composer/inc/text/composer_popup.php:278
+msgid "Target"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:503
+#: framework/admin/composer/inc/box/composer_popup.php:582
+#: framework/admin/composer/inc/box/composer_popup.php:711
+#: framework/admin/composer/inc/box/composer_popup.php:890
+#: framework/admin/composer/inc/person/composer_popup.php:536
+#: framework/admin/composer/inc/tab/composer_popup.php:361
+#: framework/admin/composer/inc/tab/composer_popup.php:547
+#: framework/admin/composer/inc/tab/composer_popup.php:1357
+#: framework/admin/composer/inc/tab/composer_popup.php:1526
+#: framework/admin/composer/inc/tab/composer_popup.php:1696
+#: framework/admin/composer/inc/tab/composer_popup.php:1889
+#: framework/admin/composer/inc/tab/composer_popup.php:2058
+#: framework/admin/composer/inc/tab/composer_popup.php:2228
+#: framework/admin/composer/inc/tab/composer_popup.php:2410
+#: framework/admin/composer/inc/tab/composer_popup.php:2579
+#: framework/admin/composer/inc/tab/composer_popup.php:2752
+#: framework/admin/composer/inc/text/composer_popup.php:283
+msgid "Open link in a new tab/window"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:509
+#: framework/admin/composer/inc/box/composer_popup.php:717
+#: framework/admin/composer/inc/box/composer_popup.php:896
+#: framework/admin/composer/inc/person/composer_popup.php:542
+#: framework/admin/composer/inc/tab/composer_popup.php:367
+#: framework/admin/composer/inc/tab/composer_popup.php:553
+#: framework/admin/composer/inc/tab/composer_popup.php:1363
+#: framework/admin/composer/inc/tab/composer_popup.php:1532
+#: framework/admin/composer/inc/tab/composer_popup.php:1702
+#: framework/admin/composer/inc/tab/composer_popup.php:1895
+#: framework/admin/composer/inc/tab/composer_popup.php:2064
+#: framework/admin/composer/inc/tab/composer_popup.php:2234
+#: framework/admin/composer/inc/tab/composer_popup.php:2416
+#: framework/admin/composer/inc/tab/composer_popup.php:2585
+#: framework/admin/composer/inc/tab/composer_popup.php:2758
+#: framework/admin/composer/inc/text/composer_popup.php:289
+msgid "Lightbox"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:514
+#: framework/admin/composer/inc/box/composer_popup.php:722
+#: framework/admin/composer/inc/box/composer_popup.php:901
+#: framework/admin/composer/inc/person/composer_popup.php:547
+#: framework/admin/composer/inc/tab/composer_popup.php:372
+#: framework/admin/composer/inc/tab/composer_popup.php:558
+#: framework/admin/composer/inc/tab/composer_popup.php:1368
+#: framework/admin/composer/inc/tab/composer_popup.php:1537
+#: framework/admin/composer/inc/tab/composer_popup.php:1707
+#: framework/admin/composer/inc/tab/composer_popup.php:1900
+#: framework/admin/composer/inc/tab/composer_popup.php:2069
+#: framework/admin/composer/inc/tab/composer_popup.php:2239
+#: framework/admin/composer/inc/tab/composer_popup.php:2421
+#: framework/admin/composer/inc/tab/composer_popup.php:2590
+#: framework/admin/composer/inc/tab/composer_popup.php:2763
+#: framework/admin/composer/inc/text/composer_popup.php:294
+msgid "Open link in a lightbox"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:528
+#: framework/admin/composer/inc/box/composer_popup.php:736
+#: framework/admin/composer/inc/person/composer_popup.php:375
+msgid "Block Color"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:533
+#: framework/admin/composer/inc/box/composer_popup.php:741
+#: framework/admin/composer/inc/person/composer_popup.php:380
+#: framework/admin/composer/inc/price/composer_popup.php:284
+msgid "Blue"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:534
+#: framework/admin/composer/inc/box/composer_popup.php:742
+#: framework/admin/composer/inc/person/composer_popup.php:381
+#: framework/admin/composer/inc/price/composer_popup.php:285
+msgid "Green"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:535
+#: framework/admin/composer/inc/box/composer_popup.php:743
+#: framework/admin/composer/inc/person/composer_popup.php:382
+#: framework/admin/composer/inc/price/composer_popup.php:286
+msgid "Yellow"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:536
+#: framework/admin/composer/inc/box/composer_popup.php:744
+#: framework/admin/composer/inc/person/composer_popup.php:383
+#: framework/admin/composer/inc/price/composer_popup.php:287
+msgid "Red"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:543
+#: framework/admin/composer/inc/box/composer_popup.php:947
+#: framework/admin/composer/inc/person/composer_popup.php:654
+#: framework/admin/composer/inc/tab/composer_popup.php:857
+#: framework/admin/composer/inc/text/composer_popup.php:339
+msgid "Button"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:548
+msgid "Show button"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:554
+#: framework/admin/composer/inc/price/composer_popup.php:337
+msgid "Button Text"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:564
+#: framework/admin/composer/inc/price/composer_popup.php:350
+msgid "Button Link"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:577
+msgid "Button Target"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:752
+msgid "Box Type"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:757
+msgid "Success"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:758
+msgid "Error"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:759
+msgid "Notice"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:760
+msgid "Warning"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:761
+msgid "Download"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:768
+msgid "Box Text"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:943
+#: framework/admin/composer/inc/person/composer_popup.php:650
+#: framework/admin/composer/inc/tab/composer_popup.php:854
+#: framework/admin/composer/inc/text/composer_popup.php:335
+msgid "Add Media"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:945
+#: framework/admin/composer/inc/person/composer_popup.php:652
+#: framework/admin/composer/inc/tab/composer_popup.php:855
+#: framework/admin/composer/inc/text/composer_popup.php:337
+msgid "Dropcap 1"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:946
+#: framework/admin/composer/inc/person/composer_popup.php:653
+#: framework/admin/composer/inc/tab/composer_popup.php:856
+#: framework/admin/composer/inc/text/composer_popup.php:338
+msgid "Dropcap 2"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:948
+#: framework/admin/composer/inc/person/composer_popup.php:655
+#: framework/admin/composer/inc/tab/composer_popup.php:858
+#: framework/admin/composer/inc/text/composer_popup.php:340
+msgid "Table"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:1087
+#: framework/admin/composer/inc/person/composer_popup.php:794
+#: framework/admin/composer/inc/tab/composer_popup.php:988
+#: framework/admin/composer/inc/text/composer_popup.php:479
+#: framework/admin/settings/cmsms-theme-settings-style.php:17
+msgid "Header"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:1110
+#: framework/admin/composer/inc/person/composer_popup.php:817
+#: framework/admin/composer/inc/tab/composer_popup.php:1011
+#: framework/admin/composer/inc/text/composer_popup.php:502
+msgid "Division"
+msgstr ""
+
+#: framework/admin/composer/inc/box/composer_popup.php:1133
+#: framework/admin/composer/inc/person/composer_popup.php:840
+#: framework/admin/composer/inc/tab/composer_popup.php:1034
+#: framework/admin/composer/inc/text/composer_popup.php:525
+#: framework/admin/settings/cmsms-theme-settings-style.php:19
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/composer/inc/email/composer_popup.php:182
+msgid "Form Name"
+msgstr ""
+
+#: framework/admin/composer/inc/email/composer_popup.php:190
+msgid "Choose Form Name Here"
+msgstr ""
+
+#: framework/admin/composer/inc/email/composer_popup.php:206
+msgid "Email Address"
+msgstr ""
+
+#: framework/admin/composer/inc/email/composer_popup.php:214
+msgid "You can enter multiple email addresses separated by commas"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:304
+#: framework/admin/composer/inc/map/composer_popup.php:440
+msgid "Map Type"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:312
+msgid "Roadmap"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:313
+msgid "Terrain"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:314
+msgid "Hybrid"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:315
+msgid "Satellite"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:322
+msgid "Map Zoom"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:335
+msgid "Address Type"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:343
+msgid "Use address"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:346
+msgid "Use coordinates"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:352
+#: framework/class/widgets.php:349
+msgid "Address"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:365
+msgid "Latitude"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:378
+msgid "Longitude"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:391
+msgid "Marker"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:396
+msgid "Use marker"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:402
+msgid "Popup HTML"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:412
+msgid "Popup Visibility"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:417
+msgid "Open popup on load"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:423
+msgid "Choose Google Map Controls"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:429
+msgid "Scroll Wheel"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:434
+msgid "Use scroll wheel"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:445
+#: framework/admin/composer/inc/map/composer_popup.php:456
+#: framework/admin/composer/inc/map/composer_popup.php:467
+#: framework/admin/composer/inc/map/composer_popup.php:478
+#: framework/admin/composer/inc/map/composer_popup.php:489
+msgid "Enable control"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:451
+msgid "Zoom"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:462
+msgid "Pan"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:473
+msgid "Scale"
+msgstr ""
+
+#: framework/admin/composer/inc/map/composer_popup.php:484
+msgid "Street View"
+msgstr ""
+
+#: framework/admin/composer/inc/person/composer_popup.php:121
+#: framework/admin/composer/inc/person/composer_popup.php:565
+msgid "Social Link"
+msgstr ""
+
+#: framework/admin/composer/inc/person/composer_popup.php:173
+#: framework/admin/composer/inc/stat/composer_popup.php:159
+msgid "Are you sure that you want to delete this stats bar?"
+msgstr ""
+
+#: framework/admin/composer/inc/person/composer_popup.php:356
+msgid "Block Image"
+msgstr ""
+
+#: framework/admin/composer/inc/person/composer_popup.php:364
+msgid "Choose person block image"
+msgstr ""
+
+#: framework/admin/composer/inc/person/composer_popup.php:391
+msgid "Block Title"
+msgstr ""
+
+#: framework/admin/composer/inc/person/composer_popup.php:404
+msgid "Block Subtitle"
+msgstr ""
+
+#: framework/admin/composer/inc/person/composer_popup.php:617
+msgid "Add Social Link"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:224
+msgid "Error! Choose another posts sorting."
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:340
+#: framework/admin/composer/inc/price/composer_popup.php:266
+#: framework/admin/composer/inc/stat/composer_popup.php:113
+#: framework/admin/composer/inc/stat/composer_popup.php:284
+#: framework/admin/composer/inc/stat/composer_popup.php:338
+#: framework/admin/options/cmsms-theme-options-general.php:263
+#: framework/admin/options/cmsms-theme-options.php:455
+#: framework/admin/options/cmsms-theme-options.php:524
+#: framework/class/projects-posttype.php:103
+#: framework/class/testimonials-posttype.php:81
+#: framework/class/widgets.php:145 framework/class/widgets.php:339
+#: framework/class/widgets.php:508 framework/class/widgets.php:587
+#: framework/class/widgets.php:713 framework/class/widgets.php:841
+#: framework/class/widgets.php:984 framework/class/widgets.php:1178
+#: framework/class/widgets.php:1429 framework/class/widgets.php:1651
+#: framework/class/widgets.php:2093 framework/class/widgets.php:2285
+#: framework/class/widgets.php:2412
+msgid "Title"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:350
+msgid "Posts Type"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:358
+msgid "Blog Posts"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:359
+msgid "Portfolio Projects"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:360
+#: framework/admin/settings/cmsms-theme-settings.php:450
+#: framework/class/testimonials-posttype.php:16
+#: framework/class/testimonials-posttype.php:17
+#: framework/class/testimonials-posttype.php:27
+msgid "Testimonials"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:367
+msgid "Posts Sorting"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:375
+#: framework/class/widgets.php:1745 framework/class/widgets.php:1763
+#: framework/function/template-functions.php:847
+msgid "Latest"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:376
+#: framework/class/widgets.php:1751
+#: framework/function/template-functions.php:835
+msgid "Popular"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:377
+#: framework/class/projects-posttype.php:67
+msgid "Category"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:384
+#: framework/admin/options/cmsms-theme-options-page.php:139
+msgid "Posts Category"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:407
+msgid "You need to create posts category before using this sorting type"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:415
+#: framework/admin/options/cmsms-theme-options-page.php:181
+msgid "Projects Type"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:438
+msgid "You need to create project type before using this sorting type"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:446
+msgid "Testimonials Cat."
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:469
+msgid "You need to create testimonials category before using this sorting type"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:477
+msgid "Posts Number"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:490
+msgid "Sliding"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:495
+msgid "Show posts as slider"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:501
+msgid "Posts Images"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:506
+msgid "Show posts featured images"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:512
+msgid "Posts Additionals"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:517
+msgid "Show posts additional information"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:523
+msgid "Posts Content"
+msgstr ""
+
+#: framework/admin/composer/inc/post/composer_popup.php:528
+msgid "Show posts content"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:110
+#: framework/admin/composer/inc/price/composer_popup.php:363
+#: framework/admin/composer/inc/price/composer_popup.php:374
+#: framework/admin/composer/inc/price/composer_popup.php:391
+msgid "List Item"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:125
+msgid "Are you sure that you want to delete this list item?"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:279
+msgid "Pricing Color"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:294
+msgid "Price"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:307
+msgid "Coins"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:317
+msgid "Currency"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:327
+msgid "Period"
+msgstr ""
+
+#: framework/admin/composer/inc/price/composer_popup.php:407
+msgid "Add List Item"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:260
+msgid "Slider Images"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:298
+msgid "Height Type"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:306
+msgid "Use automatic height"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:309
+msgid "Use fixed height"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:315
+msgid "Height"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:323
+#: framework/admin/settings/cmsms-theme-settings.php:715
+#: framework/admin/settings/cmsms-theme-settings.php:723
+msgid "in pixels"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:329
+msgid "Animation Speed"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:337
+#: framework/admin/composer/inc/slider/composer_popup.php:413
+msgid "in seconds"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:343
+#: framework/admin/composer/inc/slider/composer_popup.php:360
+msgid "Animation Effect"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:351
+msgid "Slide"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:354
+msgid "Fade"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:405
+msgid "Pause Time"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:419
+msgid "Active Slide"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:432
+msgid "Pause on Hover"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:437
+msgid "Pause slider on mouseover"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:443
+msgid "Choose Content Slider Controls"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:449
+msgid "Touch Control"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:454
+msgid "Use touch control"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:460
+msgid "Slides Control"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:465
+msgid "Use slides control"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:471
+msgid "Arrow Control"
+msgstr ""
+
+#: framework/admin/composer/inc/slider/composer_popup.php:476
+msgid "Use arrow control"
+msgstr ""
+
+#: framework/admin/composer/inc/stat/composer_popup.php:104
+#: framework/admin/composer/inc/stat/composer_popup.php:275
+#: framework/admin/composer/inc/stat/composer_popup.php:329
+msgid "Stats Bar"
+msgstr ""
+
+#: framework/admin/composer/inc/stat/composer_popup.php:126
+#: framework/admin/composer/inc/stat/composer_popup.php:297
+#: framework/admin/composer/inc/stat/composer_popup.php:351
+msgid "Percent Value"
+msgstr ""
+
+#: framework/admin/composer/inc/stat/composer_popup.php:139
+#: framework/admin/composer/inc/stat/composer_popup.php:310
+#: framework/admin/composer/inc/stat/composer_popup.php:364
+msgid "Color"
+msgstr ""
+
+#: framework/admin/composer/inc/stat/composer_popup.php:387
+msgid "Add Stats Bar"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:215
+#: framework/admin/composer/inc/tab/composer_popup.php:1213
+#: framework/admin/composer/inc/tab/composer_popup.php:1382
+#: framework/admin/composer/inc/tab/composer_popup.php:1552
+#: framework/admin/composer/inc/tab/composer_popup.php:2266
+#: framework/admin/composer/inc/tab/composer_popup.php:2435
+#: framework/admin/composer/inc/tab/composer_popup.php:2608
+msgid "Tab"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:224
+#: framework/admin/composer/inc/tab/composer_popup.php:1222
+#: framework/admin/composer/inc/tab/composer_popup.php:1391
+#: framework/admin/composer/inc/tab/composer_popup.php:1561
+#: framework/admin/composer/inc/tab/composer_popup.php:2275
+#: framework/admin/composer/inc/tab/composer_popup.php:2444
+#: framework/admin/composer/inc/tab/composer_popup.php:2617
+msgid "Tab Label"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:237
+#: framework/admin/composer/inc/tab/composer_popup.php:1235
+#: framework/admin/composer/inc/tab/composer_popup.php:1404
+#: framework/admin/composer/inc/tab/composer_popup.php:1574
+#: framework/admin/composer/inc/tab/composer_popup.php:2288
+#: framework/admin/composer/inc/tab/composer_popup.php:2457
+#: framework/admin/composer/inc/tab/composer_popup.php:2630
+msgid "Tab Content"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:401
+#: framework/admin/composer/inc/tab/composer_popup.php:1745
+#: framework/admin/composer/inc/tab/composer_popup.php:1914
+#: framework/admin/composer/inc/tab/composer_popup.php:2084
+msgid "Toggle"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:410
+#: framework/admin/composer/inc/tab/composer_popup.php:1754
+#: framework/admin/composer/inc/tab/composer_popup.php:1923
+#: framework/admin/composer/inc/tab/composer_popup.php:2093
+msgid "Toggle Label"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:423
+#: framework/admin/composer/inc/tab/composer_popup.php:1767
+#: framework/admin/composer/inc/tab/composer_popup.php:1936
+#: framework/admin/composer/inc/tab/composer_popup.php:2106
+msgid "Toggle Content"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:579
+msgid "Are you sure that you want to delete this toggle?"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:579
+msgid "Are you sure that you want to delete this tab?"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:1727
+#: framework/admin/composer/inc/tab/composer_popup.php:2786
+msgid "Add New Tab"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:1734
+msgid "Accordion"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:1739
+msgid "Show toggles as accordion"
+msgstr ""
+
+#: framework/admin/composer/inc/tab/composer_popup.php:2259
+msgid "Add New Toggle"
+msgstr ""
+
+#: framework/admin/composer/inc/text/composer_popup.php:161
+#: framework/admin/settings/cmsms-theme-settings-font.php:16
+#: framework/admin/settings/cmsms-theme-settings-style.php:18
+msgid "Content"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:184
+#: framework/admin/composer/inc/video/composer_popup.php:710
+#: framework/admin/composer/inc/video/composer_popup.php:767
+#: framework/admin/composer/inc/video/composer_popup.php:830
+#: framework/admin/options/cmsms-theme-options-project.php:227
+#: framework/class/widgets.php:1183 framework/class/widgets.php:1188
+#: framework/class/widgets.php:1193
+msgid "Video"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:214
+msgid "For Internet Explorer, Google Chrome, Apple Safari"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:228
+msgid "For Firefox, Google Chrome, Opera"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:234
+#: framework/admin/composer/inc/video/composer_popup.php:584
+#: framework/admin/composer/inc/video/composer_popup.php:699
+#: framework/admin/composer/inc/video/composer_popup.php:757
+#: framework/admin/composer/inc/video/composer_popup.php:814
+#: framework/admin/composer/inc/video/composer_popup.php:880
+msgid "Poster"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:525
+msgid "Video Player"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:527
+msgid "Video Player with Playlist"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:549
+msgid "You can use YouTube, Vimeo, DailyMotion or Screenr video here"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:601
+#: framework/class/widgets.php:1086 framework/class/widgets.php:1170
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:640
+msgid "Autoplay video"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:651
+msgid "Repeat video"
+msgstr ""
+
+#: framework/admin/composer/inc/video/composer_popup.php:895
+msgid "Add Video to Playlist"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:16
+#: framework/admin/settings/cmsms-theme-settings-general.php:38
+msgid "General Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:17
+msgid "Allows you to change theme general options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:29
+#: framework/admin/settings/cmsms-theme-settings-general.php:99
+msgid "Theme Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:42
+#: framework/admin/settings/cmsms-theme-settings-general.php:108
+msgid "Responsive Layout"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:56
+#: framework/admin/settings/cmsms-theme-settings-general.php:117
+msgid "High Resolution"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:67
+#: framework/admin/settings/cmsms-theme-settings-style.php:38
+msgid "Header Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:68
+msgid "Allows you to change theme header options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:81
+#: framework/admin/settings/cmsms-theme-settings-style.php:150
+msgid "Header Height"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:97
+#: framework/admin/settings/cmsms-theme-settings-style.php:159
+msgid "Header Navigation Top Position"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:113
+#: framework/admin/settings/cmsms-theme-settings-style.php:168
+msgid "Header Navigation Right Position"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:113
+msgid "px"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:127
+msgid "Header Social Icons"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:143
+#: framework/admin/settings/cmsms-theme-settings-style.php:186
+msgid "Header Social Icons Top Position"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:159
+#: framework/admin/settings/cmsms-theme-settings-style.php:195
+msgid "Header Social Icons Right Position"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:170
+msgid "Logo Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:171
+msgid "Allows you to change theme logo options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:182
+msgid "Custom Logo Image URL"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:197
+msgid "Custom Logo Image Width"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:213
+msgid "Custom Logo Image Height"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:229
+msgid "Custom Logo Top Position"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:245
+msgid "Custom Logo Left Position"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:259
+#: framework/admin/settings/cmsms-theme-settings-logo.php:17
+#: framework/admin/settings/cmsms-theme-settings-logo.php:113
+msgid "Text Logo"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:273
+#: framework/admin/settings/cmsms-theme-settings-logo.php:122
+msgid "Custom Logo Title"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:287
+#: framework/admin/settings/cmsms-theme-settings-logo.php:132
+msgid "Logo Subtitle"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:301
+#: framework/admin/settings/cmsms-theme-settings-logo.php:141
+msgid "Custom Logo Subtitle"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:312
+#: framework/admin/settings/cmsms-theme-settings-style.php:32
+msgid "Background Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:313
+msgid "Allows you to change theme background options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:325
+#: framework/admin/options/cmsms-theme-options-general.php:41
+#: framework/admin/settings/cmsms-theme-settings-style.php:73
+msgid "Background Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:339
+#: framework/admin/options/cmsms-theme-options-general.php:57
+#: framework/admin/settings/cmsms-theme-settings-style.php:91
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:353
+#: framework/admin/options/cmsms-theme-options-general.php:66
+#: framework/admin/settings/cmsms-theme-settings-style.php:100
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:358
+#: framework/admin/options/cmsms-theme-options-general.php:74
+#: framework/admin/settings/cmsms-theme-settings-style.php:105
+msgid "No Repeat"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:359
+#: framework/admin/options/cmsms-theme-options-general.php:78
+#: framework/admin/settings/cmsms-theme-settings-style.php:106
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:360
+#: framework/admin/options/cmsms-theme-options-general.php:82
+#: framework/admin/settings/cmsms-theme-settings-style.php:107
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:374
+#: framework/admin/options/cmsms-theme-options-general.php:92
+#: framework/admin/settings/cmsms-theme-settings-style.php:115
+msgid "Background Position"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:379
+#: framework/admin/options/cmsms-theme-options-general.php:100
+#: framework/admin/settings/cmsms-theme-settings-style.php:120
+msgid "Top Left"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:380
+#: framework/admin/options/cmsms-theme-options-general.php:104
+#: framework/admin/settings/cmsms-theme-settings-style.php:121
+msgid "Top Center"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:381
+#: framework/admin/options/cmsms-theme-options-general.php:108
+#: framework/admin/settings/cmsms-theme-settings-style.php:122
+msgid "Top Right"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:382
+#: framework/admin/options/cmsms-theme-options-general.php:112
+#: framework/admin/settings/cmsms-theme-settings-style.php:123
+msgid "Center Left"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:383
+#: framework/admin/options/cmsms-theme-options-general.php:116
+#: framework/admin/settings/cmsms-theme-settings-style.php:124
+msgid "Center Center"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:384
+#: framework/admin/options/cmsms-theme-options-general.php:120
+#: framework/admin/settings/cmsms-theme-settings-style.php:125
+msgid "Center Right"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:385
+#: framework/admin/options/cmsms-theme-options-general.php:124
+#: framework/admin/settings/cmsms-theme-settings-style.php:126
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:386
+#: framework/admin/options/cmsms-theme-options-general.php:128
+#: framework/admin/settings/cmsms-theme-settings-style.php:127
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:387
+#: framework/admin/options/cmsms-theme-options-general.php:132
+#: framework/admin/settings/cmsms-theme-settings-style.php:128
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:400
+#: framework/admin/options/cmsms-theme-options-general.php:138
+#: framework/admin/settings/cmsms-theme-settings-style.php:135
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:405
+#: framework/admin/options/cmsms-theme-options-general.php:146
+#: framework/admin/settings/cmsms-theme-settings-style.php:140
+msgid "Scroll"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:406
+#: framework/admin/options/cmsms-theme-options-general.php:150
+#: framework/admin/settings/cmsms-theme-settings-style.php:141
+msgid "Fixed"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:415
+#: framework/admin/settings/cmsms-theme-settings-style.php:50
+msgid "Footer Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:416
+msgid "Allows you to change theme footer options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:422
+#: framework/admin/settings/cmsms-theme-settings-style.php:321
+msgid "All Rights Reserved"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:427
+#: framework/admin/settings/cmsms-theme-settings-style.php:318
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:441
+#: framework/admin/settings/cmsms-theme-settings-style.php:294
+msgid "Footer Additional Content"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:447
+#: framework/admin/settings/cmsms-theme-settings-style.php:300
+#: framework/function/theme-functions.php:187
+msgid "Footer Navigation"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:448
+#: framework/admin/settings/cmsms-theme-settings-icon.php:17
+#: framework/admin/settings/cmsms-theme-settings-icon.php:36
+#: framework/admin/settings/cmsms-theme-settings-icon.php:70
+#: framework/admin/settings/cmsms-theme-settings-style.php:177
+#: framework/admin/settings/cmsms-theme-settings-style.php:301
+msgid "Social Icons"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:449
+#: framework/admin/settings/cmsms-theme-settings-style.php:302
+msgid "Custom HTML"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:458
+#: framework/admin/settings/cmsms-theme-settings-font.php:38
+msgid "Content Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:459
+msgid "Allows you to change theme content font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:471
+#: framework/admin/customizer/cmsms-theme-customizer.php:618
+#: framework/admin/customizer/cmsms-theme-customizer.php:779
+#: framework/admin/customizer/cmsms-theme-customizer.php:1052
+#: framework/admin/customizer/cmsms-theme-customizer.php:1185
+#: framework/admin/customizer/cmsms-theme-customizer.php:1304
+#: framework/admin/customizer/cmsms-theme-customizer.php:1423
+#: framework/admin/customizer/cmsms-theme-customizer.php:1542
+#: framework/admin/customizer/cmsms-theme-customizer.php:1661
+#: framework/admin/customizer/cmsms-theme-customizer.php:1780
+#: framework/admin/customizer/cmsms-theme-customizer.php:1899
+#: framework/admin/customizer/cmsms-theme-customizer.php:2018
+#: framework/admin/customizer/cmsms-theme-customizer.php:2137
+#: framework/admin/customizer/cmsms-theme-customizer.php:2256
+#: framework/admin/customizer/cmsms-theme-customizer.php:2375
+#: framework/admin/settings/cmsms-theme-settings.php:678
+msgid "System Font"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:487
+#: framework/admin/customizer/cmsms-theme-customizer.php:634
+#: framework/admin/customizer/cmsms-theme-customizer.php:795
+#: framework/admin/customizer/cmsms-theme-customizer.php:1068
+#: framework/admin/customizer/cmsms-theme-customizer.php:1201
+#: framework/admin/customizer/cmsms-theme-customizer.php:1320
+#: framework/admin/customizer/cmsms-theme-customizer.php:1439
+#: framework/admin/customizer/cmsms-theme-customizer.php:1558
+#: framework/admin/customizer/cmsms-theme-customizer.php:1677
+#: framework/admin/customizer/cmsms-theme-customizer.php:1796
+#: framework/admin/customizer/cmsms-theme-customizer.php:1915
+#: framework/admin/customizer/cmsms-theme-customizer.php:2034
+#: framework/admin/customizer/cmsms-theme-customizer.php:2153
+#: framework/admin/customizer/cmsms-theme-customizer.php:2272
+#: framework/admin/customizer/cmsms-theme-customizer.php:2391
+#: framework/admin/settings/cmsms-theme-settings.php:692
+msgid "Google Font"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:503
+#: framework/admin/customizer/cmsms-theme-customizer.php:650
+#: framework/admin/customizer/cmsms-theme-customizer.php:811
+#: framework/admin/customizer/cmsms-theme-customizer.php:1084
+#: framework/admin/customizer/cmsms-theme-customizer.php:1217
+#: framework/admin/customizer/cmsms-theme-customizer.php:1336
+#: framework/admin/customizer/cmsms-theme-customizer.php:1455
+#: framework/admin/customizer/cmsms-theme-customizer.php:1574
+#: framework/admin/customizer/cmsms-theme-customizer.php:1693
+#: framework/admin/customizer/cmsms-theme-customizer.php:1812
+#: framework/admin/customizer/cmsms-theme-customizer.php:1931
+#: framework/admin/customizer/cmsms-theme-customizer.php:2050
+#: framework/admin/customizer/cmsms-theme-customizer.php:2169
+#: framework/admin/customizer/cmsms-theme-customizer.php:2288
+#: framework/admin/customizer/cmsms-theme-customizer.php:2407
+#: framework/admin/customizer/cmsms-theme-customizer.php:2494
+#: framework/admin/settings/cmsms-theme-settings.php:700
+msgid "Font Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:518
+#: framework/admin/customizer/cmsms-theme-customizer.php:679
+#: framework/admin/customizer/cmsms-theme-customizer.php:840
+#: framework/admin/customizer/cmsms-theme-customizer.php:1113
+#: framework/admin/customizer/cmsms-theme-customizer.php:1232
+#: framework/admin/customizer/cmsms-theme-customizer.php:1351
+#: framework/admin/customizer/cmsms-theme-customizer.php:1470
+#: framework/admin/customizer/cmsms-theme-customizer.php:1589
+#: framework/admin/customizer/cmsms-theme-customizer.php:1708
+#: framework/admin/customizer/cmsms-theme-customizer.php:1827
+#: framework/admin/customizer/cmsms-theme-customizer.php:1946
+#: framework/admin/customizer/cmsms-theme-customizer.php:2065
+#: framework/admin/customizer/cmsms-theme-customizer.php:2184
+#: framework/admin/customizer/cmsms-theme-customizer.php:2303
+#: framework/admin/customizer/cmsms-theme-customizer.php:2422
+#: framework/admin/settings/cmsms-theme-settings.php:715
+msgid "Font Size"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:534
+#: framework/admin/customizer/cmsms-theme-customizer.php:695
+#: framework/admin/customizer/cmsms-theme-customizer.php:856
+#: framework/admin/customizer/cmsms-theme-customizer.php:1129
+#: framework/admin/customizer/cmsms-theme-customizer.php:1248
+#: framework/admin/customizer/cmsms-theme-customizer.php:1367
+#: framework/admin/customizer/cmsms-theme-customizer.php:1486
+#: framework/admin/customizer/cmsms-theme-customizer.php:1605
+#: framework/admin/customizer/cmsms-theme-customizer.php:1724
+#: framework/admin/customizer/cmsms-theme-customizer.php:1843
+#: framework/admin/customizer/cmsms-theme-customizer.php:1962
+#: framework/admin/customizer/cmsms-theme-customizer.php:2081
+#: framework/admin/customizer/cmsms-theme-customizer.php:2200
+#: framework/admin/customizer/cmsms-theme-customizer.php:2319
+#: framework/admin/customizer/cmsms-theme-customizer.php:2438
+#: framework/admin/settings/cmsms-theme-settings.php:723
+msgid "Line Height"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:549
+#: framework/admin/customizer/cmsms-theme-customizer.php:710
+#: framework/admin/customizer/cmsms-theme-customizer.php:871
+#: framework/admin/customizer/cmsms-theme-customizer.php:1144
+#: framework/admin/customizer/cmsms-theme-customizer.php:1263
+#: framework/admin/customizer/cmsms-theme-customizer.php:1382
+#: framework/admin/customizer/cmsms-theme-customizer.php:1501
+#: framework/admin/customizer/cmsms-theme-customizer.php:1620
+#: framework/admin/customizer/cmsms-theme-customizer.php:1739
+#: framework/admin/customizer/cmsms-theme-customizer.php:1858
+#: framework/admin/customizer/cmsms-theme-customizer.php:1977
+#: framework/admin/customizer/cmsms-theme-customizer.php:2096
+#: framework/admin/customizer/cmsms-theme-customizer.php:2215
+#: framework/admin/customizer/cmsms-theme-customizer.php:2334
+#: framework/admin/customizer/cmsms-theme-customizer.php:2453
+#: framework/admin/settings/cmsms-theme-settings.php:737
+msgid "Font Weight"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:565
+#: framework/admin/customizer/cmsms-theme-customizer.php:726
+#: framework/admin/customizer/cmsms-theme-customizer.php:887
+#: framework/admin/customizer/cmsms-theme-customizer.php:1160
+#: framework/admin/customizer/cmsms-theme-customizer.php:1279
+#: framework/admin/customizer/cmsms-theme-customizer.php:1398
+#: framework/admin/customizer/cmsms-theme-customizer.php:1517
+#: framework/admin/customizer/cmsms-theme-customizer.php:1636
+#: framework/admin/customizer/cmsms-theme-customizer.php:1755
+#: framework/admin/customizer/cmsms-theme-customizer.php:1874
+#: framework/admin/customizer/cmsms-theme-customizer.php:1993
+#: framework/admin/customizer/cmsms-theme-customizer.php:2112
+#: framework/admin/customizer/cmsms-theme-customizer.php:2231
+#: framework/admin/customizer/cmsms-theme-customizer.php:2350
+#: framework/admin/customizer/cmsms-theme-customizer.php:2469
+#: framework/admin/settings/cmsms-theme-settings.php:751
+msgid "Font Style"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:581
+msgid "Bottom Font Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:595
+msgid "Bottom Headings Font Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:605
+#: framework/admin/settings/cmsms-theme-settings-font.php:44
+msgid "Links Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:606
+msgid "Allows you to change theme links font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:664
+#: framework/admin/customizer/cmsms-theme-customizer.php:825
+#: framework/admin/customizer/cmsms-theme-customizer.php:1098
+msgid "Font Hover Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:742
+#: framework/admin/settings/cmsms-theme-settings-font.php:685
+msgid "Bottom Content Font Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:756
+msgid "Bottom Content Font Hover Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:766
+msgid "Navigation Title Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:767
+msgid "Allows you to change theme navigation title font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:903
+msgid "Background Color 1"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:917
+msgid "Background Color 2"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:931
+msgid "Background Color 3"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:945
+msgid "Background Color 4"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:959
+msgid "Background Color 5"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:973
+msgid "Background Color 6"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:987
+msgid "Background Color 7"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1001
+msgid "Background Color 8"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1015
+msgid "Background Color 9"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1029
+msgid "Background Color 10"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1039
+msgid "Navigation Dropdown Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1040
+msgid "Allows you to change theme navigation dropdown font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1172
+msgid "H1 Heading Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1173
+msgid "Allows you to change theme H1 heading font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1291
+msgid "H2 Heading Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1292
+msgid "Allows you to change theme H2 heading font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1410
+msgid "H3 Heading Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1411
+msgid "Allows you to change theme H3 heading font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1529
+msgid "H4 Heading Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1530
+msgid "Allows you to change theme H4 heading font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1648
+msgid "H5 Heading Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1649
+msgid "Allows you to change theme H5 heading font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1767
+msgid "H6 Heading Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1768
+msgid "Allows you to change theme H6 heading font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1886
+msgid "Blockquote Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:1887
+msgid "Allows you to change theme blockquote font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2005
+msgid "Dropcap Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2006
+msgid "Allows you to change theme dropcap font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2124
+msgid "Code Tag Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2125
+msgid "Allows you to change theme code tag font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2243
+msgid "Small Tag Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2244
+msgid "Allows you to change theme small tag font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2362
+msgid "Text Fields Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2363
+msgid "Allows you to change theme text fields font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2481
+msgid "Footer Font Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2482
+msgid "Allows you to change theme footer font options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2508
+msgid "Links Font Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2522
+#: framework/admin/settings/cmsms-theme-settings-font.php:205
+msgid "Footer Links Font Hover Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2532
+#: framework/admin/settings/cmsms-theme-settings-blog.php:30
+msgid "Blog Page Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2533
+msgid "Allows you to change theme blog page template options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2544
+#: framework/admin/customizer/cmsms-theme-customizer.php:2651
+#: framework/admin/settings/cmsms-theme-settings-blog.php:59
+#: framework/admin/settings/cmsms-theme-settings-blog.php:138
+msgid "Post Date"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2558
+#: framework/admin/customizer/cmsms-theme-customizer.php:2665
+#: framework/admin/settings/cmsms-theme-settings-blog.php:68
+#: framework/admin/settings/cmsms-theme-settings-blog.php:147
+msgid "Post Categories"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2572
+#: framework/admin/customizer/cmsms-theme-customizer.php:2679
+#: framework/admin/settings/cmsms-theme-settings-blog.php:77
+#: framework/admin/settings/cmsms-theme-settings-blog.php:156
+msgid "Post Author"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2586
+#: framework/admin/customizer/cmsms-theme-customizer.php:2693
+#: framework/admin/settings/cmsms-theme-settings-blog.php:86
+#: framework/admin/settings/cmsms-theme-settings-blog.php:165
+msgid "Post Comments"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2600
+#: framework/admin/customizer/cmsms-theme-customizer.php:2707
+#: framework/admin/settings/cmsms-theme-settings-blog.php:95
+#: framework/admin/settings/cmsms-theme-settings-blog.php:174
+msgid "Post Tags"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2614
+#: framework/admin/customizer/cmsms-theme-customizer.php:3168
+#: framework/admin/options/cmsms-theme-options-post.php:305
+#: framework/admin/options/cmsms-theme-options-project.php:208
+#: framework/admin/options/cmsms-theme-options-testimonial.php:133
+#: framework/admin/settings/cmsms-theme-settings-blog.php:104
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:104
+#: framework/function/template-functions.php:741
+#: framework/function/template-functions.php:750
+#: framework/function/template-functions.php:761
+msgid "Read More"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2625
+#: framework/admin/settings/cmsms-theme-settings-blog.php:36
+msgid "Blog Post Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2626
+msgid "Allows you to change theme blog post options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2637
+#: framework/admin/settings/cmsms-theme-settings-blog.php:129
+msgid "Post Title"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2721
+#: framework/admin/settings/cmsms-theme-settings-blog.php:183
+msgid "Posts Navigation Box"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2735
+#: framework/admin/settings/cmsms-theme-settings-blog.php:228
+msgid "Related, Popular & Latest Posts Boxes Items Number"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2750
+#: framework/admin/settings/cmsms-theme-settings-blog.php:237
+msgid "Standard Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2764
+#: framework/admin/settings/cmsms-theme-settings-blog.php:246
+msgid "Aside Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2778
+#: framework/admin/settings/cmsms-theme-settings-blog.php:255
+msgid "Quote Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2792
+#: framework/admin/settings/cmsms-theme-settings-blog.php:264
+msgid "Link Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2806
+#: framework/admin/settings/cmsms-theme-settings-blog.php:273
+msgid "Image Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2820
+#: framework/admin/settings/cmsms-theme-settings-blog.php:282
+msgid "Gallery Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2834
+#: framework/admin/customizer/cmsms-theme-customizer.php:3076
+#: framework/admin/settings/cmsms-theme-settings-blog.php:291
+msgid "Video Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2848
+#: framework/admin/settings/cmsms-theme-settings-blog.php:300
+msgid "Audio Post Format Icon Color"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2858
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:30
+msgid "Portfolio Page Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2859
+msgid "Allows you to change theme portfolio page template options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2870
+#: framework/admin/customizer/cmsms-theme-customizer.php:2921
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:59
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:102
+msgid "Project Title"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2884
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:68
+msgid "Project Description"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2898
+#: framework/admin/customizer/cmsms-theme-customizer.php:2949
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:77
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:120
+msgid "Project Categories"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2909
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:36
+msgid "Portfolio Project Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2910
+msgid "Allows you to change theme portfolio project options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2935
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:111
+msgid "Project Date"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2963
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:129
+msgid "Project Author"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2977
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:138
+msgid "Project Comments"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2991
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:147
+msgid "Project Tags"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3005
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:156
+#: framework/function/template-functions.php:556
+msgid "Project Link"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3019
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:165
+msgid "Projects Navigation Box"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3033
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:210
+msgid "Related, Popular & Latest Projects Boxes Items Number"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3048
+msgid "Portfolio Project Format Album"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3062
+msgid "Portfolio Project Format Slider"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3086
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:30
+msgid "Testimonials Page Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3087
+msgid "Allows you to change theme testimonials page template options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3098
+#: framework/admin/customizer/cmsms-theme-customizer.php:3191
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:59
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:129
+msgid "Testimonial Author Avatar"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3112
+#: framework/admin/customizer/cmsms-theme-customizer.php:3205
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:68
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:138
+msgid "Testimonial Author Description"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3126
+#: framework/admin/customizer/cmsms-theme-customizer.php:3219
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:77
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:147
+msgid "Testimonial Date"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3140
+#: framework/admin/customizer/cmsms-theme-customizer.php:3233
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:86
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:156
+msgid "Testimonial Categories"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3154
+#: framework/admin/customizer/cmsms-theme-customizer.php:3247
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:95
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:165
+msgid "Testimonial Comments"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3179
+msgid "Testimonials Post Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3180
+msgid "Allows you to change theme testimonials posts options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3261
+msgid "Testimonial Navigation Box"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3275
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:208
+msgid "Popular & Latest Testimonials Boxes Items Number"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3286
+msgid "Sitemap Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3287
+msgid "Allows you to change theme sitemap page template options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3379
+#: framework/admin/settings/cmsms-theme-settings-general.php:56
+msgid "404 Error Page Options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3380
+msgid "Allows you to change theme 404 error page options"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3391
+#: framework/admin/settings/cmsms-theme-settings-general.php:195
+msgid "Search Line"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3405
+#: framework/admin/settings/cmsms-theme-settings-general.php:204
+msgid "Sitemap Button"
+msgstr ""
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:3419
+#: framework/admin/settings/cmsms-theme-settings-general.php:213
+msgid "Sitemap Page URL"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:33
+#: framework/admin/options/cmsms-theme-options-page.php:33
+#: framework/admin/options/cmsms-theme-options-page.php:60
+#: framework/admin/options/cmsms-theme-options-post.php:56
+#: framework/admin/options/cmsms-theme-options-post.php:83
+#: framework/admin/options/cmsms-theme-options-project.php:55
+#: framework/admin/options/cmsms-theme-options-project.php:82
+#: framework/admin/options/cmsms-theme-options-testimonial.php:54
+#: framework/admin/options/cmsms-theme-options-testimonial.php:77
+#: framework/admin/settings/cmsms-theme-settings-style.php:16
+msgid "Background"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:34
+msgid "Use Default"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:49
+#: framework/admin/settings/cmsms-theme-settings-style.php:82
+msgid "Background Image Visibility"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:165
+#: framework/admin/options/cmsms-theme-options-page.php:37
+#: framework/admin/options/cmsms-theme-options-page.php:64
+#: framework/admin/options/cmsms-theme-options-post.php:60
+#: framework/admin/options/cmsms-theme-options-post.php:87
+#: framework/admin/options/cmsms-theme-options-project.php:59
+#: framework/admin/options/cmsms-theme-options-project.php:86
+#: framework/admin/options/cmsms-theme-options-testimonial.php:58
+#: framework/admin/options/cmsms-theme-options-testimonial.php:81
+msgid "Heading"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:173
+#: framework/admin/options/cmsms-theme-options-general.php:228
+msgid "Default"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:177
+#: framework/admin/options/cmsms-theme-options-general.php:232
+msgid "Custom"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:181
+#: framework/admin/options/cmsms-theme-options-general.php:236
+#: framework/admin/options/cmsms-theme-options-page.php:310
+msgid "Disabled"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:187
+msgid "Heading Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:195
+msgid "Heading Subtitle"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:203
+msgid "Heading Icon"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:220
+#: framework/admin/options/cmsms-theme-options-page.php:41
+#: framework/admin/options/cmsms-theme-options-page.php:68
+#: framework/admin/options/cmsms-theme-options-post.php:64
+#: framework/admin/options/cmsms-theme-options-post.php:91
+#: framework/admin/options/cmsms-theme-options-project.php:63
+#: framework/admin/options/cmsms-theme-options-project.php:90
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:242
+msgid "Custom Breadcrumbs"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:264
+#: framework/admin/settings/cmsms-theme-settings-general.php:234
+msgid "We recommend you enter no more than 60 characters."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:271
+#: framework/class/projects-posttype.php:106
+#: framework/class/testimonials-posttype.php:83
+msgid "Description"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:272
+#: framework/admin/settings/cmsms-theme-settings-general.php:243
+msgid "We recommend you enter no more than 160 characters."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:279
+msgid "Keywords"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:29
+#: framework/admin/options/cmsms-theme-options-page.php:56
+#: framework/admin/options/cmsms-theme-options-post.php:52
+#: framework/admin/options/cmsms-theme-options-post.php:79
+#: framework/admin/options/cmsms-theme-options-project.php:51
+#: framework/admin/options/cmsms-theme-options-project.php:78
+#: framework/admin/options/cmsms-theme-options-testimonial.php:50
+#: framework/admin/options/cmsms-theme-options-testimonial.php:73
+msgid "Layout"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:45
+#: framework/admin/options/cmsms-theme-options-page.php:72
+#: framework/admin/options/cmsms-theme-options-page.php:302
+#: framework/admin/options/cmsms-theme-options-project.php:219
+msgid "Slider"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:49
+#: framework/admin/options/cmsms-theme-options-post.php:68
+#: framework/admin/options/cmsms-theme-options-project.php:67
+#: framework/admin/options/cmsms-theme-options-testimonial.php:62
+#: framework/admin/settings/cmsms-theme-settings-general.php:20
+msgid "SEO"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:87
+msgid "Order Type"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:95
+msgid "Order by Date"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:99
+msgid "Order by Name"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:103
+msgid "Menu Order"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:107
+msgid "Random Order"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:113
+#: framework/class/projects-posttype.php:109
+#: framework/class/testimonials-posttype.php:85
+msgid "Order"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:121
+msgid "DESC"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:125
+msgid "ASC"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:131
+msgid "Items per Page"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:140
+msgid ""
+"If you do not choose any of the post categories, then this page will show "
+"all the posts."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:147
+#: framework/admin/options/cmsms-theme-options-project.php:113
+msgid "Number of Columns"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:155
+msgid "One Column"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:159
+msgid "Two Columns"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:163
+msgid "Three Columns"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:167
+msgid "Four Columns"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:173
+msgid "Projects Filter & Sort"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:182
+msgid ""
+"If you do not choose any of the project types, then this page will show all "
+"the projects."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:189
+msgid "Testimonial Category"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:190
+msgid ""
+"If you do not choose any of the testimonial categories, then this page will "
+"show all the testimonials."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:212
+#: framework/admin/options/cmsms-theme-options-post.php:363
+#: framework/admin/options/cmsms-theme-options-testimonial.php:171
+msgid "Page Layout"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:221
+#: framework/admin/options/cmsms-theme-options-post.php:372
+#: framework/admin/options/cmsms-theme-options-testimonial.php:180
+#: framework/admin/settings/cmsms-theme-settings-blog.php:120
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:93
+#: framework/admin/settings/cmsms-theme-settings-style.php:247
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:120
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:226
+#: framework/admin/options/cmsms-theme-options-post.php:377
+#: framework/admin/options/cmsms-theme-options-testimonial.php:185
+#: framework/admin/settings/cmsms-theme-settings-blog.php:121
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:94
+#: framework/admin/settings/cmsms-theme-settings-style.php:248
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:121
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:231
+#: framework/admin/options/cmsms-theme-options-post.php:382
+#: framework/admin/options/cmsms-theme-options-testimonial.php:190
+#: framework/admin/settings/cmsms-theme-settings-blog.php:122
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:95
+#: framework/admin/settings/cmsms-theme-settings-style.php:249
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:122
+msgid "Full Width"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:237
+#: framework/admin/options/cmsms-theme-options-post.php:388
+#: framework/admin/options/cmsms-theme-options-testimonial.php:196
+msgid "Choose Right\\Left Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:245
+#: framework/admin/options/cmsms-theme-options-post.php:396
+#: framework/admin/options/cmsms-theme-options-project.php:320
+#: framework/admin/options/cmsms-theme-options-testimonial.php:204
+#: framework/function/theme-functions.php:127
+msgid "Top Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:253
+#: framework/admin/options/cmsms-theme-options-post.php:404
+#: framework/admin/options/cmsms-theme-options-project.php:328
+#: framework/admin/options/cmsms-theme-options-testimonial.php:212
+msgid "Choose Top Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:261
+#: framework/admin/options/cmsms-theme-options-post.php:412
+#: framework/admin/options/cmsms-theme-options-project.php:336
+#: framework/admin/options/cmsms-theme-options-testimonial.php:220
+#: framework/function/theme-functions.php:139
+msgid "Middle Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:269
+#: framework/admin/options/cmsms-theme-options-post.php:420
+#: framework/admin/options/cmsms-theme-options-project.php:344
+#: framework/admin/options/cmsms-theme-options-testimonial.php:228
+msgid "Choose Middle Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:277
+#: framework/admin/options/cmsms-theme-options-post.php:428
+#: framework/admin/options/cmsms-theme-options-project.php:352
+#: framework/admin/options/cmsms-theme-options-testimonial.php:236
+#: framework/function/theme-functions.php:151
+msgid "Bottom Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:285
+#: framework/admin/options/cmsms-theme-options-post.php:436
+#: framework/admin/options/cmsms-theme-options-project.php:360
+#: framework/admin/options/cmsms-theme-options-testimonial.php:244
+msgid "Choose Bottom Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:314
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:318
+msgid "Layer Slider"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:324
+msgid "Revolution Slider Short Code"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:332
+msgid "Layer Slider Short Code"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-page.php:349
+msgid "Page Options"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:48
+#: framework/admin/options/cmsms-theme-options-post.php:75
+#: framework/admin/settings/cmsms-theme-settings-blog.php:17
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:17
+msgid "Post"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:106
+msgid "Aside Text"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:124
+msgid "Quote Text"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:132
+msgid "Quote Author"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:150
+msgid "Link Text"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:158
+msgid "Link Address"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:176
+msgid "Post Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:195
+msgid "Post Images"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:213
+#: framework/admin/options/cmsms-theme-options-project.php:149
+msgid "Video Type"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:221
+#: framework/admin/options/cmsms-theme-options-project.php:157
+msgid "Embeded (YouTube, Vimeo)"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:225
+#: framework/admin/options/cmsms-theme-options-project.php:161
+msgid "Self-Hosted"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:231
+#: framework/admin/options/cmsms-theme-options-project.php:167
+msgid "Embeded Video Link"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:239
+#: framework/admin/options/cmsms-theme-options-project.php:175
+msgid "Self-Hosted Video Links"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:262
+msgid "Audio Links"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:300
+#: framework/admin/options/cmsms-theme-options-project.php:203
+#: framework/admin/options/cmsms-theme-options-testimonial.php:128
+msgid "'Read More' Button Text"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:308
+#: framework/admin/options/cmsms-theme-options-project.php:233
+msgid "Featured Image as Cover"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:316
+#: framework/admin/options/cmsms-theme-options-project.php:273
+#: framework/admin/options/cmsms-theme-options-testimonial.php:136
+#: framework/admin/settings/cmsms-theme-settings-blog.php:192
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:174
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:183
+msgid "Sharing Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:324
+#: framework/admin/options/cmsms-theme-options-project.php:281
+#: framework/admin/settings/cmsms-theme-settings-blog.php:201
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:183
+msgid "About Author Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:332
+#: framework/admin/options/cmsms-theme-options-project.php:289
+#: framework/admin/options/cmsms-theme-options-testimonial.php:144
+#: framework/admin/settings/cmsms-theme-settings-blog.php:210
+msgid "More Posts Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:453
+msgid "Post Options"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:47
+#: framework/admin/options/cmsms-theme-options-project.php:74
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:17
+#: framework/class/projects-posttype.php:17
+msgid "Project"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:105
+msgid "Project Images"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:121
+msgid "Four"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:125
+msgid "Three"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:129
+msgid "Two"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:133
+msgid "One"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:211
+msgid "Project Format"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:223
+#: framework/class/projects-posttype.php:133
+msgid "Album"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:241
+msgid "Project Features"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:249
+msgid "Project Link Button Text"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:254
+msgid "Click Here"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:257
+msgid "Project Link Button URL"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:265
+msgid "Project Link Target"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:266
+msgid "Open link in a new tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:297
+#: framework/admin/settings/cmsms-theme-settings-blog.php:219
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:201
+msgid "Show Related Tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:301
+#: framework/admin/options/cmsms-theme-options-testimonial.php:152
+#: framework/admin/settings/cmsms-theme-settings-blog.php:220
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:202
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:200
+msgid "Show Popular Tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:305
+#: framework/admin/options/cmsms-theme-options-testimonial.php:156
+#: framework/admin/settings/cmsms-theme-settings-blog.php:221
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:203
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:201
+msgid "Show Recent Tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:377
+msgid "Project Options"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-testimonial.php:46
+#: framework/admin/options/cmsms-theme-options-testimonial.php:69
+msgid "Testimonial"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-testimonial.php:101
+#: framework/function/template-functions.php:648
+msgid "Author"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-testimonial.php:110
+msgid "Author link"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-testimonial.php:119
+msgid "Company"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-testimonial.php:261
+msgid "Testimonial Options"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:235
+msgid "Default Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:254
+msgid "Select Slider"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:271
+msgid "Select Blog Category"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:289
+msgid "Select Project Type"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:308
+msgid "Select Testimonial Category"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:341
+#: framework/admin/settings/cmsms-theme-settings.php:634
+msgid "Choose Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:343
+#: framework/admin/settings/cmsms-theme-settings.php:637
+msgid "Default Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:356
+#: framework/admin/settings/cmsms-theme-settings.php:649
+msgid "Choose image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:392
+#: framework/class/widgets.php:745
+msgid "Add new heading icons"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:392
+#: framework/class/widgets.php:745 js/jquery.jTweetsAnywhere.min.php:1154
+msgid "here"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:493
+msgid "Blank Field"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:494
+msgid "Select Link"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:496
+msgid "Posts"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:510
+#: framework/class/projects-posttype.php:16
+#: framework/class/projects-posttype.php:27
+msgid "Projects"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:525
+msgid "Values"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:567
+msgid "Select Format"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:620
+#: framework/admin/options/cmsms-theme-options.php:645
+msgid "Choose images"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-blog.php:16
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:16
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:16
+msgid "Page"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-blog.php:60
+#: framework/admin/settings/cmsms-theme-settings-blog.php:69
+#: framework/admin/settings/cmsms-theme-settings-blog.php:78
+#: framework/admin/settings/cmsms-theme-settings-blog.php:87
+#: framework/admin/settings/cmsms-theme-settings-blog.php:96
+#: framework/admin/settings/cmsms-theme-settings-blog.php:105
+#: framework/admin/settings/cmsms-theme-settings-blog.php:130
+#: framework/admin/settings/cmsms-theme-settings-blog.php:139
+#: framework/admin/settings/cmsms-theme-settings-blog.php:148
+#: framework/admin/settings/cmsms-theme-settings-blog.php:157
+#: framework/admin/settings/cmsms-theme-settings-blog.php:166
+#: framework/admin/settings/cmsms-theme-settings-blog.php:175
+#: framework/admin/settings/cmsms-theme-settings-blog.php:184
+#: framework/admin/settings/cmsms-theme-settings-blog.php:193
+#: framework/admin/settings/cmsms-theme-settings-blog.php:202
+#: framework/admin/settings/cmsms-theme-settings-general.php:140
+#: framework/admin/settings/cmsms-theme-settings-general.php:149
+#: framework/admin/settings/cmsms-theme-settings-general.php:158
+#: framework/admin/settings/cmsms-theme-settings-general.php:167
+#: framework/admin/settings/cmsms-theme-settings-general.php:176
+#: framework/admin/settings/cmsms-theme-settings-general.php:185
+#: framework/admin/settings/cmsms-theme-settings-general.php:196
+#: framework/admin/settings/cmsms-theme-settings-general.php:205
+#: framework/admin/settings/cmsms-theme-settings-logo.php:114
+#: framework/admin/settings/cmsms-theme-settings-logo.php:133
+#: framework/admin/settings/cmsms-theme-settings-logo.php:154
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:60
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:69
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:78
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:103
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:112
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:121
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:130
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:139
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:148
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:157
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:166
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:175
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:184
+#: framework/admin/settings/cmsms-theme-settings-style.php:83
+#: framework/admin/settings/cmsms-theme-settings-style.php:178
+#: framework/admin/settings/cmsms-theme-settings-style.php:205
+#: framework/admin/settings/cmsms-theme-settings-style.php:257
+#: framework/admin/settings/cmsms-theme-settings-style.php:266
+#: framework/admin/settings/cmsms-theme-settings-style.php:275
+#: framework/admin/settings/cmsms-theme-settings-style.php:284
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:60
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:69
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:78
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:87
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:96
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:105
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:130
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:139
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:148
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:157
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:166
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:175
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:184
+msgid "show"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-blog.php:115
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:88
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:115
+msgid "Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-blog.php:229
+msgid "posts"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:17
+msgid "Links"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:18
+msgid "Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:19
+msgid "H1"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:20
+msgid "H2"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:21
+msgid "H3"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:22
+msgid "H4"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:23
+msgid "H5"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:24
+msgid "H6"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:25
+msgid "Other"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:50
+msgid "Navigation Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:56
+msgid "H1 Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:62
+msgid "H2 Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:68
+msgid "H3 Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:74
+msgid "H4 Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:80
+msgid "H5 Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:86
+msgid "H6 Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:92
+msgid "Other Fonts Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:115
+msgid "Main Content Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:143
+msgid "Links Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:169
+msgid "Links Font Hover Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:178
+msgid "Bottom Content Links Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:187
+msgid "Bottom Content Links Font Hover Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:196
+msgid "Footer Links Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:216
+msgid "Navigation Title Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:242
+msgid "Navigation Title Hover Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:251
+msgid "Navigation Dropdown Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:277
+msgid "Navigation Dropdown Hover Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:286
+msgid "Navigation Title Hover Background Color 1"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:295
+msgid "Navigation Title Hover Background Color 2"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:304
+msgid "Navigation Title Hover Background Color 3"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:313
+msgid "Navigation Title Hover Background Color 4"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:322
+msgid "Navigation Title Hover Background Color 5"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:331
+msgid "Navigation Title Hover Background Color 6"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:340
+msgid "Navigation Title Hover Background Color 7"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:349
+msgid "Navigation Title Hover Background Color 8"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:358
+msgid "Navigation Title Hover Background Color 9"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:367
+msgid "Navigation Title Hover Background Color 10"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:378
+msgid "H1 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:406
+msgid "H2 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:434
+msgid "H3 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:462
+msgid "H4 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:490
+msgid "H5 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:518
+msgid "H6 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:546
+msgid "Blockquote Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:572
+msgid "Dropcap Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:598
+msgid "Code Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:624
+msgid "Small Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:650
+msgid "Text Fields Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:676
+msgid "Bottom Headings Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:694
+msgid "Footer Content Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:16
+#: framework/admin/settings/cmsms-theme-settings.php:366
+msgid "General"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:17
+msgid "Sidebars"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:19
+msgid "404"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:21
+#: framework/admin/settings/cmsms-theme-settings-general.php:68
+msgid "Custom Codes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:24
+msgid "reCAPTCHA"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:44
+#: framework/admin/settings/cmsms-theme-settings-general.php:128
+msgid "Custom Sidebars"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:50
+msgid "Sitemap Page Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:62
+msgid "SEO Tools"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:75
+msgid "Form Builder Plugin reCAPTCHA Keys"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:109
+#: framework/admin/settings/cmsms-theme-settings-general.php:118
+#: framework/admin/settings/cmsms-theme-settings-general.php:225
+msgid "enable"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:224
+msgid "SEO Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:233
+msgid "Default Title"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:242
+msgid "Default Description"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:252
+msgid "Default Keywords"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:264
+msgid "Google Analytics"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:274
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:284
+msgid "Custom JavaScript"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:297
+msgid "reCAPTCHA Public Key"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:306
+msgid "reCAPTCHA Private Key"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-icon.php:16
+#: framework/admin/settings/cmsms-theme-settings-icon.php:30
+#: framework/admin/settings/cmsms-theme-settings-icon.php:59
+msgid "Heading Icons"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:16
+msgid "Image Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:18
+#: framework/admin/settings/cmsms-theme-settings-logo.php:153
+msgid "Favicon"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:31
+msgid "Image Logo Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:37
+msgid "Text Logo Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:43
+msgid "Favicon Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:66
+msgid "Custom Logo URL"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:67
+msgid "Choose your custom website logo image url."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:75
+msgid "Logo Image Width"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:76
+#: framework/admin/settings/cmsms-theme-settings-logo.php:85
+#: framework/admin/settings/cmsms-theme-settings-logo.php:94
+#: framework/admin/settings/cmsms-theme-settings-logo.php:103
+#: framework/admin/settings/cmsms-theme-settings-style.php:151
+#: framework/admin/settings/cmsms-theme-settings-style.php:160
+#: framework/admin/settings/cmsms-theme-settings-style.php:169
+#: framework/admin/settings/cmsms-theme-settings-style.php:187
+#: framework/admin/settings/cmsms-theme-settings-style.php:196
+#: framework/admin/settings/cmsms-theme-settings-style.php:214
+#: framework/admin/settings/cmsms-theme-settings-style.php:223
+msgid "pixels"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:84
+msgid "Logo Image Height"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:93
+msgid "Logo Top Position"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:102
+msgid "Logo Left Position"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:162
+msgid "Custom Favicon URL"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-logo.php:163
+msgid "Choose your custom website favicon image url."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:192
+msgid "More Projects Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:211
+msgid "projects"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:219
+msgid "Project Album Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:228
+msgid "Project Slider Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-portfolio.php:237
+msgid "Project Video Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:44
+msgid "Content Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:92
+msgid "Choose your custom website background image url."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:204
+msgid "Header Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:213
+msgid "Header Custom HTML Top Position"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:222
+msgid "Header Custom HTML Right Position"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:232
+#: framework/admin/settings/cmsms-theme-settings-style.php:310
+msgid "HTML tags are allowed!"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:242
+msgid "Default Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:256
+msgid "Breadcrumbs Default Visibility"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:265
+msgid "Top Sidebar Default Visibility"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:274
+msgid "Middle Sidebar Default Visibility"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:283
+msgid "Bottom Sidebar Default Visibility"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:309
+msgid "Footer Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:36
+msgid "Testimonial Post Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:174
+msgid "Testimonials Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:192
+msgid "More Testimonials Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:209
+msgid "testimonials"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:40
+#: framework/admin/settings/cmsms-theme-settings.php:365
+msgid "Theme General Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:79
+#: framework/admin/settings/cmsms-theme-settings.php:377
+msgid "Theme Appearance"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:106
+#: framework/admin/settings/cmsms-theme-settings.php:389
+msgid "Theme Logo Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:129
+#: framework/admin/settings/cmsms-theme-settings.php:401
+msgid "Theme Fonts Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:180
+#: framework/admin/settings/cmsms-theme-settings.php:413
+msgid "Theme Icons Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:199
+#: framework/admin/settings/cmsms-theme-settings.php:425
+msgid "Theme Blog Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:218
+#: framework/admin/settings/cmsms-theme-settings.php:437
+msgid "Theme Portfolio Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:237
+#: framework/admin/settings/cmsms-theme-settings.php:449
+msgid "Theme Testimonials Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:277
+msgid "Default Field"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:278
+msgid "This is a default description."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:353
+#: framework/admin/settings/cmsms-theme-settings.php:354
+#: framework/function/theme-functions.php:243
+#: framework/function/theme-functions.php:250
+msgid "Theme Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:378
+msgid "Appearance"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:390
+msgid "Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:402
+msgid "Fonts"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:414
+msgid "Icons"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:426
+msgid "Blog"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:438
+msgid "Portfolio"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:793
+msgid "Add Sidebar"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:821
+msgid "Add Icons"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:857
+#: framework/admin/settings/cmsms-theme-settings.php:958
+msgid "Choose heading icons"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:881
+msgid "Choose Color for This Icon"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:884
+msgid "Enter Link for This Icon"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:887
+msgid "Open Link in a New Tab"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:891
+msgid "Choose new social icon image"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:893
+msgid "Add Icon"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:894
+msgid "Save Icon"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:988
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1008
+msgid "Expecting a Numeric value!"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1014
+#: framework/admin/settings/cmsms-theme-settings.php:1282
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1024
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1033
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1055
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1057
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1064
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1276
+msgid "Number!"
+msgstr ""
+
+#: framework/class/projects-posttype.php:18
+#: framework/class/testimonials-posttype.php:18
+msgid "Add New"
+msgstr ""
+
+#: framework/class/projects-posttype.php:19
+msgid "All Projects"
+msgstr ""
+
+#: framework/class/projects-posttype.php:20
+msgid "Add New Project"
+msgstr ""
+
+#: framework/class/projects-posttype.php:21
+msgid "Edit Project"
+msgstr ""
+
+#: framework/class/projects-posttype.php:22
+msgid "New Project"
+msgstr ""
+
+#: framework/class/projects-posttype.php:23
+msgid "View Project"
+msgstr ""
+
+#: framework/class/projects-posttype.php:24
+msgid "Search Projects"
+msgstr ""
+
+#: framework/class/projects-posttype.php:25
+msgid "No Projects found"
+msgstr ""
+
+#: framework/class/projects-posttype.php:26
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: framework/class/projects-posttype.php:66
+#: framework/class/projects-posttype.php:107
+#: framework/class/testimonials-posttype.php:65
+#: framework/class/testimonials-posttype.php:66
+#: framework/class/testimonials-posttype.php:84
+#: framework/class/widgets-default.php:535
+#: framework/class/widgets-default.php:541
+#: framework/function/template-functions.php:576
+#: framework/function/template-functions.php:589
+#: framework/function/template-functions.php:594
+msgid "Categories"
+msgstr ""
+
+#: framework/class/projects-posttype.php:76
+#: framework/class/projects-posttype.php:108
+#: framework/class/widgets-default.php:1182
+#: framework/function/template-functions.php:688
+#: framework/function/template-functions.php:705
+#: framework/function/template-functions.php:713
+msgid "Tags"
+msgstr ""
+
+#: framework/class/projects-posttype.php:77
+msgid "Tag"
+msgstr ""
+
+#: framework/class/projects-posttype.php:86
+msgid "Types"
+msgstr ""
+
+#: framework/class/projects-posttype.php:104
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/class/projects-posttype.php:105
+msgid "Format"
+msgstr ""
+
+#: framework/class/projects-posttype.php:125
+msgid "No Thumbnail"
+msgstr ""
+
+#: framework/class/projects-posttype.php:141
+#: framework/class/testimonials-posttype.php:109
+msgid "No Description"
+msgstr ""
+
+#: framework/class/projects-posttype.php:156
+#: framework/class/testimonials-posttype.php:124
+msgid "Uncategorized"
+msgstr ""
+
+#: framework/class/projects-posttype.php:171
+msgid "No Tags"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:19
+msgid "All Testimonials"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:20
+msgid "Add New Testimonial"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:21
+msgid "Edit Testimonial"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:22
+msgid "New Testimonial"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:23
+msgid "View Testimonial"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:24
+msgid "Search Testimonials"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:25
+msgid "No Testimonials found"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:26
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:82
+msgid "Avatar"
+msgstr ""
+
+#: framework/class/testimonials-posttype.php:101
+msgid "No Avatar"
+msgstr ""
+
+#: framework/class/widgets-default.php:98
+#: framework/class/widgets-default.php:159
+#: framework/class/widgets-default.php:278
+#: framework/class/widgets-default.php:354
+#: framework/class/widgets-default.php:425
+#: framework/class/widgets-default.php:509
+#: framework/class/widgets-default.php:629
+#: framework/class/widgets-default.php:765
+#: framework/class/widgets-default.php:904
+#: framework/class/widgets-default.php:1093
+#: framework/class/widgets-default.php:1237
+#: framework/class/widgets-default.php:1340 framework/class/widgets.php:211
+#: framework/class/widgets.php:380 framework/class/widgets.php:519
+#: framework/class/widgets.php:598 framework/class/widgets.php:757
+#: framework/class/widgets.php:858 framework/class/widgets.php:1043
+#: framework/class/widgets.php:1242 framework/class/widgets.php:1461
+#: framework/class/widgets.php:1683 framework/class/widgets.php:2117
+#: framework/class/widgets.php:2317 framework/class/widgets.php:2429
+msgid "Choose the width of widget"
+msgstr ""
+
+#: framework/class/widgets-default.php:99
+#: framework/class/widgets-default.php:160
+#: framework/class/widgets-default.php:279
+#: framework/class/widgets-default.php:355
+#: framework/class/widgets-default.php:426
+#: framework/class/widgets-default.php:510
+#: framework/class/widgets-default.php:630
+#: framework/class/widgets-default.php:766
+#: framework/class/widgets-default.php:905
+#: framework/class/widgets-default.php:1094
+#: framework/class/widgets-default.php:1238
+#: framework/class/widgets-default.php:1341 framework/class/widgets.php:212
+#: framework/class/widgets.php:381 framework/class/widgets.php:520
+#: framework/class/widgets.php:599 framework/class/widgets.php:758
+#: framework/class/widgets.php:859 framework/class/widgets.php:1044
+#: framework/class/widgets.php:1243 framework/class/widgets.php:1462
+#: framework/class/widgets.php:1684 framework/class/widgets.php:2118
+#: framework/class/widgets.php:2318 framework/class/widgets.php:2430
+msgid "Only for horizontal sidebars"
+msgstr ""
+
+#: framework/function/theme-functions.php:462
+#: framework/function/theme-functions.php:471
+msgid "RSS"
+msgstr ""
+
+#: framework/class/widgets.php:20
+msgid "Your advertisement"
+msgstr ""
+
+#: framework/class/widgets.php:26
+msgid "CMSMS - Advertisement"
+msgstr ""
+
+#: framework/class/widgets.php:32
+msgid "Advertisement"
+msgstr ""
+
+#: framework/class/widgets.php:237
+msgid "Your contact information"
+msgstr ""
+
+#: framework/class/widgets.php:243
+msgid "CMSMS - Contact Information"
+msgstr ""
+
+#: framework/class/widgets.php:249
+msgid "Contact Information"
+msgstr ""
+
+#: framework/class/widgets.php:293 framework/class/widgets.php:369
+msgid "Phone"
+msgstr ""
+
+#: framework/class/widgets.php:354
+msgid "City"
+msgstr ""
+
+#: framework/class/widgets.php:359
+msgid "State"
+msgstr ""
+
+#: framework/class/widgets.php:364
+msgid "Zip"
+msgstr ""
+
+#: framework/class/widgets.php:406
+msgid "Divider for widgets rows"
+msgstr ""
+
+#: framework/class/widgets.php:409
+msgid "CMSMS - Divider"
+msgstr ""
+
+#: framework/class/widgets.php:462
+msgid "Video from youtube, vimeo or dailymotion"
+msgstr ""
+
+#: framework/class/widgets.php:465
+msgid "CMSMS - Embeded Video"
+msgstr ""
+
+#: framework/class/widgets.php:513
+msgid "Video URL"
+msgstr ""
+
+#: framework/class/widgets.php:545
+msgid "Your Facebook like box"
+msgstr ""
+
+#: framework/class/widgets.php:548
+msgid "CMSMS - Facebook"
+msgstr ""
+
+#: framework/class/widgets.php:554
+msgid "Facebook"
+msgstr ""
+
+#: framework/class/widgets.php:592
+msgid "Facebook Page URL"
+msgstr ""
+
+#: framework/class/widgets.php:624
+msgid "Your custom featured block"
+msgstr ""
+
+#: framework/class/widgets.php:630
+msgid "CMSMS - Featured Block"
+msgstr ""
+
+#: framework/class/widgets.php:718
+msgid "Subtitle"
+msgstr ""
+
+#: framework/class/widgets.php:723
+msgid "Icon"
+msgstr ""
+
+#: framework/class/widgets.php:783
+msgid "Your Flickr account latest images"
+msgstr ""
+
+#: framework/class/widgets.php:786
+msgid "CMSMS - Flickr"
+msgstr ""
+
+#: framework/class/widgets.php:792
+msgid "Flickr"
+msgstr ""
+
+#: framework/class/widgets.php:846
+msgid "Flickr ID"
+msgstr ""
+
+#: framework/class/widgets.php:851
+msgid "Enter the number of latest flickr images you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:853 framework/class/widgets.php:1456
+#: framework/class/widgets.php:1678 framework/class/widgets.php:2112
+#: framework/class/widgets.php:2312 framework/class/widgets.php:2424
+msgid "default is"
+msgstr ""
+
+#: framework/class/widgets.php:884
+msgid "Your HTML5 Audio"
+msgstr ""
+
+#: framework/class/widgets.php:890
+msgid "CMSMS - HTML5 Audio"
+msgstr ""
+
+#: framework/class/widgets.php:989 framework/class/widgets.php:994
+#: framework/class/widgets.php:999
+msgid "File Format URL"
+msgstr ""
+
+#: framework/class/widgets.php:1004
+msgid "Audio Tag Not Support Text"
+msgstr ""
+
+#: framework/class/widgets.php:1011 framework/class/widgets.php:1210
+msgid "Enable Controls"
+msgstr ""
+
+#: framework/class/widgets.php:1012 framework/class/widgets.php:1211
+msgid "Disable Controls"
+msgstr ""
+
+#: framework/class/widgets.php:1019 framework/class/widgets.php:1218
+msgid "Disable Autoplay"
+msgstr ""
+
+#: framework/class/widgets.php:1020 framework/class/widgets.php:1219
+msgid "Enable Autoplay"
+msgstr ""
+
+#: framework/class/widgets.php:1027 framework/class/widgets.php:1226
+msgid "Disable Repeat"
+msgstr ""
+
+#: framework/class/widgets.php:1028 framework/class/widgets.php:1227
+msgid "Enable Repeat"
+msgstr ""
+
+#: framework/class/widgets.php:1033 framework/class/widgets.php:1232
+msgid "Preload"
+msgstr ""
+
+#: framework/class/widgets.php:1035 framework/class/widgets.php:1234
+msgid "Not Preload"
+msgstr ""
+
+#: framework/class/widgets.php:1036 framework/class/widgets.php:1235
+msgid "Preload Auto"
+msgstr ""
+
+#: framework/class/widgets.php:1037 framework/class/widgets.php:1236
+msgid "Preload as Metadata"
+msgstr ""
+
+#: framework/class/widgets.php:1069
+msgid "Your HTML5 Video"
+msgstr ""
+
+#: framework/class/widgets.php:1075
+msgid "CMSMS - HTML5 Video"
+msgstr ""
+
+#: framework/class/widgets.php:1183 framework/class/widgets.php:1188
+#: framework/class/widgets.php:1193
+msgid "File Format Source"
+msgstr ""
+
+#: framework/class/widgets.php:1198
+msgid "Poster URL"
+msgstr ""
+
+#: framework/class/widgets.php:1203
+msgid "Video Tag Not Support Text"
+msgstr ""
+
+#: framework/class/widgets.php:1268
+msgid "Latest projects from your portfolio"
+msgstr ""
+
+#: framework/class/widgets.php:1271
+msgid "CMSMS - Latest Projects"
+msgstr ""
+
+#: framework/class/widgets.php:1277
+msgid "Latest Projects"
+msgstr ""
+
+#: framework/class/widgets.php:1434 framework/class/widgets.php:1656
+msgid "Show Only from Projects Type"
+msgstr ""
+
+#: framework/class/widgets.php:1436 framework/class/widgets.php:1658
+msgid "Show all projects"
+msgstr ""
+
+#: framework/class/widgets.php:1454
+msgid "Enter the number of latest projects you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:1487
+msgid "Popular projects from your portfolio"
+msgstr ""
+
+#: framework/class/widgets.php:1490
+msgid "CMSMS - Popular Projects"
+msgstr ""
+
+#: framework/class/widgets.php:1496
+msgid "Popular Projects"
+msgstr ""
+
+#: framework/class/widgets.php:1676
+msgid "Enter the number of popular projects you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:1709
+msgid "Latest, popular posts & recent comments"
+msgstr ""
+
+#: framework/class/widgets.php:1712
+msgid "CMSMS - Posts Tabs"
+msgstr ""
+
+#: framework/class/widgets.php:2099
+msgid "Latest Posts"
+msgstr ""
+
+#: framework/class/widgets.php:2103
+msgid "Popular Posts"
+msgstr ""
+
+#: framework/class/widgets.php:2110
+msgid ""
+"Enter the number of recent comments, popular and latest posts you'd like to "
+"display"
+msgstr ""
+
+#: framework/class/widgets.php:2143
+msgid "Recent testimonials from your site"
+msgstr ""
+
+#: framework/class/widgets.php:2146
+msgid "CMSMS - Recent Testimonials"
+msgstr ""
+
+#: framework/class/widgets.php:2152
+msgid "Recent Testimonials"
+msgstr ""
+
+#: framework/class/widgets.php:2290
+msgid "Show Only from Testimonials Category"
+msgstr ""
+
+#: framework/class/widgets.php:2292
+msgid "Show all testimonials"
+msgstr ""
+
+#: framework/class/widgets.php:2310
+msgid "Enter the number of latest testimonials you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:2343
+msgid "Your Twitter account latest tweets"
+msgstr ""
+
+#: framework/class/widgets.php:2346
+msgid "CMSMS - Twitter"
+msgstr ""
+
+#: framework/class/widgets.php:2352
+msgid "Twitter"
+msgstr ""
+
+#: framework/class/widgets.php:2417
+msgid "Twitter Username"
+msgstr ""
+
+#: framework/class/widgets.php:2422
+msgid "Enter the number of latest tweets you'd like to display"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:21
+msgid "Home"
+msgstr ""
+
+#: framework/function/template-functions.php:312
+#: framework/function/template-functions.php:335
+#: framework/function/template-functions.php:381
+msgid "By"
+msgstr ""
+
+#: framework/function/template-functions.php:365
+msgid "Comments Off"
+msgstr ""
+
+#: framework/function/template-functions.php:474
+#: framework/function/template-functions.php:486
+#: framework/function/template-functions.php:500
+#: framework/function/template-functions.php:512
+#: framework/function/template-functions.php:666
+msgid "Off"
+msgstr ""
+
+#: framework/function/theme-functions.php:117
+msgid ""
+"Widgets in this area will be shown in all left and right sidebars till you "
+"don't use custom sidebar."
+msgstr ""
+
+#: framework/function/theme-functions.php:129
+msgid ""
+"Widgets in this area will be shown at the top of middle block, above the "
+"content."
+msgstr ""
+
+#: framework/function/theme-functions.php:141
+msgid ""
+"Widgets in this area will be shown at the bottom of middle block below the "
+"content, but above bottom sidebar and footer."
+msgstr ""
+
+#: framework/function/theme-functions.php:153
+msgid ""
+"Widgets in this area will be shown at the bottom of middle block below the "
+"content and middle sidebar, but above footer."
+msgstr ""
+
+#: framework/function/theme-functions.php:170
+msgid "Custom sidebar created with cmsmasters admin panel."
+msgstr ""
+
+#: framework/function/theme-functions.php:186
+msgid "Primary Navigation"
+msgstr ""
+
+#: framework/function/theme-functions.php:259
+msgid "Form Builder"
+msgstr ""
+
+#: framework/function/theme-functions.php:461
+msgid "Entries"
+msgstr ""
+
+#: framework/function/theme-functions.php:462
+#: framework/function/theme-functions.php:471
+msgid "Really Simple Syndication"
+msgstr ""
+
+#: framework/postType/blog/page/fullwidth/aside.php:34
+#: framework/postType/blog/page/fullwidth/quote.php:42
+#: framework/postType/blog/page/sidebar/aside.php:34
+#: framework/postType/blog/page/sidebar/quote.php:42
+#: framework/postType/blog/post/fullwidth/aside.php:35
+#: framework/postType/blog/post/fullwidth/quote.php:42
+#: framework/postType/blog/post/sidebar/aside.php:34
+#: framework/postType/blog/post/sidebar/quote.php:42
+msgid "There is no excerpt because this is a protected post."
+msgstr ""

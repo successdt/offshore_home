@@ -1,0 +1,89 @@
+/**
+ * @package WordPress
+ * @subpackage Contact Form Builder Plugin
+ * @since Contact Form Builder 1.0
+ * 
+ * Contact Form Builder Styles for Right-To-Left Languages
+ * Created by CMSMasters
+ * 
+ */
+
+
+.fl {float:right;}
+
+.fr {float:left;}
+
+img.submit_loader {margin:6px 0 0 10px;}
+
+#settings_save, 
+#settings_error {margin:15px 0 5px 15px;}
+
+#form_choose_tab input[name="add_form"], 
+#form_choose_tab input[name="cancel_form"] {float:left;}
+
+#form_choose_tab select#form_choose, 
+#form_choose_tab input[name="edit_form"], 
+#form_choose_tab input[name="save_as_form"] {float:right;}
+
+#form_choose_tab select#form_choose, 
+#form_choose_tab input[name="edit_form"], 
+#form_choose_tab input[name="delete_form"], 
+#form_choose_tab input[name="save_as_form"] {
+	margin-right:0;
+	margin-left:10px;
+}
+
+input[type="button"].button.add, 
+input[type="button"].button.delete, 
+input[type="button"].button.edit {
+	background-position:90% 50%, 0 0;
+	padding-left:8px;
+	padding-right:25px;
+}
+
+input[type="button"].button.small_but {
+	background-position:9px 50%, 0 0;
+	padding-left:8px;
+	padding-right:24px;
+}
+
+#form_build_tab .button-primary.top_save {float:left;}
+
+#form_build_tab .button-primary.bottom_save {float:right;}
+
+#form_build_tab table.form-table td.add_fields input[name="add_field"], 
+#form_build_tab table.form-table td.add_fields select#field_choose {float:left;}
+
+#form_build_tab table.form-table td.add_fields select#field_choose {margin:2px 1px 1px 1em;}
+
+#form_build_tab .check_parent label, 
+#form_build_tab .td_spinner label {
+	padding-left:0;
+	padding-right:10px;
+}
+
+#form_build_tab .check_parent input[name="composer_reset_button"] {
+	margin-left:0;
+	margin-right:4em;
+}
+
+#fields-list > li .fl_field {
+	float:right;
+	margin-right:0;
+	margin-left:2em;
+}
+
+#fields-list > li input[name="delete_field"] {float:left;}
+
+#form_build_tab .message_composer_buttons .button {
+	margin-right:0;
+	margin-left:.75em;
+}
+
+#form_build_tab > div li .opt_cont .opt_item input[name="opt_label"] {margin:2px 1px 1px .5em;}
+
+#fields-list > li span.sortableMove {
+	right:auto;
+	left:30px;
+}
+

@@ -1,0 +1,1548 @@
+/*
+Theme Name: Increase
+Theme URI: http://increase.cmsmasters.net/
+Author: cmsmasters
+Author URI: http://cmsmasters.net/
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+Version: 1.1
+*/
+
+
+body {
+	text-align:right;
+	unicode-bidi:embed;
+	direction:rtl;
+}
+
+div {text-align:right;}
+
+q:before, 
+blockquote:before {content:'\201D';}
+
+.alignleft {
+    float:right;
+    margin:0 0 18px 20px;
+}
+
+.fl,
+#footer .social_icons {float:right;}
+
+.fr,
+.copyright,
+.loading {float:left;}
+
+h3:after{
+	margin-left:0px;
+	margin-right:10px;
+}
+
+
+/* ---------- Navigation ---------- */
+
+.social_toggle {
+    left:auto;
+    margin:5px -20px -4px 0;
+    right:50%;
+}
+
+#navigation li {float:right;}
+
+#navigation > li:before {
+	right:auto;
+	left:0;
+}
+
+#navigation ul {
+	left:auto;
+	right:0;
+}
+
+#navigation ul ul {
+	left:auto;
+	right:97%;
+	margin:0 20px 0 0;
+}
+
+#navigation ul li a {text-align:right;}
+
+
+/* ---------- Container ---------- */
+
+#slide_top {
+	right:auto;
+    left:20px;
+}
+
+.headline img {margin:0 0 -10px 14px;}
+
+.one_first,
+.one_half,
+.one_third,
+.two_third,
+.one_fourth,
+.three_fourth,
+.one_sixth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.five_sixth {float:right;}
+
+.content_wrap:after {
+	left:auto;
+	right:0;
+}
+
+.dark_bg {padding:0 20px 0 10px;}
+
+.cmsms_sitemap li, 
+.cmsms_sitemap_archive li {padding-right:0;}
+
+.cmsms_sitemap > li > ul > li, 
+.cmsms_sitemap_archive li {float:right;}
+
+.cmsms_timeline {padding:0 29px 37px 0;}
+
+.cmsms_timeline li:before, 
+.cmsms_timeline:after {
+	left:auto;
+	right:0;
+}
+
+.cmsms_timeline:after {
+	left:auto;
+	right:29px;
+}
+
+.cmsms_timeline li a {
+	padding-right:13px;
+	padding-left:0;
+}
+
+.cmsms_timeline li a:hover {
+	padding-right:19px;
+	padding-left:0;
+}
+
+.cmsms_timeline li a:before {
+	left:auto;
+	right:-2px;
+}
+
+	
+/* ---------- Middle Sidebar ---------- */
+
+.middle_sidebar:before {
+	margin-right:-30px;
+	margin-left:0;
+}
+
+
+/* ---------- Elements ---------- */
+
+.divider_fullwidth {margin:20px -30px 32px 0;}
+
+.top_sidebar .divider, 
+#sidebar .divider, 
+.middle_sidebar .divider, 
+.bottom_inner .divider {
+	margin-left:0;
+	margin-right:2%;
+}
+
+.table {margin-right:1px;}
+
+.table td, 
+.table tr th {padding:15px 20px 15px 0;}
+
+.table td:first-child, 
+.table tr th:first-child {
+	border-right:1px solid #EBECEC;
+	border-left:0 none;
+}
+
+.table td:last-child, 
+.table tr th:last-child {
+	border-left:1px solid #EBECEC;
+	border-right:0 none;
+}
+
+.table th {
+	text-align:right;
+	padding:11px 20px 11px 0;
+}
+
+span.dropcap {
+	float:right;
+	margin-left:10px;
+	margin-right:0;
+}
+
+span.dropcap2 {float:right;}
+
+q, 
+blockquote {padding:0 35px 18px 0;}
+
+q:before, 
+blockquote:before {
+	left:auto;
+	right:5px;
+}
+
+.cmsms_plus {
+	left:auto;
+	right:0;
+}
+
+.cmsms_plus .vert_line {
+	left:auto;
+	right:11px;
+}
+
+.cmsms_plus .horiz_line {
+	left:auto;
+	right:7px;
+}
+
+.tog,
+.togg .tog {padding:18px 40px 21px 0;}
+
+.togg .tab_content {padding:8px 0 5px 20px;}
+
+.accordion .tog {padding:18px 40px 21px 0;}
+
+.accordion .tab_content {padding:8px 0 5px 20px;}
+
+.tabs li {
+	float:right;
+	margin:0 0 0 10px;
+}
+
+.tabs > li:first-child a {margin-right:0;}
+
+.tabs li a:before, 
+.comment-reply-link:before {
+	left:auto;
+	right:4%;
+}
+
+.tour {
+	float:right;
+	margin-left:3%;
+	margin-bottom:0;
+	margin-right:0;
+}
+
+.tour li a:before {
+	left:auto;
+	right:0;
+}
+
+.tour_box_content {float:left;}
+
+.post_type_shortcode .cmsms_content_prev_slide, 
+.post_type_shortcode .cmsms_content_next_slide {margin-left:2%;}
+
+.post_type_shortcode .cmsms_content_prev_slide {
+	border-left:0 none;
+	border-right:1px solid #ffffff;
+	right:auto;
+	left:0px;
+}
+
+.post_type_shortcode .cmsms_content_next_slide {
+	border-left:0 none;
+	border-right:15px solid #ffffff;
+	right:auto;
+	left:22px;
+}
+
+.post_type_shortcode h3 {padding:0 2% 0 6%;}
+
+.post_type_shortcode article.one_first {padding-left:0;}
+
+.post_type_shortcode .testimonial img {
+	float:right;
+	margin:0 0 5px 20px;
+}
+
+.format-album.one_block .resize figure {padding-left:0;}
+
+.post_type_shortcode article .project_rollover {
+	left:auto;
+	right:0;
+	padding:5px 17px 9px 20px;
+}
+
+.post_type_shortcode article .project_rollover:before {
+	left:auto;
+	right:0;
+}
+
+.cmsms_pricing_table .cmsms_price_outer > div {
+	padding:12px 21px 12px 45px;
+	background-image:url(img/pricingtable_bg_rtl.png);
+	background-position:top left;
+	text-align:right;
+}
+
+.one_third .cmsms_pricing_table .cmsms_price_outer > div, 
+.one_half .cmsms_pricing_table .cmsms_price_outer > div, 
+.one_first .cmsms_pricing_table .cmsms_price_outer > div {background-image:url(img/pricingtable_bg_one_third_rtl.png) top left no-repeat;}
+
+.one_first .cmsms_pricing_table .cmsms_price_outer > div {padding:16px 29px 16px 50px;}
+
+.one_fifth .cmsms_pricing_table .cmsms_price_outer > div, 
+.one_sixth .cmsms_pricing_table .cmsms_price_outer > div {padding:12px 11px 12px 45px;}
+
+.box table td {
+	text-align:right;
+	padding:25px 0px 25px 20px;
+}
+
+.percent_item > span {
+	float:right;
+	padding:24px 0 0 4.7%;
+	text-align:left;
+}
+
+.percent_item_colored_main_wrap {float:right;}
+
+.percent_item_colored > span {text-align:left;}
+
+div.jp-playlist li a {
+	margin-right:8px;
+	padding-left:17px;
+	padding-right:17px;
+	background:url(img/list_image.png) no-repeat scroll right 49% transparent;
+}
+
+.cmsms_our_team_wrap div .cmsms_team_rollover {
+    left:auto;
+	right:0;
+}
+
+.cmsms_our_team_wrap .cmsms_team_rollover .entry-meta {
+    left:auto;
+	right:17px;
+}
+
+.post_type_shortcode .cmsms_content_prev_slide {
+	border-left:0 none;
+	border-right:15px solid #ffffff;
+}
+
+.post_type_shortcode .cmsms_content_next_slide {
+	border-left:0 none;
+	border-right:1px solid #ffffff;
+}
+
+
+/* ---------- Widgets ---------- */
+
+.widget_custom_flickr_entries .flickr_badge_image {
+	float:right;
+	padding:0 0 4% 4%;
+}
+
+.widget_custom_contact_form_entries .loading {margin-left:20px;}
+
+.widget_custom_twitter_entries .tweet_time {padding:15px 0px 10px 10px;}
+
+.tweet_text {padding:17px 21px 20px 18px;}
+
+.tweet_text:before {
+	left:auto;
+	right:23px;
+	border-right:11px solid transparent;
+	border-left:0px solid transparent;
+}
+
+.cmsms_sitemap > li:before {
+	left:auto;
+	right:0;
+}
+
+.icon_banner {
+	float:left;
+	margin-right:10px;
+}
+
+.percent_parent:before{
+	left:auto;
+	right:27%;
+}
+
+.widget h2.widgettitle {
+	margin-right:0px;
+	padding-right:25px;
+}
+
+.widget_text h2.widgettitle {
+	padding-left:0;
+	padding-right:0;
+}
+
+.widget_custom_featured h2.widgettitle {
+	padding-left:0;
+	padding-right:0;
+}
+
+.widget_links li,
+.widget_archive li,
+.widget_recent_comments li, 
+.widget_categories li,
+.widget_nav_menu li,
+.widget_meta li,
+.widget_pages li,
+.widget_recent_entries li,
+.arrow_dash_r li {
+	background:url(img/list_image.png) right 10px no-repeat;
+	padding:0 17px 11px 0;
+	margin-right:5px;
+}
+
+.bottom_inner .widget_links li,
+.bottom_inner .widget_archive li,
+.bottom_inner .widget_recent_comments li, 
+.bottom_inner .widget_categories li,
+.bottom_inner .widget_nav_menu li,
+.bottom_inner .widget_meta li,
+.bottom_inner .widget_pages li,
+.bottom_inner .widget_recent_entries li,
+.bottom_inner .arrow_dash_r li {background:url(img/list_image_bottom.png) right 10px no-repeat;}
+
+.widget_custom_advertisement_entries .adv_widget_image {
+	float: right;
+	padding:0 0 1% 1%;
+}
+
+.widget_custom_advertisement_entries h2.widgettitle,
+.widget_custom_flickr_entries h2.widgettitle,
+.widget_search h2.widgettitle,
+.widget_custom_contact_form_entries h2.widgettitle, 
+.widget_custom_contact_info_entries h2.widgettitle,
+.widget_archive h2.widgettitle, 
+.widget_categories h2.widgettitle, 
+.widget_nav_menu h2.widgettitle, 
+.widget_meta h2.widgettitle, 
+.widget_pages h2.widgettitle, 
+.widget_recent_entries h2.widgettitle, 
+.widget_recent_comments h2.widgettitle,
+.widget_custom_popular_projects_entries h2.widgettitle, 
+.widget_custom_latest_projects_entries h2.widgettitle,
+.widget_custom_posts_tabs_entries h2.widgettitle,
+.widget_custom_twitter_entries h2.widgettitle,
+.widget_custom_recent_testimonials_entries h2.widgettitle,
+.widget_calendar h2.widgettitle,
+.widget_tag_cloud h2.widgettitle,
+.widget_custom_facebook_entries h2.widgettitle,
+.widget_custom_html5_audio_entries h2.widgettitle,
+.widget_custom_html5_video_entries h2.widgettitle, 
+.widget_custom_video_entries h2.widgettitle {background-position:right 2px;}
+
+.tab.lpr .tabs li {margin:0 3% 0 0;}
+
+.tab.lpr .tab_content {margin-left:1px;}
+
+.tab.lpr .tabs_tab ul > li .alignleft {margin:5px 0 0 20px;}
+
+.search_line input[type="text"], 
+.bottom_inner input[type="text"] {
+	float:right;
+	padding-left:35px;
+	padding-right:10px;
+}
+
+.search_line input[type="submit"] {
+	right:auto;
+	left:0;
+}
+
+.widget_custom_popular_projects_entries .cmsms_content_next_slide,
+.widget_custom_latest_projects_entries .cmsms_content_next_slide {
+	left:auto;
+	right:0px;
+}
+
+.widget_custom_popular_projects_entries .cmsms_content_prev_slide,
+.widget_custom_latest_projects_entries .cmsms_content_prev_slide {
+	left:auto;
+	right:22px;
+}
+
+.widget_custom_popular_projects_entries .widgettitle,
+.widget_custom_latest_projects_entries .widgettitle {padding-left:40px;}
+
+.widget_custom_popular_projects_entries .cmsms_content_slider_parent ul.cmsms_slides_nav,
+.widget_custom_latest_projects_entries .cmsms_content_slider_parent ul.cmsms_slides_nav {
+	right:auto;
+	left:7px;
+	padding-left:0;
+	padding-right:1px;
+}
+
+.widget_custom_featured table td:first-child img {margin-left:15px;}
+
+#wp-calendar caption {
+	padding-right:15px;
+	text-align:right;
+	background:url(img/calendar_arrow_top_dark_rtl.png) no-repeat right 0;
+}
+
+.bottom_inner #wp-calendar caption {background:url(img/calendar_arrow_top_dark_rtl.png) no-repeat right 0;}
+
+.widget_custom_recent_testimonials_entries li img {
+	float:right;
+	margin:0 0 10px 15px;
+}
+
+.bottom_inner .tl-content {padding:30px 30px 30px 20px;}
+
+.tl-content_wrap:after {
+	left:auto;
+	right:46px;
+}
+
+.tl-content_wrap:before {
+	left:auto;
+	right:45px;
+}
+
+.widget .tl-content_wrap:before {
+	left:auto;
+	right:20px;
+}
+
+.widget .tl-content_wrap:after {
+	left:auto;
+	right:21px;
+}
+
+.post_type_shortcode.type_testimonial .cmsms_content_next_slide,
+.widget_custom_recent_testimonials_entries .cmsms_content_next_slide {
+	right:auto;
+	left:0px;
+}
+
+.post_type_shortcode.type_testimonial .cmsms_content_next_slide,
+.post_type_shortcode.type_testimonial .cmsms_content_prev_slide {
+	right:auto;
+	left:32px;
+}
+
+.post_type_shortcode.type_testimonial .cmsms_content_prev_slide {
+	right:auto;
+	left:10px;
+}
+
+.widget_custom_recent_testimonials_entries .cmsms_content_prev_slide,
+.widget_custom_recent_testimonials_entries .cmsms_content_next_slide {
+	right:auto;
+	left:0px;
+}
+
+.widget_custom_recent_testimonials_entries .cmsms_content_next_slide {
+	right:auto;
+	left:22px;
+}
+
+.one_first .post_type_shortcode.type_testimonial .cmsms_content_next_slide,
+.one_first .post_type_shortcode.type_testimonial .cmsms_content_prev_slide {
+	right:auto;
+	left:22px;
+}
+
+.one_first .post_type_shortcode.type_testimonial .cmsms_content_prev_slide {
+	right:auto;
+	left:0px;
+}
+
+.post_type_shortcode .cmsms_content_slider_parent > .responsiveContentSlider > li {padding-right:1px;}
+
+
+/* ---------- Testimonials ---------- */
+
+.testimonial .published {
+	float:left;
+	padding:0 15px 15px 0;
+}
+
+.testimonials .testimonial .button, 
+.testimonials .testimonial .button_small {float:left;}
+
+.testimonial .tl-content blockquote {padding:27px 46px 25px 30px;}
+
+.opened-article .testimonial blockquote {padding:15px 30px 30px 20px;}
+
+.testimonial .tl-content blockquote:before {
+	left:auto;
+	right:15px;
+}
+
+.opened-article .testimonial blockquote:before {
+	left:auto;
+	right:5px;
+}
+
+.testimonial .tl-content:before {
+	border-left:13px solid transparent;
+	border-right:0 none transparent;
+	left:auto;
+	right:42px;
+}
+
+.tl_author_img {
+	float:right;
+	margin:0 0 10px 25px;
+}
+
+.opened-article .cmsmsLike {
+	float:right;
+	margin:0;
+}
+
+.opened-article .cmsmsLike span {padding-right:34px;}
+
+
+/* ---------- Blog ---------- */
+
+.cmsms_info {float:right;}
+
+.cmsms_info .cmsms_page_year, 
+.cmsms_info .cmsms_page_month, 
+.cmsms_info .cmsms_post_year, 
+.cmsms_info .cmsms_post_month {
+	right:auto;
+	left:5px;
+}
+
+.cmsms_info .cmsms_like {float:right;}
+
+.cmsms_info .published {margin:0 1px 3px 0;}
+
+.cmsms_post_format_img {
+	float:right;
+	margin:0 1px 0 3px;
+}
+
+.cmsms_comments {margin-right:5px;}
+
+.blog .post.format-quote .entry-header:before {
+	content:"“";
+	left:auto;
+	right:20px;
+}
+
+.post.format-quote blockquote:before, 
+.post.format-quote blockquote:after {
+	left:auto;
+	right:32px;
+	border-left:12px solid transparent;
+	border-right:0 none transparent;
+}
+
+.post.format-quote blockquote:after {
+	left:auto;
+	right:33px;
+	border-left:10px solid transparent;
+	border-right:0 none transparent;
+}
+
+.post.format-aside .entry-content {padding:24px 22px 25px 12px;}
+
+.post.format-quote blockquote {padding:23px 50px 25px 20px;}
+
+ul.page-numbers a {float:right;}
+
+ul.page-numbers span,
+ul.page-numbers a {
+	float:right;
+	margin-left:1px;
+}
+
+ul.page-numbers a.next,
+ul.page-numbers a.prev {background:url(img/widget_nav.png) no-repeat 0 -19px;}
+
+ul.page-numbers a.next {background-position:0px 3px;}
+
+
+/* ---------- Open Post ---------- */
+
+.blog.opened-article {padding:0 130px 0 0;}
+
+.blog.opened-article .post {
+	margin-right:-130px;
+	margin-left:0;
+}
+
+.about_author_inner .alignleft {
+	margin-right:0;
+	margin-left:30px;
+}
+
+.cmsms_info .cmsmsLike {float:right;}
+
+.related_posts ul li {
+	float:right;
+	margin:0 0 0 10px;
+}
+
+.cmsms_social a {padding:5px 2px 0 10px;}
+
+.comment-body .fn {
+	float:right;
+	padding:3px 2px 10px 0;
+}
+
+.comment-body .published {
+	float:left;
+	margin:0 0 0 15px;
+}
+
+.comment-reply-link {float:left;}
+	
+#cancel-comment-reply-link {
+	float:left;
+	padding-left:6%;
+}
+
+.comment-reply-link {margin:5px 0 0 3px;}
+
+.comment-body .alignleft {
+	margin-left:30px;
+	margin-right:0;
+}
+
+.commentlist ul {padding-right:20px;}
+
+.commentlist li div.comment-content ul ul, 
+.commentlist li div.comment-content ol ol {padding:0 20px 0 0px;}
+
+#commentform label {padding-right:20px;}
+
+
+/* ---------- Portfolio ---------- */
+
+.portfolio.four_blocks {margin-left:-3.9%;} 
+
+.portfolio.one_column {margin-left:0;}
+
+.format-album .resize figure {
+	float:right;
+	padding-left:4%;
+    padding-right:0;
+}
+
+.format-album.cmsms_four .resize figure:nth-child(4n), 
+.format-album.cmsms_three .resize figure:nth-child(3n), 
+.format-album.cmsms_two .resize figure:nth-child(2n),
+.format-album.cmsms_one .resize figure {padding-left:0;}
+
+.project_rollover .entry-header, 
+.project_rollover .entry-meta {
+	margin-left:25px;
+	margin-right:0;
+}
+
+.portfolio_inner .project_rollover {
+	left:auto;
+	right:0;
+}
+
+.portfolio_inner .project_rollover:before {
+	left:auto;
+	right:0;
+}
+
+.portfolio.three_columns .portfolio_inner .project_rollover .entry-header {margin:5px 0 0px 15px;}
+
+.portfolio.two_columns .portfolio_inner .project_rollover .entry-header {margin:5px 0 0px 15px;}
+
+.portfolio.three_columns .portfolio_inner .project_rollover .entry-header {margin:0 0 0 15px;}
+
+.portfolio.two_columns .portfolio_inner .project_rollover .entry-header {margin:0 0 0 15px;}
+
+.portfolio.two_columns .portfolio:nth-child(odd) {
+	float:right;
+	padding-left:4%;
+	padding-right:0;
+}
+
+.portfolio.two_columns .portfolio:nth-child(even) {
+	float:left;
+	padding-right:0;
+	padding-left:0;
+}
+
+.project_rollover .cmsms_post_format_img {
+	right:auto;
+	left:15px;
+}
+
+.project_rollover .entry-header ul {margin-left:15px;}
+
+.portfolio .project {
+	float:right;
+}
+
+.portfolio.one_column .project {padding-left:0;}
+
+.project ul.cmsms_details li {
+	padding:20px 0 5px 10px;
+	text-align:right;
+}
+
+.project ul.cmsms_details li div {float:left;}
+
+.project ul.cmsms_details li div a {word-wrap:break-word;}
+
+.project ul.cmsms_details li .cmsms_like {margin-top:-10px;}
+
+.project ul.cmsms_details li .button_click {
+	margin-top:-10px;
+	padding-bottom:10px;
+}
+
+.project .entry-meta.project_sidebar  .cmsms_share {
+	padding:5px 15px 5px 0;
+	background:url(img/nav_arrow_right.png) no-repeat scroll right center transparent;
+}
+
+.cmsms_details_links {float:left;}
+
+.project_sidebar  .cmsmsLike {margin:0 0 0 40px;}
+
+.project_sidebar  .cmsmsLike span, 
+.project_sidebar  .cmsmsLike.active span, 
+.project_sidebar  .cmsmsLike.active span:hover {padding-right:40px;}
+
+.p_options_loader {
+	right:auto;
+	left:0;
+}
+
+.p_options_block {
+	right:auto;
+	left:0;
+}
+
+.pj_sort_block:before {
+	left:auto;
+	right:0;
+}
+	
+.pj_sort {float:left;}
+
+.pj_sort .button_small {
+	padding-right:16px;
+	text-align:right;
+}
+
+.pj_filter a.pj_cat_filter {padding-right:16px;}
+
+.pj_filter_container .button_small {text-align:right;}
+
+.pj_cat_filter.button span:after, 
+.pj_cat_filter.button_small span:after, 
+.pj_sort a[name="pj_name"] span:after, 
+.pj_sort a[name="pj_date"] span:after	{
+	right:auto;
+	left:17px;
+}
+
+.pj_sort_block p {margin-right:10px;}
+
+.pj_sort {float:left;}
+
+.pj_sort a[name="pj_date"] {float:right;}
+
+.pj_sort a[name="pj_name"].button, 
+.pj_sort a[name="pj_name"].button_small, 
+.pj_sort a[name="pj_date"].button,
+.pj_sort a[name="pj_date"].button_small,
+.pj_cat_filter.button,
+.pj_cat_filter.button_small {padding-left:10px;}
+
+.pj_sort a[name="pj_name"] > span, 
+.pj_sort a[name="pj_date"] > span {padding-left:30px;}
+
+.pj_sort a[name="pj_name"] {
+	float:right;
+	margin-left:20px;
+}
+
+div.pj_filter {
+	float:left;
+	padding:0;
+}
+
+a.pj_cat_filter > span {
+	padding-left:15px;
+	padding-right:0;
+}
+
+.pj_filter_container ul.pj_filter_list {
+	left:auto;
+	right:0px;
+}
+
+.portfolio .project .jp-volume-bar {
+	right:auto;
+	left:5px;
+}
+
+a span.image_rollover {
+	left:auto;
+	right:0;
+}
+
+.opened-article .project .project_content {float:right;}
+
+.project_sidebar {float:left;}
+
+
+/* ---------- Footer ---------- */
+
+#footer .social_icons {
+	float:right;
+	margin:0 -3px 0;
+	text-align:right;
+}
+
+.footer_nav li {
+	padding:0 8px 0 4px;
+	background:url(img/seporator_10.png) no-repeat right 5px;
+}
+
+.copyright {float:right;}
+
+#footer p.copyright {float:left;}
+
+#footer .social_icons li {padding:0 5px 0 0;}
+
+
+/* ---------- Form builder ---------- */
+
+.cmsms-form-builder {padding-right:2px;}
+
+#commentform input[type="text"] {float:right;}
+	
+#commentform input[type="text"]+label {float:right;}
+
+.cmsms-form-builder .check_parent input[type="checkbox"], 
+.cmsms-form-builder .check_parent input[type="radio"],
+.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"],
+.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"] {
+	left:auto;
+	right:0;
+	float:right;
+}
+
+.cmsms-form-builder .check_parent input[type="checkbox"]+label, 
+.cmsms-form-builder input[type="radio"]+label,
+.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"] + span.wpcf7-list-item-label,
+.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"] + span.wpcf7-list-item-label{
+	float:right;
+	padding:0 25px 0 0;
+}
+
+.cmsms-form-builder .check_parent input[type="checkbox"]+label:before, 
+.cmsms-form-builder input[type="radio"]+label:before,
+.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"] + span.wpcf7-list-item-label:before,
+.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"] + span.wpcf7-list-item-label:before  {
+	left:auto;
+	right:0;
+}
+
+.loading {float:left;}
+
+
+/* ---------- Form Error ---------- */
+
+.inputContainer {float:right;}
+
+.formError {
+	left:auto;
+	right:300px;
+}
+
+.formError .formErrorArrow {margin:-2px 13px 0 0;}
+
+.formError .formErrorArrowBottom {margin:0 12px 0 0;}
+
+
+/* ---------- Responsive Content Slider ---------- */
+
+.responsiveContentSlider {text-align:right;}
+
+.responsiveContentSlider {
+	left:auto;
+	right:0;
+}
+
+.cmsms_content_slider_parent ul.cmsms_slides_nav {
+	right:auto;
+	left:0;
+}
+
+.top_sidebar .widget_custom_recent_testimonials_entries .cmsms_content_slider_parent ul.cmsms_slides_nav, 
+#sidebar .widget_custom_recent_testimonials_entries .cmsms_content_slider_parent ul.cmsms_slides_nav, 
+.middle_sidebar .widget_custom_recent_testimonials_entries .cmsms_content_slider_parent ul.cmsms_slides_nav, 
+.bottom_inner .widget_custom_recent_testimonials_entries .cmsms_content_slider_parent ul.cmsms_slides_nav {
+	right:auto;
+	left:0;
+}
+
+.top_sidebar .tl-content, 
+#sidebar .tl-content, 
+.middle_sidebar .tl-content {padding:30px 30px 30px 20px;}
+ 
+.cmsms_content_slider_parent ul.cmsms_slides_nav li {
+	float:right;
+	padding:0 3px 0 0;
+}
+
+.cmsms_content_prev_slide,
+.cmsms_content_next_slide {
+	right:27px;
+	left:auto;
+	background-position:left top;
+}
+
+.cmsms_content_next_slide {
+	right:5px;
+	background-position:left bottom;
+}
+
+.related_posts_content_tab .one_half  {margin:0 0 0 2%;}
+	
+	
+/* ---------- Large Monitor (Note: Design for a width more than 1440px) ---------- */
+
+@media only screen and (min-width: 1440px) {
+	
+	.pj_options_block {
+		right:auto;
+		left:60px;
+	}
+	
+	.p_options_block,
+	.p_options_loader {
+		right:auto;
+		left:60px;
+	}
+	
+	#sidebar .widget_custom_flickr_entries .flickr_badge_image:nth-child(3n+1) {padding-right:0;}
+	
+	.post_type_shortcode article .project_rollover {padding:11px 17px 9px 20px;}
+	
+}
+	
+	
+/* ---------- Tablet Portrait (Note: Design for a width more than 950px but less than 1024px) ---------- */
+
+@media only screen and (min-width: 950px) and (max-width: 1024px) {
+	
+	.post_type_shortcode h3 {padding:0 2% 0 8%;}
+	
+	.portfolio.four_columns .project_rollover .cmsms_post_format_img  {
+		right:auto;
+		left:10px;
+	}
+	
+	.portfolio.three_columns .portfolio_inner .project_rollover .entry-header {margin:3px 0 0 25px;}
+
+}
+
+
+/* ---------- Tablet Portrait (Note: Design for a width more than 767px but less than 1024px) ---------- */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+	
+	.wrap_social_icons {
+		right:auto;
+		top:auto;
+	}
+	
+	.cmsms_pricing_table .cmsms_price_outer > div {padding:12px 10px 12px 43px;}
+	
+	.one_third .cmsms_pricing_table .cmsms_price_outer > div {padding:12px 10px 12px 43px;}
+
+	.content_wrap.r_sidebar .cmsms_info .published, 
+	.content_wrap.l_sidebar .cmsms_info .published {
+		float:right;
+		margin:0 0 3px 0;
+	}
+
+	.content_wrap.r_sidebar .cmsms_info .cmsms_like, 
+	.content_wrap.l_sidebar .cmsms_info .cmsms_like {float:right;}
+	
+	.content_wrap.r_sidebar .blog.opened-article, 
+	.content_wrap.l_sidebar .blog.opened-article {padding-right:0;}
+
+	.content_wrap.r_sidebar .blog.opened-article .post, 
+	.content_wrap.l_sidebar .blog.opened-article .post {margin-right:0;}
+	
+	.cmsms_pricing_table .cmsms_price_outer > div {padding:12px 10px 12px 43px;}
+	
+}
+
+
+/* ---------- Small Tablet (Note: Design for a width more than 768px but less than 950px) ---------- */
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+	
+	.post_type_shortcode h3 {padding:0 2% 0 11%;}
+	
+	.post_type_shortcode article .project_rollover .cmsms_post_format_img, 
+	.portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:auto;
+		left:8px;
+	}
+	
+	.one_fifth .cmsms_pricing_table .cmsms_price_outer > div, 
+	.one_sixth .cmsms_pricing_table .cmsms_price_outer > div {padding:12px 5px 12px 40px;}
+
+}
+
+
+/* ---------- Small Tablet (Note: Design for a width more than 540px but less than 769px) ---------- */
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+	
+	.related_posts .one_half {float:right;}
+
+}
+
+
+/* ---------- Small Tablet (Note: Design for a width more than 540px but less than 769px) ---------- */
+
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+	
+	.one_fourth {float:right;}
+	
+	.portfolio.four_columns .project:nth-child(odd), 
+	.format-album.cmsms_four .resize figure:nth-child(odd),
+	.post_type_shortcode.four_columns article:nth-child(odd),
+	.cmsms_sitemap_archive li:nth-child(odd),  
+	.cmsms_sitemap > li > ul > li:nth-child(odd) {
+		float:right;
+		padding-left:4%;
+		padding-right:0;
+	}
+	
+	.portfolio.four_columns .project:nth-child(even),  
+	.format-album.cmsms_four .resize figure:nth-child(even), 
+	.post_type_shortcode.four_columns article:nth-child(even), 
+	.cmsms_sitemap_archive li:nth-child(even), 
+	.cmsms_sitemap > li > ul > li:nth-child(even) {
+		float:left;
+		padding-left:0;
+	}
+	
+	.portfolio.four_columns, 
+	.post_type_shortcode.four_columns {margin-left:0;}
+	
+	.post_type_shortcode h3 {padding:0 2% 0 15%;}
+	
+}
+
+
+/* ---------- Small Monitor (Note: Design for a width less than 1024px) ---------- */
+
+@media only screen and (max-width: 1024px) {
+
+	#slide_top {
+		right:auto;
+		left:6px;
+	}
+	
+	#navigation li {float:none;}
+	
+	#navigation > li > a {padding:0 30px 0 0px;}
+	
+	#header nav {
+		left:auto;
+		right:auto;
+		text-align:right;
+	}
+	
+	#navigation > li > a > span {text-align:right;}
+	
+	#navigation li.dropdown > a > span:before {
+		right:auto;
+		left:29px;
+		background:url(img/resp_nav_arrow_rtl.png) no-repeat left top;
+	}
+	
+	#navigation > li.dropdown > a:hover span:before, 
+	#navigation li.current-menu-ancestor > a span:before, 
+	#navigation > li.dropdown:hover > a span:before {background-position:right top;}
+	
+	#navigation li.dropdown li a:hover span:before, 
+	#navigation ul > li.current-menu-ancestor.dropdown span:before {background:url(img/resp_nav_arrow_rtl.png) no-repeat left top;}
+	
+	#navigation ul {
+		left:auto;
+		right:auto;
+	}
+
+	#navigation ul ul {
+		left:auto;
+		right:auto;
+	}
+	
+	#navigation ul li:before {
+		left:auto;
+		right:0;
+	}
+	
+	#navigation ul li a {padding:0 30px 0 10px;}
+	
+	#navigation ul ul li a {padding-right:60px;}
+	
+	#navigation ul ul ul li a {padding-right:90px;}
+	
+	#navigation ul li a span {padding:12px 30px 10px 45px;}
+	
+	
+	@media (-webkit-min-device-pixel-ratio: 2) {
+		
+		#navigation li.dropdown > a > span:before {
+			background-image:url(img/retina/resp_nav_arrow_rtl@2x.png);
+			background-size:35px 9px;
+		}
+
+		#navigation li.dropdown li a:hover span:before, 
+		#navigation ul > li.current-menu-ancestor.dropdown span:before {
+			background-image:url(img/retina/resp_nav_arrow_rtl@2x.png);
+			background-size:35px 9px;
+		}
+	
+	}
+
+}
+
+
+/* ---------- Small Monitor (Note: Design for a width less than 1024px) ---------- */
+
+@media only screen and (max-width: 1023px) {
+	
+	.one_fourth .tabs > li a span {text-align:right;}
+	
+	.one_fourth .tabs > li a,
+	.one_fourth .tabs > li:first-child a {margin:0 10px -1px 0;}
+	
+	.one_fourth .tabs > li.current a {margin-right:0;}
+	
+	.one_fourth .tabs > li.current a:before {
+		right:auto;
+		left:-20px;
+	}
+
+}
+
+
+/* ---------- Small Tablet & Mobile (Note: Design for a width less than 940px) ---------- */
+
+@media only screen and (max-width: 940px) {
+
+	.portfolio.four_columns, 
+	.portfolio.three_columns {
+		margin-right:0;
+		margin-left:-4%;
+	}
+	
+	.portfolio.two_columns .portfolio_inner .project_rollover .entry-header {margin:0 0 0 25px;}
+	
+	.portfolio.four_columns .project:nth-child(odd), 
+	.portfolio.three_columns .project:nth-child(odd), 
+	.format-album.cmsms_four .resize figure:nth-child(odd),
+	.cmsms_sitemap_archive li:nth-child(odd),  
+	.cmsms_sitemap > li > ul > li:nth-child(odd) {
+		padding-left:4%;
+		padding-right:0;
+	}
+	
+	.portfolio.four_columns .project:nth-child(even),  
+	.portfolio.three_columns .project:nth-child(even),  
+	.format-album.cmsms_four .resize figure:nth-child(even), 
+	.cmsms_sitemap_archive li:nth-child(even), 
+	.cmsms_sitemap > li > ul > li:nth-child(even) {
+		padding-left:4%;
+		padding-right:0;
+	}
+	
+	.content_wrap.r_sidebar .post_type_shortcode article.post:nth-child(odd),
+	.content_wrap.r_sidebar .post_type_shortcode article.post:nth-child(even), 
+	.content_wrap.r_sidebar .post_type_shortcode article.project:nth-child(odd),
+	.content_wrap.r_sidebar .post_type_shortcode article.project:nth-child(even), 
+	.content_wrap.l_sidebar .post_type_shortcode article.post:nth-child(odd),
+	.content_wrap.l_sidebar .post_type_shortcode article.post:nth-child(even), 
+	.content_wrap.l_sidebar .post_type_shortcode article.project:nth-child(odd),
+	.content_wrap.l_sidebar .post_type_shortcode article.project:nth-child(even) {float:right;}
+
+}
+
+
+/* ---------- Small Tablet & Mobile (Note: Design for a width less than 768px) ---------- */
+
+@media only screen and (max-width: 768px) {
+	
+	.portfolio.three_columns .project, 
+	.format-album.cmsms_two .resize figure, 
+	.format-album.cmsms_three .resize figure {
+		padding-left:0;
+		padding-right:0;
+	}
+
+	.cmsms_info .published {
+		float:right;
+		margin:0 1px 3px 0;
+	}
+
+	.cmsms_info .cmsms_like {float:right;}
+	
+	.commentlist ul {padding-right:10px;}
+	
+	.p_options_block {
+		right:auto;
+		left:auto;
+	}
+	
+	.p_sort a[name="p_name"], 
+	.p_sort a[name="p_date"], 
+	div.p_filter {float:right;}
+	
+	.blog.opened-article .post {margin-right:0;}
+	
+	.portfolio.three_columns, 
+	.portfolio.one_blocks {
+		margin-right:0;
+		margin-left:0;
+	}
+	
+}
+
+
+/* ---------- Small Tablet & Mobile (Note: Design for a width less than 768px) ---------- */
+
+@media only screen and (max-width: 767px) {
+	
+	.portfolio.three_columns .project, 
+	.format-album.cmsms_two .resize figure, 
+	.format-album.cmsms_three .resize figure {
+		padding-left:0;
+		padding-right:0;
+	}
+
+	.cmsms_info .published {
+		float:right;
+		margin:0 1px 3px 0;
+	}
+
+	.cmsms_info .cmsms_like {float:right;}
+	
+	.commentlist ul {padding-right:10px;}
+	
+	.p_options_block {
+		right:auto;
+		left:auto;
+	}
+	
+	.p_sort a[name="p_name"], 
+	.p_sort a[name="p_date"], 
+	div.p_filter {float:right;}
+	
+	.blog.opened-article .post {margin-right:0;}
+	
+}
+
+
+
+/* ---------- Mobile (Note: Design for a width less than 700px) ---------- */
+
+@media only screen and (max-width: 700px) {
+
+	.portfolio.two_columns .project {
+		float:none;
+		padding-right:0;
+		width:96%;
+	}
+	
+	.portfolio.two_columns .portfolio_inner .project_rollover .entry-header {margin:0 25px 1px 0;}
+	
+	.portfolio.two_columns .portfolio_inner:hover .project_rollover:before {height:15px;}
+	
+	.portfolio.two_columns .portfolio_inner .project_rollover {padding-top:17px;}
+	
+	.portfolio.two_columns .portfolio_inner .project_rollover .entry-meta {padding-top:3px;}
+	
+	.portfolio.two_columns .portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:14px;
+		top:18px;
+	}
+	
+}
+
+
+/* ---------- Mobile (Note: Design for a width less than 541px) ---------- */
+
+@media only screen and (max-width: 540px) {
+
+	.portfolio.four_columns .project:nth-child(odd), 
+	.portfolio.four_columns .project:nth-child(even), 
+	.portfolio.three_columns .project:nth-child(odd), 
+	.portfolio.three_columns .project:nth-child(even), 
+	.format-album.cmsms_four .resize figure:nth-child(odd), 
+	.format-album.cmsms_four .resize figure:nth-child(even), 
+	.cmsms_sitemap_archive li:nth-child(odd),  
+	.cmsms_sitemap_archive li:nth-child(even), 
+	.cmsms_sitemap > li > ul > li:nth-child(odd),
+	.cmsms_sitemap > li > ul > li:nth-child(even) {
+		padding-left:0;
+		padding-right:0;
+	}
+	
+	.post_type_shortcode h3 {padding:0 2% 0 20%;}
+	
+	.post_type_shortcode article .project_rollover, 
+	.portfolio.four_columns .portfolio_inner .project_rollover, 
+	.portfolio.three_columns .portfolio_inner .project_rollover {padding:25px 25px 9px 20px;}
+	
+	.post_type_shortcode article .project_rollover .cmsms_post_format_img, 
+	.project_rollover .cmsms_post_format_img, 
+	.portfolio.three_columns .portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:auto;
+		left:25px;
+	}
+	
+	.project_rollover .entry-header, 
+	.project_rollover .entry-meta {margin-left:35px;}
+	
+	.comment-body .published {padding-right:0;}
+	
+	#commentform label {padding-right:0;}
+	
+	.post_type_shortcode.four_columns, 
+	.post_type_shortcode.two_columns, 
+	.portfolio.two_columns .project, 
+	.portfolio.four_columns	{margin-left:0;}
+
+	#commentform label {padding-right:0;}
+	
+	.pj_options_loader {
+		right:auto;
+		left:15px;
+	}
+	
+	div.pj_filter {float:right;}
+		
+	.pj_sort {
+		float:right;
+		padding-left:20px;
+		padding-right:0;
+	}
+	
+	.pj_sort a[name="pj_name"] {margin-right:0;}
+	
+}
+
+
+/* ---------- Mobile (Note: Design for a width less than 450px) ---------- */
+
+@media only screen and (max-width: 450px) {
+	
+	.post_type_shortcode article .project_rollover .cmsms_post_format_img, 
+	.project_rollover .cmsms_post_format_img, 
+	.portfolio.three_columns .portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:auto;
+		left:20px;
+	}
+	
+}
+
+
+/* ---------- Mobile (Note: Design for a width less than 401px) ---------- */
+
+@media only screen and (max-width: 400px) {
+	
+	.percent_parent:before {
+		left:auto;
+		right:34%;
+	}
+	
+	.testimonial .published {float:right;}
+	
+	.tl_author_img {margin-left:15px;}
+	
+	.post_type_shortcode article .project_rollover, 
+	.portfolio.four_columns .portfolio_inner .project_rollover, 
+	.portfolio.three_columns .portfolio_inner .project_rollover {padding:15px 15px 9px 20px;}
+	
+	.post_type_shortcode article .project_rollover .cmsms_post_format_img, 
+	.project_rollover .cmsms_post_format_img, 
+	.portfolio.three_columns .portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:auto;
+		left:13px;
+	}
+	
+	.portfolio.two_columns .portfolio_inner .project_rollover .entry-header {margin:0 0 5px 25px;}
+	
+	.pj_sort a[name="pj_name"] {margin-bottom:10px;}
+	
+}
+
+
+/* ---------- Mobile (Note: Design for a width less than 360px) ---------- */
+
+@media only screen and (max-width: 360px) {
+	
+	.testimonials .testimonial .button, 
+	.testimonials .testimonial .button_small {
+		float:right;
+		margin-left:10px;
+		margin-right:0px;
+	}
+	
+	.post_type_shortcode article .project_rollover, 
+	.portfolio.four_columns .portfolio_inner .project_rollover, 
+	.portfolio.three_columns .portfolio_inner .project_rollover {padding:10px 15px 9px 20px;}
+	
+	.portfolio.two_columns .portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:auto;
+		left:7px;
+	}
+	
+	.portfolio.one_column .portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:auto;
+		left:7px;
+	}
+
+}
+
+
+/* ---------- Mobile (Note: Design for a width less than 320px) ---------- */
+
+@media only screen and (max-width: 320px) {
+
+	.percent_parent:before {
+		left:auto;
+		right:39%;
+	}
+	
+	.percent_item > span {padding-left:7%;}
+	
+	.cmsms_pricing_table .cmsms_price_outer > div {padding-right:15px;}
+	
+	.post_type_shortcode article .project_rollover .cmsms_post_format_img, 
+	.project_rollover .cmsms_post_format_img, 
+	.portfolio.three_columns .portfolio_inner .project_rollover .cmsms_post_format_img {
+		right:auto;
+		left:8px;
+	}
+	
+	.project_rollover .entry-header, .project_rollover .entry-meta {margin-left:28px;}
+
+}	

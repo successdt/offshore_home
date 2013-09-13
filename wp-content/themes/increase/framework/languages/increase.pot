@@ -1,0 +1,723 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Increase 1.0\n"
+"POT-Creation-Date: 2013-04-24 11:29+0200\n"
+"PO-Revision-Date: 2013-04-24 11:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:25
+msgid "We're sorry, but the page you were looking for doesn't exist."
+msgstr ""
+
+#: 404.php:32 framework/admin/settings/cmsms-theme-settings-general.php:18
+msgid "Sitemap"
+msgstr ""
+
+#: archive.php:22
+msgid "No posts found"
+msgstr ""
+
+#: blog.php:64 page.php:58 portfolio.php:101 sitemap.php:64
+#: testimonials.php:142 timeline_post.php:62 timeline_project.php:62
+#: framework/admin/options/cmsms-theme-options.php:503
+#: framework/class/widgets-default.php:22
+#: framework/class/widgets-default.php:28
+#: framework/postType/blog/post/fullwidth/aside.php:43
+#: framework/postType/blog/post/fullwidth/audio.php:62
+#: framework/postType/blog/post/fullwidth/gallery.php:96
+#: framework/postType/blog/post/fullwidth/image.php:54
+#: framework/postType/blog/post/fullwidth/link.php:51
+#: framework/postType/blog/post/fullwidth/quote.php:58
+#: framework/postType/blog/post/fullwidth/standard.php:50
+#: framework/postType/blog/post/fullwidth/video.php:70
+#: framework/postType/blog/post/sidebar/aside.php:42
+#: framework/postType/blog/post/sidebar/audio.php:62
+#: framework/postType/blog/post/sidebar/gallery.php:96
+#: framework/postType/blog/post/sidebar/image.php:54
+#: framework/postType/blog/post/sidebar/link.php:51
+#: framework/postType/blog/post/sidebar/quote.php:58
+#: framework/postType/blog/post/sidebar/standard.php:50
+#: framework/postType/blog/post/sidebar/video.php:70
+#: framework/postType/portfolio/post/album.php:101
+#: framework/postType/portfolio/post/slider.php:83
+#: framework/postType/portfolio/post/video.php:62
+msgid "Pages"
+msgstr ""
+
+#: comments.php:14
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:27 framework/function/template-functions.php:365
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:27 framework/function/template-functions.php:365
+msgid "Comment"
+msgstr ""
+
+#: comments.php:27 framework/class/widgets.php:1757
+#: framework/function/template-functions.php:365
+#: framework/function/template-functions.php:472
+#: framework/function/template-functions.php:484
+#: framework/function/template-functions.php:498
+#: framework/function/template-functions.php:510
+#: framework/function/template-functions.php:668
+#: framework/function/theme-functions.php:470
+msgid "Comments"
+msgstr ""
+
+#: comments.php:35 comments.php:59
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:76 header.php:469 header.php:474
+#: framework/admin/composer/inc/audio/composer_popup.php:180
+#: framework/admin/composer/inc/audio/composer_popup.php:555
+#: framework/admin/composer/inc/audio/composer_popup.php:603
+#: framework/admin/composer/inc/audio/composer_popup.php:650
+#: framework/admin/composer/inc/audio/composer_popup.php:706
+#: framework/admin/composer/inc/video/composer_popup.php:193
+#: framework/admin/composer/inc/video/composer_popup.php:658
+#: framework/admin/composer/inc/video/composer_popup.php:716
+#: framework/admin/composer/inc/video/composer_popup.php:773
+#: framework/admin/composer/inc/video/composer_popup.php:839
+#: framework/class/widgets.php:344
+msgid "Name"
+msgstr ""
+
+#: comments.php:80 framework/class/widgets.php:301
+#: framework/class/widgets.php:374
+msgid "Email"
+msgstr ""
+
+#: comments.php:84
+msgid "Website"
+msgstr ""
+
+#: comments.php:96
+msgid "You must be"
+msgstr ""
+
+#: comments.php:96
+msgid "logged in"
+msgstr ""
+
+#: comments.php:96
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:97
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:97
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:97
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:98
+msgid "Your email address will not be published. Required fields are marked"
+msgstr ""
+
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:103
+msgid "Leave your comment to"
+msgstr ""
+
+#: comments.php:104
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:105
+msgid "Submit Comment"
+msgstr ""
+
+#: header.php:367 framework/function/breadcrumbs.php:80
+msgid "Search Results for"
+msgstr ""
+
+#: header.php:370
+msgid "Daily Archives"
+msgstr ""
+
+#: header.php:372
+msgid "Monthly Archives"
+msgstr ""
+
+#: header.php:374
+msgid "Yearly Archives"
+msgstr ""
+
+#: header.php:376
+msgid "Category Archives"
+msgstr ""
+
+#: header.php:378
+msgid "Tag Archives"
+msgstr ""
+
+#: header.php:382
+msgid "Author Archives"
+msgstr ""
+
+#: header.php:386 framework/function/breadcrumbs.php:104
+msgid "Portfolio Archives"
+msgstr ""
+
+#: header.php:388
+msgid "Website Archives"
+msgstr ""
+
+#: header.php:476 header.php:481 framework/function/template-functions.php:538
+msgid "Date"
+msgstr ""
+
+#: header.php:486 header.php:487 header.php:491
+msgid "All Categories"
+msgstr ""
+
+#: image.php:26
+msgid "Edit Media"
+msgstr ""
+
+#: image.php:28
+msgid "Published"
+msgstr ""
+
+#: image.php:28
+msgid "at"
+msgstr ""
+
+#: image.php:28 framework/function/template-functions.php:388
+msgid "in"
+msgstr ""
+
+#: image.php:38
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next &rarr;"
+msgstr ""
+
+#: search.php:23
+msgid "Nothing found. Try another search?"
+msgstr ""
+
+#: search.php:68
+msgid "This page contains your query"
+msgstr ""
+
+#: searchform.php:16
+msgid "enter keywords"
+msgstr ""
+
+#: single-testimonial.php:91 single.php:70
+msgid "Like this post?"
+msgstr ""
+
+#: single-testimonial.php:95 single.php:73
+#: framework/postType/portfolio/post/album.php:160
+#: framework/postType/portfolio/post/slider.php:143
+#: framework/postType/portfolio/post/video.php:122
+msgid "Tweet"
+msgstr ""
+
+#: single-testimonial.php:130 single.php:108
+#: framework/postType/portfolio/post/album.php:195
+#: framework/postType/portfolio/post/slider.php:178
+#: framework/postType/portfolio/post/video.php:157
+msgid "Pin It"
+msgstr ""
+
+#: single-testimonial.php:169 single.php:147
+#: framework/postType/portfolio/post/album.php:234
+#: framework/postType/portfolio/post/slider.php:217
+#: framework/postType/portfolio/post/video.php:196
+msgid "More sharing options"
+msgstr ""
+
+#: sitemap.php:79 framework/admin/customizer/cmsms-theme-customizer.php:3298
+#: framework/admin/settings/cmsms-theme-settings-general.php:139
+msgid "Website Pages"
+msgstr ""
+
+#: sitemap.php:92 framework/admin/customizer/cmsms-theme-customizer.php:3312
+#: framework/admin/settings/cmsms-theme-settings-general.php:148
+msgid "Blog Archives by Categories"
+msgstr ""
+
+#: sitemap.php:113 framework/admin/customizer/cmsms-theme-customizer.php:3326
+#: framework/admin/settings/cmsms-theme-settings-general.php:157
+msgid "Blog Archives by Tags"
+msgstr ""
+
+#: sitemap.php:127 framework/admin/customizer/cmsms-theme-customizer.php:3340
+#: framework/admin/settings/cmsms-theme-settings-general.php:166
+msgid "Blog Archives by Month"
+msgstr ""
+
+#: sitemap.php:144 framework/admin/customizer/cmsms-theme-customizer.php:3354
+#: framework/admin/settings/cmsms-theme-settings-general.php:175
+msgid "Portfolio Archives by Categories"
+msgstr ""
+
+#: sitemap.php:161 framework/admin/customizer/cmsms-theme-customizer.php:3368
+#: framework/admin/settings/cmsms-theme-settings-general.php:184
+msgid "Portfolio Archives by Tags"
+msgstr "" 
+
+#: framework/admin/composer/inc/audio/composer_popup.php:25
+#: framework/admin/composer/inc/box/composer_popup.php:25
+#: framework/admin/composer/inc/email/composer_popup.php:28
+#: framework/admin/composer/inc/map/composer_popup.php:25
+#: framework/admin/composer/inc/person/composer_popup.php:25
+#: framework/admin/composer/inc/post/composer_popup.php:25
+#: framework/admin/composer/inc/price/composer_popup.php:25
+#: framework/admin/composer/inc/slider/composer_popup.php:25
+#: framework/admin/composer/inc/stat/composer_popup.php:25
+#: framework/admin/composer/inc/tab/composer_popup.php:25
+#: framework/admin/composer/inc/text/composer_popup.php:25
+#: framework/admin/composer/inc/video/composer_popup.php:25
+msgid "You must be logged in to access this page."
+msgstr "" 
+
+#: framework/admin/composer/inc/audio/composer_popup.php:498
+#: framework/class/widgets.php:900 framework/class/widgets.php:976
+msgid "Your browser does not support the audio tag."
+msgstr "" 
+
+#: framework/admin/composer/inc/video/composer_popup.php:601
+#: framework/class/widgets.php:1086 framework/class/widgets.php:1170
+msgid "Your browser does not support the video tag."
+msgstr "" 
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:422
+#: framework/admin/settings/cmsms-theme-settings-style.php:321
+msgid "All Rights Reserved"
+msgstr "" 
+
+#: framework/admin/customizer/cmsms-theme-customizer.php:2614
+#: framework/admin/customizer/cmsms-theme-customizer.php:3168
+#: framework/admin/options/cmsms-theme-options-post.php:305
+#: framework/admin/options/cmsms-theme-options-project.php:208
+#: framework/admin/options/cmsms-theme-options-testimonial.php:133
+#: framework/admin/settings/cmsms-theme-settings-blog.php:104
+#: framework/admin/settings/cmsms-theme-settings-testimonial.php:104
+#: framework/function/template-functions.php:741
+#: framework/function/template-functions.php:750
+#: framework/function/template-functions.php:761
+msgid "Read More"
+msgstr "" 
+
+#: framework/class/shortcodes.php:718 framework/class/shortcodes.php:731
+#: framework/class/shortcodes.php:796 framework/class/shortcodes.php:809
+#: framework/class/shortcodes.php:1110 framework/class/shortcodes.php:1176
+msgid "Play"
+msgstr ""
+
+#: framework/class/shortcodes.php:732 framework/class/shortcodes.php:810
+#: framework/class/shortcodes.php:1111 framework/class/shortcodes.php:1177
+msgid "Pause"
+msgstr ""
+
+#: framework/class/shortcodes.php:733 framework/class/shortcodes.php:811
+#: framework/class/shortcodes.php:1112 framework/class/shortcodes.php:1178
+msgid "Stop"
+msgstr ""
+
+#: framework/class/shortcodes.php:739 framework/class/shortcodes.php:819
+#: framework/class/shortcodes.php:1118 framework/class/shortcodes.php:1186
+msgid "Mute"
+msgstr ""
+
+#: framework/class/shortcodes.php:740 framework/class/shortcodes.php:820
+#: framework/class/shortcodes.php:1119 framework/class/shortcodes.php:1187
+msgid "Unmute"
+msgstr ""
+
+#: framework/class/shortcodes.php:741 framework/class/shortcodes.php:821
+msgid "Full Screen"
+msgstr ""
+
+#: framework/class/shortcodes.php:742 framework/class/shortcodes.php:822
+msgid "Restore Screen"
+msgstr ""
+
+#: framework/class/shortcodes.php:752 framework/class/shortcodes.php:832
+#: framework/class/shortcodes.php:1129 framework/class/shortcodes.php:1197
+msgid "Update Required"
+msgstr ""
+
+#: framework/class/shortcodes.php:753 framework/class/shortcodes.php:833
+#: framework/class/shortcodes.php:1130 framework/class/shortcodes.php:1198
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your"
+msgstr ""
+
+#: framework/class/shortcodes.php:753 framework/class/shortcodes.php:833
+#: framework/class/shortcodes.php:1130 framework/class/shortcodes.php:1198
+msgid "Flash plugin"
+msgstr ""
+
+#: framework/class/shortcodes.php:812 framework/class/shortcodes.php:1179
+msgid "Previous"
+msgstr ""
+
+#: framework/class/shortcodes.php:813 framework/class/shortcodes.php:1180
+msgid "Next"
+msgstr "" 
+
+#: framework/class/widgets-default.php:196
+#: framework/class/widgets-default.php:204
+#: framework/function/theme-functions.php:431
+msgid "Archives"
+msgstr "" 
+
+#: framework/class/widgets-default.php:306
+#: framework/class/widgets-default.php:312
+#: framework/function/theme-functions.php:443
+msgid "Meta"
+msgstr ""
+
+#: framework/class/widgets-default.php:325
+#: framework/function/theme-functions.php:461
+msgid "Syndicate this site using RSS 2.0"
+msgstr "" 
+
+#: framework/class/widgets-default.php:326
+#: framework/function/theme-functions.php:470
+msgid "The latest comments to all posts in RSS"
+msgstr "" 
+
+#: framework/class/widgets-default.php:327
+#: framework/function/theme-functions.php:475
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "" 
+
+#: framework/class/widgets-default.php:931
+#: framework/function/theme-functions.php:462
+#: framework/function/theme-functions.php:471
+msgid "RSS"
+msgstr "" 
+
+#: framework/class/widgets.php:817
+msgid "More flickr images"
+msgstr "" 
+
+#: framework/class/widgets.php:1844 framework/class/widgets.php:1850
+#: framework/class/widgets.php:1859 framework/class/widgets.php:1868
+#: framework/class/widgets.php:1962 framework/class/widgets.php:1968
+#: framework/class/widgets.php:1977 framework/class/widgets.php:1986
+#: framework/class/widgets.php:2039
+msgid "ago"
+msgstr ""
+
+#: framework/class/widgets.php:2036
+msgid "on"
+msgstr "" 
+
+#: framework/function/breadcrumbs.php:21
+msgid "Home"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:106
+msgid "No Breadcrumbs"
+msgstr ""
+
+#: framework/function/pagination.php:38
+msgid "&lt;"
+msgstr ""
+
+#: framework/function/pagination.php:39
+msgid "&gt;"
+msgstr ""
+
+#: framework/function/single-comment.php:30
+#: js/jquery.jTweetsAnywhere.min.php:1257
+msgid "Reply"
+msgstr ""
+
+#: framework/function/single-comment.php:35
+#: framework/function/template-functions.php:312
+#: framework/function/template-functions.php:335
+#: framework/function/template-functions.php:381
+msgid "By"
+msgstr ""
+
+#: framework/function/single-comment.php:45
+msgid "Your comment is awaiting moderation."
+msgstr "" 
+
+#: framework/function/template-functions.php:365
+msgid "Comments Off"
+msgstr ""
+
+#: framework/function/template-functions.php:474
+#: framework/function/template-functions.php:486
+#: framework/function/template-functions.php:500
+#: framework/function/template-functions.php:512
+#: framework/function/template-functions.php:666
+msgid "Off"
+msgstr ""
+
+#: framework/function/template-functions.php:812
+msgid "More posts"
+msgstr ""
+
+#: framework/function/template-functions.php:814
+msgid "More testimonials"
+msgstr ""
+
+#: framework/function/template-functions.php:816
+msgid "More projects"
+msgstr ""
+
+#: framework/function/template-functions.php:823
+msgid "Related"
+msgstr ""
+
+#: framework/function/template-functions.php:923
+msgid "No Related Posts Found"
+msgstr ""
+
+#: framework/function/template-functions.php:925
+msgid "No Related Testimonials Found"
+msgstr ""
+
+#: framework/function/template-functions.php:927
+msgid "No Related Projects Found"
+msgstr ""
+
+#: framework/function/template-functions.php:988
+msgid "No Popular Posts Found"
+msgstr ""
+
+#: framework/function/template-functions.php:990
+msgid "No Popular Testimonials Found"
+msgstr ""
+
+#: framework/function/template-functions.php:992
+msgid "No Popular Projects Found"
+msgstr ""
+
+#: framework/function/template-functions.php:1049
+msgid "No Latest Posts Found"
+msgstr ""
+
+#: framework/function/template-functions.php:1051
+msgid "No Latest Testimonials Found"
+msgstr ""
+
+#: framework/function/template-functions.php:1053
+msgid "No Latest Projects Found"
+msgstr ""
+
+#: framework/function/template-functions.php:1102
+msgid "Unknown type of the video. Check your video link."
+msgstr "" 
+
+#: framework/function/theme-functions.php:259
+msgid "Form Builder"
+msgstr "" 
+
+#: framework/postType/blog/page/fullwidth/aside.php:34
+#: framework/postType/blog/page/fullwidth/quote.php:42
+#: framework/postType/blog/page/sidebar/aside.php:34
+#: framework/postType/blog/page/sidebar/quote.php:42
+#: framework/postType/blog/post/fullwidth/aside.php:35
+#: framework/postType/blog/post/fullwidth/quote.php:42
+#: framework/postType/blog/post/sidebar/aside.php:34
+#: framework/postType/blog/post/sidebar/quote.php:42
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: framework/postType/blog/page/fullwidth/link.php:17
+#: framework/postType/blog/page/sidebar/link.php:17
+#: framework/postType/blog/post/fullwidth/link.php:17
+#: framework/postType/blog/post/sidebar/link.php:17
+msgid "Enter link text"
+msgstr "" 
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Jan"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Feb"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Mar"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Apr"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "May"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Jun"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Jul"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Aug"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Sep"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Oct"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Nov"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:233
+msgid "Dec"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:786
+msgid "More"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:790
+msgid "Prev"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:809
+msgid "new tweet"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:809
+msgid "new tweets"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1063
+msgid "on Twitter"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1089
+msgid "second ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1089
+msgid "seconds ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1094
+msgid "minute ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1094
+msgid "minutes ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1099
+msgid "hour ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1099
+msgid "hours ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1114
+msgid "day ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1114
+msgid "days ago"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1127
+msgid "via"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1164
+msgid "from"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1183
+msgid "in reply to"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1211
+msgid "and"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1211
+msgid "other"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1211
+msgid "others"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1216
+msgid "Retweeted by"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1269
+msgid "Retweet"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1281
+msgid "Favorite"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1322
+msgid "Sign out"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1360
+msgid "Loading"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1365
+msgid "ERROR"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1370
+msgid "No more data"
+msgstr ""
+
+#: js/jquery.jTweetsAnywhere.min.php:1501
+msgid "What's happening?"
+msgstr ""

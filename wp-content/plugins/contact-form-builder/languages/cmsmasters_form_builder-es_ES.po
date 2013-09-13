@@ -1,0 +1,449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form Builder 1.0.1\n"
+"POT-Creation-Date: 2012-10-23 12:10+0200\n"
+"PO-Revision-Date: 2013-03-15 10:56+0200\n"
+"Last-Translator: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contact-form-builder.php:68
+msgid "plugin requires"
+msgstr "plugin necesita"
+
+#: contact-form-builder.php:68
+msgid "WordPress themes!"
+msgstr "WordPress temas!"
+
+#: contact-form-builder.php:68
+msgid "Deactivating Plugin."
+msgstr "Plugin está desactivando"
+
+#: contact-form-builder.php:68
+msgid "Back to"
+msgstr "Atrás a"
+
+#: contact-form-builder.php:68
+msgid "WordPress admin panel"
+msgstr "WordPress admin panel"
+
+#: contact-form-builder.php:110
+msgid "Contact Form Builder"
+msgstr "Constructor de las Formas de Contacto"
+
+#: contact-form-builder.php:112
+msgid "Form settings succesfully saved."
+msgstr "Ajustes de la forma fueron guardados con éxito."
+
+#: contact-form-builder.php:113
+msgid "Form succesfully deleted."
+msgstr "Forma fue eliminada con éxito."
+
+#: contact-form-builder.php:123
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: contact-form-builder.php:124
+msgid "Cancel"
+msgstr "Anular"
+
+#: contact-form-builder.php:126 contact-form-builder.php:143
+#: contact-form-builder.php:148 contact-form-builder.php:154
+#: contact-form-builder.php:223
+msgid "Loading"
+msgstr "Carga"
+
+#: contact-form-builder.php:129
+msgid "Select your form here"
+msgstr "Escoga Ud su forma aquí"
+
+#: contact-form-builder.php:141
+msgid "Edit"
+msgstr "Editar"
+
+#: contact-form-builder.php:146
+msgid "Delete"
+msgstr "Eliminar"
+
+#: contact-form-builder.php:152
+msgid "Save As..."
+msgstr "Guardar como"
+
+#: contact-form-builder.php:170
+msgid "Enter Form Name!"
+msgstr "Introduzca Ud el Nombre de la Forma!"
+
+#: contact-form-builder.php:171
+msgid "Enter your message text!"
+msgstr "Introduzca Ud el texto de su mensaje!"
+
+#: contact-form-builder.php:172
+msgid "Enter your message subject text!"
+msgstr "Introduzca Ud el texto del tema de su mensaje!"
+
+#: contact-form-builder.php:173
+msgid "Enter the text about your message successfully sending!"
+msgstr "Introduzca Ud el texto sobre el envío exitoso de su mesaje de Ud!"
+
+#: contact-form-builder.php:174
+msgid "Please fill all field labels!"
+msgstr "Por favor llene Ud todas etiquetas del campo! "
+
+#: contact-form-builder.php:175
+msgid "Please fill all field options!"
+msgstr "Por favor llene Ud todas opciones del campo! "
+
+#: contact-form-builder.php:176
+msgid "Error on page! Please reload page and try again."
+msgstr ""
+"Error en la página! Por favor, recargue Ud la página e intente otra vez."
+
+#: contact-form-builder.php:177
+msgid "Form with this name already exists, try another name."
+msgstr "Forma con este nombre existe ya, intente Ud un otro nombre."
+
+#: contact-form-builder.php:178
+msgid "Form saving error was detected! Please try again."
+msgstr ""
+"Error durante guardar la forma fue detectado! Por favor, intente Ud otra vez."
+
+#: contact-form-builder.php:179
+msgid ""
+"It is no form with this name in your database. \n"
+"Save this form as"
+msgstr ""
+"No hay ninguna forma con este nombre en su base de datos de Ud.\n"
+" Guardar esta forma como"
+
+#: contact-form-builder.php:180
+msgid "Please enter new form name."
+msgstr "Por favor, introduzca Ud un nuevo nombre de la forma."
+
+#: contact-form-builder.php:181
+msgid "Form name is invalid."
+msgstr "Nombre de la Forma está inválido."
+
+#: contact-form-builder.php:182
+msgid "Text"
+msgstr "Texto "
+
+#: contact-form-builder.php:183
+msgid "Field Label"
+msgstr "Etiqueta del Campo"
+
+#: contact-form-builder.php:184
+msgid "Required"
+msgstr "Necesita"
+
+#: contact-form-builder.php:185
+msgid "Field Description"
+msgstr "Desrripción del Campo"
+
+#: contact-form-builder.php:186
+msgid "Field Options"
+msgstr "Opciones del Campo"
+
+#: contact-form-builder.php:187
+msgid "Min text size"
+msgstr "Dimensión mínima del texto"
+
+#: contact-form-builder.php:188
+msgid "Max text size"
+msgstr "Dimensión máxima del texto"
+
+#: contact-form-builder.php:189
+msgid "Choose verification"
+msgstr "Escoga Ud una verificación"
+
+#: contact-form-builder.php:190 inc/form-builder-widget.php:325
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: contact-form-builder.php:191
+msgid "URL"
+msgstr "URL"
+
+#: contact-form-builder.php:192
+msgid "Number"
+msgstr "Número"
+
+#: contact-form-builder.php:193
+msgid "Only Numbers & Spaces"
+msgstr "Sólo Números & Espacios"
+
+#: contact-form-builder.php:194
+msgid "Only Letters & Spaces"
+msgstr "Sólo Letras & Espacios"
+
+#: contact-form-builder.php:195
+msgid "Items"
+msgstr "Puntos"
+
+#: contact-form-builder.php:196
+msgid "Label"
+msgstr "Etiqueta"
+
+#: contact-form-builder.php:197
+msgid ""
+"Thank You! \n"
+"Your message has been sent successfully."
+msgstr ""
+"Gracias!\n"
+"Su mensaje de Ud fue enviado con éxito."
+
+#: contact-form-builder.php:198
+msgid "Form Subject"
+msgstr "Tema de la Forma"
+
+#: contact-form-builder.php:199
+msgid "Your message text..."
+msgstr "Texto de su mensaje de Ud..."
+
+#: contact-form-builder.php:200
+msgid ""
+"Form deleting error was detected! \n"
+"It is no such form in your database."
+msgstr ""
+"Error durante eliminar la forma fue detectado! \n"
+"No hay tan forma en su base de datos de Ud."
+
+#: contact-form-builder.php:201
+msgid "Are you sure you want to delete the form"
+msgstr "Está Ud seguro de eliminar esta forma?"
+
+#: contact-form-builder.php:202
+msgid "and all the fields it contains?"
+msgstr "y los campos qiénes él mantiene?"
+
+#: contact-form-builder.php:203
+msgid "Please choose form!"
+msgstr "Por favor, escoga Ud la forma!"
+
+#: contact-form-builder.php:204
+msgid ""
+"All unsaved changes will be lost! \n"
+"Do you want to proceed?"
+msgstr ""
+"Todos los cambios no guardados serán perdidos! \n"
+"Quiere Ud proceder?"
+
+#: contact-form-builder.php:205
+msgid ""
+"Error was detected! \n"
+"It is no such form in your database."
+msgstr ""
+"Error  fue detectado! \n"
+"No hay tan forma en su base de datos de Ud."
+
+#: contact-form-builder.php:206 inc/form-builder-widget.php:330
+msgid "Form Name"
+msgstr "Nombre de la Forma"
+
+#: contact-form-builder.php:207
+msgid "Drag & Drop to change fields order"
+msgstr "Arraste & Deje para cambiar el orden de los cambios"
+
+#: contact-form-builder.php:208
+msgid "Add / Remove / Edit Fields"
+msgstr "Añadir / Eliminar / Editar los Cambios"
+
+#: contact-form-builder.php:209
+msgid "Add New Field"
+msgstr "Añadir un Cambio Nuevo"
+
+#: contact-form-builder.php:210
+msgid "Text Field"
+msgstr "Cambio del Texto"
+
+#: contact-form-builder.php:211
+msgid "Email Field"
+msgstr "Cambio del Email"
+
+#: contact-form-builder.php:212
+msgid "Text Area"
+msgstr "Área del Texto"
+
+#: contact-form-builder.php:213
+msgid "Dropdown"
+msgstr "Menú desplegable"
+
+#: contact-form-builder.php:214
+msgid "Radiobuttons"
+msgstr "Botones de opción"
+
+#: contact-form-builder.php:215
+msgid "Checkbox"
+msgstr "Casilla"
+
+#: contact-form-builder.php:216
+msgid "Checkboxes"
+msgstr "Casillas"
+
+#: contact-form-builder.php:217
+msgid "Message Composer"
+msgstr "Compositor del Mensaje"
+
+#: contact-form-builder.php:218
+msgid "The Message Subject"
+msgstr "Tema del Mensaje"
+
+#: contact-form-builder.php:244
+msgid "Submit Button Text"
+msgstr "Texto del botón Enviar"
+
+#: contact-form-builder.php:245
+msgid "Send Message"
+msgstr "Enviar el Mensaje"
+
+#: contact-form-builder.php:219
+msgid "The Message About Succesful Sending Text"
+msgstr "Texto del mensaje sobre el envío exitoso!"
+
+#: contact-form-builder.php:220
+msgid "Use CAPTCHA"
+msgstr "Usar CAPTCHA"
+
+#: contact-form-builder.php:221
+msgid "Add Reset Button"
+msgstr "Añadir el botón de reiniciar "
+
+#: contact-form-builder.php:222
+msgid "Save Form"
+msgstr "Guardar la Forma"
+
+#: contact-form-builder.php:224
+msgid "Form not saved! Form name is invalid."
+msgstr "Forma no es guardada! El nombre de la forma está inválido."
+
+#: contact-form-builder.php:225
+msgid "Please enter valid number."
+msgstr "Por favor, introduzca Ud el número válido."
+
+#: contact-form-builder.php:226
+msgid "Please choose field type!"
+msgstr "Por favor, escoga Ud el tipo del campo!"
+
+#: contact-form-builder.php:227
+msgid "Are you sure you want to delete this field?"
+msgstr "Está Ud seguro de eliminar este cambio?"
+
+#: contact-form-builder.php:228
+msgid ""
+"Field deleting error was detected! \n"
+"It is no such field in your database."
+msgstr ""
+"Error durante eliminar el cambio fue detectado! \n"
+"No hay tan cambio en su base de datos de Ud."
+
+#: contact-form-builder.php:229
+msgid "Are you sure you want to delete this option?"
+msgstr "Está Ud seguro de eliminar esta opción?"
+
+#: contact-form-builder.php:230
+msgid "Here can't be less than 2 options!"
+msgstr "Aquí menos que 2 opciones no son posibles!"
+
+#: contact-form-builder.php:231
+msgid "Field"
+msgstr "Cambio"
+
+#: contact-form-builder.php:232
+msgid ""
+"All unsaved changes will be lost! \n"
+"Are you sure you want to leave this page?"
+msgstr ""
+"Todos los cambios no guardados serán perdidos! \n"
+"Quiere Ud quitar esta página?"
+
+#: contact-form-builder.php:242 contact-form-builder.php:243
+msgid "Form Builder"
+msgstr "Constructor de la Forma"
+
+#: inc/form-builder-shortcode.php:334 inc/form-builder-widget.php:281
+msgid "Do you really want to reset the form?"
+msgstr "Quiere Ud realmente reiniciar la forma?"
+
+#: inc/form-builder-shortcode.php:334 inc/form-builder-widget.php:281
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: inc/form-builder-widget.php:17
+msgid "Your website contact form widget"
+msgstr "Widget de la Forma de Contacto de su sitio de Ud"
+
+#: inc/form-builder-widget.php:20
+msgid "CMSMS - Contact Form"
+msgstr "Forma de Contacto"
+
+#: inc/form-builder-widget.php:26
+msgid "Contact Form"
+msgstr "Forma de Contacto"
+
+#: inc/form-builder-widget.php:320
+msgid "Title"
+msgstr "Título"
+
+#: inc/form-builder-widget.php:332
+msgid "Choose Form Name Here"
+msgstr "Escoga Ud el Nombre de la Forma Aquí"
+
+#: inc/form-builder-widget.php:352
+msgid "Choose the width of widget"
+msgstr "Escoga Ud la anchura del widget"
+
+#: inc/form-builder-widget.php:353
+msgid "Only for horizontal sidebars"
+msgstr "Sólo para barras laterales horizontales"
+
+#: js/jquery.validationEngine-lang.php:27
+msgid "* This field is required"
+msgstr "* Este cambio está necesario"
+
+#: js/jquery.validationEngine-lang.php:28
+msgid "* Please select an option"
+msgstr "* Por favor escoga Ud una opción"
+
+#: js/jquery.validationEngine-lang.php:29
+msgid "* This checkbox is required"
+msgstr "* Esta casilla está necesaria"
+
+#: js/jquery.validationEngine-lang.php:33
+msgid "* Minimum"
+msgstr "* Minimum"
+
+#: js/jquery.validationEngine-lang.php:34
+#: js/jquery.validationEngine-lang.php:39
+msgid "characters allowed"
+msgstr "de caracteres"
+
+#: js/jquery.validationEngine-lang.php:38
+msgid "* Maximum"
+msgstr "* Maximum"
+
+#: js/jquery.validationEngine-lang.php:43
+msgid "* Invalid email address"
+msgstr "* Dirección de email está inválida!"
+
+#: js/jquery.validationEngine-lang.php:47
+msgid "* Invalid number"
+msgstr "* Número inválido"
+
+#: js/jquery.validationEngine-lang.php:51
+msgid "* Invalid URL"
+msgstr "* URL Inválido"
+
+#: js/jquery.validationEngine-lang.php:55
+msgid "* Numbers and spaces only"
+msgstr "* Sólo Números & Espacios"
+
+#: js/jquery.validationEngine-lang.php:59
+msgid "* Letters and spaces only"
+msgstr "* Sólo Letras & Espacios"
