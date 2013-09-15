@@ -2,13 +2,16 @@
 # This file is distributed under the same license as the 3.4.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-07-18 14:45:01+0000\n"
+"PO-Revision-Date: 2013-09-13 21:36+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/0.1\n"
+"X-Generator: Poedit 1.5.7\n"
 "Project-Id-Version: 3.4.x\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #: wp-includes/locale.php:184
 msgctxt "text direction"
@@ -16,7 +19,10 @@ msgid "ltr"
 msgstr "ltr"
 
 #: wp-includes/class-wp-customize-control.php:390
-msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
+msgid ""
+"The web browser on your device cannot be used to upload files. You may be "
+"able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app "
+"for your device</a> instead."
 msgstr ""
 
 #: wp-includes/class-wp-customize-control.php:271
@@ -40,7 +46,9 @@ msgid "Saved"
 msgstr ""
 
 #: wp-login.php:662
-msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to experience the awesomeness."
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to experience the awesomeness."
 msgstr ""
 
 #: wp-includes/script-loader.php:304
@@ -68,7 +76,10 @@ msgid "This key is invalid."
 msgstr ""
 
 #: wp-content/plugins/akismet/admin.php:336
-msgid "Some comments have not yet been checked for spam by Akismet. They have been temporarily held for moderation. Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
+msgid ""
+"Some comments have not yet been checked for spam by Akismet. They have been "
+"temporarily held for moderation. Please check your <a href=\"%s\">Akismet "
+"configuration</a> and contact your web host if problems persist."
 msgstr ""
 
 #: wp-content/plugins/akismet/admin.php:358
@@ -84,8 +95,12 @@ msgid "Display the number of spam comments Akismet has caught"
 msgstr ""
 
 #: wp-content/plugins/akismet/widget.php:96
-msgid "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
-msgid_plural "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</strong>"
+msgid ""
+"<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</"
+"strong>"
+msgid_plural ""
+"<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</"
+"strong>"
 msgstr[0] ""
 
 #: wp-includes/class-wp-customize-control.php:318
@@ -102,7 +117,8 @@ msgid "Random Uploaded Image"
 msgstr ""
 
 #: wp-includes/class-wp-customize-manager.php:866
-msgid "You can edit your menu content on the Menus screen in the Appearance section."
+msgid ""
+"You can edit your menu content on the Menus screen in the Appearance section."
 msgstr ""
 
 #: wp-includes/class-wp-customize-control.php:395
@@ -336,7 +352,9 @@ msgid "Number of links to show:"
 msgstr ""
 
 #: wp-includes/class-wp-theme.php:213
-msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
+msgid ""
+"ERROR: The themes directory is either empty or doesn&#8217;t exist. Please "
+"check your installation."
 msgstr ""
 
 #: wp-includes/class-wp-theme.php:217
@@ -353,7 +371,8 @@ msgstr "Điều hướng"
 
 #: wp-includes/class-wp-customize-manager.php:866
 msgid "Your theme supports %s menu. Select which menu you would like to use."
-msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
+msgid_plural ""
+"Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] ""
 
 #: wp-includes/class-wp-customize-manager.php:898
@@ -443,12 +462,17 @@ msgid "Sorry, you are not allowed to delete this post."
 msgstr "Xin lỗi, bạn không được phép xóa bài viết này."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1110
-msgid "Ambiguous term name used in a hierarchical taxonomy. Please use term ID instead."
+msgid ""
+"Ambiguous term name used in a hierarchical taxonomy. Please use term ID "
+"instead."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:1117
-msgid "Sorry, you are not allowed to add a term to one of the given taxonomies."
-msgstr "Xin lỗi, bạn không được phép thêm một thuật ngữ vào một trong những nguyên tắc phân loại nhất định"
+msgid ""
+"Sorry, you are not allowed to add a term to one of the given taxonomies."
+msgstr ""
+"Xin lỗi, bạn không được phép thêm một thuật ngữ vào một trong những nguyên "
+"tắc phân loại nhất định"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1264
 msgid "The post cannot be deleted."
@@ -468,7 +492,9 @@ msgid "Invalid post type"
 msgstr "Thể loại không hợp lệ"
 
 #: wp-includes/class-wp-xmlrpc-server.php:984
-msgid "Sorry, you are not allowed to create password protected posts in this post type"
+msgid ""
+"Sorry, you are not allowed to create password protected posts in this post "
+"type"
 msgstr "Xin lỗi, bạn không được phép tạo mật khẩu bảo vệ trong loại bài này"
 
 #: wp-includes/class-wp-xmlrpc-server.php:989
@@ -485,21 +511,28 @@ msgstr "Xin lỗi, bạn không được phép để xuất bản bài viết tr
 
 #: wp-includes/class-wp-xmlrpc-server.php:1068
 #: wp-includes/class-wp-xmlrpc-server.php:1091
-msgid "Sorry, you are not allowed to assign a term to one of the given taxonomies."
+msgid ""
+"Sorry, you are not allowed to assign a term to one of the given taxonomies."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:1065
 #: wp-includes/class-wp-xmlrpc-server.php:1088
 msgid "Sorry, one of the given taxonomies is not supported by the post type."
-msgstr "Xin lỗi, một trong những nguyên tắc phân loại nhất định không được hỗ trợ bởi dạng bài."
+msgstr ""
+"Xin lỗi, một trong những nguyên tắc phân loại nhất định không được hỗ trợ "
+"bởi dạng bài."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1032
 msgid "Sorry, you are not allowed to stick this post."
 msgstr "Xin lỗi, bạn không được phép đặt chú ý cho bài viết này."
 
 #: wp-includes/class-wp-editor.php:267
-msgid "English=en,Danish=da,Dutch=nl,Finnish=fi,French=fr,German=de,Italian=it,Polish=pl,Portuguese=pt,Spanish=es,Swedish=sv"
-msgstr "English=en,Danish=da,Dutch=nl,Finnish=fi,French=fr,German=de,Italian=it,Polish=pl,Portuguese=pt,Spanish=es,Swedish=sv"
+msgid ""
+"English=en,Danish=da,Dutch=nl,Finnish=fi,French=fr,German=de,Italian=it,"
+"Polish=pl,Portuguese=pt,Spanish=es,Swedish=sv"
+msgstr ""
+"English=en,Danish=da,Dutch=nl,Finnish=fi,French=fr,German=de,Italian=it,"
+"Polish=pl,Portuguese=pt,Spanish=es,Swedish=sv"
 
 #: wp-includes/formatting.php:37
 msgctxt "opening curly double quote"
@@ -541,16 +574,30 @@ msgid "Allow search engines to index this site."
 msgstr "Cho phép các công cụ tìm kiếm đánh chỉ mục trang web này."
 
 #: wp-load.php:55
-msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started."
-msgstr "Hiện tại không có dạng là một tập tin dạng <code> wp-config.php </code>. Cần xác nhận lại trước khi có thể bắt đầu."
+msgid ""
+"There doesn't seem to be a <code>wp-config.php</code> file. I need this "
+"before we can get started."
+msgstr ""
+"Hiện tại không có dạng là một tập tin dạng <code> wp-config.php </code>. Cần "
+"xác nhận lại trước khi có thể bắt đầu."
 
 #: wp-load.php:56
-msgid "Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>."
-msgstr "Cần trợ giúp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Click vào đây</a>."
+msgid ""
+"Need more help? <a href='http://codex.wordpress.org/Editing_wp-config."
+"php'>We got it</a>."
+msgstr ""
+"Cần trợ giúp? <a href='http://codex.wordpress.org/Editing_wp-config."
+"php'>Click vào đây</a>."
 
 #: wp-load.php:57
-msgid "You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
-msgstr "Bạn có thể tạo ra một tập tin <code>wp-config.php</code> thông qua giao diện web, nhưng điều này có thể không làm việc cho tất cả các thiết lập máy chủ. Cách an toàn nhất là tự tạo tập tin một cách thủ công."
+msgid ""
+"You can create a <code>wp-config.php</code> file through a web interface, "
+"but this doesn't work for all server setups. The safest way is to manually "
+"create the file."
+msgstr ""
+"Bạn có thể tạo ra một tập tin <code>wp-config.php</code> thông qua giao diện "
+"web, nhưng điều này có thể không làm việc cho tất cả các thiết lập máy chủ. "
+"Cách an toàn nhất là tự tạo tập tin một cách thủ công."
 
 #: wp-load.php:58
 msgid "Create a Configuration File"
@@ -570,24 +617,54 @@ msgid "http://codex.wordpress.org/"
 msgstr "http://codex.wordpress.org/"
 
 #: wp-activate.php:68
-msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;. Please check your email inbox at %4$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
+msgid ""
+"Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your "
+"site using your chosen username of &#8220;%3$s&#8221;. Please check your "
+"email inbox at %4$s for your password and login instructions. If you do not "
+"receive an email, please check your junk or spam folder. If you still do not "
+"receive an email within an hour, you can <a href=\"%5$s\">reset your "
+"password</a>."
 msgstr ""
 
 #: wp-signup.php:221
-msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new site. <a href=\"%3$s\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
-msgstr "<a href=\"http://%1$s\">http://%2$s</a> là website mới của bạn. <a href=\"%3$s\">Đăng nhập</a> bằng &#8220;%4$s&#8221; sử dụng mật khẩu của bạn."
+msgid ""
+"<a href=\"http://%1$s\">http://%2$s</a> is your new site. <a href=\"%3$s"
+"\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
+msgstr ""
+"<a href=\"http://%1$s\">http://%2$s</a> là website mới của bạn. <a href="
+"\"%3$s\">Đăng nhập</a> bằng &#8220;%4$s&#8221; sử dụng mật khẩu của bạn."
 
 #: wp-activate.php:66
-msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
-msgstr "Tài khoản của bạn đã được kích hoạt. Ngay bây giờ, bạn có thể <a href=\"%1$s\">đăng nhập</a> vào website bằng tên tài khoản &#8220;%2$s&#8221;. Vui lòng kiểm tra hòm thư Email %3$s để biết thông tin đăng nhập. Nếu bạn không nhận được Email nào trong Inbox, vui lòng kiểm tra thêm hộp thư Junk hoặc Spam. Nếu hơn 01 giờ đồng hồ bạn vẫn chưa nhận được Email, bạn có thể sử dụng chức năng <a href=\"%4$s\">gửi lại mật khẩu</a>."
+msgid ""
+"Your account has been activated. You may now <a href=\"%1$s\">log in</a> to "
+"the site using your chosen username of &#8220;%2$s&#8221;. Please check your "
+"email inbox at %3$s for your password and login instructions. If you do not "
+"receive an email, please check your junk or spam folder. If you still do not "
+"receive an email within an hour, you can <a href=\"%4$s\">reset your "
+"password</a>."
+msgstr ""
+"Tài khoản của bạn đã được kích hoạt. Ngay bây giờ, bạn có thể <a href=\"%1$s"
+"\">đăng nhập</a> vào website bằng tên tài khoản &#8220;%2$s&#8221;. Vui lòng "
+"kiểm tra hòm thư Email %3$s để biết thông tin đăng nhập. Nếu bạn không nhận "
+"được Email nào trong Inbox, vui lòng kiểm tra thêm hộp thư Junk hoặc Spam. "
+"Nếu hơn 01 giờ đồng hồ bạn vẫn chưa nhận được Email, bạn có thể sử dụng chức "
+"năng <a href=\"%4$s\">gửi lại mật khẩu</a>."
 
 #: wp-includes/class-wp-atom-server.php:209
-msgid "AtomPub services are disabled on this site. An admin user can enable them at %s"
-msgstr "Dịch vụ AtomPub đã bị vô hiệu hóa trên trang web này. Người quản trị có thể kích hoạt dịch vụ này tại %s"
+msgid ""
+"AtomPub services are disabled on this site. An admin user can enable them at "
+"%s"
+msgstr ""
+"Dịch vụ AtomPub đã bị vô hiệu hóa trên trang web này. Người quản trị có thể "
+"kích hoạt dịch vụ này tại %s"
 
 #: wp-includes/functions.php:1132
-msgid "One or more database tables are unavailable. The database may need to be <a href=\"%s\">repaired</a>."
-msgstr "Một hoặc một vài bảng dữ liệu không thể hoạt động. Cơ sở dữ liệu cần được <a href=\"%s\">sửa chữa</a>."
+msgid ""
+"One or more database tables are unavailable. The database may need to be <a "
+"href=\"%s\">repaired</a>."
+msgstr ""
+"Một hoặc một vài bảng dữ liệu không thể hoạt động. Cơ sở dữ liệu cần được <a "
+"href=\"%s\">sửa chữa</a>."
 
 #: wp-mail.php:225
 msgid "Mission complete. Message <strong>%s</strong> deleted."
@@ -595,8 +672,12 @@ msgstr "Nhiệm vụ hoàn tất. Tin nhắn <strong>%s </strong> đã được 
 
 #: wp-includes/class-wp-xmlrpc-server.php:173
 #: wp-includes/class-wp-xmlrpc-server.php:195
-msgid "XML-RPC services are disabled on this site. An admin user can enable them at %s"
-msgstr "Dịch vụ XML-RPC bị vô hiệu hoá trên trang web này. Người quản trị có thể kích hoạt dịch vụ này tại %s"
+msgid ""
+"XML-RPC services are disabled on this site. An admin user can enable them at "
+"%s"
+msgstr ""
+"Dịch vụ XML-RPC bị vô hiệu hoá trên trang web này. Người quản trị có thể "
+"kích hoạt dịch vụ này tại %s"
 
 #: wp-includes/comment.php:706 wp-includes/comment.php:708
 msgid "You are posting comments too quickly. Slow down."
@@ -617,8 +698,12 @@ msgid "What do I do now?"
 msgstr "Tôi sẽ làm gì tiếp theo?"
 
 #: wp-includes/script-loader.php:209
-msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
-msgstr "%s vượt quá kích thước tải lên tối đa trong chương trình Tải lên bằng trình duyệt của bạn"
+msgid ""
+"%s exceeds the maximum upload size for the multi-file uploader when used in "
+"your browser."
+msgstr ""
+"%s vượt quá kích thước tải lên tối đa trong chương trình Tải lên bằng trình "
+"duyệt của bạn"
 
 #: wp-includes/script-loader.php:208
 msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
@@ -721,7 +806,9 @@ msgid "%s exceeds the maximum upload size for this site."
 msgstr ""
 
 #: wp-includes/functions.php:2729
-msgid "Please see <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">Debugging in WordPress</a> for more information."
+msgid ""
+"Please see <a href=\"http://codex.wordpress.org/Debugging_in_WordPress"
+"\">Debugging in WordPress</a> for more information."
 msgstr ""
 
 #: wp-includes/admin-bar.php:122
@@ -809,7 +896,8 @@ msgid "Sites"
 msgstr "Trang web"
 
 #: wp-includes/theme-compat/comments-popup.php:80 wp-login.php:514
-#: wp-admin/user-new.php:255 wp-admin/user-new.php:317 wp-admin/comment.php:170
+#: wp-admin/user-new.php:255 wp-admin/user-new.php:317
+#: wp-admin/comment.php:170
 #: wp-admin/includes/class-wp-users-list-table.php:165
 #: wp-admin/includes/template.php:322 wp-admin/user-edit.php:335
 msgid "E-mail"
@@ -982,7 +1070,9 @@ msgstr ""
 #: wp-includes/functions.wp-styles.php:137
 #: wp-includes/functions.wp-styles.php:159
 #: wp-includes/functions.wp-styles.php:183
-msgid "Scripts and styles should not be registered or enqueued until the %1$s, %2$s, or %3$s hooks."
+msgid ""
+"Scripts and styles should not be registered or enqueued until the %1$s, "
+"%2$s, or %3$s hooks."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:425
@@ -995,8 +1085,12 @@ msgid "Use <code>WP_User->ID</code> instead."
 msgstr "Sử dụng <code>WP_User->ID</code> thay thế."
 
 #: wp-includes/ms-functions.php:1737
-msgid "You have been added to this site. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">log in</a> using your username and password."
-msgstr "Bạn đã được thêm vào site này. Hãy đến <a href=\"%s\">trang chủ</a> hoặc <a href=\"%s\">log in</a> bằng tên truy cập và mật khẩu."
+msgid ""
+"You have been added to this site. Please visit the <a href=\"%s\">homepage</"
+"a> or <a href=\"%s\">log in</a> using your username and password."
+msgstr ""
+"Bạn đã được thêm vào site này. Hãy đến <a href=\"%s\">trang chủ</a> hoặc <a "
+"href=\"%s\">log in</a> bằng tên truy cập và mật khẩu."
 
 #: wp-includes/script-loader.php:201
 msgid "Memory exceeded. Please try another smaller file."
@@ -1025,7 +1119,8 @@ msgid "Blue"
 msgstr "Xanh"
 
 #: wp-includes/formatting.php:2840
-msgid "The timezone you have entered is not valid. Please select a valid timezone."
+msgid ""
+"The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Múi giờ không hợp lệ, vui lòng nhập lại."
 
 #: wp-includes/post.php:22
@@ -1064,7 +1159,9 @@ msgid "User"
 msgstr "Thành viên"
 
 #: wp-includes/pluggable.php:813
-msgid "You should specify a nonce action to be verified by using the first parameter."
+msgid ""
+"You should specify a nonce action to be verified by using the first "
+"parameter."
 msgstr ""
 
 #: wp-includes/taxonomy.php:422
@@ -1096,12 +1193,18 @@ msgid "Word count: %s"
 msgstr "Số từ: %s"
 
 #: wp-activate.php:92
-msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
+msgid ""
+"Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the "
+"<a href=\"%2$s\">homepage</a>."
 msgstr ""
 
 #: wp-activate.php:90
-msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
-msgstr "Tài khoảng của bạn đã kích hoạt.<a href=\"%1$s\">Xem site </a> hay <a href=\"%2$s\">Đăng nhập</a>"
+msgid ""
+"Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
+"href=\"%2$s\">Log in</a>"
+msgstr ""
+"Tài khoảng của bạn đã kích hoạt.<a href=\"%1$s\">Xem site </a> hay <a href="
+"\"%2$s\">Đăng nhập</a>"
 
 #: wp-includes/class-wp-editor.php:647
 #: wp-includes/js/tinymce/langs/wp-langs.php:501
@@ -1176,8 +1279,16 @@ msgid "Unlink (Alt + Shift + S)"
 msgstr "Bỏ liên kết (Alt + Shift + S)"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:274
-msgid "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor released as Open Source under %sLGPL</a>\tby Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances."
-msgstr "TinyMCE là một độc lập dựa trên nền tảng web Javascript HTML WYSIWYG biên tập phát hành mã nguồn mở theo%sLGPL </a> → bởi Moxiecode Systems AB. Nó có khả năng chuyển đổi các trường TextArea HTML HTML hoặc các yếu tố khác với các trường soạn thảo."
+msgid ""
+"TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor "
+"released as Open Source under %sLGPL</a>\tby Moxiecode Systems AB. It has "
+"the ability to convert HTML TEXTAREA fields or other HTML elements to editor "
+"instances."
+msgstr ""
+"TinyMCE là một độc lập dựa trên nền tảng web Javascript HTML WYSIWYG biên "
+"tập phát hành mã nguồn mở theo%sLGPL </a> → bởi Moxiecode Systems AB. Nó có "
+"khả năng chuyển đổi các trường TextArea HTML HTML hoặc các yếu tố khác với "
+"các trường soạn thảo."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:41
 msgid "Indigo"
@@ -1268,7 +1379,9 @@ msgid "Burnt orange"
 msgstr ""
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:170
-msgid "Paste is now in plain text mode. Click again to toggle back to regular paste mode."
+msgid ""
+"Paste is now in plain text mode. Click again to toggle back to regular paste "
+"mode."
 msgstr ""
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:73
@@ -1288,7 +1401,9 @@ msgid "Sea green"
 msgstr ""
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:169
-msgid "Paste is now in plain text mode. Click again to toggle back to regular paste mode. After you paste something you will be returned to regular paste mode."
+msgid ""
+"Paste is now in plain text mode. Click again to toggle back to regular paste "
+"mode. After you paste something you will be returned to regular paste mode."
 msgstr ""
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:489
@@ -1369,7 +1484,9 @@ msgid "Peach"
 msgstr ""
 
 #: wp-includes/js/tinymce/wp-mce-help.php:275
-msgid "Copyright &copy; 2003-2011, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, All rights reserved."
+msgid ""
+"Copyright &copy; 2003-2011, <a href=\"http://www.moxiecode.com\" target="
+"\"_blank\">Moxiecode Systems AB</a>, All rights reserved."
 msgstr ""
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:64
@@ -1402,12 +1519,16 @@ msgid "Grayish blue"
 msgstr ""
 
 #: wp-includes/class-http.php:145
-msgid "Destination directory for file streaming does not exist or is not writable."
+msgid ""
+"Destination directory for file streaming does not exist or is not writable."
 msgstr "Điểm đến thư mục cho tập tin trực tuyến không tồn tại hoặc không ghi."
 
 #: wp-includes/class-http.php:248
-msgid "There are no HTTP transports available which can complete the requested request."
-msgstr "Có HTTP không có vận chuyển có sẵn mà có thể hoàn thành các yêu cầu yêu cầu."
+msgid ""
+"There are no HTTP transports available which can complete the requested "
+"request."
+msgstr ""
+"Có HTTP không có vận chuyển có sẵn mà có thể hoàn thành các yêu cầu yêu cầu."
 
 #: wp-includes/taxonomy.php:103 wp-includes/taxonomy.php:104
 msgctxt "post format"
@@ -1415,22 +1536,33 @@ msgid "Format"
 msgstr "Định dạng"
 
 #: wp-content/plugins/akismet/admin.php:480
-msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
-msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
+msgid ""
+"<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment "
+"already. "
+msgid_plural ""
+"<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments "
+"already. "
 msgstr[0] "<a href=\"%1$s\">Akismet</a> đã chặn %2$ spam. "
 
 #: wp-content/plugins/akismet/admin.php:491
 msgid "There's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
-msgid_plural "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
-msgstr[0] "Có  <a href=\"%2$s\">%1$s comments</a>  trong hàng đợi thư rác của bạn ngay bây giờ."
+msgid_plural ""
+"There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] ""
+"Có  <a href=\"%2$s\">%1$s comments</a>  trong hàng đợi thư rác của bạn ngay "
+"bây giờ."
 
 #: wp-content/plugins/akismet/admin.php:486
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog. "
 msgstr "<a href=\"%1$s\">Akismet</a> chặn thư rác blog của bạn nhận được."
 
 #: wp-content/plugins/akismet/admin.php:153
-msgid "<strong>Sign up success!</strong> Please check your email for your Akismet API Key and enter it below."
-msgstr "<strong>Đăng ký thành công!</strong> Hãy kiểm tra Akismet API Key trong email của bạn và điền chúng vào dưới đây."
+msgid ""
+"<strong>Sign up success!</strong> Please check your email for your Akismet "
+"API Key and enter it below."
+msgstr ""
+"<strong>Đăng ký thành công!</strong> Hãy kiểm tra Akismet API Key trong "
+"email của bạn và điền chúng vào dưới đây."
 
 #: wp-content/plugins/akismet/admin.php:362
 msgid "Flagged as spam by Akismet"
@@ -1474,8 +1606,12 @@ msgstr "Hoặc liên kết đến nội dung đã tồn tại"
 #: wp-includes/query.php:603 wp-includes/query.php:630
 #: wp-includes/query.php:650 wp-includes/query.php:670
 #: wp-includes/query.php:690 wp-includes/query.php:710
-msgid "Conditional query tags do not work before the query is run. Before then, they always return false."
-msgstr "Các thẻ truy vấn điều kiện không làm việc trước khi truy vấn được chạy. Trước đó, chúng luôn luôn trả về false."
+msgid ""
+"Conditional query tags do not work before the query is run. Before then, "
+"they always return false."
+msgstr ""
+"Các thẻ truy vấn điều kiện không làm việc trước khi truy vấn được chạy. "
+"Trước đó, chúng luôn luôn trả về false."
 
 #: wp-includes/ms-functions.php:841
 msgid "The user is already active."
@@ -1490,7 +1626,10 @@ msgid "(This message was added in version %s.)"
 msgstr "(Thông điệp này đã được thêm vào trong phiên bản %s.)"
 
 #: wp-includes/user.php:110
-msgid "<strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\" title=\"Password Lost and Found\">Lost your password</a>?"
+msgid ""
+"<strong>ERROR</strong>: The password you entered for the username <strong>"
+"%1$s</strong> is incorrect. <a href=\"%2$s\" title=\"Password Lost and Found"
+"\">Lost your password</a>?"
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:4873
@@ -1502,8 +1641,12 @@ msgid "Comment History"
 msgstr "Lịch sử bình luận"
 
 #: wp-content/plugins/akismet/admin.php:235
-msgid "<a href=\"%s\" target=\"_blank\">Click here</a> to confirm that <a href=\"%s\" target=\"_blank\">Akismet.com is up</a>."
-msgstr "<a href=\"%s\" target=\"_blank\"> Ấn vào đây </a> để xác nhận rằng <a href=\"%s\" target=\"_blank\"> Akismet.com hoạt động bình thường</a>."
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here</a> to confirm that <a href=\"%s"
+"\" target=\"_blank\">Akismet.com is up</a>."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\"> Ấn vào đây </a> để xác nhận rằng <a href="
+"\"%s\" target=\"_blank\"> Akismet.com hoạt động bình thường</a>."
 
 #: wp-content/plugins/akismet/admin.php:14
 msgid "Akismet %s requires WordPress 3.0 or higher."
@@ -1539,8 +1682,12 @@ msgid "Auto-delete spam submitted on posts more than a month old."
 msgstr ""
 
 #: wp-content/plugins/akismet/admin.php:144
-msgid "Your WordPress home URL %s is invalid.  Please fix the <a href=\"%s\">home option</a>."
-msgstr "Đường dẫn trang chủ WordPress của bạn %s không chính xác. Xin hãy sửa <a href=\"%s\">tùy chọn trang chủ</a>."
+msgid ""
+"Your WordPress home URL %s is invalid.  Please fix the <a href=\"%s\">home "
+"option</a>."
+msgstr ""
+"Đường dẫn trang chủ WordPress của bạn %s không chính xác. Xin hãy sửa <a "
+"href=\"%s\">tùy chọn trang chủ</a>."
 
 #: wp-content/plugins/akismet/admin.php:172
 msgid "Show the number of comments you've approved beside each comment author."
@@ -1572,7 +1719,9 @@ msgid "Accessible"
 msgstr "Có thể sử dụng"
 
 #: wp-content/plugins/akismet/akismet.php:304
-msgid "Akismet was unable to check this comment (response: %s), will automatically retry again later."
+msgid ""
+"Akismet was unable to check this comment (response: %s), will automatically "
+"retry again later."
 msgstr ""
 
 #: wp-includes/pluggable.php:1049
@@ -1630,11 +1779,14 @@ msgid "No search term specified. Showing recent items."
 msgstr ""
 
 #: wp-includes/plugin.php:674
-msgid "Only a static class method or function can be used in an uninstall hook."
+msgid ""
+"Only a static class method or function can be used in an uninstall hook."
 msgstr ""
 
 #: wp-includes/post.php:2350
-msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
+msgid ""
+"Passing an integer number of posts is deprecated. Pass an array of arguments "
+"instead."
 msgstr ""
 
 #: wp-includes/post.php:5115
@@ -1705,8 +1857,12 @@ msgid "This file no longer needs to be included."
 msgstr ""
 
 #: wp-login.php:429
-msgid "Please enter your username or email address. You will receive a link to create a new password via email."
-msgstr "Vui lòng điền tài khoản đăng nhập và email. Bạn sẽ nhận được email có đường dẫn để tạo mật khẩu mới."
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Vui lòng điền tài khoản đăng nhập và email. Bạn sẽ nhận được email có đường "
+"dẫn để tạo mật khẩu mới."
 
 #: wp-includes/default-widgets.php:283 wp-includes/default-widgets.php:515
 msgid "Display as dropdown"
@@ -1774,11 +1930,14 @@ msgstr "Mật khẩu của bạn đã được đặt lại."
 
 #: wp-login.php:228
 msgid "Someone requested that the password be reset for the following account:"
-msgstr "Một người nào đó yêu cầu được thiết lập lại mật khẩu cho tài khoản sau:"
+msgstr ""
+"Một người nào đó yêu cầu được thiết lập lại mật khẩu cho tài khoản sau:"
 
 #: wp-login.php:231
 msgid "If this was a mistake, just ignore this email and nothing will happen."
-msgstr "Nếu điều này là một sai lầm, chỉ cần bỏ qua email này và không có gì sẽ xảy ra."
+msgstr ""
+"Nếu điều này là một sai lầm, chỉ cần bỏ qua email này và không có gì sẽ xảy "
+"ra."
 
 #: wp-login.php:479
 msgid "Enter your new password below."
@@ -1826,7 +1985,9 @@ msgid "Akismet re-checked and caught this comment as spam"
 msgstr ""
 
 #: wp-content/plugins/akismet/admin.php:14
-msgid "Please <a href=\"%s\">upgrade WordPress</a> to a current version, or <a href=\"%s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgid ""
+"Please <a href=\"%s\">upgrade WordPress</a> to a current version, or <a href="
+"\"%s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr ""
 
 #: wp-content/plugins/akismet/admin.php:370
@@ -1842,7 +2003,8 @@ msgid "Only lowercase letters (a-z) and numbers are allowed."
 msgstr ""
 
 #: wp-includes/query.php:1956
-msgid "\"caller_get_posts\" is deprecated. Use \"ignore_sticky_posts\" instead."
+msgid ""
+"\"caller_get_posts\" is deprecated. Use \"ignore_sticky_posts\" instead."
 msgstr ""
 
 #: wp-includes/taxonomy.php:87
@@ -1876,25 +2038,43 @@ msgstr "Quản trị mạng"
 #: wp-includes/wp-db.php:750
 msgid ""
 "<h1>Can&#8217;t select database</h1>\n"
-"<p>We were able to connect to the database server (which means your username and password is okay) but not able to select the <code>%1$s</code> database.</p>\n"
+"<p>We were able to connect to the database server (which means your username "
+"and password is okay) but not able to select the <code>%1$s</code> database."
+"</p>\n"
 "<ul>\n"
 "<li>Are you sure it exists?</li>\n"
-"<li>Does the user <code>%2$s</code> have permission to use the <code>%1$s</code> database?</li>\n"
-"<li>On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?</li>\n"
+"<li>Does the user <code>%2$s</code> have permission to use the <code>%1$s</"
+"code> database?</li>\n"
+"<li>On some systems the name of your database is prefixed with your "
+"username, so it would be like <code>username_%1$s</code>. Could that be the "
+"problem?</li>\n"
 "</ul>\n"
-"<p>If you don't know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"http://wordpress.org/support/\">WordPress Support Forums</a>.</p>"
+"<p>If you don't know how to set up a database you should <strong>contact "
+"your host</strong>. If all else fails you may find help at the <a href="
+"\"http://wordpress.org/support/\">WordPress Support Forums</a>.</p>"
 msgstr ""
 "<h1>Không thể lựa chọn cơ sở dữ liệu</h1>\n"
-" <p>Không kết nối được với máy chủ dữ liệu (điều này có nghĩa là tên người dùng và mật khẩu đã được xác định đúng) nhưng không thể lựa chọn được <code>%1$s</code> cơ sở dữ liệu.</p>\n"
+" <p>Không kết nối được với máy chủ dữ liệu (điều này có nghĩa là tên người "
+"dùng và mật khẩu đã được xác định đúng) nhưng không thể lựa chọn được <code>"
+"%1$s</code> cơ sở dữ liệu.</p>\n"
 " <ul>\n"
 " <li>Bạn có chắc là nó tồn tại?</li>\n"
-" <li>Liệu người dùng <code>%2$s</code> có đủ quyền truy cập cơ sở dữ liệu <code>%1$s</code>?</li>\n"
-" <li>Trong một số hệ thống, tên cơ sở dữ liệu của bạn được bắt đầu bằng tên của người sử dụng, do vậy, nó có thể là <code>username_%1$s</code>. Liệu bạn có đang gặp phải vấn đề như vậy?</li>\n"
+" <li>Liệu người dùng <code>%2$s</code> có đủ quyền truy cập cơ sở dữ liệu "
+"<code>%1$s</code>?</li>\n"
+" <li>Trong một số hệ thống, tên cơ sở dữ liệu của bạn được bắt đầu bằng tên "
+"của người sử dụng, do vậy, nó có thể là <code>username_%1$s</code>. Liệu bạn "
+"có đang gặp phải vấn đề như vậy?</li>\n"
 " </ul>\n"
-" <p>Nếu bạn không biết làm thế nào để khởi tạo cơ sở dữ liệu thì bạn nên <strong>liên lạc với nhà cung cấp dịch vụ hosting</strong>. Nếu vẫn không có giải pháp nào khả thi, bạn có thể tìm sự giúp đỡ tại <a href=\"http://wordpress.org/support/\">WordPress Support Forums</a>.</p>"
+" <p>Nếu bạn không biết làm thế nào để khởi tạo cơ sở dữ liệu thì bạn nên "
+"<strong>liên lạc với nhà cung cấp dịch vụ hosting</strong>. Nếu vẫn không có "
+"giải pháp nào khả thi, bạn có thể tìm sự giúp đỡ tại <a href=\"http://"
+"wordpress.org/support/\">WordPress Support Forums</a>.</p>"
 
 #: wp-includes/ms-load.php:246
-msgid "Read the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
+msgid ""
+"Read the <a target=\"_blank\" href=\"http://codex.wordpress.org/"
+"Debugging_a_WordPress_Network\">bug report</a> page. Some of the guidelines "
+"there may help you figure out what went wrong."
 msgstr ""
 
 #: wp-includes/ms-functions.php:750 wp-includes/ms-functions.php:801
@@ -1902,7 +2082,10 @@ msgid "[%1$s] Activate %2$s"
 msgstr ""
 
 #: wp-includes/ms-load.php:219
-msgid "No site defined on this host. If you are the owner of this site, please check <a href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">Debugging a WordPress Network</a> for help."
+msgid ""
+"No site defined on this host. If you are the owner of this site, please "
+"check <a href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network"
+"\">Debugging a WordPress Network</a> for help."
 msgstr ""
 
 #: wp-content/plugins/akismet/widget.php:67
@@ -1910,11 +2093,19 @@ msgid "Spam Blocked"
 msgstr "Bình luận rác đã bị chặn"
 
 #: wp-content/plugins/akismet/admin.php:323
-msgid "You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
-msgstr "Bạn phải <a href=\"%1$s\">nhập khóa API Akismet của bạn</a> để sử dụng Akismet."
+msgid ""
+"You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
+msgstr ""
+"Bạn phải <a href=\"%1$s\">nhập khóa API Akismet của bạn</a> để sử dụng "
+"Akismet."
 
 #: wp-content/plugins/akismet/admin.php:158
-msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have an API key yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
+msgid ""
+"For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even "
+"completely eliminate the comment and trackback spam you get on your site. If "
+"one does happen to get through, simply mark it as \"spam\" on the moderation "
+"screen and Akismet will learn from the mistakes. If you don't have an API "
+"key yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
 msgstr ""
 
 #: wp-content/plugins/akismet/admin.php:160
@@ -1922,19 +2113,26 @@ msgid "Akismet API Key"
 msgstr "Khóa API Akismet"
 
 #: wp-includes/load.php:108
-msgid "Your server is running PHP version %1$s but WordPress %2$s requires at least %3$s."
-msgstr "Máy chủ của bạn đang sử dụng PHP phiên bản %1$s nhưng WordPress %2$s yêu cầu phiên bản %3$s."
+msgid ""
+"Your server is running PHP version %1$s but WordPress %2$s requires at least "
+"%3$s."
+msgstr ""
+"Máy chủ của bạn đang sử dụng PHP phiên bản %1$s nhưng WordPress %2$s yêu cầu "
+"phiên bản %3$s."
 
 #: wp-includes/pluggable.php:1118
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
 msgstr "Một trackback mới về bài viết \"%s\" đang chờ xét duyệt của bạn"
 
 #: wp-includes/ms-load.php:240
-msgid "If you are the owner of this network please check that MySQL is running properly and all tables are error free."
+msgid ""
+"If you are the owner of this network please check that MySQL is running "
+"properly and all tables are error free."
 msgstr ""
 
 #: wp-includes/ms-load.php:239
-msgid "If your site does not display, please contact the owner of this network."
+msgid ""
+"If your site does not display, please contact the owner of this network."
 msgstr ""
 
 #: wp-includes/theme-compat/comments.php:26
@@ -2004,7 +2202,8 @@ msgstr ""
 
 #: wp-includes/theme-compat/sidebar.php:73
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
-msgstr "<abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr> hợp lệ"
+msgstr ""
+"<abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr> hợp lệ"
 
 #: wp-includes/theme-compat/footer.php:19
 msgid "%1$s and %2$s."
@@ -2015,11 +2214,14 @@ msgid "F, Y"
 msgstr "F, Y"
 
 #: wp-includes/theme-compat/sidebar.php:47
-msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives."
+msgid ""
+"You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives."
 msgstr ""
 
 #: wp-includes/theme-compat/sidebar.php:38
-msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for %3$s."
+msgid ""
+"You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for "
+"%3$s."
 msgstr ""
 
 #: wp-includes/theme-compat/comments.php:49
@@ -2027,7 +2229,9 @@ msgid "Comments are closed."
 msgstr "Không cho phép ghi chú."
 
 #: wp-includes/theme-compat/sidebar.php:41
-msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the year %3$s."
+msgid ""
+"You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for "
+"the year %3$s."
 msgstr ""
 
 #: wp-includes/theme-compat/comments.php:72
@@ -2035,8 +2239,12 @@ msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
 msgstr "Bạn đã đăng nhập <a href=\"%1$s\">%2$s</a>."
 
 #: wp-includes/theme-compat/comments-popup.php:71
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out &raquo;</a>"
-msgstr "Bạn đã đăng nhập <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Đăng xuất khỏi tài khoản này\">Đăng xuất &raquo;</a>"
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+"Bạn đã đăng nhập <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Đăng "
+"xuất khỏi tài khoản này\">Đăng xuất &raquo;</a>"
 
 #: wp-includes/theme-compat/comments.php:91
 msgid "Submit Comment"
@@ -2067,7 +2275,9 @@ msgid "Sorry, no posts matched your criteria."
 msgstr ""
 
 #: wp-includes/theme-compat/comments-popup.php:118
-msgid "Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>WordPress</strong></a>"
+msgid ""
+"Powered by <a href=\"%s\" title=\"Powered by WordPress, state-of-the-art "
+"semantic personal publishing platform\"><strong>WordPress</strong></a>"
 msgstr ""
 
 #: wp-includes/theme-compat/comments.php:72
@@ -2084,10 +2294,14 @@ msgstr ""
 
 #: wp-includes/theme-compat/comments.php:87
 msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
-msgstr "<strong>XHTML:</strong> Bạn có thể sử dụng các thẻ sau: <code>%s</code>"
+msgstr ""
+"<strong>XHTML:</strong> Bạn có thể sử dụng các thẻ sau: <code>%s</code>"
 
 #: wp-includes/theme-compat/sidebar.php:44
-msgid "You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for <strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
+msgid ""
+"You have searched the <a href=\"%1$s/\">%2$s</a> blog archives for "
+"<strong>&#8216;%3$s&#8217;</strong>. If you are unable to find anything in "
+"these search results, you can try one of these links."
 msgstr ""
 
 #: wp-includes/theme-compat/sidebar.php:35
@@ -2095,7 +2309,9 @@ msgid "l, F jS, Y"
 msgstr ""
 
 #: wp-includes/theme-compat/sidebar.php:35
-msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for the day %3$s."
+msgid ""
+"You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives for "
+"the day %3$s."
 msgstr ""
 
 #: wp-includes/theme-compat/sidebar.php:32
@@ -2115,7 +2331,10 @@ msgid "Entries (RSS)"
 msgstr "Bài viết (RSS)"
 
 #: wp-includes/theme-compat/comments-popup.php:67
-msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>%s</code>"
+msgid ""
+"Line and paragraph breaks automatic, e-mail address never displayed, "
+"<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: <code>"
+"%s</code>"
 msgstr ""
 
 #: wp-includes/theme-compat/comments.php:17
@@ -2135,11 +2354,15 @@ msgid "%1$s - Comments on %2$s"
 msgstr "%1$s - Ghi chú tại %2$s"
 
 #: wp-includes/theme-compat/comments-popup.php:35
-msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgid ""
+"<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on "
+"this post."
 msgstr ""
 
 #: wp-includes/theme-compat/comments-popup.php:38
-msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is: <em>%s</em>"
+msgid ""
+"The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this "
+"entry is: <em>%s</em>"
 msgstr ""
 
 #: wp-includes/theme-compat/comments-popup.php:56
@@ -2170,7 +2393,9 @@ msgid "Choose from the most used tags"
 msgstr ""
 
 #: wp-includes/comment-template.php:1542
-msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
 msgstr ""
 
 #: wp-includes/taxonomy.php:415
@@ -2232,23 +2457,34 @@ msgid "Check your inbox at <strong>%s</strong> and click the link given."
 msgstr ""
 
 #: wp-signup.php:362
-msgid "Wait a little longer. Sometimes delivery of email can be delayed by processes outside of our control."
+msgid ""
+"Wait a little longer. Sometimes delivery of email can be delayed by "
+"processes outside of our control."
 msgstr ""
 
 #: wp-signup.php:363
-msgid "Check the junk or spam folder of your email client. Sometime emails wind up there by mistake."
+msgid ""
+"Check the junk or spam folder of your email client. Sometime emails wind up "
+"there by mistake."
 msgstr ""
 
 #: wp-signup.php:385
-msgid "Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; registrations. To change or disable registration go to your <a href=\"%s\">Options page</a>."
+msgid ""
+"Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; "
+"registrations. To change or disable registration go to your <a href=\"%s"
+"\">Options page</a>."
 msgstr ""
 
 #: wp-signup.php:364
-msgid "Have you entered your email correctly?  You have entered %s, if it&#8217;s incorrect, you will not receive your email."
+msgid ""
+"Have you entered your email correctly?  You have entered %s, if it&#8217;s "
+"incorrect, you will not receive your email."
 msgstr ""
 
 #: wp-signup.php:137
-msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
+msgid ""
+"We send your registration email to this address. (Double-check your email "
+"address before continuing.)"
 msgstr ""
 
 #: wp-includes/post.php:1241
@@ -2296,15 +2532,24 @@ msgid "Post"
 msgstr "Bài viết"
 
 #: wp-includes/ms-default-constants.php:113
-msgid "The constant <code>VHOST</code> <strong>is deprecated</strong>. Use the boolean constant <code>SUBDOMAIN_INSTALL</code> in wp-config.php to enable a subdomain configuration. Use is_subdomain_install() to check whether a subdomain configuration is enabled."
+msgid ""
+"The constant <code>VHOST</code> <strong>is deprecated</strong>. Use the "
+"boolean constant <code>SUBDOMAIN_INSTALL</code> in wp-config.php to enable a "
+"subdomain configuration. Use is_subdomain_install() to check whether a "
+"subdomain configuration is enabled."
 msgstr ""
 
 #: wp-includes/ms-default-constants.php:115
-msgid "<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain configuration setting."
+msgid ""
+"<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</"
+"strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain "
+"configuration setting."
 msgstr ""
 
 #: wp-login.php:312
-msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
 msgstr ""
 
 #: wp-includes/comment-template.php:1535
@@ -2328,12 +2573,18 @@ msgid "Theme without %1$s"
 msgstr "Giao diện không có %1$s"
 
 #: wp-includes/ms-load.php:244
-msgid "<strong>Could not find site <code>%1$s</code>.</strong> Searched for table <code>%2$s</code> in database <code>%3$s</code>. Is that right?"
+msgid ""
+"<strong>Could not find site <code>%1$s</code>.</strong> Searched for table "
+"<code>%2$s</code> in database <code>%3$s</code>. Is that right?"
 msgstr ""
 
 #: wp-includes/general-template.php:405
-msgid "The <code>%s</code> option is deprecated for the family of <code>bloginfo()</code> functions."
-msgstr "Lựa chọn <code>%s</code> của hàm <code>bloginfo()</code> đã bị đánh dấu loại bỏ trong phiên bản sau."
+msgid ""
+"The <code>%s</code> option is deprecated for the family of <code>bloginfo()</"
+"code> functions."
+msgstr ""
+"Lựa chọn <code>%s</code> của hàm <code>bloginfo()</code> đã bị đánh dấu loại "
+"bỏ trong phiên bản sau."
 
 #: wp-includes/general-template.php:405
 msgid "Use the <code>%s</code> option instead."
@@ -2344,7 +2595,12 @@ msgid "Your site&#8217;s WordPress Pages"
 msgstr ""
 
 #: wp-content/plugins/akismet/admin.php:183
-msgid "Your web host or server administrator has disabled PHP's <code>fsockopen</code> or <code>gethostbynamel</code> functions.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet's system requirements</a>."
+msgid ""
+"Your web host or server administrator has disabled PHP's <code>fsockopen</"
+"code> or <code>gethostbynamel</code> functions.  <strong>Akismet cannot work "
+"correctly until this is fixed.</strong>  Please contact your web host or "
+"firewall administrator and give them <a href=\"%s\" target=\"_blank\">this "
+"information about Akismet's system requirements</a>."
 msgstr ""
 
 #: wp-includes/ms-load.php:235
@@ -2352,7 +2608,10 @@ msgid "Error establishing database connection"
 msgstr ""
 
 #: wp-includes/ms-load.php:242
-msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted <code>%s</code>. You really should look at your database now."
+msgid ""
+"<strong>Database tables are missing.</strong> This means that MySQL is not "
+"running, WordPress was not installed properly, or someone deleted <code>%s</"
+"code>. You really should look at your database now."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:3257
@@ -2371,7 +2630,9 @@ msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:4481
 #: wp-includes/class-wp-xmlrpc-server.php:4675
-msgid "Sorry, you must be able to edit posts on this site in order to view categories."
+msgid ""
+"Sorry, you must be able to edit posts on this site in order to view "
+"categories."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:3667
@@ -2429,7 +2690,9 @@ msgid "Sorry, you cannot edit posts on this site."
 msgstr "Xin lỗi, bạn không thể sửa bài viết trên site này."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2363
-msgid "Sorry, you must be able to edit posts to this site in order to view categories."
+msgid ""
+"Sorry, you must be able to edit posts to this site in order to view "
+"categories."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:2715
@@ -2498,7 +2761,8 @@ msgid "You are not allowed to moderate comments on this site."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:2227
-msgid "Sorry, you must be able to edit posts on this site in order to view tags."
+msgid ""
+"Sorry, you must be able to edit posts on this site in order to view tags."
 msgstr ""
 
 #: wp-includes/class-wp-xmlrpc-server.php:365
@@ -2522,8 +2786,12 @@ msgid "That site does not exist. Please try <a href=\"%s\">%s</a>."
 msgstr ""
 
 #: wp-includes/load.php:428
-msgid "The site you have requested is not installed properly. Please contact the system administrator."
-msgstr "Trang bạn yêu cầu được cài đặt chưa đúng cách. Hãy liên hệ với người quản trị trang web."
+msgid ""
+"The site you have requested is not installed properly. Please contact the "
+"system administrator."
+msgstr ""
+"Trang bạn yêu cầu được cài đặt chưa đúng cách. Hãy liên hệ với người quản "
+"trị trang web."
 
 #: wp-includes/script-loader.php:424
 msgctxt "search results"
@@ -2531,7 +2799,9 @@ msgid "No results found."
 msgstr "Không tìm thấy gì cả."
 
 #: wp-includes/nav-menu.php:226 wp-includes/nav-menu.php:233
-msgid "The menu name <strong>%s</strong> conflicts with another menu name. Please try another."
+msgid ""
+"The menu name <strong>%s</strong> conflicts with another menu name. Please "
+"try another."
 msgstr ""
 
 #: wp-includes/nav-menu.php:275
@@ -2539,15 +2809,24 @@ msgid "The given object ID is not that of a menu item."
 msgstr ""
 
 #: wp-includes/formatting.php:2731
-msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
-msgstr "Địa chỉ thư điện tử bạn nhập không hợp lệ, hãy nhập lại địa chỉ thư điện tử hợp lệ."
+msgid ""
+"The email address entered did not appear to be a valid email address. Please "
+"enter a valid email address."
+msgstr ""
+"Địa chỉ thư điện tử bạn nhập không hợp lệ, hãy nhập lại địa chỉ thư điện tử "
+"hợp lệ."
 
 #: wp-includes/formatting.php:2815
-msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
-msgstr "Địa chỉ WordPress bạn nhập không hợp lệ, hãy nhập lại đường dẫn hợp lệ."
+msgid ""
+"The WordPress address you entered did not appear to be a valid URL. Please "
+"enter a valid URL."
+msgstr ""
+"Địa chỉ WordPress bạn nhập không hợp lệ, hãy nhập lại đường dẫn hợp lệ."
 
 #: wp-includes/formatting.php:2825
-msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
+msgid ""
+"The Site address you entered did not appear to be a valid URL. Please enter "
+"a valid URL."
 msgstr "Địa chỉ bạn nhập không hợp lệ, hãy nhập lại đường dẫn hợp lệ."
 
 #: wp-includes/taxonomy.php:2066
@@ -2555,7 +2834,9 @@ msgid "A term with the name provided already exists with this parent."
 msgstr "Thẻ này đã được sử dụng."
 
 #: wp-includes/ms-functions.php:1735
-msgid "An error occurred adding you to this site. Back to the <a href=\"%s\">homepage</a>."
+msgid ""
+"An error occurred adding you to this site. Back to the <a href=\"%s"
+"\">homepage</a>."
 msgstr "Gặp lỗi khi thêm trang web. Quay lại <a href=\"%s\">trang chủ</a>."
 
 #: wp-includes/ms-functions.php:1737
@@ -2579,19 +2860,28 @@ msgid "A valid URL was not provided."
 msgstr "Thư điện tử của bạn sẽ không hiển thị trên trang này."
 
 #: wp-includes/comment-template.php:1540
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
-msgstr "Đăng nhập với tài khoản <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Đăng xuất khỏi tài khoản này\">Đăng xuất?</a>"
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Đăng nhập với tài khoản <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title="
+"\"Đăng xuất khỏi tài khoản này\">Đăng xuất?</a>"
 
 #: wp-includes/media.php:430
 msgid "Could not calculate resized image dimensions"
 msgstr "Không thể tính toán độ phân giải ảnh bị chuyển kích thước"
 
 #: wp-signup.php:83
-msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
-msgstr "Ít nhất phải có 4 kí tự, chữ hoặc số. Bạn không thể thay đổi được sau này, hãy chọn cẩn thận!"
+msgid ""
+"Must be at least 4 characters, letters and numbers only. It cannot be "
+"changed, so choose carefully!"
+msgstr ""
+"Ít nhất phải có 4 kí tự, chữ hoặc số. Bạn không thể thay đổi được sau này, "
+"hãy chọn cẩn thận!"
 
 #: wp-signup.php:398
-msgid "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
+msgid ""
+"You must first <a href=\"%s\">log in</a>, and then you can create a new site."
 msgstr "Bạn phải <a href=\"%s\">đăng nhập</a> để tạo trang web mới."
 
 #: wp-signup.php:428
@@ -2599,39 +2889,62 @@ msgid "You are logged in already. No need to register again!"
 msgstr "Bạn đã đăng nhập. Không cần phải đăng nhập lại!"
 
 #: wp-includes/comment-template.php:726
-msgid "Use <code>get_trackback_url()</code> instead if you do not want the value echoed."
-msgstr "Sử dụng <code>get_trackback_url()</code> nếu bạn không muốn giá trị hiển thị trên trang web."
+msgid ""
+"Use <code>get_trackback_url()</code> instead if you do not want the value "
+"echoed."
+msgstr ""
+"Sử dụng <code>get_trackback_url()</code> nếu bạn không muốn giá trị hiển thị "
+"trên trang web."
 
 #: wp-mail.php:14
 msgid "This action has been disabled by the administrator."
 msgstr "Tác vụ này đã bị khóa bởi điều hành viên."
 
 #: wp-signup.php:169
-msgid "Welcome back, %s. By filling out the form below, you can <strong>add another site to your account</strong>. There is no limit to the number of sites you can have, so create to your heart&#8217;s content, but write responsibly!"
-msgstr "Chào %s. Bạn hãy điền vào mẫu dưới đây, bạn có thể <strong>thêm một trang web vào tài khoản của bạn</strong>."
+msgid ""
+"Welcome back, %s. By filling out the form below, you can <strong>add another "
+"site to your account</strong>. There is no limit to the number of sites you "
+"can have, so create to your heart&#8217;s content, but write responsibly!"
+msgstr ""
+"Chào %s. Bạn hãy điền vào mẫu dưới đây, bạn có thể <strong>thêm một trang "
+"web vào tài khoản của bạn</strong>."
 
 #: wp-signup.php:434
-msgid "<p><em>The site you were looking for, <strong>%s</strong> does not exist, but you can create it now!</em></p>"
-msgstr "<p><em>Trang web bạn đang tìm kiếm, <strong>%s</strong>, không tồn tại. Bạn có thể tạo trang web đó ngay bây giờ!</em></p>"
+msgid ""
+"<p><em>The site you were looking for, <strong>%s</strong> does not exist, "
+"but you can create it now!</em></p>"
+msgstr ""
+"<p><em>Trang web bạn đang tìm kiếm, <strong>%s</strong>, không tồn tại. Bạn "
+"có thể tạo trang web đó ngay bây giờ!</em></p>"
 
 #: wp-includes/ms-functions.php:465
 msgid "Sorry, usernames may not contain the character &#8220;_&#8221;!"
 msgstr "Xin lỗi, tên đăng nhập không thể chứa kí tự &#8220;_&#8221;!"
 
 #: wp-signup.php:436
-msgid "<p><em>The site you were looking for, <strong>%s</strong>, does not exist.</em></p>"
+msgid ""
+"<p><em>The site you were looking for, <strong>%s</strong>, does not exist.</"
+"em></p>"
 msgstr ""
 
 #: wp-signup.php:360
-msgid "If you haven&#8217;t received your email yet, there are a number of things you can do:"
+msgid ""
+"If you haven&#8217;t received your email yet, there are a number of things "
+"you can do:"
 msgstr ""
 
 #: wp-includes/author-template.php:55
-msgid "Use <code>get_the_author()</code> instead if you do not want the value echoed."
-msgstr "Sử dụng <code>get_the_author()</code> nếu bạn không muốn giá trị hiển thị trên trang web."
+msgid ""
+"Use <code>get_the_author()</code> instead if you do not want the value "
+"echoed."
+msgstr ""
+"Sử dụng <code>get_the_author()</code> nếu bạn không muốn giá trị hiển thị "
+"trên trang web."
 
 #: wp-includes/ms-load.php:247
-msgid "If you&#8217;re still stuck with this message, then check that your database contains the following tables:"
+msgid ""
+"If you&#8217;re still stuck with this message, then check that your database "
+"contains the following tables:"
 msgstr ""
 
 #: wp-includes/class-wp-editor.php:680
@@ -2656,7 +2969,8 @@ msgstr "Bảo dưỡng"
 
 #: wp-includes/load.php:178
 msgid "Briefly unavailable for scheduled maintenance. Check back in a minute."
-msgstr "Trang web hiện đang được bảo dưỡng. Bạn vui lòng quay lại trong vài phút nữa."
+msgstr ""
+"Trang web hiện đang được bảo dưỡng. Bạn vui lòng quay lại trong vài phút nữa."
 
 #: wp-includes/post.php:92
 msgid "Navigation Menu Items"
@@ -2719,7 +3033,9 @@ msgid "Create Site"
 msgstr ""
 
 #: wp-signup.php:184
-msgid "If you&#8217;re not going to use a great site domain, leave it for a new user. Now have at it!"
+msgid ""
+"If you&#8217;re not going to use a great site domain, leave it for a new "
+"user. Now have at it!"
 msgstr ""
 
 #: wp-signup.php:175
@@ -2727,8 +3043,12 @@ msgid "Sites you are already a member of:"
 msgstr ""
 
 #: wp-includes/ms-load.php:94
-msgid "This site has not been activated yet. If you are having problems activating your site, please contact <a href=\"mailto:%1$s\">%1$s</a>."
-msgstr "Trang này chưa được kích hoạt. Nếu bạn có vấn đề khi kích hoạt trang web của mình, hãy liên hệ <a href=\"mailto:%1$s\">%1$s</a>."
+msgid ""
+"This site has not been activated yet. If you are having problems activating "
+"your site, please contact <a href=\"mailto:%1$s\">%1$s</a>."
+msgstr ""
+"Trang này chưa được kích hoạt. Nếu bạn có vấn đề khi kích hoạt trang web của "
+"mình, hãy liên hệ <a href=\"mailto:%1$s\">%1$s</a>."
 
 #: wp-includes/script-loader.php:212
 msgid "File canceled."
@@ -2767,11 +3087,15 @@ msgid "Gimme a site!"
 msgstr ""
 
 #: wp-signup.php:355
-msgid "But, before you can start using your site, <strong>you must activate it</strong>."
+msgid ""
+"But, before you can start using your site, <strong>you must activate it</"
+"strong>."
 msgstr ""
 
 #: wp-signup.php:357
-msgid "If you do not activate your site within two days, you will have to sign up again."
+msgid ""
+"If you do not activate your site within two days, you will have to sign up "
+"again."
 msgstr ""
 
 #: wp-includes/default-widgets.php:1129
@@ -2867,7 +3191,9 @@ msgstr "Tình trạng của phản hồi không hợp lệ."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2602
 msgid "Sorry, the comment could not be edited. Something wrong happened."
-msgstr "Xin lỗi, bài bạn muốn sửa không thể sửa được. Có trục trặc gì đó trong hệ thống."
+msgstr ""
+"Xin lỗi, bài bạn muốn sửa không thể sửa được. Có trục trặc gì đó trong hệ "
+"thống."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2635
 msgid "You must be registered to comment"
@@ -2899,7 +3225,8 @@ msgstr "Cần có địa chỉ thư điện tử hợp lệ"
 
 #: wp-includes/class-wp-xmlrpc-server.php:2742
 msgid "You are not allowed access to details about comments."
-msgstr "Xin lỗi, bạn không có quyền truy cập vào thông tin chi tiết về phản hồi."
+msgstr ""
+"Xin lỗi, bạn không có quyền truy cập vào thông tin chi tiết về phản hồi."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2904
 msgid "You are not allowed to update options."
@@ -2923,8 +3250,12 @@ msgid "Sorry, this user cannot edit the template."
 msgstr "Xin lỗi, thành viên này không có quyền chỉnh sửa bản mẫu."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3450
-msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
-msgstr "Hoặc tập tin không ở chế độ ghi được, hoặc có trục trặc gì đó. Tập tin không tải lên được."
+msgid ""
+"Either the file is not writable, or something wrong happened. The file has "
+"not been updated."
+msgstr ""
+"Hoặc tập tin không ở chế độ ghi được, hoặc có trục trặc gì đó. Tập tin không "
+"tải lên được."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3536
 #: wp-includes/class-wp-xmlrpc-server.php:3590
@@ -2960,7 +3291,9 @@ msgstr "Xin lỗi, bạn không có quyền đăng trang này."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4183
 msgid "Sorry, your entry could not be edited. Something wrong happened."
-msgstr "Xin lỗi, bài bạn muốn sửa không thể sửa được. Có trục trặc gì đó trong hệ thống."
+msgstr ""
+"Xin lỗi, bài bạn muốn sửa không thể sửa được. Có trục trặc gì đó trong hệ "
+"thống."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4561
 msgid "Could not write file %1$s (%2$s)"
@@ -2978,11 +3311,16 @@ msgstr "Đã có liên kết tới chúng tôi chưa?"
 #: wp-includes/class-wp-xmlrpc-server.php:4965
 #: wp-includes/class-wp-xmlrpc-server.php:4972
 #: wp-includes/class-wp-xmlrpc-server.php:5079
-msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
-msgstr "Đường dẫn URL đích không thể sử dụng được. Hoặc đường dẫn đó không tồn tại, hoặc nó không phải là một đường dẫn pingback."
+msgid ""
+"The specified target URL cannot be used as a target. It either doesn&#8217;t "
+"exist, or it is not a pingback-enabled resource."
+msgstr ""
+"Đường dẫn URL đích không thể sử dụng được. Hoặc đường dẫn đó không tồn tại, "
+"hoặc nó không phải là một đường dẫn pingback."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4968
-msgid "The source URL and the target URL cannot both point to the same resource."
+msgid ""
+"The source URL and the target URL cannot both point to the same resource."
 msgstr "Đường dẫn tới nguồn và đường dẫn tới đích không thể nào cùng là một."
 
 #: wp-includes/class-wp-xmlrpc-server.php:4976
@@ -2998,8 +3336,12 @@ msgid "We cannot find a title on that page."
 msgstr "Không tìm được tiêu đề trên trang đó."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5032
-msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
-msgstr "Đường dẫn URL nguồn không chứa liên kết nào, do đó không thể sử dụng làm nguồn."
+msgid ""
+"The source URL does not contain a link to the target URL, and so cannot be "
+"used as a source."
+msgstr ""
+"Đường dẫn URL nguồn không chứa liên kết nào, do đó không thể sử dụng làm "
+"nguồn."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5053
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
@@ -3010,38 +3352,55 @@ msgid "The specified target URL does not exist."
 msgstr "Đường dẫn yêu cầu không tồn tại."
 
 #: wp-includes/load.php:113
-msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
+msgid ""
+"Your PHP installation appears to be missing the MySQL extension which is "
+"required by WordPress."
 msgstr "PHP của bạn không hỗ trợ MySQL, WordPress cần có MySQL để chạy."
 
 #: wp-includes/load.php:370
-msgid "<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores."
-msgstr "<strong>LỖI</strong>: <code>$table_prefix</code> trong <code>wp-config.php</code> chỉ có thể chứa số, chữ và dấu gạch chân."
+msgid ""
+"<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</"
+"code> can only contain numbers, letters, and underscores."
+msgstr ""
+"<strong>LỖI</strong>: <code>$table_prefix</code> trong <code>wp-config.php</"
+"code> chỉ có thể chứa số, chữ và dấu gạch chân."
 
 #: wp-includes/wp-db.php:1045
 msgid ""
 "\n"
 "<h1>Error establishing a database connection</h1>\n"
-"<p>This either means that the username and password information in your <code>wp-config.php</code> file is incorrect or we can't contact the database server at <code>%s</code>. This could mean your host's database server is down.</p>\n"
+"<p>This either means that the username and password information in your "
+"<code>wp-config.php</code> file is incorrect or we can't contact the "
+"database server at <code>%s</code>. This could mean your host's database "
+"server is down.</p>\n"
 "<ul>\n"
 "\t<li>Are you sure you have the correct username and password?</li>\n"
 "\t<li>Are you sure that you have typed the correct hostname?</li>\n"
 "\t<li>Are you sure that the database server is running?</li>\n"
 "</ul>\n"
-"<p>If you're unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href='http://wordpress.org/support/'>WordPress Support Forums</a>.</p>\n"
+"<p>If you're unsure what these terms mean you should probably contact your "
+"host. If you still need help you can always visit the <a href='http://"
+"wordpress.org/support/'>WordPress Support Forums</a>.</p>\n"
 msgstr ""
 "\n"
 "<h1>Không thể kết nối với cơ sở dữ liệu</h1>\n"
-"<p>Có thể tên đăng nhập hoặc mật khẩu trong tập tin <code>wp-config.php</code> không chính xác hoặc WordPress không thể kết nối đến máy chủ cơ sở dữ liệu tại <code>%s</code>. Điều này có thể do máy chủ cơ sở dữ liệu đang không chạy.</p>\n"
+"<p>Có thể tên đăng nhập hoặc mật khẩu trong tập tin <code>wp-config.php</"
+"code> không chính xác hoặc WordPress không thể kết nối đến máy chủ cơ sở dữ "
+"liệu tại <code>%s</code>. Điều này có thể do máy chủ cơ sở dữ liệu đang "
+"không chạy.</p>\n"
 "<ul>\n"
 "\t<li>Hãy kiểm tra tên đăng nhập và mật khẩu!</li>\n"
 "\t<li>Hãy kiểm tra tên máy chủ!</li>\n"
 "\t<li>Hãy kiểm tra xem máy chủ cơ sở dữ liệu có đang chạy hay không!</li>\n"
 "</ul>\n"
-"<p>Nếu bạn vẫn không giải quyết được vấn đề này hãy liên hệ với người quản lý máy chủ. Ngoài ra bạn có thể thử tìm thêm thông tin tại <a href='http://wordpress.org/support/'>Diễn đàn hỗ trợ của WordPress</a>.</p>\n"
+"<p>Nếu bạn vẫn không giải quyết được vấn đề này hãy liên hệ với người quản "
+"lý máy chủ. Ngoài ra bạn có thể thử tìm thêm thông tin tại <a href='http://"
+"wordpress.org/support/'>Diễn đàn hỗ trợ của WordPress</a>.</p>\n"
 
 #: wp-includes/wp-db.php:931
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
-msgstr "Cơ sở dữ liệu của WordPress gặp lỗi %1$s với truy vấn %2$s yêu cầu bởi %3$s"
+msgstr ""
+"Cơ sở dữ liệu của WordPress gặp lỗi %1$s với truy vấn %2$s yêu cầu bởi %3$s"
 
 #: wp-includes/wp-db.php:933
 msgid "WordPress database error %1$s for query %2$s"
@@ -3060,7 +3419,9 @@ msgid "Unapproved"
 msgstr "Chưa được xét duyệt"
 
 #: wp-includes/comment.php:646 wp-includes/comment.php:648
-msgid "Duplicate comment detected; it looks as though you&#8217;ve already said that!"
+msgid ""
+"Duplicate comment detected; it looks as though you&#8217;ve already said "
+"that!"
 msgstr "Phản hồi giống nhau! Hình như bạn đã gửi phản hồi này rồi!"
 
 #: wp-includes/comment.php:1423
@@ -3068,7 +3429,9 @@ msgid "Could not update comment status"
 msgstr "Không thể cập nhật phản hồi"
 
 #: wp-includes/cron.php:159
-msgid "This argument has changed to an array to match the behavior of the other cron functions."
+msgid ""
+"This argument has changed to an array to match the behavior of the other "
+"cron functions."
 msgstr ""
 
 #: wp-includes/cron.php:316
@@ -3325,8 +3688,12 @@ msgid "ERROR: %s is not a valid feed template."
 msgstr ""
 
 #: wp-includes/functions.php:1489 wp-includes/functions.php:1607
-msgid "Unable to create directory %s. Is its parent directory writable by the server?"
-msgstr "Không thể tạo thư mục %s. Máy chủ có cho phép ghi chép trong thư mục mẹ không?"
+msgid ""
+"Unable to create directory %s. Is its parent directory writable by the "
+"server?"
+msgstr ""
+"Không thể tạo thư mục %s. Máy chủ có cho phép ghi chép trong thư mục mẹ "
+"không?"
 
 #: wp-includes/functions.php:1586
 msgid "Empty filename"
@@ -3361,19 +3728,29 @@ msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Lỗi"
 
 #: wp-includes/functions.php:2610 wp-includes/functions.php:2650
-msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
-msgstr "%1$s đã bị <strong>loại bỏ</strong> từ phiên bản %2$s! Hãy sử dụng %3$s."
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+"%1$s đã bị <strong>loại bỏ</strong> từ phiên bản %2$s! Hãy sử dụng %3$s."
 
 #: wp-includes/functions.php:2612 wp-includes/functions.php:2652
-msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
-msgstr "%1$s is <strong>deprecated</strong> since version %2$s! Hiện không có giải pháp thay thế."
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Hiện không có giải "
+"pháp thay thế."
 
 #: wp-includes/functions.php:2694
-msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
+msgid ""
+"%1$s was called with an argument that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
 msgstr ""
 
 #: wp-includes/functions.php:2696
-msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
+msgid ""
+"%1$s was called with an argument that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
 msgstr ""
 
 #: wp-includes/functions.php:3124
@@ -3500,7 +3877,9 @@ msgstr "Không thể xử lý fopen() cho %s"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:15
 msgid "Do you want to use the WYSIWYG mode for this textarea?"
-msgstr "Bạn có muốn dùng Chế độ những gì bạn thấy cũng là những gì bạn sẽ nhận được cho ô nhập văn bản này không?"
+msgstr ""
+"Bạn có muốn dùng Chế độ những gì bạn thấy cũng là những gì bạn sẽ nhận được "
+"cho ô nhập văn bản này không?"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:17
 msgid "Insert"
@@ -3525,12 +3904,18 @@ msgid "Copy/Cut/Paste is not available in Mozilla and Firefox."
 msgstr "Sao chép/Cắt/Dán không sử dụng được trong Mozilla và  Firefox."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:25
-msgid "Currently not supported by your browser, use keyboard shortcuts instead."
+msgid ""
+"Currently not supported by your browser, use keyboard shortcuts instead."
 msgstr "Hiện không được trình duyệt của bạn hỗ trợ, hãy sử dụng bàn phím."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:26
-msgid "Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool."
-msgstr "Xin lỗi, bạn dùng chức năng chống popop, để dùng được chức năng này, bạn phải tắt chống popup cho trang web này."
+msgid ""
+"Sorry, but we have noticed that your popup-blocker has disabled a window "
+"that provides application functionality. You will need to disable popup "
+"blocking on this site in order to fully utilize this tool."
+msgstr ""
+"Xin lỗi, bạn dùng chức năng chống popop, để dùng được chức năng này, bạn "
+"phải tắt chống popup cho trang web này."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/langs/wp-langs.php:325
@@ -3619,51 +4004,51 @@ msgstr "Tháng Mười Hai"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:146
 msgid "Jan_January_abbreviation"
-msgstr "Tháng 1"
+msgstr "Th 1"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:147
 msgid "Feb_February_abbreviation"
-msgstr "Tháng 2"
+msgstr "Th 2"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:148
 msgid "Mar_March_abbreviation"
-msgstr "Tháng 3"
+msgstr "Th 3"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:149
 msgid "Apr_April_abbreviation"
-msgstr "Tháng 4"
+msgstr "Th 4"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:150
 msgid "May_May_abbreviation"
-msgstr "Tháng 5"
+msgstr "Th 5"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:151
 msgid "Jun_June_abbreviation"
-msgstr "Tháng 6"
+msgstr "Th 6"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:152
 msgid "Jul_July_abbreviation"
-msgstr "Tháng 7"
+msgstr "Th 7"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:153
 msgid "Aug_August_abbreviation"
-msgstr "Tháng 8"
+msgstr "Th 8"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:154
 msgid "Sep_September_abbreviation"
-msgstr "Tháng 9"
+msgstr "Th 9"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:155
 msgid "Oct_October_abbreviation"
-msgstr "Tháng 10"
+msgstr "Th 10"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:156
 msgid "Nov_November_abbreviation"
-msgstr "Tháng 11"
+msgstr "Th11"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:91 wp-includes/locale.php:157
 msgid "Dec_December_abbreviation"
-msgstr "Tháng 12"
+msgstr "Th 12"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:92 wp-includes/locale.php:99
 #: wp-includes/locale.php:109 wp-includes/locale.php:122
@@ -3931,7 +4316,9 @@ msgstr "Cột"
 #: wp-includes/js/tinymce/langs/wp-langs.php:203
 #: wp-includes/script-loader.php:426 wp-includes/script-loader.php:534
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr "Các thay đổi bạn vừa thực hiện sẽ bị mất nếu bạn đi khỏi trang này khi chưa lưu bài."
+msgstr ""
+"Các thay đổi bạn vừa thực hiện sẽ bị mất nếu bạn đi khỏi trang này khi chưa "
+"lưu bài."
 
 #: wp-includes/script-loader.php:82
 msgid "Toggle fullscreen mode"
@@ -4185,8 +4572,12 @@ msgid "Are you sure you want to clear all contents?"
 msgstr "Bạn có chắc chắn muốn xóa tất cả nội dung?"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:324
-msgid "Jump to tool buttons - Alt+Q, Jump to editor - Alt-Z, Jump to element path - Alt-X"
-msgstr "Tới thanh công cụ - Alt+Q, Tới trình soạn thảo - Alt+Z, Tới thành phần - Alt+X"
+msgid ""
+"Jump to tool buttons - Alt+Q, Jump to editor - Alt-Z, Jump to element path - "
+"Alt-X"
+msgstr ""
+"Tới thanh công cụ - Alt+Q, Tới trình soạn thảo - Alt+Z, Tới thành phần - Alt"
+"+X"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:333
 #: wp-includes/js/tinymce/wp-mce-help.php:271
@@ -4309,12 +4700,20 @@ msgid "Open link in a new window"
 msgstr "Mở trong cửa sổ mới"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:380
-msgid "The URL you entered seems to be an email address, do you want to add the required mailto: prefix?"
-msgstr "Đường dẫn bạn vừa nhập có thể là một địa chỉ thư điện tử, bạn có muốn thêm tiền tố mailto: không?"
+msgid ""
+"The URL you entered seems to be an email address, do you want to add the "
+"required mailto: prefix?"
+msgstr ""
+"Đường dẫn bạn vừa nhập có thể là một địa chỉ thư điện tử, bạn có muốn thêm "
+"tiền tố mailto: không?"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:381
-msgid "The URL you entered seems to external link, do you want to add the required http:// prefix?"
-msgstr "Đường dẫn bạn vừa nhập có thể là một liên kết tới trang khác, bạn có muốn thêm tiền tố http:// không?"
+msgid ""
+"The URL you entered seems to external link, do you want to add the required "
+"http:// prefix?"
+msgstr ""
+"Đường dẫn bạn vừa nhập có thể là một liên kết tới trang khác, bạn có muốn "
+"thêm tiền tố http:// không?"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:382
 msgid "Link list"
@@ -4602,7 +5001,9 @@ msgid "QT Src"
 msgstr ""
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:467
-msgid "Streamed rtsp resources should be added to the QT Src field under the advanced tab."
+msgid ""
+"Streamed rtsp resources should be added to the QT Src field under the "
+"advanced tab."
 msgstr ""
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:473
@@ -4781,20 +5182,61 @@ msgid "Rich Editing Basics"
 msgstr "Soạn thảo nâng cao"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:213
-msgid "<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, means your text is formatted as you type. The rich editor creates HTML code behind the scenes while you concentrate on writing. Font styles, links and images all appear approximately as they will on the internet."
-msgstr "<em>Soạn thảo nâng cao</em>, hay còn gọi là WYSIWYG (Bạn sẽ nhận được cái bạn nhìn thấy), có nghĩa là văn bản của bạn sẽ được định dạng ngay khi bạn gõ. Trình soạn thảo nâng cao tự động tạo mã HTML cho bạn. Kiểu chữ, đường dẫn và hình ảnh, tất cả bạn thấy đều gần giống với khi hiển thị trên trang chủ."
+msgid ""
+"<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, "
+"means your text is formatted as you type. The rich editor creates HTML code "
+"behind the scenes while you concentrate on writing. Font styles, links and "
+"images all appear approximately as they will on the internet."
+msgstr ""
+"<em>Soạn thảo nâng cao</em>, hay còn gọi là WYSIWYG (Bạn sẽ nhận được cái "
+"bạn nhìn thấy), có nghĩa là văn bản của bạn sẽ được định dạng ngay khi bạn "
+"gõ. Trình soạn thảo nâng cao tự động tạo mã HTML cho bạn. Kiểu chữ, đường "
+"dẫn và hình ảnh, tất cả bạn thấy đều gần giống với khi hiển thị trên trang "
+"chủ."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:214
-msgid "WordPress includes a rich HTML editor that works well in all major web browsers used today. However editing HTML is not the same as typing text. Each web page has two major components: the structure, which is the actual HTML code and is produced by the editor as you type, and the display, that is applied to it by the currently selected WordPress theme and is defined in style.css. WordPress is producing valid XHTML 1.0 which means that inserting multiple line breaks (BR tags) after a paragraph would not produce white space on the web page. The BR tags will be removed as invalid by the internal HTML correcting functions."
-msgstr "WordPress có một trình soạn thảo HTML chạy được trên hầu hết các trình duyệt web. Tuy nhiên việc sửa mã HTML sẽ không giống với việc bạn gõ văn bản. Mỗi trang web có hai thành phần chính: phần cấu trúc, là mã HTML và được tạo ra khi bạn gõ trong chình soạn thảo, và phần hiển thị, là phần được tập tin CSS của giao diện (thông thường là tập tin style.css) áp dụng lên trên mã HTML. WordPress sử dụng XHTML 1.0, điều này có nghĩa là việc thêm nhiều thẻ BR để phân cách dòng sau các đoạn văn bản (thẻ P) sẽ không tạo ra các khoảng trống như ý bạn muốn, các thẻ BR này sẽ tự động bị xóa bỏ."
+msgid ""
+"WordPress includes a rich HTML editor that works well in all major web "
+"browsers used today. However editing HTML is not the same as typing text. "
+"Each web page has two major components: the structure, which is the actual "
+"HTML code and is produced by the editor as you type, and the display, that "
+"is applied to it by the currently selected WordPress theme and is defined in "
+"style.css. WordPress is producing valid XHTML 1.0 which means that inserting "
+"multiple line breaks (BR tags) after a paragraph would not produce white "
+"space on the web page. The BR tags will be removed as invalid by the "
+"internal HTML correcting functions."
+msgstr ""
+"WordPress có một trình soạn thảo HTML chạy được trên hầu hết các trình duyệt "
+"web. Tuy nhiên việc sửa mã HTML sẽ không giống với việc bạn gõ văn bản. Mỗi "
+"trang web có hai thành phần chính: phần cấu trúc, là mã HTML và được tạo ra "
+"khi bạn gõ trong chình soạn thảo, và phần hiển thị, là phần được tập tin CSS "
+"của giao diện (thông thường là tập tin style.css) áp dụng lên trên mã HTML. "
+"WordPress sử dụng XHTML 1.0, điều này có nghĩa là việc thêm nhiều thẻ BR để "
+"phân cách dòng sau các đoạn văn bản (thẻ P) sẽ không tạo ra các khoảng trống "
+"như ý bạn muốn, các thẻ BR này sẽ tự động bị xóa bỏ."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:215
-msgid "While using the editor, most basic keyboard shortcuts work like in any other text editor. For example: Shift+Enter inserts line break, Ctrl+C = copy, Ctrl+X = cut, Ctrl+Z = undo, Ctrl+Y = redo, Ctrl+A = select all, etc. (on Mac use the Command key instead of Ctrl). See the Hotkeys tab for all available keyboard shortcuts."
-msgstr "Khi sử dụng trình soạn thảo, các phím tắt thông dụng hoạt động giống như các trình soạn thảo văn bản khác. Ví dụ: Shift+Enter = xuống dòng, Ctrl+C = sao, Ctrl+X = cắt, Ctrl+V = dán, Ctrl+Z = lùi lại bước trước, Ctrl+Y = làm lại bước vừa bỏ, Ctrl+A = chọn tất cả, v.v... (trên máy Mac, sử dụng phím Command thay vì Ctrl). Bạn có thể xem thẻ Phím tắt để biết tất cả các phím tắt có thể sử dụng."
+msgid ""
+"While using the editor, most basic keyboard shortcuts work like in any other "
+"text editor. For example: Shift+Enter inserts line break, Ctrl+C = copy, Ctrl"
+"+X = cut, Ctrl+Z = undo, Ctrl+Y = redo, Ctrl+A = select all, etc. (on Mac "
+"use the Command key instead of Ctrl). See the Hotkeys tab for all available "
+"keyboard shortcuts."
+msgstr ""
+"Khi sử dụng trình soạn thảo, các phím tắt thông dụng hoạt động giống như các "
+"trình soạn thảo văn bản khác. Ví dụ: Shift+Enter = xuống dòng, Ctrl+C = sao, "
+"Ctrl+X = cắt, Ctrl+V = dán, Ctrl+Z = lùi lại bước trước, Ctrl+Y = làm lại "
+"bước vừa bỏ, Ctrl+A = chọn tất cả, v.v... (trên máy Mac, sử dụng phím "
+"Command thay vì Ctrl). Bạn có thể xem thẻ Phím tắt để biết tất cả các phím "
+"tắt có thể sử dụng."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:216
-msgid "If you do not like the way the rich editor works, you may turn it off from Your Profile submenu, under Users in the admin menu."
-msgstr "Nếu bạn không thích trình soạn thảo nâng cao, bạn có thể tắt nó đi trong trang Hồ sơ của bạn, trong phần Thành viên."
+msgid ""
+"If you do not like the way the rich editor works, you may turn it off from "
+"Your Profile submenu, under Users in the admin menu."
+msgstr ""
+"Nếu bạn không thích trình soạn thảo nâng cao, bạn có thể tắt nó đi trong "
+"trang Hồ sơ của bạn, trong phần Thành viên."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:220
 msgid "Advanced Rich Editing"
@@ -4805,40 +5247,98 @@ msgid "Images and Attachments"
 msgstr "Hình ảnh và Tập tin đính kèm"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:222
-msgid "There is a button in the editor toolbar for inserting images that are already hosted somewhere on the internet. If you have a URL for an image, click this button and enter the URL in the box which appears."
-msgstr "Có một nút ở trên thanh công cụ cho phép bạn chèn ảnh từ đường dẫn. Nếu bạn có đường dẫn tới ảnh, bạn chỉ cần ấn vào nút đó và nhập đường dẫn tới ảnh đó vào ô hiện ra."
+msgid ""
+"There is a button in the editor toolbar for inserting images that are "
+"already hosted somewhere on the internet. If you have a URL for an image, "
+"click this button and enter the URL in the box which appears."
+msgstr ""
+"Có một nút ở trên thanh công cụ cho phép bạn chèn ảnh từ đường dẫn. Nếu bạn "
+"có đường dẫn tới ảnh, bạn chỉ cần ấn vào nút đó và nhập đường dẫn tới ảnh đó "
+"vào ô hiện ra."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:223
-msgid "If you need to upload an image or another media file from your computer, you can use the Media Library buttons above the editor. The media library will attempt to create a thumbnail-sized copy from each uploaded image. To insert your image into the post, first click on the thumbnail to reveal a menu of options. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing. If you are inserting a movie, there are additional options in the \"Media\" dialog that can be opened from the second toolbar row."
-msgstr "Nếu bạn cần tải một ảnh hay bản nhạc, video từ máy của bạn, bạn có thể sử dụng nút Thư viện ở trên trình soạn thảo. Thư viện ảnh sẽ tự tạo ảnh thu nhỏ từ các ảnh bạn tải lên. Để thêm ảnh đã tải lên vào bài viết, bạn ấn vào ảnh thu nhỏ ở bên trái để xem các tùy chọn. Sau khi đã cài đặt các tùy chọn, bạn ấn nút \"Thêm vào bài viết\" và ảnh hoặc tập tin đó sẽ hiện ra trong bài viết bạn đang soạn thảo. Nếu bạn muốn chèn một đoạn phim, có các lựa chọn khác trong phần tùy chọn ở trong ô hội thoại \"Media\" nằm ở hàng thứ 2 trên thanh công cụ."
+msgid ""
+"If you need to upload an image or another media file from your computer, you "
+"can use the Media Library buttons above the editor. The media library will "
+"attempt to create a thumbnail-sized copy from each uploaded image. To insert "
+"your image into the post, first click on the thumbnail to reveal a menu of "
+"options. When you have selected the options you like, click \"Send to Editor"
+"\" and your image or file will appear in the post you are editing. If you "
+"are inserting a movie, there are additional options in the \"Media\" dialog "
+"that can be opened from the second toolbar row."
+msgstr ""
+"Nếu bạn cần tải một ảnh hay bản nhạc, video từ máy của bạn, bạn có thể sử "
+"dụng nút Thư viện ở trên trình soạn thảo. Thư viện ảnh sẽ tự tạo ảnh thu nhỏ "
+"từ các ảnh bạn tải lên. Để thêm ảnh đã tải lên vào bài viết, bạn ấn vào ảnh "
+"thu nhỏ ở bên trái để xem các tùy chọn. Sau khi đã cài đặt các tùy chọn, bạn "
+"ấn nút \"Thêm vào bài viết\" và ảnh hoặc tập tin đó sẽ hiện ra trong bài "
+"viết bạn đang soạn thảo. Nếu bạn muốn chèn một đoạn phim, có các lựa chọn "
+"khác trong phần tùy chọn ở trong ô hội thoại \"Media\" nằm ở hàng thứ 2 trên "
+"thanh công cụ."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:224
 msgid "HTML in the Rich Editor"
 msgstr "Mở tập tin này trong trình chỉnh sửa Plugin"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:225
-msgid "Any HTML entered directly into the rich editor will show up as text when the post is viewed. What you see is what you get. When you want to include HTML elements that cannot be generated with the toolbar buttons, you must enter it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do this, click the HTML tab and edit the code, then switch back to Visual mode. If the code is valid and understood by the editor, you should see it rendered immediately."
-msgstr "Các đoạn mã HTML được nhập vào trong trình soạn thảo nâng cao sẽ hiển thị y nguyên như vậy khi bạn đọc bài viết. Nếu bạn muốn sử dụng mã HTML mà thanh công cụ không cho phép bạn tạo, bạn phải sử dụng trình soạn thảo HTML và nhập mã HTML một cách tủy công. Ví dụ: bảng biểu và &lt;code&gt;. Để sử dụng trình soạn thảo HTML, bạn ấn vào chữ HTML nằm trên thanh công cụ của trình soạn thảo, phía bên phải, sau khi đã chỉnh sửa xong mã HTML bạn có thể chuyển về chế độ Hiển thị. Nếu mã HTML của bạn nhập vào hợp lệ, bạn sẽ nhìn thấy đoạn mã đó ngay lập tức trong trình soạn thảo nâng cao."
+msgid ""
+"Any HTML entered directly into the rich editor will show up as text when the "
+"post is viewed. What you see is what you get. When you want to include HTML "
+"elements that cannot be generated with the toolbar buttons, you must enter "
+"it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do "
+"this, click the HTML tab and edit the code, then switch back to Visual mode. "
+"If the code is valid and understood by the editor, you should see it "
+"rendered immediately."
+msgstr ""
+"Các đoạn mã HTML được nhập vào trong trình soạn thảo nâng cao sẽ hiển thị y "
+"nguyên như vậy khi bạn đọc bài viết. Nếu bạn muốn sử dụng mã HTML mà thanh "
+"công cụ không cho phép bạn tạo, bạn phải sử dụng trình soạn thảo HTML và "
+"nhập mã HTML một cách tủy công. Ví dụ: bảng biểu và &lt;code&gt;. Để sử dụng "
+"trình soạn thảo HTML, bạn ấn vào chữ HTML nằm trên thanh công cụ của trình "
+"soạn thảo, phía bên phải, sau khi đã chỉnh sửa xong mã HTML bạn có thể "
+"chuyển về chế độ Hiển thị. Nếu mã HTML của bạn nhập vào hợp lệ, bạn sẽ nhìn "
+"thấy đoạn mã đó ngay lập tức trong trình soạn thảo nâng cao."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:226
 msgid "Pasting in the Rich Editor"
 msgstr "Mở tập tin này trong trình chỉnh sửa Plugin"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:227
-msgid "When pasting content from another web page the results can be inconsistent and depend on your browser and on the web page you are pasting from. The editor tries to correct any invalid HTML code that was pasted, but for best results try using the HTML tab or one of the paste buttons that are on the second row. Alternatively try pasting paragraph by paragraph. In most browsers to select one paragraph at a time, triple-click on it."
-msgstr "Khi cắt dán nội dung từ trang web khác, kết quả có thể không giống nhau, tùy vào trình duyệt web của bạn và tùy vào trang bạn sao chép. Trình soạn thảo nâng cao cố gắng chỉnh sửa các mã HTML không hợp lệ, nhưng để đạt được kết quả tối ưu, bạn nên sử dụng trình soạn thảo HTML hoặc sử dụng chức năng dán văn bản của trình soạn thảo nâng cao (bạn có thể tìm thấy ở dòng thứ hai trên thanh công cụ)."
+msgid ""
+"When pasting content from another web page the results can be inconsistent "
+"and depend on your browser and on the web page you are pasting from. The "
+"editor tries to correct any invalid HTML code that was pasted, but for best "
+"results try using the HTML tab or one of the paste buttons that are on the "
+"second row. Alternatively try pasting paragraph by paragraph. In most "
+"browsers to select one paragraph at a time, triple-click on it."
+msgstr ""
+"Khi cắt dán nội dung từ trang web khác, kết quả có thể không giống nhau, tùy "
+"vào trình duyệt web của bạn và tùy vào trang bạn sao chép. Trình soạn thảo "
+"nâng cao cố gắng chỉnh sửa các mã HTML không hợp lệ, nhưng để đạt được kết "
+"quả tối ưu, bạn nên sử dụng trình soạn thảo HTML hoặc sử dụng chức năng dán "
+"văn bản của trình soạn thảo nâng cao (bạn có thể tìm thấy ở dòng thứ hai "
+"trên thanh công cụ)."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:228
-msgid "Pasting content from another application, like Word or Excel, is best done with the Paste from Word button on the second row, or in HTML mode."
-msgstr "Dán văn bản từ chương trình khác, như Word hay Excel, bạn nên dùng nút 'Dán từ Word' ở hàng thứ hai, hoặc dán trong chế độ HTML."
+msgid ""
+"Pasting content from another application, like Word or Excel, is best done "
+"with the Paste from Word button on the second row, or in HTML mode."
+msgstr ""
+"Dán văn bản từ chương trình khác, như Word hay Excel, bạn nên dùng nút 'Dán "
+"từ Word' ở hàng thứ hai, hoặc dán trong chế độ HTML."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:232
 msgid "Writing at Full Speed"
 msgstr "Viết ở tốc độ tối đa."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:233
-msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Ctrl + letter. Macintosh uses Command + letter."
-msgstr "Thay vì dùng chuột, bạn có thể sử dụng các phím tắt này. Trên Windows và Linux, sử dụng Ctrl + chữ. Trên Macintosh sử dụng Command + chữ."
+msgid ""
+"Rather than reaching for your mouse to click on the toolbar, use these "
+"access keys. Windows and Linux use Ctrl + letter. Macintosh uses Command + "
+"letter."
+msgstr ""
+"Thay vì dùng chuột, bạn có thể sử dụng các phím tắt này. Trên Windows và "
+"Linux, sử dụng Ctrl + chữ. Trên Macintosh sử dụng Command + chữ."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:236
 #: wp-includes/js/tinymce/wp-mce-help.php:250
@@ -4855,7 +5355,8 @@ msgid "Select all"
 msgstr "Chọn tất cả"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:248
-msgid "The following shortcuts use different access keys: Alt + Shift + letter."
+msgid ""
+"The following shortcuts use different access keys: Alt + Shift + letter."
 msgstr "Phím tắt này sử dụng tổ hợp phím: Alt + Shift + chữ."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:253
@@ -4895,8 +5396,12 @@ msgid "GNU Library General Public Licence"
 msgstr "Thư viện giấy phép công cộng chung GNU"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:276
-msgid "For more information about this software visit the <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">TinyMCE website</a>."
-msgstr "Để có thêm thông tin về TinyMCE, hãy xem trên trang web của <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">TinyMCE</a>."
+msgid ""
+"For more information about this software visit the <a href=\"http://tinymce."
+"moxiecode.com\" target=\"_blank\">TinyMCE website</a>."
+msgstr ""
+"Để có thêm thông tin về TinyMCE, hãy xem trên trang web của <a href=\"http://"
+"tinymce.moxiecode.com\" target=\"_blank\">TinyMCE</a>."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:279
 msgid "Got Moxie?"
@@ -4988,7 +5493,9 @@ msgid "That user does not exist."
 msgstr "Thành viên này không tồn tại."
 
 #: wp-includes/ms-functions.php:459
-msgid "You cannot use that email address to signup. We are having problems with them blocking some of our email. Please use another email provider."
+msgid ""
+"You cannot use that email address to signup. We are having problems with "
+"them blocking some of our email. Please use another email provider."
 msgstr ""
 
 #: wp-includes/ms-functions.php:471
@@ -5008,7 +5515,8 @@ msgid "Sorry, that email address is already used!"
 msgstr "Xin lỗi, thư điện tử này đã được sử dụng!"
 
 #: wp-includes/ms-functions.php:501
-msgid "That username is currently reserved but may be available in a couple of days."
+msgid ""
+"That username is currently reserved but may be available in a couple of days."
 msgstr ""
 
 #: wp-includes/ms-functions.php:504
@@ -5016,7 +5524,10 @@ msgid "username and email used"
 msgstr "Tên đăng nhập và thư điện tử đã được sử dụng"
 
 #: wp-includes/ms-functions.php:514
-msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
+msgid ""
+"That email address has already been used. Please check your inbox for an "
+"activation email. It will become available in a couple of days if you do "
+"nothing."
 msgstr ""
 
 #: wp-includes/ms-functions.php:793
@@ -5058,15 +5569,21 @@ msgid "New User Registration: %s"
 msgstr "[%s] Thành viên mới đăng kí"
 
 #: wp-includes/ms-functions.php:1141
-msgid "<h1>Already Installed</h1><p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>"
-msgstr "<h1>Đã cài đặt</h1><p>Hình như bạn đã cài đặt WordPress. Để cài đặt lại, hãy xóa hết cơ sở dữ liệu của bạn trước tiên.</p>"
+msgid ""
+"<h1>Already Installed</h1><p>You appear to have already installed WordPress. "
+"To reinstall please clear your old database tables first.</p>"
+msgstr ""
+"<h1>Đã cài đặt</h1><p>Hình như bạn đã cài đặt WordPress. Để cài đặt lại, hãy "
+"xóa hết cơ sở dữ liệu của bạn trước tiên.</p>"
 
 #: wp-includes/ms-functions.php:1304
 msgid "New %1$s User: %2$s"
 msgstr "Thành viên %1$s mới: %2$s"
 
 #: wp-includes/ms-functions.php:1481
-msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
+msgid ""
+"Sorry, you have used your space allocation. Please delete some files to "
+"upload more files."
 msgstr ""
 
 #: wp-includes/ms-functions.php:1690
@@ -5090,7 +5607,9 @@ msgid ""
 msgstr ""
 
 #: wp-includes/ms-load.php:87
-msgid "This user has elected to delete their account and the content is no longer available."
+msgid ""
+"This user has elected to delete their account and the content is no longer "
+"available."
 msgstr ""
 
 #: wp-includes/ms-settings.php:121
@@ -5180,8 +5699,12 @@ msgid "Approve it: %s"
 msgstr "Thông qua: %s"
 
 #: wp-includes/pluggable.php:1149
-msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
-msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
+msgid ""
+"Currently %s comment is waiting for approval. Please visit the moderation "
+"panel:"
+msgid_plural ""
+"Currently %s comments are waiting for approval. Please visit the moderation "
+"panel:"
 msgstr[0] "Hiện có %s đang chờ được thông qua. Hãy vào trang xét duyệt:"
 
 #: wp-includes/pluggable.php:1153
@@ -5238,7 +5761,8 @@ msgid "Home"
 msgstr "Trang chủ"
 
 #: wp-includes/post-template.php:1221
-msgid "This post is password protected. To view it please enter your password below:"
+msgid ""
+"This post is password protected. To view it please enter your password below:"
 msgstr "Bài này được bảo vệ bằng mật khẩu. Để xem, hãy nhập mật khẩu:"
 
 #: wp-includes/post-template.php:1299
@@ -5376,8 +5900,11 @@ msgid "Jabber / Google Talk"
 msgstr "Jabber / Google Talk"
 
 #: wp-includes/rss.php:895
-msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "Có lỗi, có thể là dòng thông tin hiện không hoạt động. Hãy thử lại sau."
+msgid ""
+"An error has occurred, which probably means the feed is down. Try again "
+"later."
+msgstr ""
+"Có lỗi, có thể là dòng thông tin hiện không hoạt động. Hãy thử lại sau."
 
 #: wp-includes/script-loader.php:66
 msgid ""
@@ -5444,7 +5971,9 @@ msgid "of"
 msgstr "của"
 
 #: wp-includes/script-loader.php:179
-msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
+msgid ""
+"This feature requires inline frames. You have iframes disabled or your "
+"browser does not support them."
 msgstr ""
 
 #: wp-includes/script-loader.php:192
@@ -5468,7 +5997,8 @@ msgid "An error occurred in the upload. Please try again later."
 msgstr "Lỗi khi tải lên. Hãy thử lại sau."
 
 #: wp-includes/script-loader.php:204
-msgid "There was a configuration error. Please contact the server administrator."
+msgid ""
+"There was a configuration error. Please contact the server administrator."
 msgstr "Lỗi cài đặt. Hãy liên hệ với quản lý của máy chủ."
 
 #: wp-includes/script-loader.php:205
@@ -5558,7 +6088,8 @@ msgstr "Đang lưu..."
 
 #: wp-includes/script-loader.php:417
 msgid "Could not set that as the thumbnail image. Try a different attachment."
-msgstr "Không thể sử dụng tập tin bạn chọn làm ảnh thu nhỏ, hãy thử tập tin khác."
+msgstr ""
+"Không thể sử dụng tập tin bạn chọn làm ảnh thu nhỏ, hãy thử tập tin khác."
 
 #: wp-includes/script-loader.php:533
 msgid "Saving Draft&#8230;"
@@ -5586,7 +6117,9 @@ msgstr "Không thể thêm bài viết vào cơ sở dữ liệu"
 
 #: wp-includes/taxonomy.php:2382
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
-msgstr "Chuỗi cho đường dẫn tĩnh &#8220;%s&#8221; đã được sử dụng bởi một thành phần khác."
+msgstr ""
+"Chuỗi cho đường dẫn tĩnh &#8220;%s&#8221; đã được sử dụng bởi một thành phần "
+"khác."
 
 #: wp-includes/taxonomy.php:3134
 msgid "Invalid object ID"
@@ -5613,12 +6146,18 @@ msgid "<strong>ERROR</strong>: The password field is empty."
 msgstr "<strong>Lỗi</strong>: Xin điền mật khẩu."
 
 #: wp-includes/user.php:90
-msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr "<strong>LỖI</strong>: Tên đăng nhập không hợp lệ. <a href=\"%s\" title=\"Làm mới mật khẩu\">Bạn mất mật khẩu à</a>?"
+msgid ""
+"<strong>ERROR</strong>: Invalid username. <a href=\"%s\" title=\"Password "
+"Lost and Found\">Lost your password</a>?"
+msgstr ""
+"<strong>LỖI</strong>: Tên đăng nhập không hợp lệ. <a href=\"%s\" title=\"Làm "
+"mới mật khẩu\">Bạn mất mật khẩu à</a>?"
 
 #: wp-includes/user.php:95
 msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
-msgstr "<strong>LỖI</strong>: Tài khoản của bạn đã bị đánh dấu là 1 người chuyên đi spam."
+msgstr ""
+"<strong>LỖI</strong>: Tài khoản của bạn đã bị đánh dấu là 1 người chuyên đi "
+"spam."
 
 #: wp-includes/user.php:136
 msgid "Please log in again."
@@ -5630,7 +6169,8 @@ msgstr "Thanh bên %d"
 
 #: wp-includes/wp-db.php:1541
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
-msgstr "<strong>LỖI</strong>: WordPress %1$s yêu cầu MySQL %2$s hoặc là cao hơn."
+msgstr ""
+"<strong>LỖI</strong>: WordPress %1$s yêu cầu MySQL %2$s hoặc là cao hơn."
 
 #: wp-login.php:82
 msgid "Powered by WordPress"
@@ -5638,11 +6178,14 @@ msgstr "Xây dựng trên WordPress"
 
 #: wp-login.php:186
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
-msgstr "<strong>LỖI</strong>: Xin điền vào tên đăng nhập hoặc thư điện tử của bạn."
+msgstr ""
+"<strong>LỖI</strong>: Xin điền vào tên đăng nhập hoặc thư điện tử của bạn."
 
 #: wp-login.php:190
-msgid "<strong>ERROR</strong>: There is no user registered with that email address."
-msgstr "<strong>Lỗi</strong>: Không có thành viên nào có địa chỉ thư điện tử này."
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+"<strong>Lỗi</strong>: Không có thành viên nào có địa chỉ thư điện tử này."
 
 #: wp-login.php:202
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
@@ -5669,7 +6212,9 @@ msgid "Invalid key"
 msgstr "Key không đúng"
 
 #: wp-login.php:315
-msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
 msgstr "<strong>Lỗi</strong>: Địa chỉ thư điện tử không đúng"
 
 #: wp-login.php:320
@@ -5681,8 +6226,12 @@ msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>Lỗi</strong>: Địa chỉ thư điện tử không đúng."
 
 #: wp-login.php:338
-msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
-msgstr "<strong>Lỗi</strong>: Quá trình đăng kí bị lỗi... vui lòng liên hệ với <a href=\"mailto:%s\">nhà quản lý</a> !"
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+"<strong>Lỗi</strong>: Quá trình đăng kí bị lỗi... vui lòng liên hệ với <a "
+"href=\"mailto:%s\">nhà quản lý</a> !"
 
 #: wp-login.php:425
 msgid "Sorry, that key does not appear to be valid."
@@ -5733,8 +6282,14 @@ msgid "You have logged in successfully."
 msgstr "Bạn đã đăng nhập thành công."
 
 #: wp-login.php:646
-msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
-msgstr "<strong>Lỗi</strong>: Cookie bị cấm hoặc không được trình duyệt web hỗ trợ. Bạn phải <a href='http://www.google.com/cookies.html'>cho phép cookie</a> để có thể sử dụng trang web này."
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+"<strong>Lỗi</strong>: Cookie bị cấm hoặc không được trình duyệt web hỗ trợ. "
+"Bạn phải <a href='http://www.google.com/cookies.html'>cho phép cookie</a> để "
+"có thể sử dụng trang web này."
 
 #: wp-login.php:650
 msgid "You are now logged out."
@@ -5817,11 +6372,15 @@ msgid "%s is your new username"
 msgstr "[%s] Tên đăng nhập và mật khẩu của bạn"
 
 #: wp-signup.php:291
-msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
+msgid ""
+"But, before you can start using your new username, <strong>you must activate "
+"it</strong>."
 msgstr ""
 
 #: wp-signup.php:293
-msgid "If you do not activate your username within two days, you will have to sign up again."
+msgid ""
+"If you do not activate your username within two days, you will have to sign "
+"up again."
 msgstr ""
 
 #: wp-signup.php:319
@@ -5904,8 +6463,11 @@ msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>Lỗi</strong>: Xin điền tên đăng nhập."
 
 #: wp-login.php:325
-msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
-msgstr "<strong>Lỗi</strong>: Thư điện tử này đã được sử dụng, hãy chọn địa chỉ khác."
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>Lỗi</strong>: Thư điện tử này đã được sử dụng, hãy chọn địa chỉ khác."
 
 #: wp-includes/widgets.php:67
 msgid "There are no options for this widget."
@@ -5916,8 +6478,14 @@ msgid "Strength indicator"
 msgstr "Độ bảo mật"
 
 #: wp-login.php:495
-msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
-msgstr "Gợi ý: Mật khẩu của bạn nên có ít nhất 7 kí tự. Để có mật khẩu bảo mật hơn, hãy sử dụng chữ hoa và chữ thường cùng với số, hay các kí tự như ! \" ? $ % ^ &amp; )."
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"Gợi ý: Mật khẩu của bạn nên có ít nhất 7 kí tự. Để có mật khẩu bảo mật hơn, "
+"hãy sử dụng chữ hoa và chữ thường cùng với số, hay các kí tự như ! \" ? $ % "
+"^ &amp; )."
 
 #: wp-includes/script-loader.php:260
 msgid "Very weak"
@@ -6049,7 +6617,8 @@ msgstr "Bạn không có quyền chỉnh sửa bài viết này."
 #: wp-includes/class-wp-atom-server.php:456
 #: wp-includes/class-wp-atom-server.php:609
 #: wp-includes/class-wp-xmlrpc-server.php:3557
-msgid "For some strange yet very annoying reason, this post could not be edited."
+msgid ""
+"For some strange yet very annoying reason, this post could not be edited."
 msgstr "Gặp phải lỗi lạ, bạn không thể chỉnh sửa bài viết này được."
 
 #: wp-includes/class-wp-atom-server.php:477
@@ -6061,7 +6630,8 @@ msgstr "Bạn không có quyền xóa bài viết này."
 #: wp-includes/class-wp-atom-server.php:485
 #: wp-includes/class-wp-atom-server.php:643
 #: wp-includes/class-wp-xmlrpc-server.php:3598
-msgid "For some strange yet very annoying reason, this post could not be deleted."
+msgid ""
+"For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Gặp phải lỗi lạ, bạn không thể xóa bài viết này được."
 
 #: wp-comments-post.php:36
@@ -6091,32 +6661,54 @@ msgid "The key you entered is invalid. Please double-check it."
 msgstr "Khóa nhập vào không hợp lệ. Xin hãy kiểm tra lại."
 
 #: wp-content/plugins/akismet/admin.php:138
-msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
-msgstr "Khóa nhập vào không xác nhận được vì không kết nối được với akismet.com. Xin kiểm tra lại cấu hình của máy chủ."
+msgid ""
+"The key you entered could not be verified because a connection to akismet."
+"com could not be established. Please check your server configuration."
+msgstr ""
+"Khóa nhập vào không xác nhận được vì không kết nối được với akismet.com. Xin "
+"kiểm tra lại cấu hình của máy chủ."
 
 #: wp-content/plugins/akismet/admin.php:139
-msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
-msgstr "Trục trặc trong kết nối với máy chủ của Akismet. Xin kiểm tra cấu hình máy chủ của bạn."
+msgid ""
+"There was a problem connecting to the Akismet server. Please check your "
+"server configuration."
+msgstr ""
+"Trục trặc trong kết nối với máy chủ của Akismet. Xin kiểm tra cấu hình máy "
+"chủ của bạn."
 
 #: wp-content/plugins/akismet/admin.php:140
-msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
-msgstr "Hãy nhập khóa API.  (<a href=\"%s\" style=\"color:#fff\">Lấy khóa của bạn.</a>)"
+msgid ""
+"Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</"
+"a>)"
+msgstr ""
+"Hãy nhập khóa API.  (<a href=\"%s\" style=\"color:#fff\">Lấy khóa của bạn.</"
+"a>)"
 
 #: wp-content/plugins/akismet/admin.php:141
 msgid "This key is valid."
 msgstr "Khóa hợp lệ."
 
 #: wp-content/plugins/akismet/admin.php:143
-msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
-msgstr "Khóa dưới đây đã được chấp nhận, nhưng hiện không kết nối được với akismet.com. Xin kiểm tra lại cấu hình máy chủ của bạn."
+msgid ""
+"The key below was previously validated but a connection to akismet.com can "
+"not be established at this time. Please check your server configuration."
+msgstr ""
+"Khóa dưới đây đã được chấp nhận, nhưng hiện không kết nối được với akismet."
+"com. Xin kiểm tra lại cấu hình máy chủ của bạn."
 
 #: wp-content/plugins/akismet/admin.php:166
 msgid "Why might my key be invalid?"
 msgstr "Tại sao khóa của tôi không hợp lệ?"
 
 #: wp-content/plugins/akismet/admin.php:167
-msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
-msgstr "Điều đó có nghĩa là hoặc bạn sao chép khóa sai, hoặc plugin không thể kết nối với Akismet, điều này thường xảy ra khi máy chủ của bạn có chế độ tường lửa hoặc các chế độ tương tự không cho phép plugin kết nối với Akismet."
+msgid ""
+"This can mean one of two things, either you copied the key wrong or that the "
+"plugin is unable to reach the Akismet servers, which is most often caused by "
+"an issue with your web host around firewalls or similar."
+msgstr ""
+"Điều đó có nghĩa là hoặc bạn sao chép khóa sai, hoặc plugin không thể kết "
+"nối với Akismet, điều này thường xảy ra khi máy chủ của bạn có chế độ tường "
+"lửa hoặc các chế độ tương tự không cho phép plugin kết nối với Akismet."
 
 #: wp-content/plugins/akismet/admin.php:173
 msgid "Update options &raquo;"
@@ -6131,16 +6723,36 @@ msgid "Unable to reach some Akismet servers."
 msgstr "Không thể kết nối với một số máy chủ Akismet."
 
 #: wp-content/plugins/akismet/admin.php:192
-msgid "A network problem or firewall is blocking some connections from your web server to Akismet.com.  Akismet is working but this may cause problems during times of network congestion.  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
-msgstr "Lỗi liên quan tới kết nối mạng hoặc tường lửa chặn các truy cập từ máy chủ của bạn tới Akismet.com. <strong>Akismet không thể hoạt động bình thường nếu lỗi này không được sửa.</strong> Hãy liên hệ với người quản lý máy của bạn kèm theo <a href=\"%s\" target=\"_blank\">thông tin cấu hình tối thiểu của Akismet</a>."
+msgid ""
+"A network problem or firewall is blocking some connections from your web "
+"server to Akismet.com.  Akismet is working but this may cause problems "
+"during times of network congestion.  Please contact your web host or "
+"firewall administrator and give them <a href=\"%s\" target=\"_blank\">this "
+"information about Akismet and firewalls</a>."
+msgstr ""
+"Lỗi liên quan tới kết nối mạng hoặc tường lửa chặn các truy cập từ máy chủ "
+"của bạn tới Akismet.com. <strong>Akismet không thể hoạt động bình thường nếu "
+"lỗi này không được sửa.</strong> Hãy liên hệ với người quản lý máy của bạn "
+"kèm theo <a href=\"%s\" target=\"_blank\">thông tin cấu hình tối thiểu của "
+"Akismet</a>."
 
 #: wp-content/plugins/akismet/admin.php:196
 msgid "Unable to reach any Akismet servers."
 msgstr "Không thể kết nối với bất kì máy chủ Akismet nào."
 
 #: wp-content/plugins/akismet/admin.php:197
-msgid "A network problem or firewall is blocking all connections from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
-msgstr "Lỗi liên quan tới kết nối mạng chặn các truy cập từ máy chủ của bạn tới Akismet.com. <strong>Akismet không thể hoạt động bình thường nếu lỗi này không được sửa.</strong> Hãy liên hệ với người quản lý máy của bạn kèm theo <a href=\"%s\" target=\"_blank\">thông tin cấu hình tối thiểu của Akismet</a>."
+msgid ""
+"A network problem or firewall is blocking all connections from your web "
+"server to Akismet.com.  <strong>Akismet cannot work correctly until this is "
+"fixed.</strong>  Please contact your web host or firewall administrator and "
+"give them <a href=\"%s\" target=\"_blank\">this information about Akismet "
+"and firewalls</a>."
+msgstr ""
+"Lỗi liên quan tới kết nối mạng chặn các truy cập từ máy chủ của bạn tới "
+"Akismet.com. <strong>Akismet không thể hoạt động bình thường nếu lỗi này "
+"không được sửa.</strong> Hãy liên hệ với người quản lý máy của bạn kèm theo "
+"<a href=\"%s\" target=\"_blank\">thông tin cấu hình tối thiểu của Akismet</"
+"a>."
 
 #: wp-content/plugins/akismet/admin.php:201
 msgid "All Akismet servers are available."
@@ -6148,7 +6760,8 @@ msgstr "Tất cả các máy chủ của Akismet đều hoạt động."
 
 #: wp-content/plugins/akismet/admin.php:202
 msgid "Akismet is working correctly.  All servers are accessible."
-msgstr "Akismet hoạt động bình thường. Các kết nối tới máy chủ đều thực hiện được."
+msgstr ""
+"Akismet hoạt động bình thường. Các kết nối tới máy chủ đều thực hiện được."
 
 #: wp-content/plugins/akismet/admin.php:182
 msgid "Network functions are disabled."
@@ -6159,8 +6772,18 @@ msgid "Unable to find Akismet servers."
 msgstr "Không thể tìm thấy máy chủ Akismet."
 
 #: wp-content/plugins/akismet/admin.php:208
-msgid "A DNS problem or firewall is preventing all access from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
-msgstr "Lỗi liên quan tới DNS hoặc tường lửa chặn các truy cập từ máy chủ của bạn tới Akismet.com. <strong>Akismet không thể hoạt động bình thường nếu lỗi này không được sửa.</strong> Hãy liên hệ với người quản lý máy của bạn kèm theo <a href=\"%s\" target=\"_blank\">thông tin cấu hình tối thiểu của Akismet</a>."
+msgid ""
+"A DNS problem or firewall is preventing all access from your web server to "
+"Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</"
+"strong>  Please contact your web host or firewall administrator and give "
+"them <a href=\"%s\" target=\"_blank\">this information about Akismet and "
+"firewalls</a>."
+msgstr ""
+"Lỗi liên quan tới DNS hoặc tường lửa chặn các truy cập từ máy chủ của bạn "
+"tới Akismet.com. <strong>Akismet không thể hoạt động bình thường nếu lỗi này "
+"không được sửa.</strong> Hãy liên hệ với người quản lý máy của bạn kèm theo "
+"<a href=\"%s\" target=\"_blank\">thông tin cấu hình tối thiểu của Akismet</"
+"a>."
 
 #: wp-content/plugins/akismet/admin.php:216
 msgid "Akismet server"
@@ -6218,16 +6841,28 @@ msgid "Caught Spam"
 msgstr "Spam bị lọc"
 
 #: wp-content/plugins/akismet/legacy.php:153
-msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
-msgstr "Akismet đã tóm được <strong>%1$s spam</strong> cho bạn kể từ lúc mới được cài đặt."
+msgid ""
+"Akismet has caught <strong>%1$s spam</strong> for you since you first "
+"installed it."
+msgstr ""
+"Akismet đã tóm được <strong>%1$s spam</strong> cho bạn kể từ lúc mới được "
+"cài đặt."
 
 #: wp-content/plugins/akismet/legacy.php:160
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Không có spam nào trong hàng đợi. Thật may mắn. :)"
 
 #: wp-content/plugins/akismet/legacy.php:163
-msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
-msgstr "Bạn có thể xóa tất cả các spam từ cơ sở dữ liệu chỉ bằng một cú nhấn chuột. Tác vụ này không thể lùi lại, do vậy, bạn nên kiểm tra xem có phản hồi nào hợp lệ không. Spam sẽ tự bị xóa sau 15 ngày, do vậy đừng lo lắng quá về danh sách này."
+msgid ""
+"You can delete all of the spam from your database with a single click. This "
+"operation cannot be undone, so you may wish to check to ensure that no "
+"legitimate comments got through first. Spam is automatically deleted after "
+"15 days, so don&#8217;t sweat it."
+msgstr ""
+"Bạn có thể xóa tất cả các spam từ cơ sở dữ liệu chỉ bằng một cú nhấn chuột. "
+"Tác vụ này không thể lùi lại, do vậy, bạn nên kiểm tra xem có phản hồi nào "
+"hợp lệ không. Spam sẽ tự bị xóa sau 15 ngày, do vậy đừng lo lắng quá về danh "
+"sách này."
 
 #: wp-content/plugins/akismet/legacy.php:169
 #: wp-content/plugins/akismet/legacy.php:347
@@ -6240,8 +6875,18 @@ msgid "Delete all"
 msgstr "Xóa hết"
 
 #: wp-content/plugins/akismet/legacy.php:178
-msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
-msgstr "Gần đây có các phản hồi bị Akismet cho là spam. Nếu bạn tìm thấy sai sót nào, chỉ cần đánh dấu phản hồi là \"không phải spam\" và Akismet sẽ sửa chữa thiếu sót này. Nếu muốn lấy lại một phản hồi trong đó, bạn chỉ cần chọn phản hồi và nhấn Không phải Spam. Sau 15 ngày, chúng tôi sẽ dọn dẹp đám spam cho bạn."
+msgid ""
+"These are the latest comments identified as spam by Akismet. If you see any "
+"mistakes, simply mark the comment as \"not spam\" and Akismet will learn "
+"from the submission. If you wish to recover a comment from spam, simply "
+"select the comment, and click Not Spam. After 15 days we clean out the junk "
+"for you."
+msgstr ""
+"Gần đây có các phản hồi bị Akismet cho là spam. Nếu bạn tìm thấy sai sót "
+"nào, chỉ cần đánh dấu phản hồi là \"không phải spam\" và Akismet sẽ sửa chữa "
+"thiếu sót này. Nếu muốn lấy lại một phản hồi trong đó, bạn chỉ cần chọn phản "
+"hồi và nhấn Không phải Spam. Sau 15 ngày, chúng tôi sẽ dọn dẹp đám spam cho "
+"bạn."
 
 #: wp-content/plugins/akismet/legacy.php:209
 msgid "All"
@@ -6252,14 +6897,14 @@ msgid "Search Spam &raquo;"
 msgstr "Tìm kiếm spam &raquo;"
 
 #: wp-content/plugins/akismet/legacy.php:239
-#: wp-content/plugins/akismet/legacy.php:306 wp-includes/link-template.php:1567
-#: wp-includes/link-template.php:1603
+#: wp-content/plugins/akismet/legacy.php:306
+#: wp-includes/link-template.php:1567 wp-includes/link-template.php:1603
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Trang trước"
 
 #: wp-content/plugins/akismet/legacy.php:260
-#: wp-content/plugins/akismet/legacy.php:327 wp-includes/link-template.php:1496
-#: wp-includes/link-template.php:1604
+#: wp-content/plugins/akismet/legacy.php:327
+#: wp-includes/link-template.php:1496 wp-includes/link-template.php:1604
 msgid "Next Page &raquo;"
 msgstr "Trang sau &raquo;"
 
@@ -6272,17 +6917,27 @@ msgid "De-spam marked comments &raquo;"
 msgstr "Đánh dấu không phải spam &raquo;"
 
 #: wp-content/plugins/akismet/legacy.php:335
-msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
-msgstr "Những phản hồi bạn đánh dấu không phải spam sẽ giúp Akismet hoạt động tốt hơn."
+msgid ""
+"Comments you de-spam will be submitted to Akismet as mistakes so it can "
+"learn and get better."
+msgstr ""
+"Những phản hồi bạn đánh dấu không phải spam sẽ giúp Akismet hoạt động tốt "
+"hơn."
 
 #: wp-content/plugins/akismet/legacy.php:340
 msgid "No results found."
 msgstr "Không tìm thấy gì cả."
 
 #: wp-content/plugins/akismet/admin.php:289
-msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
-msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
-msgstr[0] "<a href=\"%1$s\">Akismet</a> đã bảo vệ trang web của bạn khỏi <a href=\"%2$s\">%3$s phản hồi spam</a>."
+msgid ""
+"<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">"
+"%3$s spam comments</a>."
+msgid_plural ""
+"<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">"
+"%3$s spam comments</a>."
+msgstr[0] ""
+"<a href=\"%1$s\">Akismet</a> đã bảo vệ trang web của bạn khỏi <a href=\"%2$s"
+"\">%3$s phản hồi spam</a>."
 
 #: wp-content/plugins/akismet/legacy.php:385
 msgid "Recheck Queue for Spam"
@@ -6297,7 +6952,8 @@ msgid "Comments on %s"
 msgstr "Phản hồi cho %s"
 
 #: wp-includes/default-widgets.php:318 wp-includes/theme-compat/sidebar.php:75
-msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr "Xây dựng trên WordPress - Việt hóa bởi link2caro & storyteller Nguyễn"
 
 #: wp-includes/comment-template.php:989
@@ -6395,7 +7051,9 @@ msgid "Bookmarks"
 msgstr "Đánh dấu trang"
 
 #: wp-includes/capabilities.php:866
-msgid "Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead."
+msgid ""
+"Usage of user levels by plugins and themes is deprecated. Use roles and "
+"capabilities instead."
 msgstr ""
 
 #: wp-includes/category-template.php:414
@@ -6628,7 +7286,8 @@ msgstr "Mục tiêu"
 msgid "Advanced"
 msgstr "Nâng cao"
 
-#: wp-includes/deprecated.php:707 wp-includes/js/tinymce/langs/wp-langs.php:516
+#: wp-includes/deprecated.php:707
+#: wp-includes/js/tinymce/langs/wp-langs.php:516
 msgid "None"
 msgstr "Không"
 
@@ -6949,8 +7608,9 @@ msgid "Pages"
 msgstr "Trang"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:20
-#: wp-includes/js/tinymce/wp-mce-help.php:287 wp-includes/script-loader.php:178
-#: wp-includes/script-loader.php:307 wp-login.php:612
+#: wp-includes/js/tinymce/wp-mce-help.php:287
+#: wp-includes/script-loader.php:178 wp-includes/script-loader.php:307
+#: wp-login.php:612
 msgid "Close"
 msgstr "Đóng"
 
