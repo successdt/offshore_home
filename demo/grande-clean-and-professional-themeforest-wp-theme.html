@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Grande | Just another TemplateSquare.com WordPress Demo Sites site</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://demowp.templatesquare.com/grande/wp-content/themes/grande/style.css" />
+<link rel="pingback" href="http://demowp.templatesquare.com/grande/xmlrpc.php" />
+<link rel="shortcut icon" href="http://demowp.templatesquare.com/grande/wp-content/themes/grande/images/favicon.ico" />
+
+<link rel="alternate" type="application/rss+xml" title="Grande &raquo; Feed" href="http://demowp.templatesquare.com/grande/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Grande &raquo; Comments Feed" href="http://demowp.templatesquare.com/grande/comments/feed/" />
+<link rel='stylesheet' id='wp_sidebarlogin_css_styles-css'  href='http://demowp.templatesquare.com/grande/wp-content/plugins/sidebar-login/style.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ts-display-main-css'  href='http://demowp.templatesquare.com/grande/wp-content/plugins/ts-display/css/ts-display.css?ver=1379315096' type='text/css' media='all' />
+<link rel='stylesheet' id='ts-display-prettyPhoto-css'  href='http://demowp.templatesquare.com/grande/wp-content/plugins/ts-display/css/prettyPhoto.css?ver=2.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://demowp.templatesquare.com/grande/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/themes/grande/js/jquery-1.4.2.min.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/plugins/sidebar-login/js/blockui.js?ver=1.0'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/plugins/sidebar-login/js/sidebar-login.js?ver=1.0'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/plugins/ts-display/js/jquery.prettyPhoto.js?ver=3.0'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/plugins/ts-display/js/fade.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/plugins/ts-display/js/ts-display-lightbox.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/plugins/ts-display/js/cornerz.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/themes/grande/js/cufon-yui.js?ver=1.0.9'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/themes/grande/js/Vegur_400-Vegur_700.font.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/themes/grande/js/jquery.cycle.all.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/themes/grande/js/jquery.hoverIntent.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://demowp.templatesquare.com/grande/wp-content/themes/grande/js/dropdown.js?ver=3.3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://demowp.templatesquare.com/grande/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://demowp.templatesquare.com/grande/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Contact' href='http://demowp.templatesquare.com/grande/contact/' />
+<link rel='next' title='Portfolio One Column' href='http://demowp.templatesquare.com/grande/portfolio/portfolio-one-column/' />
+<meta name="generator" content="WordPress 3.3.1" />
+<link rel='canonical' href='http://demowp.templatesquare.com/grande/' />
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript">
+	Cufon.replace('h1') ('h2') ('h3') ('h4') ('h5') ('h6') ('#topnav li a', {hover:{color: 'white'}}) ('.text-styled') ('#slider .textdesc') ('.text-styled') ('.text-styled2') ('.comment-body cite') ('#commentform label');
+</script>
+<script type="text/javascript">
+var $ = jQuery.noConflict();
+
+	$(document).ready(function(){
+		
+		/* homepage slideshow */
+		$('#slider').cycle({
+			timeout: 8000,  // milliseconds between slide transitions (0 to disable auto advance)
+			fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
+			pager:   '#pager',  // selector for element to use as pager container
+			pause:   0,	  // true to enable "pause on hover"
+			cleartypeNoBg:   true, // set to true to disable extra cleartype fixing (leave false to force background color setting on slides)
+			pauseOnPagerHover: 0 // true to pause when hovering over pager link
+		});
+	
+		/* widget slideshow */
+		$('.boxslideshow').cycle({
+			timeout: 6000,  // milliseconds between slide transitions (0 to disable auto advance)
+			fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
+			pause:   0,	  // true to enable "pause on hover"
+			next:".next",  // selector for element to use as click trigger for next slide 
+			prev:".prev",  // selector for element to use as click trigger for previous slide 
+			cleartypeNoBg:true, // set to true to disable extra cleartype fixing (leave false to force background color setting on slides)
+			pauseOnPagerHover: 0 // true to pause when hovering over pager link
+		});
+		
+		$('.boxslideshow2').cycle({
+			timeout: 6000,  // milliseconds between slide transitions (0 to disable auto advance)
+			fx:      'scrollVert', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
+			pause:   0,	  // true to enable "pause on hover"
+			next:".next",  // selector for element to use as click trigger for next slide 
+			prev:".prev",  // selector for element to use as click trigger for previous slide 
+			cleartypeNoBg:true, // set to true to disable extra cleartype fixing (leave false to force background color setting on slides)
+			pauseOnPagerHover: 0 // true to pause when hovering over pager link
+	});
+	
+});
+
+</script>
+<!--[if IE]>
+<script type="text/JavaScript" src="http://demowp.templatesquare.com/grande/wp-content/themes/grande/js/selectivizr.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="top">
+			<div id="top-left">
+																	<div id="logo"><a href="http://demowp.templatesquare.com/grande/" title="Grande" rel="home"><img src="http://demowp.templatesquare.com/grande/wp-content/themes/grande/images/logo.png" alt="" /></a></div><!-- end #logo -->
+								</div><!-- end #top-left -->
+			<div id="top-right">
+				<ul id="topnav" class=""><li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-258"><a href="http://demowp.templatesquare.com/grande/">Home</a></li>
+<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-257"><a href="http://demowp.templatesquare.com/grande/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="http://demowp.templatesquare.com/grande/about/news/">News</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="http://demowp.templatesquare.com/grande/about/testimonials/">Testimonials</a></li>
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="http://demowp.templatesquare.com/grande/about/typography/">Typography</a></li>
+	<li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-250"><a href="http://demowp.templatesquare.com/grande/about/full-width/">Full Width</a></li>
+</ul>
+</li>
+<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-249"><a href="http://demowp.templatesquare.com/grande/blog/">Blog</a></li>
+<li id="menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255"><a href="#">Portfolio</a>
+<ul class="sub-menu">
+	<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246"><a href="http://demowp.templatesquare.com/grande/portfolio/portfolio-one-column/">Portfolio One Column</a></li>
+	<li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="http://demowp.templatesquare.com/grande/portfolio/132-2/">Portfolio Two Column</a></li>
+	<li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244"><a href="http://demowp.templatesquare.com/grande/portfolio/portfolio-three-column/">Portfolio Three Column</a></li>
+	<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="http://demowp.templatesquare.com/grande/portfolio/portfolio-four-column/">Portfolio Four Column</a></li>
+</ul>
+</li>
+<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-247"><a href="http://demowp.templatesquare.com/grande/contact/">Contact</a></li>
+</ul>			</div><!-- end #top-right -->
+		</div><!-- end #top -->
+							<div id="header">
+			<div id="slider-container">
+
+				<div id="slider-overlay"></div>
+				<ul id="slider">
+											
+					<li>
+								
+							<img src='http://demowp.templatesquare.com/demoimages/img-grande/slide3.jpg' alt=''  width='1020' height='400' />						                        						<span class="textdesc">
+												
+							<a href="http://templatesquare.com">Welcome to<br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do >></a>
+							
+						 
+						</span>
+                        					</li>
+											
+					<li>
+								
+							<img src='http://demowp.templatesquare.com/demoimages/img-grande/slide2.jpg' alt=''  width='1020' height='400' />						                        					</li>
+											
+					<li>
+								
+							<img src='http://demowp.templatesquare.com/demoimages/img-grande/slide1.jpg' alt=''  width='1020' height='400' />						                        						<span class="textdesc">
+						 
+						
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.							
+						 
+						</span>
+                        					</li>
+														</ul>
+
+				<div id="slider-overlay-bottom"></div>
+			</div><!-- end #slider-container -->
+			<div id="pager"></div>
+		</div><!-- end #header -->
+				 
+	<div id="content" class="hompage-content">
+				 
+				
+				<div id="post-81" class="post-81 page type-page status-publish hentry">
+					<div class="entry-content">
+						<div id="middle-text">
+<p class="text-styled">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+<p><!-- end #middle-text --></p>
+<div>
+<ul class="four_column">
+<li>
+<h2><img src="http://demowp.templatesquare.com/demoimages/img-grande/icon1.png" alt="" class="alignleft" />Grande Plan Level One</h2>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo .</p>
+<p><a href="#" class="more-link">Read More</a>					</li>
+<li>
+<h2><img src="http://demowp.templatesquare.com/demoimages/img-grande/icon2.png" alt="" class="alignleft" />Grande Plan Level Two</h2>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo .</p>
+<p><a href="#" class="more-link">Read More</a>					</li>
+<li>
+<h2><img src="http://demowp.templatesquare.com/demoimages/img-grande/icon3.png" alt="" class="alignleft" />Grande Plan Level Three</h2>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo .</p>
+<p><a href="#" class="more-link">Read More</a>					</li>
+<li class="last">
+<h2><img src="http://demowp.templatesquare.com/demoimages/img-grande/icon4.png" alt="" class="alignleft" />Grande Plan Level Four</h2>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo .</p>
+<p><a href="#" class="more-link">Read More</a>					</li>
+</ul></div>
+<div class="clear"></div>
+																	</div><!-- .entry-content -->
+				</div><!-- #post-## -->
+				
+					</div><!-- end #content -->
+
+		
+		<div id="bottom">
+			<div class="one_fifth">
+						<div class="widget-area">
+					<div class="widget-bottom"><ul><li id="recent-posts-3" class="widget-container widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+				<li><a href="http://demowp.templatesquare.com/grande/2011/01/03/hello-world/" title="Hello world!">Hello world!</a></li>
+				<li><a href="http://demowp.templatesquare.com/grande/2011/01/03/maecenas-pretium-est-nec-ante-vehicula-ut-ultricies-lorem-fringilla/" title="Maecenas pretium est nec ante vehicula ut ultricies lorem fringilla">Maecenas pretium est nec ante vehicula ut ultricies lorem fringilla</a></li>
+				<li><a href="http://demowp.templatesquare.com/grande/2010/12/28/sed-condimentum-nunc-nec-ante-pulvinar-non-elementum-libero-condimentum/" title="Sed condimentum nunc nec ante pulvinar non elementum libero condimentum">Sed condimentum nunc nec ante pulvinar non elementum libero condimentum</a></li>
+				</ul>
+		</li></ul></div>		</div>
+			</div>
+			<div class="one_fifth">
+						<div class="widget-area">
+					<div class="widget-bottom"><ul><li id="recent-posts-4" class="widget-container widget_recent_entries">		<h2 class="widget-title">Recent Works</h2>		<ul>
+				<li><a href="http://demowp.templatesquare.com/grande/2011/01/03/hello-world/" title="Hello world!">Hello world!</a></li>
+				<li><a href="http://demowp.templatesquare.com/grande/2011/01/03/maecenas-pretium-est-nec-ante-vehicula-ut-ultricies-lorem-fringilla/" title="Maecenas pretium est nec ante vehicula ut ultricies lorem fringilla">Maecenas pretium est nec ante vehicula ut ultricies lorem fringilla</a></li>
+				<li><a href="http://demowp.templatesquare.com/grande/2010/12/28/sed-condimentum-nunc-nec-ante-pulvinar-non-elementum-libero-condimentum/" title="Sed condimentum nunc nec ante pulvinar non elementum libero condimentum">Sed condimentum nunc nec ante pulvinar non elementum libero condimentum</a></li>
+				</ul>
+		</li></ul></div>		</div>
+			</div>
+			<div class="one_fifth">
+						<div class="widget-area">
+			<div class="widget-bottom"><ul><li id="categories-4" class="widget-container widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+	<li class="cat-item cat-item-3"><a href="http://demowp.templatesquare.com/grande/category/blog/" title="View all posts filed under Blog">Blog</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://demowp.templatesquare.com/grande/category/news/" title="View all posts filed under News">News</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://demowp.templatesquare.com/grande/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+		</ul>
+</li></ul></div>		</div>
+			</div>
+			<div class="one_fifth">
+						<div class="widget-area">
+			<div class="widget-bottom"><ul><li id="text-3" class="widget-container widget_text"><h2 class="widget-title">Social Online</h2>			<div class="textwidget"><ul class="social">
+	<li><a href="#"><img src="
+http://demowp.templatesquare.com/demoimages/img-grande/icon-fb.png" alt="" class="alignmiddle" />Facebook</a></li>
+	<li><a href="#"><img src="
+http://demowp.templatesquare.com/demoimages/img-grande/icon-twitter.png" alt="" class="alignmiddle" />Twitter</a></li>
+	<li><a href="#"><img src="
+http://demowp.templatesquare.com/demoimages/img-grande/icon-rss.png" alt="" class="alignmiddle" />Rss</a></li>
+	<li><a href="#"><img src="
+http://demowp.templatesquare.com/demoimages/img-grande/icon-flickr.png" alt="" class="alignmiddle" />Flickr</a></li>
+</ul>
+</div>
+		</li></ul></div>		</div>
+			</div>
+			<div class="one_fifth last">
+						<div class="widget-area">
+			<div class="widget-bottom"><ul><li id="search-3" class="widget-container widget_search"><h2 class="widget-title">Search</h2>			<form  method="get" action="http://demowp.templatesquare.com/grande/" id="searchform">
+				<div id="form-bg">
+				<div><input type="text" name="s" class="inputbox" value="search" onfocus="if (this.value == 'search')this.value = '';" onblur="if (this.value == '')this.value = 'search';" /></div>
+				<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>
+
+</li></ul></div>		</div>
+			</div>
+			<div class="clear"></div><!-- clear float -->
+		</div><!-- end #bottom -->
+		<div id="footer">
+			<div id="footer-text">
+															Copyright &copy;
+					2010-2011 Grande. All rights reserved.		
+								</div><!-- end #footer-text -->
+		</div><!-- end #footer -->
+
+	</div><!-- end #container -->
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+
+<!doctype html>  
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>GrandPixels &rsaquo; Demo &rsaquo; Linguini: Restaurant Responsive WordPress Theme</title>
+
+	<link href="css/style.css" rel="stylesheet" media="all" />
+	        
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+    
+        var theme_list_open = false;
+        $(document).ready(function () {
+            function fixHeight () {
+                var headerHeight = $(".switcher").height();
+                $(".iframe").attr("height", (($(window).height()) - headerHeight) + 'px');
+            }
+            
+            $(window).resize(function () {
+                fixHeight();
+            }).resize();
+            
+            $(".theme-select").click( function () {
+                if (theme_list_open == true) {
+                    $(".center ul li ul").hide();
+					$("li.theme-list").removeClass("active");
+                    theme_list_open = false;
+                } else {
+                    $(".center ul li ul").show();
+					$("li.theme-list").addClass("active");		
+                    theme_list_open = true;
+                }
+                return false;
+            });
+			
+			$(".theme-list ul li a").click(function () {
+            
+                var theme_data = $(this).attr("data-rel").split(",");
+                
+				$("li.purchase a").attr("href", theme_data[1]);
+                $("li.remove-frame a").attr("href", theme_data[0]);
+                $(".iframe").attr("src", theme_data[0]);
+                
+                $(".theme-list a.theme-select").text(theme_data[2]);
+                
+                $(".center ul li ul").hide();
+				$("li.theme-list").removeClass("active");
+				$("li.theme-list ul li").addClass("active");
+                
+                theme_list_open = false;
+                
+                return false;
+            
+            });
+			
+        });
+    
+    </script>
+         
+</head>
+
+<body>
+
+    <div class="switcher">
+        <div class="center">
+        
+            <ul class="left">
+            	<li class="logo"><a href="http://www.grandpixels.com"><img src="images/logo.png" alt="Grand Pixels" /></a></li>
+            </ul>
+
+            
+            <ul class="center">
+                <li class="theme-list">
+                	<a class="theme-select" href="#">
+														Linguini						                    </a>
+                    <ul>
+                                            <li class="muse"><a href="#" data-rel="http://themes.grandpixels.com/muse,http://themeforest.net/item/muse-music-band-responsive-wordpress-theme/4224216?ref=GrandPixels,muse" title="Muse">Muse <span class="type">Music Band</span></a></li>
+                        
+                                            <li class="linguini"><a href="#" data-rel="http://grandpixels.com/linguini,http://themeforest.net/item/linguini-restaurant-responsive-wordpress-theme/1945015?ref=GrandPixels,linguini" title="Linguini">Linguini <span class="type">Restaurant</span></a></li>
+                        
+                                            <li class="gusteau"><a href="#" data-rel="http://grandpixels.com/gusteau2.0,http://themeforest.net/item/gusteau-restaurant-wordpress-theme/409126?ref=GrandPixels,gusteau" title="Gusteau">Gusteau <span class="type">Restaurant</span></a></li>
+                        
+                                        </ul>
+            	</li>
+            </ul>
+            
+            <ul class="right">
+                <li class="purchase"><a href="http://themeforest.net/item/linguini-restaurant-responsive-wordpress-theme/1945015?ref=GrandPixels" title="Purchase This Theme">Purchase This Theme</a></li>
+                <li class="remove-frame"><a href="http://grandpixels.com/linguini" title="Close"></a></li>
+            </ul>
+        
+        <br class="clear" />
+        </div>
+    </div>
+
+	<iframe class="iframe" src="http://grandpixels.com/linguini" width="100"></iframe>
+    
+</body>
+
+</html>
+
+<!doctype html>  
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    
+    <script type="text/javascript">
+    	top.location.href = 'http://demo.grandpixels.com/?theme=linguini';
+    </script>
+        
+</head>
+<body>
+</body>
+</html>

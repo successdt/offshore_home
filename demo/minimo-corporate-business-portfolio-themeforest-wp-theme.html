@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Minimo</title>
+
+	<!-- Default Stylesheet and Pingback-->
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/style.css" />
+	<link rel="pingback" href="http://www.aivahthemes.com/minimo/xmlrpc.php" />
+
+	<!-- Load custom favicon from theme options panel -->
+		
+	<link rel="alternate" type="application/rss+xml" title="Minimo &raquo; Feed" href="http://www.aivahthemes.com/minimo/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Minimo &raquo; Comments Feed" href="http://www.aivahthemes.com/minimo/comments/feed/" />
+<link rel='stylesheet' id='lightbox-style-css'  href='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/lightbox/themes/default/jquery.lightbox.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo-style-css'  href='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/css/nivo_slider.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='cycle-style-css'  href='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/css/cycle_slider.css?ver=3.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/jquery-1.6.1.min.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/cycle_slider.js?ver=3.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var atp_panel = {"SiteUrl":"http:\/\/www.aivahthemes.com\/minimo\/wp-content\/themes\/minimo"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/empty.js?ver=3.6'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.aivahthemes.com/minimo/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.aivahthemes.com/minimo/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6" />
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/cufon-yui.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/cufon/Nobile.js?ver=3.6'></script>
+<script type='text/javascript'>/* <![CDATA[ */Cufon.replace('h1, h2, h3, h4, h5,', { hover:true, fontFamily: 'Nobile' });
+/* ]]> */</script><script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAK69hybHw-SKNHUxWiwSRLhS7xZRASL2Ns2jf-0Nz00DvEfDRBRQ6V0uY9QanqDrqNpSvp0b29fWJvQ"></script>	
+	<!--[if lt IE 9]>
+	<script src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/css/skin.php" media="screen" />
+		
+</head>
+
+<body class="home blog">
+
+<script src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/color/mColorPicker.js"></script>
+<script type='text/javascript'>/* <![CDATA[ */
+
+jQuery(document).ready(function() {
+
+	jQuery('#body-bgcolor').bind('change', function () {
+		bg_color=$(this).val();
+		jQuery('body').css("background",""+bg_color+""); 
+	});
+	
+	$('#header-bgcolor').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('#header').css("background-color",""+bg_color+"");	
+ 
+    });
+	 $('#footer-bgcolor').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('#footer').css("background",""+bg_color+"");	
+ 
+    });
+ $('#wrapper-bgcolor').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('.pagemid').css("background-color",""+bg_color+"");	
+
+    });
+
+	$('#topmenu').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('.topmenu').css("background-color",""+bg_color+"");	
+    });
+
+	$('#topmenuborder').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('.topmenu').css("border-color",""+bg_color+"");	
+    });
+
+	$('#teaser-bgcolor').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('.frontpage_teaser').css("background-color",""+bg_color+"");	
+    });
+
+	$('#subheader-bgcolor').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('#subheader').css("background",""+bg_color+"");	
+    });
+
+	$('#body-txtcolor').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('body').css("color",""+bg_color+"");	
+    });
+
+	$('#copyright-bgcolor').bind('change', function () {
+   bg_color=$(this).val();
+   jQuery('.copyright').css("background-color",""+bg_color+"");	
+    });
+	
+	jQuery('.demopattern').click(function(){
+			demopattern = jQuery(this).attr('rel');
+			jQuery('body').css("background-image",demopattern);	
+			return false;
+		});
+
+    });
+$(document).ready(function(){
+	
+	$("#colorlayout").change(colorSelectChange);
+	
+});
+function colorSelectChange(){
+	var colorselected = $("#colorlayout option:selected");
+
+var colorval=colorselected.val();
+// color switch start
+switch(colorval)
+{
+case 'white':
+ $('head').append('<link rel="stylesheet" href="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/colors/white.css" type="text/css" />');
+break;
+case 'black':
+ $('head').append('<link rel="stylesheet" href="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/colors/black.css" type="text/css" />');
+break;
+
+}
+// switch end
+}
+	$(document).ready(function(){
+	
+	$("#layout").change(onSelectChange);
+	
+});
+function onSelectChange(){
+	var imgselected = $("#layout option:selected");
+
+var demoimgval=imgselected.val();
+  $("body").attr("id",demoimgval);
+}
+	
+jQuery(document).ready(function() {
+			var styleSwitcher_close = true;
+	jQuery('.panelopen').click(function(e) {  
+
+if(styleSwitcher_close==false)
+	{
+	jQuery("#themestyle_switcher").animate({ left:-122 },500);
+	styleSwitcher_close	 = true;
+	}
+	else
+	{
+jQuery("#themestyle_switcher").animate({ left:0 },500);
+	styleSwitcher_close	 = false;
+	}
+	
+	e.preventDefault();
+
+	});
+});
+
+
+/* ]]> */
+</script>
+<!--  styledemo start -->
+<!-- styledemo end --><style type="text/css" />
+
+#themestyle_switcher {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left:-122px;
+	width: 160px;
+	z-index:999997;
+}
+
+.demopanel						{ width:120px; background:#222; padding:0 0 20px 0; border:1px solid #000; }
+.demopanel_content				{ padding:12px; }
+.demopanel_content	p			{ color:#999 !important; font:Normal 9px/10px Tahoma, Verdana, Georgia, sans-serif !important; margin-bottom:2px; margin-top:5px; }
+.demopanel_content	hr			{ margin-bottom:0px; border-bottom:1px solid #555; background:none; }
+.demopanel_content input { width:70px;}
+.demopanel_content .pats { border:1px solid #555;}
+
+#themestyle_switcher .panelopen { 	background:url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/panelopenr.png') top right no-repeat; position:absolute; top:20px; right:0; width:38px; height:250px; }
+
+#styleswitcher_close {
+	font-size: 9px;
+	text-transform:uppercase;
+	position: absolute;
+	top: 20px;
+	display:block;	
+	right:0px;
+	height:250px;
+}
+</style>
+<div id="themestyle_switcher">
+	<form id="colorPicker1" action="#"  method="get" >
+		<div class="demopanel">
+		<div class="demopanel_content">
+		<p>Body Text</p>
+		<input type="color" class="color"  name="body-txtcolor" id="body-txtcolor" value="" data-hex="true" class="color" size="8">
+<hr>
+		<p>Body Background</p>
+		<input type="color" class="color"  name="bodybg-color" id="body-bgcolor" value="" data-hex="true" class="color" size="8">
+<hr>
+		<p>Header Background</p>
+		<input type="color" class="color"  name="header-bgcolor" id="header-bgcolor" value="" data-hex="true" class="color" size="8">
+<hr>
+		<p>Footer Background</p>
+		<input type="color" class="color"  name="footer-bgcolor" id="footer-bgcolor" value="" data-hex="true" class="color" size="8">
+<hr>
+		<p>Page Background</p>
+		<input type="color" class="color"  name="wrapper-bgcolor" id="wrapper-bgcolor" value="" data-hex="true" class="color" size="8">
+<hr>
+		<p>Teaser Background</p>
+		<input type="color" class="color"  name="teaser-bgcolor" id="teaser-bgcolor" value="" data-hex="true" class="color" size="8">
+<hr>
+		<p>Subheader Background</p>
+		<input type="color" class="color"  name="subheader-bgcolor" id="subheader-bgcolor" value="" data-hex="true" class="color" size="8">
+<hr>
+<p><strong>Color Option</strong><p><small>Included Color presets.(Still you can have more options in backend for colors)</small></p>
+		<select name="colorlayout" id="colorlayout">
+		<option name="" value="">Select</option>
+		<option name="" value="black">Black</option>
+		<option name="" value="white">White</option>
+		</select>
+<hr>
+		<p>Layout Option</p>
+		<select name="layout" id="layout">
+		<option name="stretched" value="stretched">Stretched</option>
+		<option name="boxed" value="boxed">Boxed</option>
+		</select>
+<hr>
+<p>Pattern</p>
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern1.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat1.png" class="pats" width="30px" height="30px"></a>
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern2.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat2.png" class="pats" width="30px" height="30px"></a>	
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern3.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat3.png" class="pats" width="30px" height="30px"></a>
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern4.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat4.png" class="pats" width="30px" height="30px"></a>
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern5.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat5.png" class="pats" width="30px" height="30px"></a>
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern6.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat6.png" class="pats" width="30px" height="30px"></a>
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern7.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat7.png" class="pats" width="30px" height="30px"></a>
+<a href="" class="demopattern" rel="url('http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/patterns/pattern8.png')"><img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/switcher/pat8.png" class="pats" width="30px" height="30px"></a>
+</div>
+</div>
+	</form>
+<div class="panelopen"></div>
+</div>
+<div id="boxed" >
+
+		<div id="trigger" class="tarrow"></div>
+	<div id="sticky">
+		This is a stickybar fully controlled from theme options panel. Enable or Disable. Oh yeah! you can have link as well here see <a href="#">Sample Link → </a>	</div>
+	<!-- #sticky -->
+		
+	<!-- #wrap_all -->
+	<div id="wrap_all">
+		<!-- #header -->
+		<header id="header"  class="clearfix">
+			<div class="inner">
+				<!-- logo -->
+				<div class="logo">
+					<hgroup>
+										<a href="http://www.aivahthemes.com/minimo" title="Minimo">
+					<img src="http://www.aivahthemes.com/minimo/files/2011/12/Logo.png" alt="Minimo" />
+					</a>
+					</hgroup>
+									</div>
+				<!-- logo -->
+		
+				<!-- top_right -->
+				<div class="top_right">
+					<div class="atpsocials">	<ul class="clearfix">
+				<li><a href="#" title="Facebook">
+		<img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/followus/picons31.png" alt=""  /> </a></li>
+				<li><a href="#" title="Twitter">
+		<img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/followus/picons39.png" alt=""  /> </a></li>
+				<li><a href="#" title="RSS">
+		<img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/followus/picons40.png" alt=""  /> </a></li>
+				<li><a href="#" title="flickr">
+		<img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/followus/picons45.png" alt=""  /> </a></li>
+				<li><a href="#" title="Delicious">
+		<img src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/images/followus/picons49.png" alt=""  /> </a></li>
+				</ul>
+</div>
+<div class="clear"></div>					<div class="topwidget">			<div class="textwidget"><h3>Call Us Free: (000) 123 &#8211; 5467</h3>
+</div>
+		</div>				</div>
+				<!-- top_right -->
+			</div>
+		</header>
+		<!-- #header -->
+
+		<!-- #menuwrap -->
+		<menu id="menuwrap">
+			<!-- primarymenu -->
+			<div class="primarymenu">
+				<ul id="menu-mainmenu" class="nav"><li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a title="Front Page" href="http://www.aivahthemes.com/minimo/">Home<span>Front Page</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/aivah-slider/">Aivah Slider</a></li>
+	<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/collapsing-slider/">Collapsing Slider</a></li>
+	<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/cycle-slider/">Cycle Slider</a></li>
+	<li id="menu-item-219" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/nivo-slider/">Nivo Slider</a></li>
+	<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/toggle-slider/">Toggle Slider</a></li>
+	<li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/single-image/">Single Image</a></li>
+	<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/skitter-slider/">Skitter Slider</a></li>
+	<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/video-slider/">Video Slider</a></li>
+</ul>
+</li>
+<li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Short Sub Title" href="#">Pages<span>Short Sub Title</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/about-us/">About Us</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/pricing-boxes/">Pricing Boxes</a></li>
+	<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/contact-page/">Contact Page</a></li>
+	<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/site-map/">Site Map</a></li>
+</ul>
+</li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="portfolio styles" href="http://www.aivahthemes.com/minimo/portfolios/">Portfolios<span>portfolio styles</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/portfolios/portfolio-1-column/">Portfolio 1 Column</a></li>
+	<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/portfolios/portfolio-2-column/">Portfolio 2 Column</a></li>
+	<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/portfolios/portfolio-3-column/">Portfolio 3 Column</a></li>
+	<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/portfolios/portfolio-4-column/">Portfolio 4 Column</a></li>
+	<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/portfolios/sortable-portfolio/">Sortable Portfolio</a></li>
+</ul>
+</li>
+<li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Discussion" href="http://www.aivahthemes.com/minimo/blog/">Blog<span>Discussion</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/blog-style-1/">Blog Style 1</a></li>
+	<li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/blog-style-2/">Blog Style 2</a></li>
+	<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/blog-style-3/">Blog Style 3</a></li>
+</ul>
+</li>
+<li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Theme shortcodes" href="http://www.aivahthemes.com/minimo/shortcodes/">Shortcodes<span>Theme shortcodes</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/boxes/">Boxes</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/buttons/">Buttons</a></li>
+	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/columns/">Columns</a></li>
+	<li id="menu-item-302" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/gallery-2/">Gallery</a></li>
+	<li id="menu-item-301" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/galleria/">Galleria</a></li>
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/google-chart/">Google Chart</a></li>
+	<li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/google-map/">Google Map</a></li>
+	<li id="menu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/images/">Images</a></li>
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/ribbons/">Ribbons</a></li>
+	<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/tables/">Tables</a></li>
+	<li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/tabs-and-toggles/">Tabs and Toggles</a></li>
+	<li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/typography/">Typography</a></li>
+	<li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/video/">Video</a></li>
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/shortcodes/widget-shortcodes/">Widget Shortcodes</a></li>
+	<li id="menu-item-456" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.aivahthemes.com/minimo/video/">Video</a></li>
+</ul>
+</li>
+</ul>
+			   </div>
+			<!-- primarymenu -->
+		</menu>
+		<!-- #menuwrap -->
+	<div class="clear"></div>
+	<!-- #wrapper -->
+	<div id="wrapper"><!-- #featured_slider-->
+<div id="featured_slider">
+	<div class="sliderwrap">
+		<div class="sys_slider">
+			<div class="slideshow loader">
+			<div class="clearfix halfslide"><div class="descleft">					<h1>Minimo WordPress Theme</h1>
+					<p>Morbi non pulvinar tortor. Nullam vel tellus et nibh iaculis tincidunt vulputate ut ante. Sed viverra accumsan nulla, nec lacinia lacus semper eu.Morbi non pulvinar tortor. Nullam vel tellus et nibh iaculis tincidunt vulputate ut ante.</p>
+					<p><a class="button medium"  href=""><span>Read more</span></a></p></div><div class="half"><div class="holder loader"><a href="http://www.aivahthemes.com/minimo/slider/sed-at-leo-eu-ligula-ultricies/"  ><img alt=""  class="image"  title="Minimo WordPress Theme"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_3.jpg&amp;w=560&amp;h=360&amp;zc=1&amp;q=100"   /></a></div></div></div><div class="clearfix"><div class="full"><div class="holder loader"><a href="http://www.aivahthemes.com/minimo/slider/cras-sit-amet-metus-at-dolor/"  ><img alt=""  class="image"  title="Cras sit amet metus at dolor"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_5.jpg&amp;w=940&amp;h=360&amp;zc=1&amp;q=100"   /></a></div></div></div><div class="clearfix halfslide"><div class="half"><div class="holder loader"><a href="http://www.aivahthemes.com/minimo/slider/in-blandit-dui-dolor/"  ><img alt=""  class="image"  title="100+ Shortcodes"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_8.jpg&amp;w=560&amp;h=360&amp;zc=1&amp;q=100"   /></a></div></div><div class="descright">					<h1>100+ Shortcodes</h1>
+					<p>Minimo comes with 100+ shortcodes which have full access of modified to you own style. Morbi non pulvinar tortor. Nullam vel tellus et nibh iaculis tincidunt vulputate ut ante. Sed viverra accumsan nulla, nec lacinia lacus semper eu.Morbi non pulvinar tortor. Nullam vel tellus et nibh iaculis tincidunt vulputate ut ante.</p>
+					<p><a class="button medium" href=""><span>Read more</span></a></p></div></div><div class="clearfix"><div class="full"><div class="holder loader"><a href="http://www.aivahthemes.com/minimo/slider/lorem-ipsum-dolor-sit-amet/"  ><img alt=""  class="image"  title="Lorem ipsum dolor sit amet"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_12.jpg&amp;w=940&amp;h=360&amp;zc=1&amp;q=100"   /></a></div></div></div> 
+			</div>
+		</div>
+	</div>
+	<!-- sliderwrap -->
+</div>
+<!-- #featured_slider --><div class="clear"></div><!-- frontpage teaser area -->
+<div class="frontpage_teaser">
+	<div class="inner">
+		<div class="one_third">
+		<h6 class="fancyheading"><span  style="background-color:#323232;color:#ffffff;">Latest from Portfolio</span></h6>
+<p>Here you can have some amazing latest works fetched from portfolio custom post type. You can limit the items as well.</p>		</div>
+	
+		<div class="two_third last">
+		<script>
+			jQuery(document).ready(function(){
+				jQuery('.latestport').cycle({ 
+			    	fx:     'fade', 
+				    speed:  'fast', 
+					cleartype:  true,
+				    timeout: 0, 
+				    next:   '#next', 
+				    prev:   '#prev' 
+				});
+			});
+		</script>
+	
+		<div class="latestport">
+			
+			<!-- panel start -->
+			<div class="panel">
+
+				<div class="lpcontent">
+					<h5><a href="http://www.aivahthemes.com/minimo/portfolio/lorem-ipsum-dolor-sit-amet/">Lorem ipsum dolor sit amet</a></h5>
+					<p><p>Phasellus vestibulum pretium eros, id consectetur orci faucibus ac. Integer eget libero sit amet elit vulputate pellentesque. Nulla dapibus ante et ligula sodales rutrum. Maecenas et leo tellus.</p>
+</p>
+				</div>
+
+				<img alt=""  class="image"  title="Lorem ipsum dolor sit amet"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_16.jpg&amp;w=200&amp;h=100&amp;zc=1&amp;q=100"   />		
+			<!-- panel end -->
+			</div>
+			
+			<!-- panel start -->
+			<div class="panel">
+
+				<div class="lpcontent">
+					<h5><a href="http://www.aivahthemes.com/minimo/portfolio/sed-porta-diam-ipsum/">Sed porta diam ipsum</a></h5>
+					<p><p>Maecenas et leo tellus. Curabitur non purus in velit rhoncus volutpat tincidunt vel libero. Morbi pharetra tellus nec ipsum  ullamcorper volutpat. Maecenas congue pharetra est, nec posuere sem lacinia et.</p>
+</p>
+				</div>
+
+				<img alt=""  class="image"  title="Sed porta diam ipsum"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_12.jpg&amp;w=200&amp;h=100&amp;zc=1&amp;q=100"   />		
+			<!-- panel end -->
+			</div>
+			
+			<!-- panel start -->
+			<div class="panel">
+
+				<div class="lpcontent">
+					<h5><a href="http://www.aivahthemes.com/minimo/portfolio/consectetur-adipiscing-elit/">consectetur adipiscing elit</a></h5>
+					<p><p>Nulla dapibus ante et ligula sodales rutrum. Maecenas et leo tellus. Curabitur non purus in velit rhoncus volutpat tincidunt vel libero. Morbi pharetra tellus nec ipsum  ullamcorper volutpat. Maecenas congue pharetra est, nec posuere sem lacinia et.</p>
+</p>
+				</div>
+
+				<img alt=""  class="image"  title="consectetur adipiscing elit"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_13.jpg&amp;w=200&amp;h=100&amp;zc=1&amp;q=100"   />		
+			<!-- panel end -->
+			</div>
+			
+			<!-- panel start -->
+			<div class="panel">
+
+				<div class="lpcontent">
+					<h5><a href="http://www.aivahthemes.com/minimo/portfolio/integer-nec-magna-diam/">Integer nec magna diam</a></h5>
+					<p><p>Client: Website Media (City, Country) Contact: John Smith, John Doe Requirements: Logo Design, Website Concept, Website Development Website Media is a blog focusing on the topic of personal development and colourful living, it aims to inspire and encourage readers through ideas and tips on how to live an amazing life. Ut sem lectus, elementum nec [&hellip;]</p>
+</p>
+				</div>
+
+				<img alt=""  class="image"  title="Integer nec magna diam"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_14.jpg&amp;w=200&amp;h=100&amp;zc=1&amp;q=100"   />		
+			<!-- panel end -->
+			</div>
+			
+			<!-- panel start -->
+			<div class="panel">
+
+				<div class="lpcontent">
+					<h5><a href="http://www.aivahthemes.com/minimo/portfolio/sed-porta-diam-ipsum-2/">Sed porta diam ipsum</a></h5>
+					<p><p>Integer eget libero sit amet elit vulputate pellentesque. Nulla dapibus ante et ligula sodales rutrum. Maecenas et leo tellus. Curabitur non purus in velit rhoncus volutpat tincidunt vel libero.</p>
+</p>
+				</div>
+
+				<img alt=""  class="image"  title="Sed porta diam ipsum"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_15.jpg&amp;w=200&amp;h=100&amp;zc=1&amp;q=100"   />		
+			<!-- panel end -->
+			</div>
+			
+			<!-- panel start -->
+			<div class="panel">
+
+				<div class="lpcontent">
+					<h5><a href="http://www.aivahthemes.com/minimo/portfolio/phasellus-vestibulum-pretium/">Phasellus vestibulum pretium</a></h5>
+					<p><p>orbi pharetra tellus nec ipsum  ullamcorper volutpat. Maecenas congue pharetra est, nec posuere sem lacinia et. Aliquam sed magna nec dolor sollicitudin auctor sit amet eget nisl.</p>
+</p>
+				</div>
+
+				<img alt=""  class="image"  title="Phasellus vestibulum pretium"  src="http://www.aivahthemes.com/minimo/wp-content/themes/minimo/timthumb.php?src=/blogs.dir/14/files/2011/10/assets_image_11.jpg&amp;w=200&amp;h=100&amp;zc=1&amp;q=100"   />		
+			<!-- panel end -->
+			</div>
+			
+		</div><!--latestport-->
+
+		<div class="nav"><a href="#" id="prev">&larr;</a> <a href="#" id="next">&rarr;</a></div>
+
+		</div>
+		<div class="clear"></div>
+	</div><!--inner-->
+</div><!--teaser-->
+<div class="clear"></div>
+<!-- frontpage teaser area -->
+<div class="pagemid fullwidth">
+	<div class="inner">
+
+		<!-- main -->
+		<div id="fullwidth">
+
+			<div class="content">
+
+			<div class="one_half">
+<div class="video-stage" style="width:431px; height:323px"><object width='431' height='323'><param name='allowfullscreen' value='true' /><param name='allowscriptaccess' value='always' /><param name='movie' value='http://vimeo.com/moogaloop.swf?clip_id=27461519&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=&amp;fullscreen=1' /><embed src='http://vimeo.com/moogaloop.swf?clip_id=27461519&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=&amp;fullscreen=1' type='application/x-shockwave-flash' allowfullscreen='true' allowscriptaccess='always' width='431' height='323'></embed></object></div>
+</div>
+<div class="one_half last">
+<h1>Praesent sed velit eu libero.</h1>
+<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus iaculis risus, sed porta elit iaculis ac. Nulla facilisi. Integer adipiscing hendrerit quam vestibulum malesuada. Integer massa est, molestie ut congue ut, imperdiet lobortis lacus. Suspendisse potenti.</p>
+<p><a      class="button left large full  orange "><span >Request Quote!</span></a></div>
+<div class="clear"></div>
+<div class="divider_line"></div>
+<h1>Services</h1>
+<div class="one_fourth"><img src="http://www.aivahthemes.com/strikon/files/2011/08/admin.png" alt="" title="admin" width="32" height="32" class="alignleft" /> <strong>Consulting &#038; Strategy</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="one_fourth"><img src="http://www.aivahthemes.com/strikon/files/2011/08/color.png" alt="" title="color" width="32" height="32" class="alignleft" /> <strong>CWeb Services</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="one_fourth"><img src="http://www.aivahthemes.com/strikon/files/2011/08/wordpress.png" alt="" title="wordpress" width="32" height="32" class="alignleft" /> <strong>Print &#038; Imagery</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="one_fourth last"><img src="http://www.aivahthemes.com/strikon/files/2011/08/posttype.png" alt="" title="posttype" width="32" height="32" class="alignleft" /> <strong>Advertising &#038; Branding</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="clear"></div>
+<div class="divider_space"></div>
+<div class="one_fourth"><img src="http://www.aivahthemes.com/strikon/files/2011/08/timthumb.png" alt="" title="timthumb" width="32" height="32" class="alignleft" /> <strong>Multichannel Marketing</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="one_fourth"><img src="http://www.aivahthemes.com/strikon/files/2011/08/browser.png" alt="" title="browser" width="32" height="32" class="alignleft" /> <strong>Analytics &#038; Optimization</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="one_fourth"><img src="http://www.aivahthemes.com/strikon/files/2011/08/support1.png" alt="" title="support" width="32" height="32" class="alignleft" /> <strong>Social Media</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="one_fourth last"><img src="http://www.aivahthemes.com/strikon/files/2011/08/support1.png" alt="" title="support" width="32" height="32" class="alignleft" /> <strong>Staffing</strong><br />
+<a href="">Read More &rsaquo;&rsaquo;</a></div>
+<div class="clear"></div>
+<div class="divider_line"></div>
+<div class="simpletoggle"><span class="toggle"><a href="#">Click here to grab the code behind this layout</a></span>
+<div class="toggle_content" style="display: none;">
+<div class="toggleinside"><code>&#91;one_half]<br />
+&#91;vimeo width="460" height="300" title="1" clip_id="27461519" byline="1" autoplay="0" html5="0" portrait="1"]<br />
+&#91;/one_half]<br />
+&#91;one_half_last]<br />
+&lt;h1>Praesent sed velit eu liberor&lt;/h1><br />
+&lt;h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s&lt;/h4><br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus iaculis risus, sed porta elit iaculis ac. Nulla facilisi. Integer adipiscing hendrerit quam vestibulum malesuada. Integer massa est, molestie ut congue ut, imperdiet lobortis lacus. Suspendisse potenti.<br />
+&#91;button color="orange" align="left" size="large" style="true"]Request Quote!&#91;/button]<br />
+&#91;/one_half_last]<br />
+&#91;divider_line]<br />
+&lt;h1>Services&lt;/h1><br />
+&#91;one_fourth]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/admin.png" alt="" title="admin" width="32" height="32" class="alignleft" /> &lt;strong>Consulting &#038; Strategy&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth]<br />
+&#91;one_fourth]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/color.png" alt="" title="color" width="32" height="32" class="alignleft" /> &lt;strong>CWeb Services&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth]<br />
+&#91;one_fourth]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/wordpress.png" alt="" title="wordpress" width="32" height="32" class="alignleft" /> &lt;strong>Print &#038; Imagery&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth]<br />
+&#91;one_fourth_last]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/posttype.png" alt="" title="posttype" width="32" height="32" class="alignleft" /> &lt;strong>Advertising &#038; Branding&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth_last]<br />
+&#91;divider_space]<br />
+&#91;one_fourth]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/timthumb.png" alt="" title="timthumb" width="32" height="32" class="alignleft" /> &lt;strong>Multichannel Marketing&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth]<br />
+&#91;one_fourth]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/browser.png" alt="" title="browser" width="32" height="32" class="alignleft" /> &lt;strong>Analytics &#038; Optimization&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth]<br />
+&#91;one_fourth]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/support1.png" alt="" title="support" width="32" height="32" class="alignleft" /> &lt;strong>Social Media&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth]<br />
+&#91;one_fourth_last]<br />
+&lt;img src="http://www.aivahthemes.com/strikon/files/2011/08/support1.png" alt="" title="support" width="32" height="32" class="alignleft" /> &lt;strong>Staffing&lt;/strong><br />
+&lt;a href="">Read More &rsaquo;&rsaquo;&lt;/a><br />
+&#91;/one_fourth_last]<br />
+</code>
+</div>
+</div>
+</div>
+	
+			</div>
+
+		</div>
+		<!-- main -->
+
+		
+		<div class="clear"></div>
+
+	</div>
+	<!-- inner -->
+</div>
+<!-- end:pagemid--><!-- start:Footer -->
+<footer id="footer">
+	<div class="footer_teaser"><div class="teasercontent"><h5><strong>Footer teaser text area - </strong>This can be enabled from theme options panel and editable from theme options panel under footer tab.</h5></div></div><div class="clear"></div> 
+	<div class="inner">
+					<div class="one_half">
+				<div class="one_third"><div class="footer_column"><div class="syswidget"><h3>Meta</h3>			<ul>
+						<li><a href="http://www.aivahthemes.com/minimo/wp-login.php">Log in</a></li>
+			<li><a href="http://www.aivahthemes.com/minimo/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.aivahthemes.com/minimo/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>						</ul>
+</div></div></div>
+					<div class="one_third"><div class="footer_column"><div class="syswidget"><h3>Archives</h3>		<ul>
+			<li><a href='http://www.aivahthemes.com/minimo/2012/03/' title='March 2012'>March 2012</a></li>
+	<li><a href='http://www.aivahthemes.com/minimo/2011/10/' title='October 2011'>October 2011</a></li>
+		</ul>
+</div></div><div class="footer_column"><div class="syswidget"><h3>Categories</h3>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://www.aivahthemes.com/minimo/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+		</ul>
+</div></div></div>
+					<div class="one_third last"><div class="footer_column"><div class="syswidget"><h3>Blogroll</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://codex.wordpress.org/">Documentation</a></li>
+<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+<li><a href="http://wordpress.org/extend/ideas/">Suggest Ideas</a></li>
+<li><a href="http://wordpress.org/support/">Support Forum</a></li>
+<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
+<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+
+	</ul>
+</div></div>
+</div>
+				</div>
+				<div class="one_half last"><div class="footer_column"><div class="syswidget"><h3>Custom Text Widget</h3>			<div class="textwidget"><p>Consectetur adipiscing elit. Vestibulum suscipit mattis adipiscing. Cras eget magna et ligula ullamcorper mollis. Praesent sed velit eu libero congue semper semper at mauris. </p>
+<p>Vestibulum dapibus lacus a elit facilisis posuere. Maecenas eu justo id arcu pharetra pulvinar. Praesent elementum accumsan nibh, a varius elit pretium id. Etiam sagittis, risus [...]</p>
+<p><a      class="button  medium   "><span >Medium Button</span></a></p>
+</div>
+		</div></div></div>
+				
+	</div>
+</footer>
+<!-- end:Footer -->
+	
+<!-- start:Copyright -->
+<div class="copyright">
+	<div class="inner">
+		<p>© 2010-2011 Minimo - Coporate Business Wordpress Theme : All Rights Reserved : <a href="#">Legal</a> | <a href="#">Privacy</a> </p>
+	</div>
+</div>
+<!-- end:Copyright -->
+</div>
+<!-- #wrapper -->
+</div>
+<!-- wrapall -->
+
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/jquery.easing.1.3.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/jquery.preloadify.min.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/jquery.tools.min.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/lightbox/jquery.lightbox.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/jquery.cycle.all.min.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.aivahthemes.com/minimo/wp-content/themes/minimo/js/sys_custom.js?ver=1.0'></script>
+</body>
+</html>

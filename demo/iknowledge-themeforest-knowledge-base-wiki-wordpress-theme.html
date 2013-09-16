@@ -1,0 +1,607 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>Just another andrastudio WordPress Projects site | iKnowledge</title>
+
+	        <link rel="pingback" href="http://wp.andrastudio.com/iknowledge/xmlrpc.php" />
+                
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.15 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://wp.andrastudio.com/iknowledge/" />
+<link rel="next" href="http://wp.andrastudio.com/iknowledge/page/2/" />
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="iKnowledge - Just another andrastudio WordPress Projects site"/>
+<meta property="og:url" content="http://wp.andrastudio.com/iknowledge/"/>
+<meta property="og:site_name" content="iKnowledge"/>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="iKnowledge &raquo; Feed" href="http://wp.andrastudio.com/iknowledge/feed/" />
+<link rel="alternate" type="application/rss+xml" title="iKnowledge &raquo; Comments Feed" href="http://wp.andrastudio.com/iknowledge/comments/feed/" />
+<link rel='stylesheet' id='style-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/style.css?ver=3.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='superfish-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/css/superfish.css?ver=3.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='ui.tabs-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/css/jquery.ui.tabs.css?ver=3.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='ui.datepicker-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/css/jquery.ui.datepicker.css?ver=3.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='iknowledge_style-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/styles/default/default.css?ver=3.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='custom-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/custom.css?ver=3.6' type='text/css' media='screen' />
+<link rel='stylesheet' id='shortcodes-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/functions/warriorpanel/css/shortcodes.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='ui-tabs-css'  href='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/functions/warriorpanel/css/jquery.ui.tabs.css?ver=3.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wp.andrastudio.com/iknowledge/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wp.andrastudio.com/iknowledge/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6" />
+<meta name="generator" content="iKnowledge 1.1.0" />
+<meta name="generator" content="WarriorPanel 1.6.7"/>
+	<link rel="shortcut icon" href="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/images/favicon.ico" />
+	<link rel="stylesheet" href="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/functions/warriorpanel/css/rating.css" media="all" />
+	<script type="text/javascript">
+		//<![CDATA[
+		jQuery(document).ready( function($) {
+			jQuery('.hide-on-js').hide();
+			jQuery('.star_rate_ajax a.rate').click( function() {
+				id = jQuery(this).attr('id');
+				id_x = id.split('-');
+				post_id = id_x[2];
+				rate = id.charAt(0);
+				nonce = jQuery('#nonce-id-' + post_id ).val();
+									jQuery(this).addClass('on');
+									jQuery(this).prevAll().addClass('on');
+									jQuery(this).nextAll().addClass('off');
+									jQuery(this).nextAll().removeClass('on');
+									jQuery(this).siblings().find('span').css('width','100%');
+				info_temp = jQuery('#rate-info-' + post_id).html();
+				jQuery('#rate-info-' + post_id).html('Saving...');
+				jQuery.post( "http://wp.andrastudio.com/iknowledge/wp-admin/admin-ajax.php", 
+							{ action : 'ajax-rate', post_id : post_id, rate : rate, nonce : nonce },
+							function ( response ) {
+								result = response.split('|');
+								if ( result[0] == 'fail' ) {
+									jQuery('#rate-info-' + post_id).html( info_temp );
+								} else {
+									info_new = 'Your rating: ' + result[3] + ', Average: ' + result[1] + ' (' + result[2] + ' votes)';
+									jQuery('#rate-info-' + post_id).html( info_new );
+									jQuery('#rate-title-' + post_id).data('temp','Your rating: ');
+									jQuery('#rate-title-' + post_id).html('Your rating: ');
+								}
+							} );
+				
+				return false;
+			});
+			jQuery('.star_rate_ajax a.rate').mouseenter( function() {
+				id = jQuery(this).attr('id');
+				id_x = id.split('-');
+				post_id = id_x[2];
+				jQuery(this).addClass('active');
+				jQuery(this).prevAll().addClass('active');
+				jQuery(this).nextAll().addClass('off');
+				jQuery('#rate-title-' + post_id).data('temp',jQuery('#rate-title-' + post_id).html());
+				jQuery('#rate-title-' + post_id).html('Your rating: ')
+			});
+			jQuery('.star_rate_ajax a.rate').mouseleave( function() {
+				id = jQuery(this).attr('id');
+				id_x = id.split('-');
+				post_id = id_x[2];
+				jQuery(this).removeClass('active');
+				jQuery(this).prevAll().removeClass('active');
+				jQuery(this).nextAll().removeClass('off');
+				jQuery('#rate-title-' + post_id).html(jQuery('#rate-title-' + post_id).data('temp'));
+			});
+		});
+		//]]>
+	</script>
+	<style type="text/css">
+        /* Load custom styles defined in WarriorPanel */
+		
+		body,
+		.widget .contributors h3.title,
+		.articles h4.title,
+		.warrior_tabs .list .title {
+			font-family: Helvetica;
+			}
+										
+		.custom-background #footer .footer-area {  }		
+					
+		</style>
+    
+	<!--[if lte IE 6]>
+		<link href="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/css/ie6.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/js/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script>
+			DD_belatedPNG.fix('*');
+			jQuery(document).ready(function(){
+				function setEqualHeight(columns){
+					var tallestcolumn = 0;
+					columns.each(function(){
+						currentHeight = jQuery(this).height();
+						if (currentHeight > tallestcolumn){
+							tallestcolumn  = currentHeight + 120;
+						}
+					});
+					columns.height(tallestcolumn);
+				}
+				setEqualHeight(jQuery('#rightcol, #leftcol'));
+			});
+		</script>
+	<![endif]-->
+	<!--[if IE 7]>
+		<link href="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/css/font-awesome-ie7.css" rel="stylesheet" type="text/css" />
+		<link href="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/css/ie7.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if IE 8]>
+		<link href="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/css/ie8.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+    </head>
+
+<body class="home blog">
+
+
+	<div id="top" class="clearfix">
+		<div class="container">
+			<!-- START: HEADER -->
+			<div id="header" class="clearfix">
+							
+				<div class="logo">
+					<a href='http://wp.andrastudio.com/iknowledge'><img src='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/styles/default/images/logo.png' alt='iKnowledge' title='iKnowledge' /></a>				</div>
+						
+			</div>
+			<!-- END: HEADER -->
+
+			<!-- START: ACCESS -->
+			<div id="access" class="clearfix">
+									<ul id="main-menu" class="top-menu"><li class="menu-item page-item-0 current-menu-item page_item current_page_item menu-item-0"><a href="http://wp.andrastudio.com/iknowledge/" title="Home">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="http://wp.andrastudio.com/iknowledge/features/">Elements</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://wp.andrastudio.com/iknowledge/sample-page-2/">Sample Page</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://wp.andrastudio.com/iknowledge/shortcodes/">Shortcodes</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="#">Sub Menu Example</a>
+<ul class="sub-menu">
+	<li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="#">Menu Number One</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="#">Menu Number Two</a>
+	<ul class="sub-menu">
+		<li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="#">Sub Menu One</a>
+		<ul class="sub-menu">
+			<li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="#">Sub Menu Two</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="#">Menu Number Three</a></li>
+</ul>
+</li>
+</ul>							</div>
+			<!-- END: ACCESS -->
+		</div>
+	</div>
+		
+	<div id="main-content" class="container clearfix">
+
+<!-- START: RIGHT COLUMN -->
+<div id="rightcol" class="clearfix">
+	<!-- START: CONTENT -->
+	<div id="content" class="clearfix">
+		<div id="widget-warrior-advanced-search-2" class="widget warrior-advanced-search clearfix">
+		<form method="get" id="warrior-advanced-search" action="http://wp.andrastudio.com/iknowledge/" >
+            <div class="form-item">
+                <input value="" name="s" id="s" type="text" />
+                <button id="searchsubmit" type="submit"><span class="icon-search"></span> <em>Search</em></button>
+            </div>
+        
+			<div id="advanced-search" class="clearfix" style="display: none;">
+				<div class="category">
+					<label>Category:</label>
+					<select name='cat' id='cat' class='postform' >
+	<option value='0' selected='selected'>All Categories</option>
+	<option class="level-0" value="1">Tips and Tricks</option>
+	<option class="level-0" value="2">Account Management</option>
+	<option class="level-0" value="3">Billing</option>
+	<option class="level-0" value="4">Database</option>
+	<option class="level-0" value="5">Domain and DNS</option>
+	<option class="level-0" value="6">Email</option>
+	<option class="level-0" value="7">File Transfer Protocol</option>
+	<option class="level-0" value="8">Server Tuning</option>
+</select>
+				</div>
+				<div class="date">
+					<label>Date:</label>
+					<div class="date-inputs clearfix">
+						<input name="fromdate" id="fromdate" class="datepicker" value="From" type="text" />
+						<input name="todate" id="todate" class="datepicker" value="Until" type="text" />
+					</div>
+				</div>
+			</div>
+
+            <div class="advanced-search">
+				<a style="cursor:pointer;" id="click-advanced-search">Advanced Search</a>
+				<span class="before"></span>
+				<span class="after"></span>
+			</div>
+		</form>
+        
+        <script type="text/javascript">
+			//<![CDATA[
+			jQuery(document).ready(function($) {
+				"use strict";
+
+				// Set search box value
+				$('#warrior-advanced-search input#s').val('Type in your keyword ...');
+				$('#warrior-advanced-search #s').blur(function(){
+					if ($('#warrior-advanced-search #s').val() === ''){
+						$('#warrior-advanced-search #s').val('Type in your keyword ...');
+					}
+				});
+				$('#warrior-advanced-search #s').focus(function(){
+					if ($('#warrior-advanced-search #s').val() === 'Type in your keyword ...'){
+						$('#warrior-advanced-search #s').val('');
+					}
+				});
+
+				$('#advanced-search').hide();
+				var advancedSearchClose = true;
+				$('#click-advanced-search').click(function() {
+					$('#advanced-search').slideToggle(300, function() {
+						if ( advancedSearchClose ){
+							$('#click-advanced-search').html('Close [x]');
+							advancedSearchClose = false;
+							$('.warrior-advanced-search').addClass('warrior-advanced-search-toogle');
+						} else {
+							$('#click-advanced-search').html('Advanced Search');
+							advancedSearchClose = true;
+							$('.warrior-advanced-search').removeClass('warrior-advanced-search-toogle');
+						}
+					});
+				
+				});
+				
+				$('.input#s').keypress(function(e){
+					if(e.which === 13){
+						jQuery('#warrior-advanced-search').submit();
+					}
+				});
+
+				$(function() {
+					$( ".datepicker" ).datepicker({
+						changeMonth: true,
+						changeYear: true,
+						dateFormat: 'yy-mm-dd'
+					});
+				});
+			});
+			//]]>
+		</script>
+        
+</div>
+<div id="widget-warrior_categories-2" class="widget warrior_categories clearfix">
+		<h3 class="title"><label>Categories</label><span></span></h3>		<ul class="warrior_cats">
+			<li><span class="icon-file"></span> <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/category/account-management/" title="Lorem ipsum dolor sit amet, vix et dicit lucilius, an his omnis corrumpit. Dolorem salutatus reprimique pro at, eum iracundia interpretaris ut.">Account Management</a></h4> <p>Lorem ipsum dolor sit amet, vix et dicit lucilius, an his omnis corrumpit. Dolorem salutatus reprimique pro at, eum iracundia interpretaris ut.</p></li>
+</li>
+	<li><span class="icon-file"></span> <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/category/billing/" title=" At vix vero pertinacia, mea nominati volutpat an. Quo cu bonorum fierent, qui timeam dissentiunt reprehendunt in, sint utinam at pro.">Billing</a></h4> <p> At vix vero pertinacia, mea nominati volutpat an. Quo cu bonorum fierent, qui timeam dissentiunt reprehendunt in, sint utinam at pro.</p></li>
+</li>
+	<li><span class="icon-file"></span> <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/category/database/" title="Possim delicata ocurreret sea ex. Ad eam eleifend adipiscing, ad oblique repudiandae mei, sed fierent detracto eu.">Database</a></h4> <p>Possim delicata ocurreret sea ex. Ad eam eleifend adipiscing, ad oblique repudiandae mei, sed fierent detracto eu.</p></li>
+</li>
+	<li><span class="icon-file"></span> <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/category/domain-and-dns/" title=" In vim malis choro forensibus, usu ne eros qualisque assueverit. Ea laudem efficiantur cum, nullam concludaturque his ne.">Domain and DNS</a></h4> <p> In vim malis choro forensibus, usu ne eros qualisque assueverit. Ea laudem efficiantur cum, nullam concludaturque his ne.</p></li>
+</li>
+	<li><span class="icon-file"></span> <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/category/email/" title="Mea populo praesent mnesarchum ex, sed cu liber ornatus, ridens quodsi ex quo. Prompta laoreet scaevola duo eu, duis hendrerit.">Email</a></h4> <p>Mea populo praesent mnesarchum ex, sed cu liber ornatus, ridens quodsi ex quo. Prompta laoreet scaevola duo eu, duis hendrerit.</p></li>
+</li>
+	<li><span class="icon-file"></span> <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/category/server-tuning/" title="Assum alterum vim te, vis ex bonorum eruditi blandit. Cu est ancillae sententiae, tollit scriptorem ad sit, sint invenire duo eu.">Server Tuning</a></h4> <p>Assum alterum vim te, vis ex bonorum eruditi blandit. Cu est ancillae sententiae, tollit scriptorem ad sit, sint invenire duo eu.</p></li>
+</li>
+		</ul>
+</div>
+<div id="widget-warrior_sticky_posts-2" class="widget warrior_sticky_posts clearfix">
+<h3 class="title"><label>Featured Articles</label><span></span></h3>		<div class="articles">
+					<div id="post-118" class="post-118 post type-post status-publish format-standard sticky hentry category-account-management tag-email tag-password tag-username">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/changing-my-account-password/" title="Changing My Account Password">Changing My Account Password</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/account-management/" title="View all posts in Account Management" rel="category tag">Account Management</a>				</p>
+			</div>
+						<div id="post-107" class="post-107 post type-post status-publish format-standard sticky hentry category-domain-and-dns tag-domains">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/registering-a-domain-name/" title="Registering a Domain Name">Registering a Domain Name</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/domain-and-dns/" title="View all posts in Domain and DNS" rel="category tag">Domain and DNS</a>				</p>
+			</div>
+						<div id="post-104" class="post-104 post type-post status-publish format-standard sticky hentry category-domain-and-dns tag-domains">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/what-is-the-domain-name-system/" title="What is the Domain Name System?">What is the Domain Name System?</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/domain-and-dns/" title="View all posts in Domain and DNS" rel="category tag">Domain and DNS</a>				</p>
+			</div>
+						<div id="post-97" class="post-97 post type-post status-publish format-standard sticky hentry category-server-tuning">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/what-is-apache/" title="What is Apache?">What is Apache?</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/server-tuning/" title="View all posts in Server Tuning" rel="category tag">Server Tuning</a>				</p>
+			</div>
+						<div id="post-91" class="post-91 post type-post status-publish format-standard sticky hentry category-database tag-mysql">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/reliability-of-mysql/" title="Reliability of MySQL">Reliability of MySQL</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/database/" title="View all posts in Database" rel="category tag">Database</a>				</p>
+			</div>
+						<div id="post-85" class="post-85 post type-post status-publish format-standard sticky hentry category-account-management">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/how-can-i-login-to-my-account/" title="How Can I Login to My Account?">How Can I Login to My Account?</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/account-management/" title="View all posts in Account Management" rel="category tag">Account Management</a>				</p>
+			</div>
+						         		</div>
+       
+</div>
+<div id="widget-warrior_latest_posts-2" class="widget warrior_latest_posts clearfix">
+<h3 class="title"><label>Recent Articles</label><span></span></h3>		<div class="articles">
+					<div id="post-1" class="post-1 post type-post status-publish format-standard hentry category-tips-and-tricks">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/hello-world/" title="Hello world!">Hello world!</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/tips-and-tricks/" title="View all posts in Tips and Tricks" rel="category tag">Tips and Tricks</a>				</p>
+			</div>
+					<div id="post-132" class="post-132 post type-post status-publish format-standard hentry category-file-transfer-protocol tag-file-transfer">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/how-do-i-start-ftp/" title="How do I Start FTP?">How do I Start FTP?</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/file-transfer-protocol/" title="View all posts in File Transfer Protocol" rel="category tag">File Transfer Protocol</a>				</p>
+			</div>
+					<div id="post-128" class="post-128 post type-post status-publish format-standard hentry category-email tag-email">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/increasing-email-quota/" title="Increasing Email Quota">Increasing Email Quota</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/email/" title="View all posts in Email" rel="category tag">Email</a>				</p>
+			</div>
+					<div id="post-123" class="post-123 post type-post status-publish format-standard hentry category-server-tuning tag-linux tag-server tag-windows">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/difference-between-desktop-and-server/" title="Difference Between Desktop and Server">Difference Between Desktop and Server</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/server-tuning/" title="View all posts in Server Tuning" rel="category tag">Server Tuning</a>				</p>
+			</div>
+					<div id="post-121" class="post-121 post type-post status-publish format-standard hentry category-account-management tag-email tag-username">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/add-another-email-to-your-account/" title="Add Another Email to Your Account">Add Another Email to Your Account</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/account-management/" title="View all posts in Account Management" rel="category tag">Account Management</a>				</p>
+			</div>
+					<div id="post-118" class="post-118 post type-post status-publish format-standard sticky hentry category-account-management tag-email tag-password tag-username">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/changing-my-account-password/" title="Changing My Account Password">Changing My Account Password</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/account-management/" title="View all posts in Account Management" rel="category tag">Account Management</a>				</p>
+			</div>
+					<div id="post-116" class="post-116 post type-post status-publish format-standard hentry category-database tag-mysql">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/how-does-mysql-reduce-tco/" title="How does MySQL reduce TCO?">How does MySQL reduce TCO?</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/database/" title="View all posts in Database" rel="category tag">Database</a>				</p>
+			</div>
+					<div id="post-109" class="post-109 post type-post status-publish format-standard hentry category-domain-and-dns">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/domain-name-cost/" title="Domain Name Cost">Domain Name Cost</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/domain-and-dns/" title="View all posts in Domain and DNS" rel="category tag">Domain and DNS</a>				</p>
+			</div>
+					<div id="post-107" class="post-107 post type-post status-publish format-standard sticky hentry category-domain-and-dns tag-domains">
+				<h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/registering-a-domain-name/" title="Registering a Domain Name">Registering a Domain Name</a></h4>
+				<p class="categories">
+					<span>Categories</span>
+					<a href="http://wp.andrastudio.com/iknowledge/category/domain-and-dns/" title="View all posts in Domain and DNS" rel="category tag">Domain and DNS</a>				</p>
+			</div>
+		                 		</div>
+       
+</div>
+	</div>
+	<!-- END: CONTENT -->
+</div>
+<!-- END: RIGHT COLUMN -->
+
+<!-- START: LEFT COLUMN -->
+<div id="leftcol" class="clearfix">
+		
+	<!-- START: SIDEBAR -->
+	<div id="sidebar" class="clearfix">
+					
+		<div id="widget-categories-3" class="widget widget_categories">
+<h3 class="title"><span class="icon-th-large"></span>Categories</h3>		<ul>
+	<li class="cat-item cat-item-2"><a href="http://wp.andrastudio.com/iknowledge/category/account-management/" title="Lorem ipsum dolor sit amet, vix et dicit lucilius, an his omnis corrumpit. Dolorem salutatus reprimique pro at, eum iracundia interpretaris ut.">Account Management</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://wp.andrastudio.com/iknowledge/category/billing/" title=" At vix vero pertinacia, mea nominati volutpat an. Quo cu bonorum fierent, qui timeam dissentiunt reprehendunt in, sint utinam at pro.">Billing</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://wp.andrastudio.com/iknowledge/category/database/" title="Possim delicata ocurreret sea ex. Ad eam eleifend adipiscing, ad oblique repudiandae mei, sed fierent detracto eu.">Database</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://wp.andrastudio.com/iknowledge/category/domain-and-dns/" title=" In vim malis choro forensibus, usu ne eros qualisque assueverit. Ea laudem efficiantur cum, nullam concludaturque his ne.">Domain and DNS</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://wp.andrastudio.com/iknowledge/category/email/" title="Mea populo praesent mnesarchum ex, sed cu liber ornatus, ridens quodsi ex quo. Prompta laoreet scaevola duo eu, duis hendrerit.">Email</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://wp.andrastudio.com/iknowledge/category/file-transfer-protocol/" title="View all posts filed under File Transfer Protocol">File Transfer Protocol</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://wp.andrastudio.com/iknowledge/category/server-tuning/" title="Assum alterum vim te, vis ex bonorum eruditi blandit. Cu est ancillae sententiae, tollit scriptorem ad sit, sint invenire duo eu.">Server Tuning</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://wp.andrastudio.com/iknowledge/category/tips-and-tricks/" title="View all posts filed under Tips and Tricks">Tips and Tricks</a>
+</li>
+		</ul>
+</div>
+<div id="widget-warrior_author_list-2" class="widget warrior_author_list">
+<h3 class="title"><span class="icon-th-large"></span>Author List</h3><ul class='contributors'><li><span class="bg"><a href=http://wp.andrastudio.com/iknowledge/author/mqhidayat/ title=Mc Qoy><img alt='' src='http://1.gravatar.com/avatar/d2e2cd5b4da2d5945174cf043d965791?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></li><li><span class="bg"><a href=http://wp.andrastudio.com/iknowledge/author/melinda/ title=melinda><img alt='' src='http://0.gravatar.com/avatar/44d98ff89b0daeca925134da15ded1dc?s=50&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></li><li><span class="bg"><a href=http://wp.andrastudio.com/iknowledge/author/yogi/ title=Yogi><img alt='' src='http://1.gravatar.com/avatar/10cc47eb60f9bbb428b5a30af01c07ac?s=50&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D50&amp;r=G' class='avatar avatar-50 photo' height='50' width='50' /></a></span></li></ul>		
+</div>
+<div id="widget-warrior_tabs-2" class="widget warrior_tabs">
+        <div id="tabs">
+            <ul class="tab-items">
+                <li><a class="tab1" href="#tab1">Recent</a></li>
+                <li><a class="tab2" href="#tab2">Popular</a></li>
+                <li class="last"><a class="tab3" href="#tab3">Tags</a></li>
+            </ul>
+           <div class="idas clearfix">
+            <div id="tab1" class="tab">
+                                <ul class="list">
+                                        <li id="post-1">
+                        <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/hello-world/">Hello world!</a></h4>
+                        <div class="meta">February 6, 2013</div>
+                    </li>
+                                        <li id="post-132">
+                        <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/how-do-i-start-ftp/">How do I Start FTP?</a></h4>
+                        <div class="meta">February 5, 2013</div>
+                    </li>
+                                        <li id="post-128">
+                        <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/increasing-email-quota/">Increasing Email Quota</a></h4>
+                        <div class="meta">February 5, 2013</div>
+                    </li>
+                                    </ul>
+                            </div>
+            <div id="tab2" class="tab">
+                                <ul class="list">
+                                        <li id="post-popular-95">
+                        <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/commercial-licensing-of-mysql/">Commercial Licensing of MySQL</a></h4>
+                        <div class="meta">January 16, 2013</div>
+                    </li>
+                                        <li id="post-popular-118">
+                        <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/changing-my-account-password/">Changing My Account Password</a></h4>
+                        <div class="meta">February 5, 2013</div>
+                    </li>
+                                        <li id="post-popular-121">
+                        <h4 class="title"><a href="http://wp.andrastudio.com/iknowledge/add-another-email-to-your-account/">Add Another Email to Your Account</a></h4>
+                        <div class="meta">February 5, 2013</div>
+                    </li>
+                                    </ul>
+                            </div>
+            <div id="tab3" class="tab">
+				<div class="tagcloud">
+					<a href='http://wp.andrastudio.com/iknowledge/tag/apache/' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>Apache</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/configuration/' class='tag-link-13' title='1 topic' style='font-size: 8pt;'>Configuration</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/domains/' class='tag-link-15' title='2 topics' style='font-size: 14.3pt;'>Domains</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/email/' class='tag-link-6' title='3 topics' style='font-size: 18.5pt;'>Email</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/file-transfer/' class='tag-link-16' title='1 topic' style='font-size: 8pt;'>File Transfer</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/license/' class='tag-link-17' title='1 topic' style='font-size: 8pt;'>License</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/linux/' class='tag-link-18' title='1 topic' style='font-size: 8pt;'>Linux</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/mysql/' class='tag-link-19' title='4 topics' style='font-size: 22pt;'>MySQL</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/password/' class='tag-link-22' title='1 topic' style='font-size: 8pt;'>Password</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/server/' class='tag-link-29' title='1 topic' style='font-size: 8pt;'>Server</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/username/' class='tag-link-33' title='2 topics' style='font-size: 14.3pt;'>Username</a>
+<a href='http://wp.andrastudio.com/iknowledge/tag/windows/' class='tag-link-34' title='1 topic' style='font-size: 8pt;'>Windows</a>				</div>
+            </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            jQuery(document).ready(function($) {
+                "use strict";
+                $("#tabs").tabs();
+            });
+            //]]>
+        </script>
+</div>
+<div id="widget-warrior_twitter-2" class="widget warrior_twitter">
+
+		<h3 class="title"><span class="icon-th-large"></span>Latest Tweets</h3>
+        <ul id="tweets">
+            <li class="load">Loading...</li>
+        </ul>
+
+        <p class="follow">
+            <a href="http://twitter.com/themewarrior">Follow us on Twitter</a>
+        </p>
+
+        <script type="text/javascript">
+			//<![CDATA[
+            jQuery(document).ready(function(){
+				String.prototype.parseURL = function() {
+					return this.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&\?\/.=]+/g, function(url) {
+						return url.link(url);
+					});
+				};
+				String.prototype.parseUsername = function() {
+					return this.replace(/[@]+[A-Za-z0-9-_]+/g, function(u) {
+						var username = u.replace("@","")
+						return u.link("http://twitter.com/"+username);
+					});
+				};
+				String.prototype.parseHashtag = function() {
+					return this.replace(/[#]+[A-Za-z0-9-_]+/g, function(t) {
+						var tag = t.replace("#","%23")
+						return t.link("http://search.twitter.com/search?q="+tag);
+					});
+				};
+
+                jQuery.getJSON('https://api.twitter.com/1/statuses/user_timeline/themewarrior.json?count=2&include_rts=1&callback=?', function(data){
+                    // Empty out the content
+                    jQuery('#tweets').empty();
+
+                    // Print out the tweets
+                    jQuery.each(data, function(index, value){
+                        // Format date
+                        var d 		   = new Date(value.created_at);
+                        var tweet_date = d.getDate();
+                        var m_names    = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                        var sup 	  = "";
+
+                        if (tweet_date == 1 || tweet_date == 21 || tweet_date ==31){
+                            sup = "st";
+                        }else if (tweet_date == 2 || tweet_date == 22){
+                            sup = "nd";
+                        }else if (tweet_date == 3 || tweet_date == 23){
+                            sup = "rd";
+                        }else{
+                            sup = "th";
+                        }
+
+                        var tweet_month = d.getMonth();
+                        var tweet_year  = d.getFullYear();
+                        var tweet_meta  = m_names[tweet_month] + " " + tweet_date + sup + ", " + tweet_year;
+                        var tweet_text  = value.text;
+                        var tweet = '<li class="tweet">' + tweet_text.parseURL().parseUsername().parseHashtag() + '<div class="meta">' + tweet_meta + '</div></li>';
+
+                        jQuery('#tweets').append(tweet);
+                    });
+                });
+            });
+			//]]>
+        </script>
+
+</div>
+<div id="widget-text-3" class="widget widget_text">
+<h3 class="title"><span class="icon-th-large"></span>Technical Support</h3>			<div class="textwidget"><p>Has no porro reprehendunt. Eam ei quidam sanctus lobortis. Ut mel virtute repudiare, ridens feugait instructior at nec.</p>
+<p>Phone: 021-5683215<br />
+Fax: 021-5683212<br />
+Email: support@localhost</p>
+</div>
+		</div>
+
+		<div class="socialmedia">
+			<a href='http://twitter.com/themewarrior'><img src='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/images/icons/twitter.png' alt='Follow us on Twitter' title='Follow us on Twitter' /></a><a href='http://www.myspace.com/themewarrior'><img src='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/images/icons/myspace.png' alt='MySpace page' title='MySpace page' /></a><a href='http://www.vimeo.com/themewarrior'><img src='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/images/icons/vimeo.png' alt='Vimeo videos' title='Vimeo videos' /></a>		</div>
+				
+	</div>
+	<!-- END: SIDEBAR -->
+
+</div>
+<!-- END: LEFT COLUMN -->	
+	</div>
+
+	<!-- START: FOOTER -->
+	<div id="footer" class="clearfix">
+		<div class="container">
+			<div class="footer-area">
+				<div class="copyright">
+					iKnowledge. Copyright 2013. All rights reserved.				</div>
+				<div class="generator">
+					Powered by <a href="http://wordpress.org">WordPress</a>. Designed by <a href="http://www.themewarrior.com"><img src="http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/images/logo-themewarrior.png" alt="Premium WordPress Themes" title="Premium WordPress Themes" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END: FOOTER -->
+	
+	<div class="bg-area clearfix">
+		<div class="container">
+			<div class="bg-left">
+			</div>
+		</div>
+	</div>
+			
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-includes/js/jquery/ui/jquery.ui.datepicker.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/js/superfish.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/js/jquery.mobilemenu.js?ver=1.0'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-content/themes/iknowledge/js/functions.js?ver=1.0'></script>
+<script type='text/javascript' src='http://wp.andrastudio.com/iknowledge/wp-includes/js/jquery/ui/jquery.ui.accordion.min.js?ver=1.10.3'></script>
+</body>
+</html>

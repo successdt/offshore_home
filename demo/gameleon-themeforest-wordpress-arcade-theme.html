@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!-- ######## - THE HEADER - ######## -->
+
+<head>
+<meta charset="utf-8">
+
+<title>Gameleon Wordpress Arcade Theme - Demo</title>
+
+<meta name="description" content="Demo Page for Gameleon Wordpress Arcade Theme">
+<meta name="author" content="TiguanDesign.com">
+<!-- THE DEMO STYLE SHEETS -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<!-- call jQuery from the google apis -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<!-- ######## - THE BODY - ######## -->
+
+<body>
+<div class="header">
+Choose your <a href="http://themeforest.net/item/gameleon-wordpress-arcade-theme/3271091" target="_blank"><span style="color:#fb2900">Game</span>leon</a> layout
+</div>
+<div class="left">
+<a href="http://www.tiguandesign.com/demos/Gameleon/magazine/?ref=tiguan" target="_blank">
+<img src="images/wordpress.png" alt="WordPress Magazine Layout" id="left-photo" /></a>
+</div>
+
+<div class="right">
+<a href="http://www.tiguandesign.com/demos/Gameleon/arcade/?ref=tiguan" target="_blank">
+<img src="images/games.png" alt="WordPress Arcade Layout" id="right-photo" /></a>
+</div>
+ 
+
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+
+var leftphoto=jQuery('body').find('#left-photo');
+var rightphoto=jQuery('body').find('#right-photo');
+
+leftphoto.hover(function() { rightphoto.fadeTo(500,0.4); }, function() { rightphoto.fadeTo(500,1);	});
+rightphoto.hover(function() { leftphoto.fadeTo(500,0.4); }, function() { leftphoto.fadeTo(500,1); });
+
+$("#left-photo").hover(function(){
+$(this).animate({"margin-top":"5%"});
+});
+
+$("#right-photo").hover(function(){
+$(this).animate({"margin-top":"5%"});
+});
+
+$("#left-photo").mouseout(function(){
+$(this).animate({"margin-top":"6%"});
+});
+
+$("#right-photo").mouseout(function(){
+$(this).animate({"margin-top":"6%"});
+});
+});
+</script>
+</body>
+</html>

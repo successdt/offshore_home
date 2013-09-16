@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Please wait while we redirect you</title>
+	<style type="text/css">
+	*{margin:0;padding:0;font-family:Arial;}
+	</style>
+
+	<script type="text/javascript">
+		try {
+			var href = window.location.href.split('?')[1].split('=')[1];
+			if (typeof href == 'undefined')
+			{
+				top.window.location.href = "http://demo.11theme.com/fullfashion/?iframe=true";
+			}
+			else
+			{
+				top.window.location.href = "http://demo.1theme.com/" + href + "/?iframe=true";
+			}
+		
+		} catch(ex)
+		{
+			console.warn('err' , ex);
+			top.window.location.href = "http://1theme.com/demo/fullfashion/?iframe=true";
+		}
+	</script>
+</head>
+<body>
+	Please wait while you're being redirected. <br />
+	If you are not being redirected after a few seconds please click <a href="http://1theme.com/demo/fullfashion/?iframe=true">here</a>.
+</body>
+</html>
+
+

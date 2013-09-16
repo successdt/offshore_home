@@ -1,0 +1,1195 @@
+<!DOCTYPE HTML>
+
+
+<html lang="en-US">
+<head>
+
+<meta charset="UTF-8">
+<title>The Cause &#8211; Non-Profit WordPress Theme</title>
+
+
+<link rel="icon" type="image/png" href="http://themeblossom.net/thecause/wp-content/themes/the-cause/images/favicon.png">
+
+<!-- STYLES -->
+<link href='http://themeblossom.net/thecause/wp-content/themes/the-cause/styles/fonts/lora.css' rel='stylesheet' type='text/css' media='screen' id='themeFont'>
+<link href='http://themeblossom.net/thecause/wp-content/themes/the-cause/styles/fonts2/greatVibes.css' rel='stylesheet' type='text/css' media='screen'>
+<link rel="stylesheet" href="http://themeblossom.net/thecause/wp-content/themes/the-cause/styles/grid960.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://themeblossom.net/thecause/wp-content/themes/the-cause/style.css" type="text/css" media="screen" />
+
+<link rel="alternate" type="application/rss+xml" title="The Cause - Non-Profit WordPress Theme &raquo; Feed" href="http://themeblossom.net/thecause/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Cause - Non-Profit WordPress Theme &raquo; Comments Feed" href="http://themeblossom.net/thecause/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Cause - Non-Profit WordPress Theme &raquo; Home Comments Feed" href="http://themeblossom.net/thecause/home/feed/" />
+<link rel='stylesheet' id='ewd-progress-bar-css'  href='http://themeblossom.net/thecause/wp-content/plugins/easy-wordpress-donations/includes/css/progress-bar.css.php?ver=1.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ewd-front-end-css'  href='http://themeblossom.net/thecause/wp-content/plugins/easy-wordpress-donations/includes/css/front-end.css?ver=1.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-settings-css'  href='http://themeblossom.net/thecause/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-captions-css'  href='http://themeblossom.net/thecause/wp-content/plugins/revslider/rs-plugin/css/captions.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhotoStyle-css'  href='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/prettyPhoto/css/prettyPhoto.css?ver=3.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/twitter.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.1.3'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/slides.min.jquery.js?ver=1.1.9'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/jquery.easing.1.3.js?ver=1.3'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/jquery.uniform.min.js?ver=1.1'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/tbUniform.js?ver=1.1'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/themes/the-cause/js/themeblossom.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themeblossom.net/thecause/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themeblossom.net/thecause/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Video page &#8211; columns' href='http://themeblossom.net/thecause/video-page-columns/' />
+<link rel='next' title='Blog' href='http://themeblossom.net/thecause/blog/' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='http://themeblossom.net/thecause/' />
+
+
+<!-- WooCommerce Version -->
+<meta name="generator" content="WooCommerce 1.6.6" />
+
+
+<script type="text/javascript" src="http://themeblossom.net/thecause/wp-content/themes/the-cause/js/jquery.cookie.js"></script>
+
+<script type="text/javascript">
+/* STYLE SWITCHER */
+jQuery(document).ready(function($) {
+	$("#styleChanger").addClass('hidden');
+	$("#styleChanger .trigger a").click(function() {
+		if ($("#styleChanger").hasClass("hidden")) {
+			$("#styleChanger").animate({"left": "0px"}, "slow").removeClass('hidden');
+		} else {
+			$("#styleChanger").animate({"left": "-362px"}, "slow").addClass('hidden');
+		}
+	});
+});
+
+function strpos (haystack, needle, offset) {
+  // http://kevin.vanzonneveld.net
+  // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+  // +   improved by: Onno Marsman
+  // +   bugfixed by: Daniel Esteban
+  // +   improved by: Brett Zamir (http://brett-zamir.me)
+  // *     example 1: strpos('Kevin van Zonneveld', 'e', 5);
+  // *     returns 1: 14
+  var i = (haystack + '').indexOf(needle, (offset || 0));
+  return i === -1 ? false : i;
+}
+
+/* jQuery Cookie */
+jQuery(document).ready(function($) {
+
+	if($.cookie("navigationStyle")) {
+		var css = $.cookie("navigationStyle");
+		
+		$("#navigationBckg").removeClass().addClass(css).addClass('width100');
+	}
+
+	$(".navigationStyle a").click(function() { 
+		var css = $(this).attr('data-rel');
+		
+		$("#navigationBckg").removeClass().addClass(css).addClass('width100');
+		
+
+		$.cookie("navigationStyle", css, {expires: 365, path: '/'});
+		return false;
+	});
+
+	if($.cookie("buttonsBckg")) {
+		var css = $.cookie("buttonsBckg");
+		$("#content").removeClass('default').removeClass('brown').removeClass('blue').removeClass('green').removeClass('orange').removeClass('purple').removeClass('red').addClass(css);
+	}
+
+	$(".buttonsBckg a").click(function() { 
+		var css = $(this).attr('data-rel');
+		$("#content").removeClass('default').removeClass('brown').removeClass('blue').removeClass('green').removeClass('orange').removeClass('purple').removeClass('red').addClass(css);
+		
+		$.cookie("buttonsBckg", css, {expires: 365, path: '/'});
+		return false;
+	});
+
+	if($.cookie("extraButtonsBckg")) {
+		var css = $.cookie("extraButtonsBckg");
+		$("#content").removeClass('extra-white')
+		.removeClass('extra-brown')
+		.removeClass('extra-blue')
+		.removeClass('extra-green')
+		.removeClass('extra-orange')
+		.removeClass('extra-purple')
+		.removeClass('extra-default').addClass(css);
+	}
+
+	$(".extraButtonsBckg a").click(function() { 
+		var css = $(this).attr('data-rel');
+		$("#content").removeClass('extra-white')
+		.removeClass('extra-brown')
+		.removeClass('extra-blue')
+		.removeClass('extra-green')
+		.removeClass('extra-orange')
+		.removeClass('extra-purple')
+		.removeClass('extra-default').addClass(css);
+		
+		$.cookie("extraButtonsBckg", css, {expires: 365, path: '/'});
+		return false;
+	});
+
+	if($.cookie("sidebarBckg")) {
+		var css = $.cookie("sidebarBckg");
+		$("#content").removeClass('sidebar-brown')
+		.removeClass('sidebar-gray')
+		.removeClass('sidebar-green')
+		.removeClass('sidebar-orange')
+		.removeClass('sidebar-purple')
+		.removeClass('sidebar-red')
+		.removeClass('sidebar-yellow')
+		.removeClass('sidebar-default').addClass(css);
+		$("#parallax").removeClass('sidebar-brown')
+		.removeClass('sidebar-gray')
+		.removeClass('sidebar-green')
+		.removeClass('sidebar-orange')
+		.removeClass('sidebar-purple')
+		.removeClass('sidebar-red')
+		.removeClass('sidebar-yellow')
+		.removeClass('sidebar-default').addClass(css);
+	}
+
+	$(".sidebarBckg a").click(function() { 
+		var css = $(this).attr('data-rel');
+		$("#content").removeClass('sidebar-brown')
+		.removeClass('sidebar-gray')
+		.removeClass('sidebar-green')
+		.removeClass('sidebar-orange')
+		.removeClass('sidebar-purple')
+		.removeClass('sidebar-red')
+		.removeClass('sidebar-yellow')
+		.removeClass('sidebar-default').addClass(css);
+		$("#parallax").removeClass('sidebar-brown')
+		.removeClass('sidebar-gray')
+		.removeClass('sidebar-green')
+		.removeClass('sidebar-orange')
+		.removeClass('sidebar-purple')
+		.removeClass('sidebar-red')
+		.removeClass('sidebar-yellow')
+		.removeClass('sidebar-default').addClass(css);
+		
+		
+		$.cookie("sidebarBckg", css, {expires: 365, path: '/'});
+		return false;
+	});
+
+	if($.cookie("promoImage")) {
+		var image = $.cookie("promoImage");
+		$("#promoImage > div > img").attr("src", 'http://themeblossom.net/thecause/wp-content/themes/the-cause/images/backgrounds/demo/' + image);
+		$("#promoImage > div").attr("style", 'background-image: url(http://themeblossom.net/thecause/wp-content/themes/the-cause/images/backgrounds/demo/' + image + ')');
+	}
+
+	$("#promoImageSwitch select").change(function() { 
+		var image = $(this).children('option:selected').attr('value');
+		
+		if (image == 0) {
+			image = 'idealist.jpg';
+		}
+		
+		$("#promoImage > div > img").attr("src", 'http://themeblossom.net/thecause/wp-content/themes/the-cause/images/backgrounds/demo/' + image);
+		$("#promoImage > div").attr("style", 'background-image: url(http://themeblossom.net/thecause/wp-content/themes/the-cause/images/backgrounds/demo/' + image + ')');
+		$.cookie("promoImage", image, {expires: 365, path: '/'});
+		return false;
+	});
+
+	if($.cookie("themeFont")) {
+		var font = $.cookie("themeFont");
+		$("#themeFont").attr("href", 'http://themeblossom.net/thecause/wp-content/themes/the-cause/styles/fonts/' + font + '.css');
+	}
+
+	$("#fontSwitch select").change(function() { 
+		var font = $(this).children('option:selected').attr('value');
+		
+		if (font == 0) {
+			font = 'lato';
+		}
+		
+		$("#themeFont").attr("href", 'http://themeblossom.net/thecause/wp-content/themes/the-cause/styles/fonts/' + font + '.css');
+		$.cookie("themeFont", font, {expires: 365, path: '/'});
+		return false;
+	});
+});
+</script><style type="text/css">
+/* SWITCH STYLES ON DEMO SITE */
+/* STYLE CHANGER */
+#styleChanger {position: fixed; left: -362px; top: 100px; width: 395px; height: 599px; z-index: 5000;}
+#styleChanger .holder {float: left; position: relative; width: 328px; height: 555px; padding: 20px 15px; border: 1px solid #fff; background: #f2f2f2; box-shadow: 1px 1px 3px #444;}
+#styleChanger .holder > div {height: 531px; padding: 10px 15px; background: #f0eef0; border: 2px solid #d7d7d7; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+#styleChanger .holder > div p {margin-bottom: 0; font-size: 11px; padding: 5px;}
+#styleChanger .holder h4 {line-height: 20px; padding: 2px; font-size: 13px; margin: 0;}
+#styleChanger .holder a {display: block; float: left; width: 64px; height: 20px; margin: 3px 4px; line-height: 20px; color: #fff; text-align: center; font-size: 10px;}
+#styleChanger .holder > div > div {overflow: hidden; margin: 7px 0;}
+#styleChanger .trigger {float: right; width: 35px; position: relative; height: 277px;}
+#styleChanger .trigger a {position: absolute; display: block; width: 35px; height: 142px; left: 0; top: 197px; text-indent: -9999px; background: url('http://themeblossom.net/thecause/wp-content/themes/the-cause/images/style_changer.png') center center no-repeat;}
+</style>
+
+</head>
+
+<body class="home page page-id-60 page-template page-template-page-home-revolution-php theme-thecause">
+
+<a id="top"></a>
+
+
+<!-- STYLE CHANGER -->
+<div id="styleChanger">
+	<div class="holder">
+    	<div>
+        	<h4>Navigation</h4>          
+
+            <div class="navigationStyle">
+            	<a href="javascript:void()" title="Blue" data-rel="default" style="background: #069">Blue</a>
+            	<a href="javascript:void()" title="Brown" data-rel="brown" style="background: #8E452A">Brown</a>
+            	<a href="javascript:void()" title="Gray" data-rel="gray" style="background: #4C4C4C">Gray</a>
+            	<a href="javascript:void()" title="Green" data-rel="green" style="background: #287F2B">Green</a>
+            	<a href="javascript:void()" title="Orange" data-rel="orange" style="background: #CB7C1D">Orange</a>
+            	<a href="javascript:void()" title="Purple" data-rel="purple" style="background: #6E2199">Purple</a>
+            	<a href="javascript:void()" title="Red" data-rel="red" style="background: #C00">Red</a>
+            	<a href="javascript:void()" title="Yellow" data-rel="yellow" style="background: #FEEC01; color: #000;">Yellow</a>
+            	<a href="javascript:void()" title="White" data-rel="white" style="background: #FFF; color: #000;">White</a>
+            </div>         
+
+            <h4>Buttons</h4>            
+
+            <div class="buttonsBckg">
+            	<a href="javascript:void()" title="Blue" data-rel="blue" style="background: #069">Blue</a>
+            	<a href="javascript:void()" title="Brown" data-rel="brown" style="background: #8E452A">Brown</a>
+            	<a href="javascript:void()" title="Green" data-rel="green" style="background: #287F2B">Green</a>
+            	<a href="javascript:void()" title="Orange" data-rel="orange" style="background: #CB7C1D">Orange</a>
+            	<a href="javascript:void()" title="Purple" data-rel="purple" style="background: #6E2199">Purple</a>
+            	<a href="javascript:void()" title="Red" data-rel="red" style="background: #C00">Red</a>
+            	<a href="javascript:void()" title="White" data-rel="default" style="background: #FFF; color: #000;">White</a>
+            </div>           
+
+            <h4>Extra Buttons</h4>            
+
+            <div class="extraButtonsBckg">
+            	<a href="javascript:void()" title="Blue" data-rel="extra-blue" style="background: #069">Blue</a>
+            	<a href="javascript:void()" title="Brown" data-rel="extra-brown" style="background: #8E452A">Brown</a>
+            	<a href="javascript:void()" title="Green" data-rel="extra-green" style="background: #287F2B">Green</a>
+            	<a href="javascript:void()" title="Orange" data-rel="extra-orange" style="background: #CB7C1D">Orange</a>
+            	<a href="javascript:void()" title="Purple" data-rel="extra-purple" style="background: #6E2199">Purple</a>
+            	<a href="javascript:void()" title="Red" data-rel="extra-default" style="background: #C00">Red</a>
+            	<a href="javascript:void()" title="White" data-rel="extra-white" style="background: #FFF; color: #000;">White</a>
+            </div>                     
+
+            <h4>Sidebar</h4>            
+
+            <div class="sidebarBckg">
+            	<a href="javascript:void()" title="Blue" data-rel="sidebar-default" style="background: #069">Blue</a>
+            	<a href="javascript:void()" title="Brown" data-rel="sidebar-brown" style="background: #8E452A">Brown</a>
+            	<a href="javascript:void()" title="Gray" data-rel="sidebar-gray" style="background: #4C4C4C">Gray</a>
+            	<a href="javascript:void()" title="Green" data-rel="sidebar-green" style="background: #287F2B">Green</a>
+            	<a href="javascript:void()" title="Orange" data-rel="sidebar-orange" style="background: #CB7C1D">Orange</a>
+            	<a href="javascript:void()" title="Purple" data-rel="sidebar-purple" style="background: #6E2199">Purple</a>
+            	<a href="javascript:void()" title="Red" data-rel="sidebar-red" style="background: #C00">Red</a>
+            	<a href="javascript:void()" title="Yellow" data-rel="sidebar-yellow" style="background: #FEEC01; color: #000;">Yellow</a>
+            </div>        
+
+            <h4>Custom Backgrounds</h4>            
+
+            <div class="promoImageSwitch">
+            	<form action="javascript:void()" id="promoImageSwitch">
+                	<select name="promoImageSwitch">
+                    	<option value="0">Choose Background...</option>
+                    	<option value="idealist.jpg">Idealist</option>
+                    	<option value="politica.jpg">Politica</option>
+                    	<option value="spiritual.jpg">Spiritual</option>
+                    </select>
+                </form>
+            </div>       
+
+            <h4>Fonts</h4>            
+
+            <div class="fontSwitch">
+            	<form action="javascript:void()" id="fontSwitch">
+                	<select name="fontSwitch">
+                    	<option value="0">Choose Font...</option>
+                    	<option value="eb-garamond">EB Garamond</option>
+                    	<option value="goudy-bookletter-1911">Goudy Bookletter 1911</option>
+                    	<option value="lato">Lato</option>
+                    	<option value="lora">Lora</option>
+                    	<option value="neuton">Neuton</option>
+                    	<option value="quattrocento">Quattro Cento</option>
+                    	<option value="sorts-mill-goudy">Sorts Mill Goudy</option>
+                    </select>
+                </form>
+            </div>
+
+        </div>
+    </div>    
+
+    <div class="trigger">
+    	<a href="" onClick="return false;" title="Style Changer">Style Changer</a>
+    </div>
+
+</div>
+<!-- .STYLE CHANGER -->
+<!-- HEADER -->
+<div id="header" class="width100" style="background-image: url('http://themeblossom.net/thecause/wp-content/themes/the-cause/images/backgrounds/header/headerBckg.png'); background-color: #ffffff;">
+    <div class="width1000">
+        
+        <div id="logo"><h1><a href="http://themeblossom.net/thecause" title="The Cause &#8211; Non-Profit WordPress Theme"><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/logonew4.png" alt="The Cause &#8211; Non-Profit WordPress Theme"></a></h1></div>
+		
+    </div>
+</div>
+<!-- .HEADER -->
+
+<div class="clear"></div>
+
+<!-- CONTENT -->
+<div id="contentHolder" class="width100">
+    
+	<!-- Navigation -->
+    <div id="navigationBckg" class="green width100">
+		
+        <div id="navigation">
+		
+		<div class="width1000">
+		<ul id="menu-navigation" class="navigation"><li id="menu-item-1101" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item menu-item-1101"><a href="http://themeblossom.net/thecause/">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150"><a href="http://themeblossom.net/thecause/home-parallax-box/">Home &#8211; Parallax Box</a></li>
+	<li id="menu-item-1149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1149"><a href="http://themeblossom.net/thecause/home-parallax-full-width/">Home &#8211; Parallax Full Width</a></li>
+	<li id="menu-item-1114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1114"><a href="http://themeblossom.net/thecause/home-slide-js/">Home &#8211; Slide JS</a></li>
+	<li id="menu-item-1113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1113"><a href="http://themeblossom.net/thecause/home-no-slider/">Home &#8211; No slider</a></li>
+</ul>
+</li>
+<li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1103"><a href="http://themeblossom.net/thecause/blog/">Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-1102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1102"><a href="http://themeblossom.net/thecause/blog-columns/">Blog Columns</a></li>
+</ul>
+</li>
+<li id="menu-item-1106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1106"><a href="http://themeblossom.net/thecause/the-issues/">The Issues</a>
+<ul class="sub-menu">
+	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="http://themeblossom.net/thecause/the-issues-no-accordion/">The Issues &#8211; No Accordion</a></li>
+	<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="http://themeblossom.net/thecause/the-issues-2-items-in-accordion/">The Issues &#8211; 2 items in accordion</a></li>
+	<li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="http://themeblossom.net/thecause/the-issues-3-items-in-accordion/">The Issues &#8211; 3 items in accordion</a></li>
+</ul>
+</li>
+<li id="menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1107"><a href="http://themeblossom.net/thecause/events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111"><a href="http://themeblossom.net/thecause/past-events/">Past events</a></li>
+	<li id="menu-item-1086" class="menu-item menu-item-type-post_type menu-item-object-event menu-item-1086"><a href="http://themeblossom.net/thecause/event/washington-dc/">Single event</a></li>
+</ul>
+</li>
+<li id="menu-item-1124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1124"><a href="http://themeblossom.net/thecause/shop/">Shop</a>
+<ul class="sub-menu">
+	<li id="menu-item-1125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1125"><a href="http://themeblossom.net/thecause/donations/">Donations</a></li>
+	<li id="menu-item-1127" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1127"><a href="http://themeblossom.net/thecause/shop/blue-hat/">Single Product</a></li>
+	<li id="menu-item-1126" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1126"><a href="http://themeblossom.net/thecause/shop/purple-t-shirt-for-men/">Variable Product</a></li>
+</ul>
+</li>
+<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="http://themeblossom.net/thecause/media/">Media</a>
+<ul class="sub-menu">
+	<li id="menu-item-1096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1096"><a href="http://themeblossom.net/thecause/gallery/">Gallery</a></li>
+	<li id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1097"><a href="http://themeblossom.net/thecause/video-page-columns/">Video page &#8211; columns</a></li>
+	<li id="menu-item-1098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1098"><a href="http://themeblossom.net/thecause/video-page-wide/">Video page &#8211; wide</a></li>
+</ul>
+</li>
+<li id="menu-item-1081" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1081"><a href="#">Templates</a>
+<ul class="sub-menu">
+	<li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="http://themeblossom.net/thecause/biography/">Biography</a></li>
+	<li id="menu-item-1118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1118"><a href="http://themeblossom.net/thecause/testimonials/">Testimonials</a></li>
+	<li id="menu-item-1119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1119"><a href="http://themeblossom.net/thecause/default/">Default</a></li>
+	<li id="menu-item-1120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1120"><a href="http://themeblossom.net/thecause/page-with-sidebar/">Page with sidebar</a></li>
+	<li id="menu-item-1121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1121"><a href="http://themeblossom.net/thecause/page-with-left-sidebar/">Page With Left Sidebar</a></li>
+	<li id="menu-item-1130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="http://themeblossom.net/thecause/page-with-custom-background-2/">Page with Custom Background</a></li>
+	<li id="menu-item-1123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1123"><a href="http://themeblossom.net/thecause/faq/">FAQ</a></li>
+	<li id="menu-item-1122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1122"><a href="http://themeblossom.net/thecause/faq-version-2/">FAQ &#8211; version 2</a></li>
+	<li id="menu-item-1112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1112"><a href="http://themeblossom.net/thecause/landing-page/">Coming Soon</a></li>
+</ul>
+</li>
+<li id="menu-item-1087" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1087"><a href="#">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-1115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1115"><a href="http://themeblossom.net/thecause/typography/">Typography</a></li>
+	<li id="menu-item-1116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1116"><a href="http://themeblossom.net/thecause/shortcodes/">Shortcodes</a></li>
+	<li id="menu-item-1117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1117"><a href="http://themeblossom.net/thecause/shortcodes/buttons-and-boxes/">Buttons and boxes</a></li>
+	<li id="menu-item-1088" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1088"><a href="#">Dropdown &#8211; Level 1</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1089" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1089"><a href="#">Dropdown &#8211; Level 2</a></li>
+		<li id="menu-item-1090" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1090"><a href="#">Dropdown &#8211; Level 2</a></li>
+		<li id="menu-item-1091" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1091"><a href="#">Dropdown &#8211; Level 2</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1105"><a href="http://themeblossom.net/thecause/contact/">Contact</a></li>
+</ul>        </div>
+		
+        </div>
+		
+    </div>
+	<!-- .Navigation -->
+        
+    <!-- MAIN -->
+    <div id="main" class="width100">
+	
+			
+		<!-- Promo Image -->
+		<div id="promoImage" class="width100">
+						<div style="background-image: url('http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_green.png');">
+				<img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_green.png">
+							</div>
+					</div>
+		<!-- .Promo Image -->
+
+    
+        <!-- Slider -->
+        <div id="parallaxRevolution" class="width1000"><div>
+		
+						
+				<!-- START REVOLUTION SLIDER 2.3.91 -->
+				
+								
+				<link rel='stylesheet' id='rev-google-font' href='http://fonts.googleapis.com/css?family=Lato:400' type='text/css' media='all' />				<div id="rev_slider_10_1_wrapper" class="rev_slider_wrapper" style="margin:0px auto;background-color:#DCDFE3;padding:0px;margin-top:0px;margin-bottom:0px;height:485px;width:979px;">
+					<div id="rev_slider_10_1" class="rev_slider" style="display:none;height:485px;width:979px;">						
+										<ul>
+								<li data-transition="random" data-slotamount="7" data-masterspeed="500" >
+						<img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/trans.png"  alt="trans" >
+														
+				<div class="tp-caption lfl randomrotateout"  
+					 data-x="604" 
+					 data-y="96" 
+					 data-speed="500" 
+					 data-start="800" 
+					 data-easing="easeOutExpo" data-end="9500" data-endspeed="500" ><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_girl.png" alt="Image 1"></div>
+								
+				<div class="tp-caption very_large_text lfl ltr"  
+					 data-x="59" 
+					 data-y="66" 
+					 data-speed="500" 
+					 data-start="1300" 
+					 data-easing="easeOutExpo" data-end="9500" data-endspeed="500" >Join the cause and make<br>
+a difference!</div>
+								
+				<div class="tp-caption medium_text lfl ltr"  
+					 data-x="63" 
+					 data-y="201" 
+					 data-speed="500" 
+					 data-start="1800" 
+					 data-easing="easeOutExpo" data-end="5100" data-endspeed="500" >The Cause is a clean and elegant non-profit WordPress theme that</div>
+								
+				<div class="tp-caption medium_text lfl ltr"  
+					 data-x="64" 
+					 data-y="231" 
+					 data-speed="500" 
+					 data-start="2500" 
+					 data-easing="easeOutExpo" data-end="5800" data-endspeed="500" >can be used for a variety of purposes and causes.</div>
+								
+				<div class="tp-caption medium_text lfl ltr"  
+					 data-x="64" 
+					 data-y="201" 
+					 data-speed="500" 
+					 data-start="5800" 
+					 data-easing="easeOutExpo" data-end="9300" data-endspeed="500" >From standard non-profit, charity and activism websites, </div>
+								
+				<div class="tp-caption medium_text lfl ltr"  
+					 data-x="64" 
+					 data-y="231" 
+					 data-speed="500" 
+					 data-start="6400" 
+					 data-easing="easeOutExpo" data-end="9500" data-endspeed="500" >to religious and political organizations...</div>
+								
+				<div class="tp-caption large_text lfl"  
+					 data-x="64" 
+					 data-y="281" 
+					 data-speed="500" 
+					 data-start="7100" 
+					 data-easing="easeOutExpo" data-end="9500" data-endspeed="500" >The Cause is a must have theme.</div>
+								
+				<div class="tp-caption lfb ltb"  
+					 data-x="65" 
+					 data-y="358" 
+					 data-speed="500" 
+					 data-start="5700" 
+					 data-easing="easeOutExpo" data-end="9200" data-endspeed="500" ><a href="http://themeforest.net/item/the-cause-nonprofit-wordpress-theme/3239172?ref=themeblossom"><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_button_get.png" alt="Get theme"></a></div>
+												</li>
+									<li data-transition="random" data-slotamount="7" data-masterspeed="500" >
+						<img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/trans.png"  alt="trans" >
+														
+				<div class="tp-caption very_large_text randomrotate"  
+					 data-x="55" 
+					 data-y="50" 
+					 data-speed="500" 
+					 data-start="700" 
+					 data-easing="easeOutExpo"  >The Cause Features</div>
+								
+				<div class="tp-caption randomrotate ltt"  
+					 data-x="195" 
+					 data-y="124" 
+					 data-speed="500" 
+					 data-start="1000" 
+					 data-easing="easeOutExpo" data-end="3700" data-endspeed="300" ><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/01_newpreview.jpg" alt="Image 2"></div>
+								
+				<div class="tp-caption big_white lfl ltr"  
+					 data-x="143" 
+					 data-y="212" 
+					 data-speed="300" 
+					 data-start="1200" 
+					 data-easing="easeOutExpo" data-end="4000" data-endspeed="300" >Slider Revolution integrated!</div>
+								
+				<div class="tp-caption big_white lfr ltl"  
+					 data-x="330" 
+					 data-y="255" 
+					 data-speed="500" 
+					 data-start="1400" 
+					 data-easing="easeOutExpo" data-end="4100" data-endspeed="300" >Get $15 worth premium plugin</div>
+								
+				<div class="tp-caption big_white lfb ltb"  
+					 data-x="577" 
+					 data-y="298" 
+					 data-speed="500" 
+					 data-start="1600" 
+					 data-easing="easeOutExpo" data-end="4200" data-endspeed="300" >for FREE!</div>
+								
+				<div class="tp-caption randomrotate randomrotateout"  
+					 data-x="195" 
+					 data-y="124" 
+					 data-speed="500" 
+					 data-start="7100" 
+					 data-easing="easeOutExpo" data-end="9500" data-endspeed="500" ><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_woo.jpg" alt="Image 7"></div>
+								
+				<div class="tp-caption big_white lfl ltr"  
+					 data-x="301" 
+					 data-y="322" 
+					 data-speed="500" 
+					 data-start="7100" 
+					 data-easing="easeOutExpo" data-end="9500" data-endspeed="500" >WooCommerce Ready!</div>
+								
+				<div class="tp-caption randomrotate randomrotateout"  
+					 data-x="195" 
+					 data-y="124" 
+					 data-speed="500" 
+					 data-start="4200" 
+					 data-easing="easeOutExpo" data-end="6600" data-endspeed="500" ><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_ewdp.jpg" alt="Image 9"></div>
+								
+				<div class="tp-caption big_white lfr ltl"  
+					 data-x="165" 
+					 data-y="254" 
+					 data-speed="700" 
+					 data-start="4200" 
+					 data-easing="easeOutExpo" data-end="6600" data-endspeed="500" >Easy WordPress Donations Plugin Ready!</div>
+												</li>
+									<li data-transition="random" data-slotamount="7" data-masterspeed="500" >
+						<img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/trans.png"  alt="trans" >
+														
+				<div class="tp-caption very_large_text sfl"  
+					 data-x="31" 
+					 data-y="70" 
+					 data-speed="500" 
+					 data-start="1400" 
+					 data-easing="easeOutExpo"  >Ideal for Political Movements</div>
+								
+				<div class="tp-caption medium_text lfl"  
+					 data-x="34" 
+					 data-y="152" 
+					 data-speed="500" 
+					 data-start="3300" 
+					 data-easing="easeOutExpo"  >From candidate promotion</div>
+								
+				<div class="tp-caption medium_text sfl"  
+					 data-x="77" 
+					 data-y="179" 
+					 data-speed="500" 
+					 data-start="4400" 
+					 data-easing="easeOutExpo"  >To grassroot movements</div>
+								
+				<div class="tp-caption large_text lfl"  
+					 data-x="36" 
+					 data-y="241" 
+					 data-speed="500" 
+					 data-start="5000" 
+					 data-easing="easeOutExpo"  >The Cause is a theme<br>fit for a President</div>
+								
+				<div class="tp-caption sfb"  
+					 data-x="40" 
+					 data-y="347" 
+					 data-speed="500" 
+					 data-start="4700" 
+					 data-easing="easeOutExpo"  ><a href="http://themeforest.net/item/the-cause-nonprofit-wordpress-theme/3239172?ref=themeblossom"><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_button_get.png" alt="Get theme"></a></div>
+								
+				<div class="tp-caption fade"  
+					 data-x="461" 
+					 data-y="152" 
+					 data-speed="300" 
+					 data-start="2800" 
+					 data-easing="easeOutExpo"  ><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/comp2.png" alt="Image 7"></div>
+												</li>
+									<li data-transition="random" data-slotamount="7" data-masterspeed="500" >
+						<img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/trans.png"  alt="trans" >
+														
+				<div class="tp-caption very_large_text randomrotate"  
+					 data-x="38" 
+					 data-y="82" 
+					 data-speed="500" 
+					 data-start="700" 
+					 data-easing="easeOutExpo"  >The Cause can be spiritual!</div>
+								
+				<div class="tp-caption large_text lfb"  
+					 data-x="48" 
+					 data-y="186" 
+					 data-speed="300" 
+					 data-start="2800" 
+					 data-easing="easeOutExpo"  >Great for churches and<br>religious organizations.</div>
+								
+				<div class="tp-caption lfb"  
+					 data-x="50" 
+					 data-y="309" 
+					 data-speed="500" 
+					 data-start="2500" 
+					 data-easing="easeOutExpo"  ><a href="http://themeforest.net/item/the-cause-nonprofit-wordpress-theme/3239172?ref=themeblossom"><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/tb_button_get.png" alt="Get theme"></a></div>
+								
+				<div class="tp-caption fade"  
+					 data-x="566" 
+					 data-y="121" 
+					 data-speed="300" 
+					 data-start="1700" 
+					 data-easing="easeOutExpo"  ><img src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2013/01/woman.png" alt="Image 7"></div>
+												</li>
+								</ul>
+									<div class="tp-bannertimer"></div>					</div>
+				</div>				
+							
+			<script type="text/javascript">
+
+				var tpj=jQuery;
+				
+									tpj.noConflict();
+								
+				var revapi10;
+				
+				tpj(document).ready(function() {
+				
+				if (tpj.fn.cssOriginal != undefined)
+					tpj.fn.css = tpj.fn.cssOriginal;
+				
+				if(tpj('#rev_slider_10_1').revolution == undefined)
+					revslider_showDoubleJqueryError('#rev_slider_10_1');
+				else
+				   revapi10 = tpj('#rev_slider_10_1').show().revolution(
+					{
+						delay:10000,
+						startwidth:979,
+						startheight:485,
+						hideThumbs:200,
+						
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:4,
+						
+						navigationType:"none",
+						navigationArrows:"nexttobullets",
+						navigationStyle:"round",
+						
+						touchenabled:"on",
+						onHoverStop:"on",
+						
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+								
+						shadow:0,
+						fullWidth:"off",
+
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						shuffle:"off",
+						
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0	
+					});
+				
+				});	//ready
+				
+			</script>
+			
+							<!-- END REVOLUTION SLIDER -->
+				
+        </div></div>
+        <!-- .Slider -->
+					
+        <!-- Content -->
+        <div id="content" class="default extra-green  sidebar-green leftSidebar width1000" style="margin-top: 0 !important;">
+		<div class="fullWidth">
+        
+	<!-- Home -->
+	<div id="home" class="noslider">
+	
+	<div class="left"><h2>Join <span>The</span> cause and make a donation slogan:</h2></div>
+	
+		
+	<div class="right">
+				<a href="http://themeblossom.net/thecause/donations/" title="Donate Now" class="bigButtonExtra roundButton right">Donate Now</a>
+	</div>
+	
+		
+	<div class="clear"></div>
+	
+    </div>
+    <!-- .Home -->
+	
+    <!-- INNER content -->
+    <div id="innerHome"><div>
+	
+	<div id="sidebar">
+	<div class="widget box"><div><h3>Sign Up</h3>		
+		<div id="signUpSuccess"></div>
+		
+		<form id="newsletterForm" action="http://themeblossom.net/thecause/" method="post">
+			<p><input type="text" value="First Name" onfocus="if (this.value == 'First Name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'First Name';}" id="fname" name="fname" class="left">
+			<input type="text" value="Last Name" onfocus="if (this.value == 'Last Name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Last Name';}" id="lname" name="lname" class="right"></p>
+			<p>
+			<input type="text" value="Email" onfocus="if (this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}" id="email" name="email">
+    		<span class="sendingError">Valid Email Required!</span>
+			</p>
+			
+			<input type="hidden" name="tbSignUp" value="1">
+			
+			<p class="center"><input type="submit" class="tinyButton" value="Sign Up"></p>
+		</form>
+		
+		<div class="clear nodisplay"></div></div></div><div class="widget box"><div><h3>Connect With Us</h3><div class="cwu"><div><div><img src="http://www.themeblossom.com/the-cause-idealist/files/2012/10/twitter_icon.png" alt="follow us on twitter"></div><h4>follow us on twitter</h4><p>Sed porttitor risus vulputate urna ultricies quis mollis ipsum aliquam. </p><a href="https://twitter.com/ThemeBlossom">follow us on twitter</a></div></div><div class="cwu"><div><div><img src="http://www.themeblossom.com/the-cause-idealist/files/2012/10/volunteer_icon.png" alt="Become a volunteer"></div><h4>Become a volunteer</h4><p>Sed porttitor risus vulputate urna ultricies quis mollis ipsum aliquam. </p><a href="http://www.themeblossom.net/theCauset/the-issues/">Become a volunteer</a></div></div><div class="cwu"><div><div><img src="http://www.themeblossom.com/the-cause-idealist/files/2012/10/donate_icon.png" alt="Make a donation"></div><h4>Make a donation</h4><p>Sed porttitor risus vulputate urna ultricies quis mollis ipsum aliquam. </p><a href="http://www.themeblossom.net/theCause/donations/">Make a donation</a></div></div><div class="cwu"><div><div><img src="http://www.themeblossom.com/the-cause-idealist/files/2012/10/event_icon.png" alt="attend an event"></div><h4>attend an event</h4><p>Sed porttitor risus vulputate urna ultricies quis mollis ipsum aliquam. </p><a href="http://www.themeblossom.net/theCause/events/">attend an event</a></div></div><div class="clear nodisplay"></div></div></div>	</div>
+	
+	<div id="inner">
+	
+		<div id="homeHighlights">
+	<div>		<div class="center">
+					<a href="http://themeblossom.net/thecause/donations/"><img src="http://www.themeblossom.com/the-cause-idealist/files/2012/10/piggy.png" alt="Donation system"></a>
+					</div>
+		<h3><a href="http://themeblossom.net/thecause/donations/" title="Donation system">Donation system</a></h3>        
+        <p>The Cause WordPress theme is Easy WordPress Donations Plugin ready.</p>
+        
+        <p class="center"><a href="http://themeblossom.net/thecause/donations/" title="donate" class="tinyButton">donate</a></p>
+        
+        </div><div>		<div class="center">
+					<a href="http://themeblossom.net/thecause/shop/"><img src="http://www.themeblossom.com/the-cause-idealist/files/2012/10/basket.png" alt="Campaign Shop"></a>
+					</div>
+		<h3><a href="http://themeblossom.net/thecause/shop/" title="Campaign Shop">Campaign Shop</a></h3>        
+        <p>Sell your promo products - t-shirts, hats, badges, caps. Our theme is Woo Commerce ready!</p>
+        
+        <p class="center"><a href="http://themeblossom.net/thecause/shop/" title="go to store" class="tinyButton">go to store</a></p>
+        
+        </div><div>		<div class="center">
+					<a href="http://themeblossom.net/thecause/events/"><img src="http://www.themeblossom.com/the-cause-idealist/files/2012/10/events.png" alt="Events Manager"></a>
+					</div>
+		<h3><a href="http://themeblossom.net/thecause/events/" title="Events Manager">Events Manager</a></h3>        
+        <p>Promote your cause trough events and tell your fans where they can see you!</p>
+        
+        <p class="center"><a href="http://themeblossom.net/thecause/events/" title="View" class="tinyButton">View</a></p>
+        
+        </div>	</div>
+		
+		<div>
+	<h3>Latest News</h3>
+	
+		
+            	
+		
+    <div class="news dfw">
+			
+						<div class="frame">
+				<div>
+				<a href="http://themeblossom.net/thecause/2012/08/24/far-far-away/" title="Set Up Your Non-Profit  Website with The Cause WordPress Theme">Set Up Your Non-Profit  Website with The Cause WordPress Theme</a>
+				<span class="image" style="background-image: url('http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/08/blog12-618x193.jpg');"></span>
+				<span class="paperClip"></span>
+				
+				<div>
+				
+				<strong>24</strong><br>
+				Aug				
+				</div>
+				</div>
+			</div>
+						
+			<div class="excerpt">
+			<h4>
+				<a href="http://themeblossom.net/thecause/2012/08/24/far-far-away/" title="Set Up Your Non-Profit  Website with The Cause WordPress Theme">Set Up Your Non-Profit  Website with The Cause WordPress Theme</a>
+			</h4>
+			
+			<p class="newsInfo">posted under: <a href="http://themeblossom.net/thecause/category/issues/youth/" title="View all posts in Youth" rel="category tag">Youth</a></p>
+						
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium congue elit id ultrices. Cras id urna non mi facilisis congue. Nunc sed libero nisl. Nulla molestie urna sed tortor elementum posuere. Integer quis metus egestas tortor vehicula vehicula vel sit amet elit. Etiam vel velit ac ipsum posuere venenatis&#8230;. </p>
+			</div>
+			
+	</div>
+	
+	    
+    	
+            	
+		
+    <div class="news dfs">
+			
+						<div class="frame">
+				<div>
+				<a href="http://themeblossom.net/thecause/2012/08/24/li-europan-lingues/" title="Stay on Top of All the Issues and Spread the Word to People">Stay on Top of All the Issues and Spread the Word to People</a>
+				<span class="image" style="background-image: url('http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/08/blog21-147x102.jpg');"></span>
+				<span class="paperClip"></span>
+				
+				<div>
+				
+				<strong>24</strong><br>
+				Aug				
+				</div>
+				</div>
+			</div>
+						
+			<div class="excerpt">
+			<h4>
+				<a href="http://themeblossom.net/thecause/2012/08/24/li-europan-lingues/" title="Stay on Top of All the Issues and Spread the Word to People">Stay on Top of All the Issues and Spread the Word to People</a>
+			</h4>
+			
+			<p class="newsInfo">posted under: <a href="http://themeblossom.net/thecause/category/issues/society/" title="View all posts in Society" rel="category tag">Society</a></p>
+						
+			<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa&#8230; </p>
+			</div>
+			
+	</div>
+	
+	    
+    	
+            	
+		
+    <div class="news dfs">
+			
+						<div class="frame">
+				<div>
+				<a href="http://themeblossom.net/thecause/2012/08/24/lorem-ipsum-2/" title="A Simple Media Gallery Keeps Things Visual">A Simple Media Gallery Keeps Things Visual</a>
+				<span class="image" style="background-image: url('http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/08/blog31-147x102.jpg');"></span>
+				<span class="paperClip"></span>
+				
+				<div>
+				
+				<strong>24</strong><br>
+				Aug				
+				</div>
+				</div>
+			</div>
+						
+			<div class="excerpt">
+			<h4>
+				<a href="http://themeblossom.net/thecause/2012/08/24/lorem-ipsum-2/" title="A Simple Media Gallery Keeps Things Visual">A Simple Media Gallery Keeps Things Visual</a>
+			</h4>
+			
+			<p class="newsInfo">posted under: <a href="http://themeblossom.net/thecause/category/issues/economy/" title="View all posts in Economy" rel="category tag">Economy</a>, <a href="http://themeblossom.net/thecause/category/news/" title="View all posts in News" rel="category tag">News</a></p>
+						
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate&#8230; </p>
+			</div>
+			
+	</div>
+	
+	    
+    	
+            	
+		
+    <div class="news dfs">
+			
+						<div class="frame">
+				<div>
+				<a href="http://themeblossom.net/thecause/2012/08/24/sed-ut-perspiciatis/" title="The Cause is a Flexible Theme that Can Be Used for Different Purposes">The Cause is a Flexible Theme that Can Be Used for Different Purposes</a>
+				<span class="image" style="background-image: url('http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/08/blog42-147x102.jpg');"></span>
+				<span class="paperClip"></span>
+				
+				<div>
+				
+				<strong>24</strong><br>
+				Aug				
+				</div>
+				</div>
+			</div>
+						
+			<div class="excerpt">
+			<h4>
+				<a href="http://themeblossom.net/thecause/2012/08/24/sed-ut-perspiciatis/" title="The Cause is a Flexible Theme that Can Be Used for Different Purposes">The Cause is a Flexible Theme that Can Be Used for Different Purposes</a>
+			</h4>
+			
+			<p class="newsInfo">posted under: <a href="http://themeblossom.net/thecause/category/issues/culture/" title="View all posts in Culture" rel="category tag">Culture</a>, <a href="http://themeblossom.net/thecause/category/news/" title="View all posts in News" rel="category tag">News</a></p>
+						
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui&#8230; </p>
+			</div>
+			
+	</div>
+	
+	    
+    	
+            	
+		
+    <div class="news dfs">
+			
+						<div class="frame">
+				<div>
+				<a href="http://themeblossom.net/thecause/2012/08/24/cicero-2/" title="Woo Commerce Ready">Woo Commerce Ready</a>
+				<span class="image" style="background-image: url('http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/08/woocommerce-147x102.jpg');"></span>
+				<span class="paperClip"></span>
+				
+				<div>
+				
+				<strong>24</strong><br>
+				Aug				
+				</div>
+				</div>
+			</div>
+						
+			<div class="excerpt">
+			<h4>
+				<a href="http://themeblossom.net/thecause/2012/08/24/cicero-2/" title="Woo Commerce Ready">Woo Commerce Ready</a>
+			</h4>
+			
+			<p class="newsInfo">posted under: <a href="http://themeblossom.net/thecause/category/news/" title="View all posts in News" rel="category tag">News</a></p>
+						
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium congue elit id ultrices. Cras id urna non mi facilisis congue. Nunc sed libero nisl. Nulla molestie urna sed tortor elementum posuere. Integer quis metus egestas tortor vehicula vehicula vel sit amet elit. Etiam vel velit ac ipsum posuere venenatis&#8230;. </p>
+			</div>
+			
+	</div>
+	
+	    
+        
+    	
+	</div>	
+		<div>
+
+	
+            
+    <h3>Latest Videos</h3>
+	
+	<div id="homeVideo"><div class="slides_container">
+	
+		
+		
+						
+				
+				
+		        
+		
+		    
+    	
+						
+				
+				
+		        
+		
+		    
+    	
+						
+				
+				
+		        
+		
+		    
+    	
+						
+				
+				
+		        
+		
+		    
+    	
+	
+    	<div class="video">
+        	<div class="player">
+	        	<a href="http://www.youtube.com/watch?v=AV48vINy134" title="6 custom post types">
+	            	<img width="444" height="237" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video4-444x237.jpg" class="attachment-videoWide wp-post-image" alt="6 custom post types" title="6 custom post types" />	            </a>
+            </div>
+            
+            <div>
+                <h4>6 custom post types</h4>
+                <div class="newsInfo">Wednesday, October 10th, 2012 @ 1:42AM</div>
+                
+                <p>The European languages are members of the same family. Their separate existence is a myth.</p>
+<p>For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one</p>
+            </div>
+        </div>
+				
+	
+    	<div class="video">
+        	<div class="player">
+	        	<a href="http://www.youtube.com/watch?v=AV48vINy134" title="13 custom widgets">
+	            	<img width="444" height="237" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video3-444x237.jpg" class="attachment-videoWide wp-post-image" alt="13 custom widgets" title="13 custom widgets" />	            </a>
+            </div>
+            
+            <div>
+                <h4>13 custom widgets</h4>
+                <div class="newsInfo">Wednesday, October 10th, 2012 @ 1:41AM</div>
+                
+                <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.</p>
+<p>Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa</p>
+            </div>
+        </div>
+				
+	
+    	<div class="video">
+        	<div class="player">
+	        	<a href="http://www.youtube.com/watch?v=AV48vINy134" title="Unlimited layouts">
+	            	<img width="444" height="237" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video2-444x237.jpg" class="attachment-videoWide wp-post-image" alt="Unlimited layouts" title="Unlimited layouts" />	            </a>
+            </div>
+            
+            <div>
+                <h4>Unlimited layouts</h4>
+                <div class="newsInfo">Wednesday, October 10th, 2012 @ 1:40AM</div>
+                
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui</p>
+            </div>
+        </div>
+				
+	
+    	<div class="video">
+        	<div class="player">
+	        	<a href="http://www.youtube.com/watch?v=AV48vINy134" title="Dozens of admin features">
+	            	<img width="444" height="237" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video1-444x237.jpg" class="attachment-videoWide wp-post-image" alt="Dozens of admin features" title="Dozens of admin features" />	            </a>
+            </div>
+            
+            <div>
+                <h4>Dozens of admin features</h4>
+                <div class="newsInfo">Wednesday, October 10th, 2012 @ 1:39AM</div>
+                
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate</p>
+            </div>
+        </div>
+				
+		
+
+	
+	</div>
+	
+	<ul class="videoPagination">
+	
+    	<li><a href="#"><img width="147" height="102" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video4-147x102.jpg" class="attachment-dfs wp-post-image" alt="6 custom post types" title="6 custom post types" /></a></li>
+				
+	
+    	<li><a href="#"><img width="147" height="102" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video3-147x102.jpg" class="attachment-dfs wp-post-image" alt="13 custom widgets" title="13 custom widgets" /></a></li>
+				
+	
+    	<li><a href="#"><img width="147" height="102" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video2-147x102.jpg" class="attachment-dfs wp-post-image" alt="Unlimited layouts" title="Unlimited layouts" /></a></li>
+				
+	
+    	<li><a href="#"><img width="147" height="102" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/10/video1-147x102.jpg" class="attachment-dfs wp-post-image" alt="Dozens of admin features" title="Dozens of admin features" /></a></li>
+				
+		</ul>
+		
+	</div>
+
+	<script>
+		jQuery(document).ready(function($){
+			$('#homeVideo').slides({
+				effect: 'fade',
+				crossfade: true,
+				fadeSpeed: 500,
+				paginationClass: 'videoPagination',
+				generateNextPrev: false,
+				generatePagination: false,
+				autoHeight: true
+			});
+		});
+	</script>
+	
+	    
+    	
+	</div>	
+	
+		
+
+	
+	</div>
+
+    </div></div>
+	<!-- .INNER content -->
+
+
+        </div></div>
+        <!-- .Content -->
+    
+    </div>
+    <!-- .MAIN -->
+
+</div>
+<!-- .CONTENT -->
+
+<!-- FOOTER -->
+<div id="footer" class="width100">
+	<div class="width1000">
+        
+        <div class="container_12">
+        
+        <div class="grid_3">
+		<div class="widget"><h3>About Us</h3><p>The Cause is a clean and elegant non-profit WordPress theme that can be used for a variety of purposes and causes. From standard non-profit, charity and activism websites, to religious and political organizations The Cause is a must have theme.</p>
+<p class="nomargin"><a href="http://themeblossom.net/thecause/biography/">Read more &raquo;</a></p></div><div class="clear"></div>        </div>
+        
+        <div class="grid_3">
+		<div class="widget"><h3>Twitter Activity</h3>
+		<div id="twitter_update_list"></div>
+        
+                        
+        <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/themeblossom.json?callback=twitterCallback2&count=2"></script>
+        
+    	</div><div class="clear"></div>        </div>
+        
+        <div class="grid_3">
+		        
+		<div class="widget latestPosts postList"><h3>Latest Posts</h3>        
+		                
+		<div class="listPost">
+        	        	<a href="http://themeblossom.net/thecause/2012/08/24/far-far-away/" title="Set Up Your Non-Profit  Website with The Cause WordPress Theme" class="thumb"><img width="150" height="150" src="http://themeblossom.net/thecause/wp-content/uploads/sites/5/2012/08/blog12-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="blog1" title="" /></a>
+            			
+        	<h4><a href="http://themeblossom.net/thecause/2012/08/24/far-far-away/" title="Set Up Your Non-Profit  Website with The Cause WordPress Theme">Set Up Your Non-Profit  Website with The Cause WordPress Theme</a></h4>
+                        
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium congue elit id ultrices. Cras id</p>        </div>
+				
+		</div><div class="clear"></div>        </div>
+        
+        <div class="grid_3">
+		<div class="widget"><h3>Contact Details</h3><p>12345 Street Name<br />
+City Name,<br />
+State, Province, 12345 Zip Code<br />
+Country<br><br>Phone: (123) 456-789<br>Office: <a href='mailto:office@example.com'>office@example.com</a><br></p><ul class="footerSoc"><li><a href="http://twitter.com/ThemeBlossom" title="Follow Us on Twitter" class="twitter">Follow Us on Twitter</a></li><li><a href="https://www.facebook.com/pages/Theme-Blossom-Wordpress-Themes/264466700338568" title="Follow Us on Facebook" class="facebook">Follow Us on Facebook</a></li></ul></div><div class="clear"></div>        </div>
+        
+        </div>
+        
+	</div>
+</div>
+<!-- .FOOTER -->
+
+<!-- BOTTOM LINE -->
+<div id="bottomLine" class="width100">
+	<div class="width1000">
+        <div id="bottomNav">
+		<ul id="menu-footer" class=""><li id="menu-item-1092" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item menu-item-1092"><a href="http://themeblossom.net/thecause/">Home</a></li>
+<li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="http://themeblossom.net/thecause/blog/">Blog</a></li>
+<li id="menu-item-1100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1100"><a href="http://themeblossom.net/thecause/media/">Media</a></li>
+<li id="menu-item-1128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1128"><a href="http://themeblossom.net/thecause/events/">Events</a></li>
+<li id="menu-item-1095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1095"><a href="http://themeblossom.net/thecause/faq/">FAQ</a></li>
+<li id="menu-item-1094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1094"><a href="http://themeblossom.net/thecause/contact/">Contact</a></li>
+</ul>        </div>
+        
+        <div id="credits"><span>Copyright © 2012</span> <a href="http://www.themeblossom.com/" title="Theme Blossom">ThemeBlossom.com</a>. <span>All Rights Reserved</span></div>
+	</div>
+</div>
+<!-- .BOTTOM LINE -->
+
+
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=1.6.6'></script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/plugins/woocommerce/assets/js/jquery-plugins.min.js?ver=1.6.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"countries":"{\"AU\":{\"ACT\":\"Australian Capital Territory\",\"NSW\":\"New South Wales\",\"NT\":\"Northern Territory\",\"QLD\":\"Queensland\",\"SA\":\"South Australia\",\"TAS\":\"Tasmania\",\"VIC\":\"Victoria\",\"WA\":\"Western Australia\"},\"AF\":[],\"AT\":[],\"BE\":[],\"BI\":[],\"BR\":{\"AM\":\"Amazonas\",\"AC\":\"Acre\",\"AL\":\"Alagoas\",\"AP\":\"Amap\u00e1\",\"CE\":\"Cear\u00e1\",\"DF\":\"Distrito Federal\",\"ES\":\"Esp\u00edrito Santo\",\"MA\":\"Maranh\u00e3o\",\"PR\":\"Paran\u00e1\",\"PE\":\"Pernambuco\",\"PI\":\"Piau\u00ed\",\"RN\":\"Rio Grande do Norte\",\"RS\":\"Rio Grande do Sul\",\"RO\":\"Rond\u00f4nia\",\"RR\":\"Roraima\",\"SC\":\"Santa Catarina\",\"SE\":\"Sergipe\",\"TO\":\"Tocantins\",\"PA\":\"Par\u00e1\",\"BH\":\"Bahia\",\"GO\":\"Goi\u00e1s\",\"MT\":\"Mato Grosso\",\"MS\":\"Mato Grosso do Sul\",\"RJ\":\"Rio de Janeiro\",\"SP\":\"S\u00e3o Paulo\",\"MG\":\"Minas Gerais\",\"PB\":\"Para\u00edba\"},\"CA\":{\"AB\":\"Alberta\",\"BC\":\"British Columbia\",\"MB\":\"Manitoba\",\"NB\":\"New Brunswick\",\"NF\":\"Newfoundland\",\"NT\":\"Northwest Territories\",\"NS\":\"Nova Scotia\",\"NU\":\"Nunavut\",\"ON\":\"Ontario\",\"PE\":\"Prince Edward Island\",\"QC\":\"Quebec\",\"SK\":\"Saskatchewan\",\"YT\":\"Yukon Territory\"},\"CZ\":[],\"DE\":[],\"DK\":[],\"FI\":[],\"FR\":[],\"HK\":{\"HONG KONG\":\"Hong Kong Island\",\"KOWLOON\":\"Kowloon\",\"NEW TERRITORIES\":\"New Territories\"},\"HU\":[],\"IS\":[],\"IL\":[],\"NL\":{\"DR\":\"Drenthe\",\"FL\":\"Flevoland\",\"FR\":\"Friesland\",\"GLD\":\"Gelderland\",\"GRN\":\"Groningen\",\"LB\":\"Limburg\",\"NB\":\"Noord-Brabant\",\"NH\":\"Noord-Holland\",\"OV\":\"Overijssel\",\"UT\":\"Utrecht\",\"ZLD\":\"Zeeland\",\"ZH\":\"Zuid-Holland\"},\"NZ\":{\"NL\":\"Northland\",\"AK\":\"Auckland\",\"WA\":\"Waikato\",\"BP\":\"Bay of Plenty\",\"TK\":\"Taranaki\",\"HB\":\"Hawke\u2019s Bay\",\"MW\":\"Manawatu-Wanganui\",\"WE\":\"Wellington\",\"NS\":\"Nelson\",\"MB\":\"Marlborough\",\"TM\":\"Tasman\",\"WC\":\"West Coast\",\"CT\":\"Canterbury\",\"OT\":\"Otago\",\"SL\":\"Southland\"},\"NO\":[],\"PL\":[],\"SG\":[],\"SK\":[],\"SI\":[],\"LK\":[],\"SE\":[],\"US\":{\"AL\":\"Alabama\",\"AK\":\"Alaska\",\"AZ\":\"Arizona\",\"AR\":\"Arkansas\",\"CA\":\"California\",\"CO\":\"Colorado\",\"CT\":\"Connecticut\",\"DE\":\"Delaware\",\"DC\":\"District Of Columbia\",\"FL\":\"Florida\",\"GA\":\"Georgia\",\"HI\":\"Hawaii\",\"ID\":\"Idaho\",\"IL\":\"Illinois\",\"IN\":\"Indiana\",\"IA\":\"Iowa\",\"KS\":\"Kansas\",\"KY\":\"Kentucky\",\"LA\":\"Louisiana\",\"ME\":\"Maine\",\"MD\":\"Maryland\",\"MA\":\"Massachusetts\",\"MI\":\"Michigan\",\"MN\":\"Minnesota\",\"MS\":\"Mississippi\",\"MO\":\"Missouri\",\"MT\":\"Montana\",\"NE\":\"Nebraska\",\"NV\":\"Nevada\",\"NH\":\"New Hampshire\",\"NJ\":\"New Jersey\",\"NM\":\"New Mexico\",\"NY\":\"New York\",\"NC\":\"North Carolina\",\"ND\":\"North Dakota\",\"OH\":\"Ohio\",\"OK\":\"Oklahoma\",\"OR\":\"Oregon\",\"PA\":\"Pennsylvania\",\"RI\":\"Rhode Island\",\"SC\":\"South Carolina\",\"SD\":\"South Dakota\",\"TN\":\"Tennessee\",\"TX\":\"Texas\",\"UT\":\"Utah\",\"VT\":\"Vermont\",\"VA\":\"Virginia\",\"WA\":\"Washington\",\"WV\":\"West Virginia\",\"WI\":\"Wisconsin\",\"WY\":\"Wyoming\"},\"USAF\":{\"AA\":\"Americas\",\"AE\":\"Europe\",\"AP\":\"Pacific\"},\"VN\":[]}","select_state_text":"Select an option\u2026","plugin_url":"http:\/\/themeblossom.net\/thecause\/wp-content\/plugins\/woocommerce","ajax_url":"\/\/themeblossom.net\/thecause\/wp-admin\/admin-ajax.php","ajax_loader_url":"http:\/\/themeblossom.net\/thecause\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader.gif","required_rating_text":"Please select a rating","review_rating_required":"yes","required_text":"required","update_order_review_nonce":"fbbb8ce9ae","apply_coupon_nonce":"7a6626cecf","option_guest_checkout":"yes","checkout_url":"\/\/themeblossom.net\/thecause\/wp-admin\/admin-ajax.php?action=woocommerce-checkout","is_checkout":"0","update_shipping_method_nonce":"c18aefa073","add_to_cart_nonce":"0a9790402d"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themeblossom.net/thecause/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=1.6.6'></script>
+
+</body>
+</html>

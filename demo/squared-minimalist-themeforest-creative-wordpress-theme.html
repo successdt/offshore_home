@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Squared WordPress Theme by UDTHEMES</title>
+<link rel="stylesheet" href="index-css/style.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+
+function breakIframe() {
+	if(navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad|android)/)) {
+		var mob_url = 'http://demo.udfrance.com/squared/wordpress/';
+		window.location = mob_url;
+	}
+	if ( window.location != window.parent.location ) {
+		top.location = self.location.href;
+	}
+}
+
+//function to fix height of iframe!
+var calcHeight = function() {
+	var headerDimensions = $('#header-bar').height();
+	$('#preview-frame').height($(window).height() - headerDimensions);
+}
+
+function activateDemoMenu(){
+	$("#demo-select li ul").css({display: "none"});
+	$("#demo-select li").hover(function(){
+		$(this).find('ul:first').stop().fadeTo(200,1, function() { $(this).css({display:'block'}) });
+	},function(){
+		$(this).find('ul:first').stop().fadeTo(500,0, function() { $(this).css({display:'none'}) });
+	});
+}
+
+function activateProductMenu(){
+	$("#product-select li ul").css({display: "none"});
+	$("#product-select li").hover(function(){
+		$(this).find('ul:first').stop().fadeTo(200,1, function() { $(this).css({display:'block'}) });
+	},function(){
+		$(this).find('ul:first').stop().fadeTo(500,0, function() { $(this).css({display:'none'}) });
+	});
+}
+
+$(document).ready(function() {
+	breakIframe();
+	calcHeight();
+	activateDemoMenu();
+	activateProductMenu();
+
+	$('.close-button').click(function() {
+		window.location = $('#preview-frame').attr('src');
+		return false;
+	});
+
+	$('#demo-select ul li a').click(function() {
+		$('#preview-frame').attr('src', $(this).attr('href'));
+		$('#demo-select .demo-select').html('<img src="index-img/ajax-loader.gif" style="float:left; display:block; margin-top:6px;">');
+		$('#demo-select li a').each(function() { $(this).removeClass('active'); });
+		$(this).addClass('active');
+		return false;
+	});
+
+	$('#preview-frame').load(function() { $('#demo-select .demo-select').html('Select Demo'); });
+
+	$('.product-select, .demo-select').click(function() {
+		return false;
+	});
+
+});
+
+$(window).resize(function() {
+	calcHeight();
+}).load(function() {
+	calcHeight();
+});
+
+</script>
+
+</head>
+<body>
+	<div id="header-bar">
+		<a href="http://udthemes.com" title="UDTHEMES - Premuim WordPress Themes" class="logo">
+			<img width="150" title="UDTHEMES - Premuim WordPress Themes" src="index-img/udthemes-logo.png">
+		</a>
+
+		<ul id="product-select">
+			<li>
+				<a href="#" title="Select Product" class="product-select">Select Product</a>
+				<ul>
+					<li><span>WordPress Themes</span></li><li><a href="http://demo.udthemes.com/amplitude/wordpress/" title="Amplitude">Amplitude</a></li><li><a href="http://demo.udthemes.com/cartel/wordpress/" title="Cartel">Cartel</a></li><li><a href="http://demo.udthemes.com/ego/wordpress/" title="Ego">Ego</a></li><li><a href="http://demo.udthemes.com/encore/wordpress/" title="Encore">Encore</a></li><li><a href="http://demo.udthemes.com/squared/wordpress/" title="Squared" class="active">Squared</a></li><li><a href="http://demo.udthemes.com/studio8/wordpress/" title="Studio8">Studio8</a></li><li><a href="http://demo.udthemes.com/voltage/wordpress/" title="Voltage">Voltage</a></li><li><a href="http://demo.udthemes.com/watt/wordpress/" title="Watt">Watt</a></li><li><span>HTML Templates</span></li><li><a href="http://demo.udthemes.com/amplitude/html/" title="Amplitude">Amplitude</a></li><li><a href="http://demo.udthemes.com/cartel/html/" title="Cartel">Cartel</a></li><li><a href="http://demo.udthemes.com/ego/html/" title="Ego">Ego</a></li><li><a href="http://demo.udthemes.com/encore/html/" title="Encore">Encore</a></li><li><a href="http://demo.udthemes.com/squared/html/" title="Squared">Squared</a></li><li><a href="http://demo.udthemes.com/studio8/html/" title="Studio8">Studio8</a></li><li><a href="http://demo.udthemes.com/voltage/html/" title="Voltage">Voltage</a></li><li><a href="http://demo.udthemes.com/watt/html/" title="Watt">Watt</a></li><li><a href="http://demo.udthemes.com/xylon/html/" title="Xylon">Xylon</a></li>				</ul>
+			</li>
+		</ul>
+
+		<ul id="demo-select">
+			<li>
+				<a href="#" title="Select Demo" class="demo-select">Select Demo</a>
+				<ul>
+					<li><a href="http://demo.udfrance.com/squared/wordpress/" title="Squared" class="active">Squared</a></li>				</ul>
+			</li>
+		</ul>
+
+		<a href="#" title="Close This Frame" class="close-button">X</a>
+
+		<a href="http://themeforest.net/item/squared-minimalist-creative-wordpress-theme/2253084?ref=UDTHEMES" title="Buy Theme" class="buy-button">Buy Theme</a>
+	</div>
+	<iframe id="preview-frame" src="http://demo.udfrance.com/squared/wordpress/" name="preview-frame" frameborder="0" noresize="noresize">
+   </iframe>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41434738-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

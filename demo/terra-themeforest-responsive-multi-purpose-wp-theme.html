@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="UTF-8">
+	<title>Terra - Responsive WordPress Theme</title>
+
+	<meta name="description" content="Terra Wordpress Theme - A Premium Responsive Wordpress Template featuring stunningly clean & slick design and tons of customization options." />
+
+	<!-- CSS
+  ================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,600,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic' rel='stylesheet' type='text/css'>	
+	
+	<style type='text/css'>
+		
+			/* #Reset & Basics (Inspired by E. Meyers)
+			================================================== */
+				html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline; }
+				article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+					display: block; }
+				body {
+					line-height: 1; }
+				ol, ul {
+					list-style: none; }
+				blockquote, q {
+					quotes: none; }
+				blockquote:before, blockquote:after,
+				q:before, q:after {
+					content: '';
+					content: none; }
+				table {
+					border-collapse: collapse;
+					border-spacing: 0; }
+
+
+
+			/* #Basic Styles
+			================================================== */
+			body {
+				font: 13px/21px 'Open Sans', arial, sans-serif;
+				color: #666;
+				-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+				-webkit-text-size-adjust: 100%;
+				background: #fff;
+		 }
+		
+	    	a, a:hover, a:focus { 
+				display: block;
+				font-family: 'PT Serif';
+				font-size: 24px;
+				color:#333;
+				text-decoration: none;
+			}
+			a:hover {
+
+			}
+
+			.h {
+				letter-spacing: 1px;
+				margin: 0px;	
+				display: block;
+				position:relative;
+			}
+			
+			#wrapper{
+				width: 940px;
+				margin: 0px auto;
+				text-align: left;
+				}
+		
+			h1{
+				font-family: 'Lato';
+				color:#444;
+				text-align: center;
+				font-weight: 900;
+				letter-spacing: 2px;
+				font-size: 36px;
+				line-height: 40px;
+				text-transform: uppercase;
+				margin: 100px 0 90px;
+			}
+			h3{
+				text-align: left;
+				padding-top: 20px;
+				border-top: 1px solid #eee;
+				line-height: 26px;
+				font-size: 13px;
+			}
+			
+			table {
+				margin-bottom: 60px;
+			}
+			table td {
+				text-align:center;
+			}
+			img {
+				position:relative;
+				margin-bottom: 20px;
+			}
+	</style>	
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		jQuery(document).ready(function($){
+			$('a').hover(
+				function() {
+					$(this).find('img').stop(false, false).animate({ top:'-10' });
+					$(this).find('.h').stop(false, false).animate({ top:'10' });
+				},
+				function() {
+					$(this).find('img').stop(false, false).animate({	top:'0' });
+					$(this).find('.h').stop(false, false).animate({ top:'0' });
+				}
+			);
+		});
+	</script>
+</head>
+
+<body>
+	<div id="wrapper">
+		
+		<h1>Select a Version</h1>
+		
+		<table width="100%">
+			<tr>				<td width="50%"><a href="blue/"><img src="blue.jpg" alt="Blue" /><b class="h">Blue</b></a></td>
+				<td width="50%"><a href="green/"><img src="green.jpg" alt="Green" /><b class="h">Green</b></a></td>
+			</tr>
+		</table>
+
+		<h3><b style="font-weight: bold;">Please close the ThemeForest Frame on top of your screen before continuing for best performance.</b> These versions are created to display a few of the different Style presets available in Terra - WordPress Theme (navigation, colors, portfolio items, footer style etc). Both versions can further be fully modified anyway you please by the tons of customization options available for fonts, colors, style presets, shortcodes etc. </h3>
+ 
+
+		  
+    </div>
+</body>
+</html>	

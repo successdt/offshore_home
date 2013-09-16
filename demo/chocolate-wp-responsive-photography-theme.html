@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" style="background-color: #c7bfac; background-image: url(http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/preset/bg1/default.png); background-repeat: repeat; ">
+<head>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<meta charset="UTF-8" />
+<title>Dark Chocolate </title>
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/style.css" />
+<link rel="pingback" href="http://chocolate.dream-demo.com/wp/xmlrpc.php" />
+
+
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/html5reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/skin.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/wp.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/shortcodes.css" />
+
+
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/media.css" />
+
+
+	<link href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/home.css" rel="stylesheet" type="text/css" />
+			<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/home-media.css" />		
+	
+
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Dark Chocolate &raquo; Feed" href="http://chocolate.dream-demo.com/wp/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Dark Chocolate &raquo; Comments Feed" href="http://chocolate.dream-demo.com/wp/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="Dark Chocolate &raquo; Supersized slider Comments Feed" href="http://chocolate.dream-demo.com/wp/?feed=rss2&#038;page_id=10" />
+<script type='text/javascript' src='http://chocolate.dream-demo.com/wp/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dt_ajax = {"ajaxurl":"http:\/\/chocolate.dream-demo.com\/wp\/wp-admin\/admin-ajax.php","post_id":"10"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=1.7.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://chocolate.dream-demo.com/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://chocolate.dream-demo.com/wp/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Classical slider' href='http://chocolate.dream-demo.com/wp/?page_id=8' />
+<link rel='next' title='Fullscreen image' href='http://chocolate.dream-demo.com/wp/?page_id=12' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='http://chocolate.dream-demo.com/wp/' />
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/plugins/woo-tumblog/functions/swfobject.js"></script><link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/plugins/woo-tumblog/functions/css/tumblog_frontend_styles.css" /><script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/cufon-yui.js"></script>
+
+
+
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/fonts/crimson.font.js"></script>
+
+
+
+<script type="text/javascript">
+Cufon('#nav > li > a', {
+  color: '-linear-gradient(#f5f2eb, 0.5=#f5f2eb, 0.8=#acaaa4, #acaaa4)', textShadow: '-1px -1px #000'/*,
+  hover: {
+	color: '-linear-gradient(#aba197, 0.5=#aba197, 0.8=#887d72, #887d72)', textShadow: '-1px -1px #000'
+  }*/
+});
+Cufon('#nav > li.current_page_item > a, #nav > li.current-menu-item > a', {
+  color: '-linear-gradient(#aba197, 0.5=#aba197, 0.8=#887d72, #887d72)', textShadow: '-1px -1px #000'
+});
+
+jQuery(document).ready(function ($) {
+   var _n = 0;
+   $('.nav > ul > li > a').each(function () {
+      _n++;
+      var idd = "a"+_n;
+      var ee = $(this);
+      ee.attr("id", idd);
+      ee.hover(function () {
+         Cufon.replace( "#"+idd , {
+            color: '-linear-gradient(#aba197, 0.5=#aba197, 0.8=#887d72, #887d72)', textShadow: '-1px -1px #000'
+         });
+         Cufon.now();
+      }, function () {
+         if (
+            $(this).parent().hasClass('current_page_item') ||
+            $(this).parent().hasClass('current-menu-item')
+         )
+            return;
+         Cufon.replace( "#"+idd , {
+            color: '-linear-gradient(#f5f2eb, 0.5=#f5f2eb, 0.8=#acaaa4, #acaaa4)', textShadow: '-1px -1px #000'
+         });
+         Cufon.now();
+      });
+   });
+});
+
+Cufon('.widget .header, .folio_caption, .folio_just_caption', {
+  fontWeight: 'bold',
+  color: '-linear-gradient(#f5f2eb, 0.5=#f5f2eb, 0.8=#acaaa4, #acaaa4)', textShadow: '-1px -1px #000'
+});
+Cufon('._cf, .article h1, .article h2, .article h3, .article h4, .article h5, .article h6', {
+  fontWeight: 'bold',
+  color: '-linear-gradient(#473e2b, 0.4=#473e2b, #1c1a19)', textShadow: '0 1px #fff',
+  hover: {
+	color: '-linear-gradient(#60543a, 0.4=#60543a, #433e3c)', textShadow: '0 1px #fff'
+  }
+});
+Cufon('.quote_author', {
+  fontWeight: 'bold',
+  color: '#221f1c', textShadow: '1px 1px #fff'
+});
+Cufon('.paginator li', {
+  fontWeight: 'bold',
+  color: '-linear-gradient(#f5f2eb, #bfbcb7)', textShadow: '-1px -1px #000'
+});
+Cufon('.paginator li.act', {
+  fontWeight: 'bold',
+  color: '#857d74', textShadow: '-1px -1px #000'
+});
+Cufon('.go_up', {
+  fontWeight: 'bold',
+  color: '-linear-gradient(#f5f2eb, #bfbcb7)', textShadow: '-1px -1px #000'
+});
+Cufon('.article_footer .header', {
+  fontWeight: 'bold',
+  color: '-linear-gradient(#f5f2eb, 0.5=#f5f2eb, 0.8=#acaaa4, #acaaa4)', textShadow: '-1px -1px #000'
+});
+</script>
+
+<script type="text/javascript">
+	var menu_cl=0;
+</script> 
+
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/jquery.transit.js"></script>
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/jquery.masonry.min.js"></script>
+
+<!-- CUSTOM -->
+
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/scripts.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/custom.css" />
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/placeholder/jquery.placeholder.js"></script>
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/validator/jquery.validationEngine.js"></script> 
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/validator/z.trans.en.js"></script> 
+<link href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/validator/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/highslide/highslide-full.js"></script>
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/highslide/highslide.config.js" charset="utf-8"></script> 
+<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/highslide/highslide.mobile.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/highslide/highslide.css" />
+
+
+
+	<link rel="stylesheet" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/supersized.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/css/supersized.shutter.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/supersized.3.2.7.js"></script>
+	<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/jquery.wipetouch.js"></script>
+	<script type="text/javascript" src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/supersized.shutter.js"></script>
+	
+
+<script type="text/javascript">
+	jQuery(function($){
+		$.supersized({
+
+					// Functionality
+					slideshow               :   1,			// Slideshow on/off
+					autoplay				:	1,			// Slideshow starts playing automatically
+					start_slide             :   1,			// Start slide (0 is random)
+					stop_loop				:	0,			// Pauses slideshow on last slide
+					random					: 	0,			// Randomize slide order (Ignores start slide)
+					slide_interval          :   5000,		// Length between transitions
+					transition              :   6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	700,		// Speed of transition
+					new_window				:	1,			// Image links open in new window/tab
+					pause_hover             :   0,			// Pause slideshow on hover
+					keyboard_nav            :   1,			// Keyboard navigation on/off
+					performance				:	0,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+					image_protect			:	1,			// Disables image dragging and right click with Javascript
+															   
+					// Size & Position						   
+					min_width		        :   0,			// Min width allowed (in pixels)
+					min_height		        :   0,			// Min height allowed (in pixels)
+					vertical_center         :   1,			// Vertically center background
+					horizontal_center       :   1,			// Horizontally center background
+					fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+					fit_portrait         	:   1,			// Portrait images will not exceed browser height
+					fit_landscape			:   0,			// Landscape images will not exceed browser width
+															   
+					// Components							
+					thumb_links				:	1,			// Individual thumb links for each slide
+					thumbnail_navigation    :   0,			// Thumbnail navigation
+													   
+			// Components							
+			slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+			slides 					:  	[			// Slideshow Images
+													{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e401.jpg', title : 'Phasellus egestas consectetur est ut viverra. In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e401.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e52.jpg', title : 'Auctor vitae tristique ligula condimentum dolor sit ament unicis.', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e52.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e43.jpg', title : 'In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e43.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e411.jpg', title : 'Phasellus egestas consectetur est ut viverra. In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e411.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e48.jpg', title : 'Et libero auctor vitae tristique ligula condimentum dolor sit ament unicis.', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e48.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e47.jpg', title : 'Nam scelerisque quam et libero auctor vitae tristique ligula condimentum dolor sit ament unicis.', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e47.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e60.jpg', title : 'Tibero auctor vitae tristique ligula!', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e60.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e371.jpg', title : 'Phasellus egestas consectetur est ut viverra. In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e371.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e341.jpg', title : 'Rviverra. In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e341.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e321.jpg', title : 'Phasellus egestas consectetur est ut viverra. In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e321.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e311.jpg', title : 'Phasellus egestas consectetur est ut viverra. In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e311.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e101.jpg', title : 'Nulla rhoncus augue nec purus faucibus ut facilisis justo semper.', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e101.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e42.jpg', title : 'Nulla rhoncus augue nec purus faucibus ut facilisis justo semper.', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e42.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e49.jpg', title : 'Ebero auctor vitae tristique ligula condimentum dolor.', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e49.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e51.jpg', title : 'Nulla rhoncus augue nec purus faucibus ut facilisis justo semper.', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e51.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e331.jpg', title : 'Est ut viverra. In fermentum lorem sed!', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e331.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e61.jpg', title : 'Thoncus augue nec purus faucibus ut facilisis just!', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e61.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e511.jpg', title : 'Nam scelerisque quam et libero auctor!', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e511.jpg&amp;w=102&amp;h=62zc=1', url : ''}, 		{image : 'http://chocolate.dream-demo.com/wp/wp-content/uploads/2012/07/e111.jpg', title : 'Phasellus egestas consectetur est ut viverra. In fermentum lorem sed tortor tincidunt rutrum', thumb : 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/2012/07/e111.jpg&amp;w=102&amp;h=62zc=1', url : ''}										]
+			
+		});
+
+	});
+	Cufon('#slidecounter > span', {
+		color: '-linear-gradient(#4a443c, #7a6d5c)', textShadow: '1px 1px #000'
+	});
+	Cufon('#slidecaption', {
+		color: '-linear-gradient(#bfbcb7, #f5f2eb)', textShadow: '1px 1px #000'
+	});
+</script>
+	
+
+
+<script>
+	// DO NOT REMOVE!
+	// b21add52a799de0d40073fd36f7d1f89
+	hs.graphicsDir = 'http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/js/plugins/highslide/graphics/';
+</script>
+<!-- END CUSTOM -->
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="css/old_ie.css" />
+<![endif]-->
+
+<script>
+	// DT: Here goes trigger to show widgets in mobile layout 
+	window.moveWidgets = false;
+	
+	window.ResizeTurnOff = false;
+</script>
+
+</head>
+<body class="home page page-id-10 page-child parent-pageid-4 page-template page-template-home-slider-php home" style="background-image: url(http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/preset/bg2/default.png);background-repeat: repeat; ">
+
+
+	<div id="bg">
+	
+		<div id="header-mobile">
+		<!-- DT: mobile logo goes here: begin -->
+			<a href="http://chocolate.dream-demo.com/wp/" title="Dark Chocolate" id="logo-mobile">
+			  				 <img src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/images/logo-mobile.png" alt="" />
+			  			</a>
+		<!-- DT: mobile logo goes here: end -->
+			<select><option data-level="1" value="http://chocolate.dream-demo.com/wp/" selected>Homepages<span></span></option><option data-level="2" value="http://chocolate.dream-demo.com/wp/?page_id=6">3D slider</option><option data-level="2" value="http://chocolate.dream-demo.com/wp/" selected>Supersized slider</option><option data-level="2" value="http://chocolate.dream-demo.com/wp/?page_id=8">Classical slider</option><option data-level="2" value="http://chocolate.dream-demo.com/wp/?page_id=17">Self-hosted video</option><option data-level="2" value="http://chocolate.dream-demo.com/wp/?page_id=871">YouTube video</option><option data-level="2" value="http://chocolate.dream-demo.com/wp/?page_id=12">Fullscreen image</option><option data-level="1" value="http://chocolate.dream-demo.com/wp/?page_id=20">Blog</option><option data-level="1" value="http://chocolate.dream-demo.com/wp/?page_id=22">Portfolio</option><option data-level="1" value="http://chocolate.dream-demo.com/wp/?page_id=24">Photo albums</option><option data-level="1" value="http://chocolate.dream-demo.com/wp/?page_id=27">Photos</option><option data-level="1" value="http://chocolate.dream-demo.com/wp/?page_id=32">Shortcodes</option><option data-level="1" value="http://chocolate.dream-demo.com/wp/?page_id=29">Contact</option></select>		</div>
+
+
+<div id="top_bg">
+  <div id="top">
+    <div>
+          </div>
+    <form method="get" class="c_search" action="http://chocolate.dream-demo.com/wp/" >
+   <input name="s" type="text" value="" placeholder="Search..." />
+   <a href="#go-search" onClick="jQuery('.c_search').submit(); return false;"></a>
+</form>
+  </div>
+</div>
+<div id="holder" class="slide">
+  <div id="aside">
+    <div id="aside_t"></div>
+    <div id="aside_c">
+
+      <div id="logo">
+        <a href="http://chocolate.dream-demo.com/wp/" title="Dark Chocolate">
+                       <img src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp/wp-content/uploads/dt_uploads/1342187762_logo.png&amp;w=220&amp;zc=0&amp;q=100&amp;nores=1" alt="" />
+                  </a>
+      </div>
+      
+      <div class="nav"><ul id="nav"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-882 act first"><a href="http://chocolate.dream-demo.com/wp/" >Homepages<span></span></a><div><ul class="children"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-881 first"><a href="http://chocolate.dream-demo.com/wp/?page_id=6" >3D slider</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-879 act"><a href="http://chocolate.dream-demo.com/wp/" >Supersized slider</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-880"><a href="http://chocolate.dream-demo.com/wp/?page_id=8" >Classical slider</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-877"><a href="http://chocolate.dream-demo.com/wp/?page_id=17" >Self-hosted video</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="http://chocolate.dream-demo.com/wp/?page_id=871" >YouTube video</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878"><a href="http://chocolate.dream-demo.com/wp/?page_id=12" >Fullscreen image</a></li></ul><i></i></div></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-888"><a href="http://chocolate.dream-demo.com/wp/?page_id=20" >Blog</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-887"><a href="http://chocolate.dream-demo.com/wp/?page_id=22" >Portfolio</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-886"><a href="http://chocolate.dream-demo.com/wp/?page_id=24" >Photo albums</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-885"><a href="http://chocolate.dream-demo.com/wp/?page_id=27" >Photos</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a href="http://chocolate.dream-demo.com/wp/?page_id=32" >Shortcodes</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="http://chocolate.dream-demo.com/wp/?page_id=29" >Contact</a></li></ul></div>      
+      <div id="widget-container">
+<div class="widget"><div class="header">Chocolate v 3.0</div><span class="alignleft"><img src="http://chocolate.dream-demo.com/wp/wp-content/themes/dt-chocolate/thumb.php?src=/wp-content/uploads/2012/07/x222.jpg&w=220&h=210&zc=1&nores=1" width="60" height="60" /></span>What's new: fully responsive layout, awesome 3D slideshow, easy gallery management, new options and minor bug fixes.</div></div>
+
+    </div>
+    <div id="aside_b"></div>
+  </div>
+<div id="prevthumb"></div>
+<div id="nextthumb"></div>
+
+<!--Arrow Navigation-->
+<a id="prevslide" class="load-item"></a>
+<a id="nextslide" class="load-item"></a>
+
+<div id="thumb-tray" class="load-item">
+	<div id="thumb-back"></div>
+	<div id="thumb-forward"></div>
+</div>
+
+<!--Time Bar-->
+<!--<div id="progress-back" class="load-item">
+	<div id="progress-bar"></div>
+</div>-->
+
+	<div id="big-mask"></div>
+
+<!--Control Bar-->
+<div id="controls-wrapper" class="load-item">
+	<div id="controls">
+
+		<!--Slide counter-->
+		<div id="slidecounter">
+			<span class="slidenumber"></span> / <span class="totalslides"></span>
+		</div>
+		
+		<!--Slide captions displayed here-->
+		<div id="slidecaption"></div>
+		
+		<!--Thumb Tray button-->
+		<div class="but-play">
+			<a id="play-button"></a>
+			<a id="tray-button"></a>
+		</div>
+		
+		<!--Navigation-->
+		<ul id="slide-list"></ul>
+		
+	</div>
+</div>
+
+	</div>
+
+</div>
+
+
+</body>
+</html>

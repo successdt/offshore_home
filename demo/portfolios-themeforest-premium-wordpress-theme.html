@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Select a theme version</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        
+        
+        <!-- Google fonts -->    
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+
+        
+        <style>
+            
+  
+          
+            html { 
+                
+                background-position: center ;
+            }
+            
+            body {
+                    font-family: 'Open Sans', arial, sans-serif;
+                    font-size: 24px;
+                    color:white;
+                    line-height: 20px;
+                    font-weight: 300;
+                    
+                    background: url('bg.jpg') repeat black; 
+                    
+            }
+            
+            
+          
+            a {
+                -o-transition: all 0.4s;
+                -webkit-transition: all 0.4s;
+                -moz-transition: all 0.4s;
+                transition: all 0.4s;
+            }
+            a:hover {
+                opacity: 0.9;
+            }
+            
+            .ipads {
+                margin-top:100px
+            }
+           
+            /* tablet portrait */
+            @media (max-height: 767px) {
+                
+                .ipads {
+                    margin-top:10px
+                }
+            }
+            
+        </style>
+         
+		<script>
+		if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
+			if (top != self) { top.location.replace(self.location.href); }
+		}
+		</script>
+        
+    </head>
+    <body>
+        
+        
+        <div class="container">
+                        
+            
+            
+            <div class="row ipads" style="">
+                <div class="span6" style="text-align: right">
+						<a href="http://tagdiv.com/theme/portfolios_white"><img src="white.png"/></a>
+                    	
+                </div>
+                <div class="span6" style="text-align: left">
+                    	<a href="http://tagdiv.com/theme/portfolios_black"><img src="black.png"/></a>
+                </div>
+                 
+            </div>
+            
+           
+            
+        </div>
+        
+        <script type="text/javascript">
+                var analyticsFileTypes = [''];
+                var analyticsEventTracking = 'enabled';
+        </script>
+        <script type="text/javascript">
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-28130752-1']);
+                _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google 
+                _gaq.push(['_trackPageview']);
+                _gaq.push(['_trackPageLoadTime']);
+
+                (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+        </script>
+
+        
+    </body>
+</html>

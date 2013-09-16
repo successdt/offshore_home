@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>OpenHouse and Automotiv Themes</title>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<script>
+
+$(document).ready(function() {	
+	
+	//Put in the DIV id you want to display
+	launchWindow('#dialog1');
+	
+	//if close button is clicked
+	$('.window #close').click(function () {
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});			
+	
+});
+
+function launchWindow(id) {
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height());
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 
+	
+
+}
+
+</script>
+
+<style>
+body {
+font-family:verdana;
+font-size:15px;
+}
+
+a {color:#333; text-decoration:none}
+a:hover {color:#666666; text-decoration:none}
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+
+
+#boxes #dialog1 {
+  width:375px; 
+  height:220px;
+  padding: 20px;
+  background: gray;
+}
+
+#openhouse {
+	background: white url(images/switcher_openhouse.jpg) no-repeat 10px center;
+}
+
+#automotiv {
+	background: white url(images/switcher_automotiv.jpg) no-repeat 10px center;
+}
+
+
+#openhouse, #automotiv {
+	clear: both;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-left: 100px;
+	height: 80px;
+	line-height: 80px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="boxes">
+
+  
+<!-- Start of Login Dialog -->  
+<div id="dialog1" class="window">
+<div id="openhouse">
+<a href="http://www.informatik.com/themeforest/openhouse2">OpenHouse Theme (Real Estate)</a>
+</div>
+
+<div id="automotiv">
+<a href="http://www.buchmanndesign.com/automotiv">Automotiv Theme (Car Dealership)</a>
+</div>
+
+</div>
+<!-- End of Login Dialog -->  
+
+
+
+<!-- Mask to cover the whole screen -->
+  <div id="mask"></div>
+</div>
+
+
+
+</body>
+</html>

@@ -7,7 +7,7 @@ class CheckController extends AppController {
 	public $components = array('Email');
 	
 	public function index(){
-		set_time_limit(0);
+		set_time_limit(1800);
 		$result = array();
 		
 		$args = array(
@@ -68,144 +68,14 @@ class CheckController extends AppController {
 				'link' => '.contentheading a',
 				'title' => '.contentheading a',
 				'content' => '.article-content > div',
-				'category' => '25'
-			),
-			/* 
-			 
-			array(
-				'name' => 'http://thuvien.mobi',
-				'page-link' => array(
-					'http://thuvien.mobi/category/anh-nong/page/3',
-					'http://thuvien.mobi/category/anh-nong/page/2',
-					'http://thuvien.mobi/category/anh-nong',				
-				), 
-				'link' => 'h2.entry-title a',
-				'title' => ' h1.entry-title',
-				'content' => '.entry .entry-content',
-				'category' => '10'
-			),
-			array(
-				'name' => 'http://www.vietgiaitri.com/',
-				'page-link' => array(
-					'http://www.vietgiaitri.com/category/super-star/sao-viet/',
-					'http://www.vietgiaitri.com/category/super-star/sao-chau-a/',
-				), 
-				'link' => '.post-content-archive h3 a',
-				'title' => '.post-content h1',
-				'content' => '.entry div[itemprop="articleBody"]',
-				'category' => '4'
-			),
-			array(
-				'name' => 'http://www.vietgiaitri.com/',
-				'page-link' => array(
-					'http://www.vietgiaitri.com/category/dep-xinh/nguoi-dep/page/5/',
-					'http://www.vietgiaitri.com/category/dep-xinh/nguoi-dep/page/4/',
-					'http://www.vietgiaitri.com/category/dep-xinh/nguoi-dep/page/3/',
-					'http://www.vietgiaitri.com/category/dep-xinh/nguoi-dep/page/2/',
-					'http://www.vietgiaitri.com/category/dep-xinh/nguoi-dep/',
-				), 
-				'link' => '.post-content-archive h3 a',
-				'title' => '.post-content h1',
-				'content' => '.entry div[itemprop="articleBody"]',
-				'category' => '9'
-			),
-			array(
-				'name' => 'http://www.tapchidanong.org',
-				'page-link' => array(
-					'http://www.tapchidanong.org/brands/Anh-girl-xinh.html?page=3&sort=newest',
-					'http://www.tapchidanong.org/brands/Anh-girl-xinh.html?page=2&sort=newest',
-					'http://www.tapchidanong.org/brands/Anh-girl-xinh.html',				
-				), 
-				'link' => '.ProductDetails a',
-				'title' => '.Description h2',
-				'content' => '#ProductDescription',
-				'category' => '10'
-			),
-			array(
-				'name' => 'http://hn.eva.vn',
-				'page-link' => array(
-					'http://hn.eva.vn/bi-mat-eva-c6.html',
-					'http://hn.eva.vn/bi-mat-adam-c5.html',
-					'http://hn.eva.vn/nghe-thuat-yeu-c54.html',			
-				), 
-				'link' => '.div_title_news a',
-				'title' => 'h1.title_sapo_news span',
-				'content' => '#baiviet-container',
-				'category' => '16'
-			),
-			array(
-				'name' => 'http://www.doctruyen360.com',
-				'page-link' => array(
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/10/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/9/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/8/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/7/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/6/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/5/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/4/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/3/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen/page/2/',
-					'http://www.doctruyen360.com/tag/truyen-tinh-tuoi-teen',			
-				), 
-				'link' => 'h2.title a',
-				'title' => '.metainfo h1 a',
-				'content' => 'div.dtct1072',
-				'category' => '17'
-			),
-			
-			array(
-				'name' => 'http://www.doctruyen360.com',
-				'page-link' => array(
-					'http://www.doctruyen360.com/truyen-cuoi-cuc-hay/page/3/',
-					'http://www.doctruyen360.com/truyen-cuoi-cuc-hay/page/2/',
-					'http://www.doctruyen360.com/truyen-cuoi-cuc-hay/',			
-				), 
-				'link' => 'h2.title a',
-				'title' => '.metainfo h1 a',
-				'content' => 'div.27976',
-				'category' => '18'
-			),
-			array(
-				'name' => 'http://truyenhay.vn',
-				'page-link' => array(
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/10',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/9',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/8',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/7',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/6',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/5',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/4',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/3',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song/page/2',
-					'http://truyenhay.vn/category/truyen-ngan/cau-chuyen-cuoc-song',		
-				), 
-				'link' => '.hentry h2 a',
-				'title' => '.hentry  h2',
-				'content' => '.entrypost',
-				'category' => '19'
-			),
-			array(
-				'name' => 'http://vnexpress.net',
-				'page-link' => array(
-					'http://vnexpress.net/tin-tuc/tam-su/page/3.html',
-					'http://vnexpress.net/tin-tuc/tam-su/page/2.html',
-					'http://vnexpress.net/tin-tuc/tam-su',			
-				), 
-				'link' => 'h2 a.link-title14',
-				'title' => 'h1.Title',
-				'content' => '.fck_detail',
-				'category' => '19'
-			),
-			*/
+				'category' => '25',
+				'remove-image' => true
+			)
 		);
 		
 		$stringReplace = array(
 			'doctruyen360.com' => 'gamechonloc.mobi',
 			'doctruyen360@gmail.com' => 'gamechonloc.mobi@gmail.com'
-		);
-		$removeImages = array(
-			'http://www.doctruyen360.com',
-			'http://www.onboom.com/'
 		);
 		
 		foreach($args as $value){
@@ -243,7 +113,7 @@ class CheckController extends AppController {
 								$contentText =  str_replace($strSearch, $strReplace, $contentText);
 							}
 							//remove photos
-							if(in_array($value['name'], $removeImages)){
+							if(isset($value['remove-image']) && $value['remove-image']) {
 								$contentText = preg_replace('/<img[^>]+\>/', '', $contentText);
 							}
 							
@@ -276,11 +146,108 @@ class CheckController extends AppController {
 	}
 	
 	/**
+	 * get template from theme lock
+	 * run this action to get themes
+	 */
+	 
+	public function themelock(){
+		set_time_limit(3600);
+		$themeLock = 'http://www.themelock.com/wordpress/';
+		$pages = array();
+			
+		for($i = 1; $i <= 116; $i++){
+			$pages[] = $this->themelockItems($themeLock . 'page/' . $i);
+		}
+		foreach($pages as $page) {
+			foreach($page as $item){
+				$this->getTemplate($item['title'], $item['url']);
+			}
+			
+		}
+		exit();
+	}
+	
+	private function themelockItems($pageUrl){
+		$html = $this->parse($pageUrl);
+		if($html) {
+			$objHtml = new simple_html_dom();
+			$objHtml->clear();
+			$objHtml->load($html);
+			
+			$items = $objHtml->find('.mcontent_inner');
+			$result = array();
+			
+			foreach($items as $item){
+				$childObj = new simple_html_dom();
+				$childObj->clear();
+				$childObj->load($item->innertext);
+				$title = $childObj->find('.post-title a', 0);
+				$url = $childObj->find('.article a', 0);
+				if(isset($title->innertext) && isset($url->innertext)) {
+					$result[] = array(
+						'title' => $title->innertext,
+						'url' => $url->innertext
+					);					
+				}
+
+			}
+			
+			return $result;
+		}
+		return 0;
+	}
+	
+	private function getTemplate($title, $url){
+		$themeForest = $this->parse($url);
+		if($themeForest) {
+			$objHtml = new simple_html_dom();
+			$objHtml->clear();
+			$objHtml->load($themeForest);
+			$viewUrl = $objHtml->find('#fullscreen a', 0);
+			if(isset($viewUrl->href)){
+				$tempUrl = 'http://themeforest.net' . $viewUrl->href;
+				$tempContent = $this->parse($tempUrl);
+				if($tempContent) {
+					$tempHtml = new simple_html_dom();
+					$tempHtml->clear();
+					$tempHtml->load($tempContent);
+					$templateUrl = $tempHtml->find('#close-button', 0);
+					
+					if(isset($templateUrl->href)){
+						$templateContent = $this->parse($templateUrl->href);
+						if($templateContent) {
+							//$templateContent = preg_replace('/<a(.*)href="([^"]*)"(.*)>/','<a$1href="#"$3>',$templateContent);
+							$file = fopen(WWW_ROOT . 'files/' . $this->convertText($title) . '.html', "w");
+						 	fwrite($file, $templateContent);
+						 	fclose($file);
+						 	
+						 	//save post to DB
+						 	$data = array(
+								'title' => $title,
+								'content' => '<a href="/template-demo?template=' . $this->convertText($title) . '.html' . '" class="button_small" >Xem Demo</a>',
+								'category' => '53',
+								'meta_title' => $title,
+								'meta_description' => '',
+								'meta_keywords' => ''
+								
+							);
+							$this->insertPost($data, 'project', 'pending');	
+						}
+					}				
+				}
+
+				
+				
+			}					
+		}
+	}
+	
+	/**
 	 * insert post to DB
 	 * @author duythanhdao@live.com
 	 */
 	 
-	public function insertPost($data){
+	public function insertPost($data, $postType = 'post', $postStatus = 'publish'){
 		$exist = $this->Post->find('count', array(
 			'conditions' => array('post_title' => $data['title'])
 		));
@@ -294,7 +261,7 @@ class CheckController extends AppController {
 			'post_date_gmt' => date('Y-m-d H:i:s', time()),
 			'post_content' => $data['content'],
 			'post_title' => $data['title'],
-			'post_status' => 'publish',
+			'post_status' => $postStatus,
 			'comment_status' => 'close',
 			'ping_status' => 'open',
 			'post_name' => $this->convertText($data['title']),
@@ -302,7 +269,7 @@ class CheckController extends AppController {
 			'post_modified_gmt' => date('Y-m-d H:i:s', time()),
 			'post_parent' => 0,
 			'menu_order' => 0,
-			'post_type' => 'post',
+			'post_type' => $postType,
 			'comment_count' => 0,
 		);
 		$this->Post->saveAll($postData);
@@ -375,6 +342,7 @@ class CheckController extends AppController {
 	        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 	        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+			curl_setopt($ch, CURLOPT_TIMEOUT, 120);
 	        curl_setopt($ch, CURLOPT_USERAGENT, $agents[$userAgent]);
 	        curl_setopt($ch, CURLOPT_URL, $url);
 	        @$curlResp = curl_exec($ch);
@@ -405,62 +373,5 @@ class CheckController extends AppController {
 		$str = preg_replace('/\W+/', '-', $str);
 		$str = trim($str, '-');
 		return $str;		
-	}
-
-	private function getHtmlContent($name, $keyword, $userId, $timeNumber){
-		$resultUrl = array(
-			'adword' => array(),
-			'normal' => array()
-		);
-		
-		$engine = array(
-			'google' => array(
-				'url' => 'https://www.google.co.jp/search?q=' . $keyword . '&ie=utf-8&oe=utf-8',
-				'ads-container' => '.ads-container .vsc.vsta',
-				'ads-link' => 'h3 a',
-				'link-container' => '.g',
-				'link' => 'h3 a',
-				'ads-title' => 'h3 a',
-				'ads-desc' => '.ads-creative',
-				'title' => 'h3 a+a',
-				'desc' => 'span.st'
-			)
-		);
-		$objHtml = new simple_html_dom();
-		$userAgent = array(
-			'google' => 0,
-			'yahoo' => 0,
-			'google-mobile' => 1,
-			'yahoo-mobile' => 1
-		);
-		$header = $this->parse($engine[$name]['url'], $userAgent[$name]);
-
-		if (!$header)
-			return 0;
-		$objHtml->clear();
-		$objHtml->load($header);
-		
-		$adsContainer = $objHtml->find($engine[$name]['ads-container']);
-		$keyword = urldecode($keyword);
-		foreach($adsContainer as $ad){
-//			$stringUrl = $ad->find($engine[$name]['ads-link'], 0)->href;
-			$stringUrl = 'https://www.google.co.jp' . $ad->find($engine[$name]['ads-link'], 0)->href;
-			if(($name == 'google')) {
-				$title = strip_tags($ad->find($engine[$name]['ads-title'], 1)->innertext());
-			} else {
-				$title = strip_tags($ad->find($engine[$name]['ads-title'], 0)->innertext());
-			}
-			$resultUrl['adword'][] = array(			
-				'url' 	=> html_entity_decode($stringUrl),
-				'title' => $title,
-				'desc' 	=> strip_tags($ad->find($engine[$name]['ads-desc'], 0)->innertext()),
-//				'is_adword' => 1,
-//				'keyword' => $keyword,
-//				'user_id' => $userId,
-//				'engine_name' => $name
-			);
-
-		}
-
 	}
 }

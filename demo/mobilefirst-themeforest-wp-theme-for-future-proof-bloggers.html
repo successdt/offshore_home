@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>MobileFirst - Choose Your Style</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700' rel='stylesheet' type='text/css'>
+	
+	<style>
+	
+	body {
+		background: url(bg.png);
+	}
+	
+	a {
+		color: #ccc;
+		text-decoration: none;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+	.wrap {
+		margin-top: 15%;
+		width: 100%;
+	}
+	.left {
+		width: 45%;
+		float: left;
+		text-align: center;
+		padding-left: 5%;
+	}
+	.right {
+		width: 45%;
+		float: right;
+		text-align: center;
+		padding-right: 5%;
+	}
+	.left:hover img,
+	.right:hover img {
+		margin-top: -3%;
+		
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.left:hover a,
+	.right:hover a {
+		color: #fff;
+	}
+	p {
+		font: 700 2.25rem "open sans";
+		margin: 10px 0;
+	}
+	p small {
+		font: 300 italic 1.25rem "open sans";
+	}
+	@media (max-width: 500px) {
+		.right,
+		.left {
+			float: none;
+			margin: 0 auto;
+			text-align: center;
+			padding: 0;
+		}
+		.right {
+			margin-top: 30px;
+		}
+		p {
+		font: 700 1.25rem "open sans";
+		margin: 10px 0;
+	}
+	p small {
+		font: 300 italic 0.875rem "open sans";
+	}
+	}
+	
+	</style>
+	</head>
+	
+	<body>
+		<div class="wrap">
+		
+			<a href="http://mobilefirst2.djwd.me" target="_blank">
+				<div class="left">
+					<img src="bloody.png" alt="Bloody Version"/>
+					<p>BLOODY VERSION</p>
+					<p><small>Classic Menu + Custom Colors</small></p>
+				</div>
+				
+			</a>
+		
+			<a href="http://mobilefirst.djwd.me" target="_blank">
+				<div class="right">
+					<img src="rounded.png" alt="Rounded Version" />
+					<p>ROUNDED VERSION</p>
+					<p><small>Rounded Menu + Opacity Based Colors</small></p>
+				</div>
+			</a>
+		</div>
+	</body>
+</html>

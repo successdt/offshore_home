@@ -1,0 +1,73 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>66Themes Preview Frame</title>
+  <meta name="description" content="66Themes Preview Frame">
+  <meta name="author" content="66Themes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS: implied media=all -->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css'>
+  <!-- end CSS-->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Page Container -->
+  <div id="container">
+    <!-- Main Content -->
+    <script type="text/javascript">
+    	//Create function for getting url parameters
+    	function GetURLParameter(sParam)
+    	{
+    	    var sPageURL = window.location.search.substring(1);
+    	    var sURLVariables = sPageURL.split('&');
+    	    for (var i = 0; i < sURLVariables.length; i++) 
+    	    {
+    	        var sParameterName = sURLVariables[i].split('=');
+    	        if (sParameterName[0] == sParam) 
+    	        {
+    	            return sParameterName[1];
+    	        }
+    	    }
+    	}
+    	
+    	var currentItemName = (GetURLParameter('item') != undefined) ? GetURLParameter('item') : 'crafty';
+    	
+    	top.location.href = 'http://preview.66themes.net/?item=' + currentItemName;
+    </script>
+    <!--! end of Main Content -->
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts -->
+  <!--[if IE 7]>
+  	<script src="js/libs/lte-ie7.js"></script>
+  <![endif]-->
+  <script src="js/libs/jquery.retina.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+  
+</body>
+</html>

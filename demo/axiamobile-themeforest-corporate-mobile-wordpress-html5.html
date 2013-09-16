@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    
+    <!-- [portable options] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+    <!-- [SEO] -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Lukas Postulka, http://themeforest.net/user/lukepostulka"> 
+        
+    <title>lukepostulka's Live Preview</title>
+        
+    <!-- [loading stylesheets] -->    
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />   
+            
+    <!-- [loading scripts] -->   
+		
+    <script type="text/javascript" src="assets/js/jquery-2.0.3.min.js"></script>
+    
+    <script>
+		jQuery(window).load(function(){
+			
+			var wi = $(window).width();
+			if(wi < 960)  window.location = "http://themes.lukepostulka.net/axiamobile-wordpress/";
+		
+			$(window).resize(function() {
+				var wi = $(window).width();
+				if(wi < 960)  window.location = "http://themes.lukepostulka.net/axiamobile-wordpress/";
+		})
+		
+		});
+
+	</script>
+    
+</head>
+
+    <body>
+    
+    	<section id="page">
+        
+        	<img src="assets/images/text1.png" alt="" id="opening-text" />
+            
+            <a id="buy-link" target="_blank" href="http://themeforest.net/item/axiamobile-corporate-mobile-wordpress-html5/2677648?ref=lukepostulka">
+            	<img src="assets/images/buy-25.png" alt="Buy for 25$" />
+            </a>
+            
+            <img src="assets/images/and.png" alt="" id="and-text" />
+            
+            <a id="follow-link" target="_blank" href="http://themeforest.net/user/lukepostulka/follow">
+            	<img src="assets/images/follow-me.png" alt="Follow me" />
+            </a>
+            
+            <section id="phone">
+                <object id="iframe" width="337" height"502" type="text/html" data="http://themes.lukepostulka.net/axiamobile-wordpress/"></object>
+                <div id="scrollbar-fix"></div>
+            </section>
+            
+        </section> <!-- #page -->
+    </body>
+  
+</html>

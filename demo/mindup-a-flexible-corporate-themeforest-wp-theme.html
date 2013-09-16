@@ -1,0 +1,301 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Designare | Theme: Mindup</title>
+		
+		<link  href="http://fonts.googleapis.com/css?family=Kreon:300,400,700" rel="stylesheet" type="text/css" >
+        
+        <link href="selector/styles.css" rel="stylesheet" media="all" />
+        
+		<!--[if IE]>
+			
+			<style type="text/css">
+			
+				li.purchase a {
+					padding-top: 5px;
+					background-position: 0px -4px;
+				}
+				
+				li.remove_frame a {
+					padding-top: 5px;
+					background-position: 0px -3px;
+				}
+				
+				#theme_select {
+					padding: 8px 8px;
+				}
+				
+				#theme_list {
+					margin-top: 2px;
+				}
+			
+			</style>
+			
+		<![endif]--> 
+		
+		<style type="text/css">
+		
+				
+	
+		li.purchase {
+			padding-top: 18px;
+		}
+		
+		li.purchase a {
+		
+		padding-top: 5px;
+		background-position: 0px -3px;
+		
+		}
+		
+		li.remove_frame {
+			padding-top: 18px;
+		}
+		
+		li.remove_frame a {
+		
+		padding-top: 5px;
+		background-position: 0px -2px;
+		
+		}
+				
+		#theme_select {
+			padding: 7px 8px;
+		}
+		
+				
+		</style>
+	        
+        <script type="text/javascript" src="selector/jquery-1.4.2.min.js"></script>
+        
+        <script type="text/javascript">
+        
+        /*
+var theme_list_open = false;
+        
+        $(document).ready(function () {
+        
+        	function fixHeight () {
+        	
+        	var headerHeight = $("#switcher").height();
+        	        	
+        	$("#iframe").attr("height", (($(window).height() - 10) - headerHeight) + 'px');
+        	
+        	}
+        	
+        	$(window).resize(function () {
+               	
+        		fixHeight();
+        	
+        	}).resize();
+        	
+        	$("#theme_select").click( function () {
+        	
+        		if (theme_list_open == true) {
+        	
+        		$(".center ul li ul").hide();
+        		
+        		theme_list_open = false;
+        		
+        		} else {
+        		
+        		$(".center ul li ul").show();         		
+        		
+        		theme_list_open = true;
+        		
+        		}
+        		
+        		return false;
+        	
+        	});
+        	
+        	$("#theme_list ul li a").click(function () {
+        	
+        	var theme_data = $(this).attr("rel").split(",");
+        	        	
+        	$("li.purchase a").attr("href", theme_data[1]);
+        	$("li.remove_frame a").attr("href", theme_data[0]);
+        	$("#iframe").attr("src", theme_data[0]);
+        	
+        	$("#theme_list a#theme_select").text($(this).text());
+        	
+        	$(".center ul li ul").hide();
+        	
+        	theme_list_open = false;
+        	
+        	return false;
+        	
+        	});
+        
+        });
+*/               
+        </script>
+        
+        <script type="text/javascript">
+        
+       if (top.location != location) {
+		    top.location.href = document.location.href ;
+		}
+        
+        
+        var theme_list_open = false;
+        
+        $(document).ready(function () {
+        	
+        	var links = $("#theme_list ul li a"),
+        		prev_area = $(".preview_picture"),
+        		title_tag = $('title');
+        	
+        	function fixHeight () {
+        	
+	        	var headerHeight = $("#switcher").height();
+	        	$("#iframe").attr("height", (($(window).height()) - headerHeight) + 'px');
+        	
+        	}
+        	
+        	$(window).resize(function () 
+        	{
+        		fixHeight();
+        	
+        	}).resize();
+        	
+        	
+        	$("#theme_select").click( function () 
+        	{
+        		if (theme_list_open == true) 
+        		{
+	        		$(".center ul li ul").hide();
+	        		prev_area.hide();
+	        		theme_list_open = false;
+        		} 
+        		else 
+        		{
+        			var current = $('.hovered_item');
+        			if(current.length)
+        			{
+        				prev_area.css({display:'block'}).html("<img src='" + current.attr("data-image") + "' alt=''/>");
+        			}
+        			$(".center ul li ul").show();         		
+        			theme_list_open = true;
+        		}
+        		return false;
+        	});
+        	
+        	links.click(function () {
+        	
+	        	var current = $(this),
+	        		theme_data = current.attr("data-rel").split(","),
+	        		themename = current.find('.theme_name').text();
+	        	        	
+	        	$("li.purchase a").attr("href", theme_data[1]);
+	        	$("li.remove_frame a").attr("href", theme_data[0]);
+	        	$("#iframe").attr("src", theme_data[0]);
+	        	
+	        	$("#theme_list a#theme_select").text(themename);
+	        	
+	        	$(".center ul li ul").hide();
+	        	prev_area.hide();
+	        	if(title_tag.length && !$.browser.msie) title_tag.text('DesignareThemes / Theme: '+ themename);
+	        	theme_list_open = false;
+	        	
+	        	return false;
+        	
+        	});
+        	
+        	
+        	links.hover(function()
+        	{
+        		var current = $(this);
+        		links.removeClass('hovered_item');
+        		current.addClass('hovered_item');
+        		prev_area.css({display:'block'}).html("<img src='" + current.attr("data-image") + "' alt=''/>");
+        	},
+        	function()
+        	{
+        		
+        	});
+        	
+        
+        });
+        
+        </script>
+         
+</head>
+
+<body>
+
+	<div id="switcher">
+	
+		<div class="center">
+		
+		<ul class="main_list">
+		
+		<li class="logo"><img src="selector/logo.png" alt="" /></li>
+		
+		<li id="theme_list"><a id="theme_select" href="#">Mindup</a>
+		
+			<ul>
+			
+				<li><a href="javascript:;" data-image="http://0.s3.envato.com/files/63127652/01_Preview.__large_preview.png" data-rel="http://designarethemes.com/themes/zapwp,http://themeforest.net/item/zap-responsive-multipurpose-wordpress-theme/5225223?ref=Designare">
+						<span class="theme_name">Zap-wp</span>
+						<span class="theme_type">Corporate</span>
+				</a></li><li><a href="javascript:;" data-image="http://1.s3.envato.com/files/56026896/01_Preview.__large_preview.jpg" data-rel="http://designarethemes.com/themes/flash/intro,http://themeforest.net/item/flash-retina-ready-responsive-parallax-template/4659744?ref=Designare">
+						<span class="theme_name">Flash-html</span>
+						<span class="theme_type">Creative</span>
+				</a></li><li><a href="javascript:;" data-image="http://0.s3.envato.com/files/53211936/01_Preview.__large_preview.png" data-rel="http://designarethemes.com/themes/freshlook-html,http://themeforest.net/item/freshlook-responsive-multipurpose-html5-template/4452404?ref=Designare">
+						<span class="theme_name">Freshlook-html</span>
+						<span class="theme_type">Corporate</span>
+				</a></li><li><a href="javascript:;" data-image="http://3.s3.envato.com/files/47036995/01_Preview.__large_preview.png" data-rel="http://designarethemes.com/themes/freshlookwp,http://themeforest.net/item/freshlook-responsive-multipurpose-wp-theme/3411374?ref=Designare">
+						<span class="theme_name">Freshlook</span>
+						<span class="theme_type">Corporate</span>
+				</a></li><li><a href="javascript:;" data-image="http://0.s3.envato.com/files/47024315/01_Preview.__large_preview.jpg" data-rel="http://designarethemes.com/themes/architecwp,http://themeforest.net/item/architec-architecture-wordpress-theme/681173?ref=Designare">
+						<span class="theme_name">Architec-wp</span>
+						<span class="theme_type">Corporate</span>
+				</a></li><li><a href="javascript:;" data-image="http://1.s3.envato.com/files/33631178/01_Preview.__large_preview.jpg" data-rel="http://designarethemes.com/themes/mindupwp,http://themeforest.net/item/mindup-a-flexible-corporate-wordpress-theme/2911876?ref=Designare">
+						<span class="theme_name">Mindup</span>
+						<span class="theme_type">Corporate</span>
+				</a></li><li><a href="javascript:;" data-image="http://1.s3.envato.com/files/35594853/01_Preview.__large_preview.png" data-rel="http://designarethemes.com/themes/mindupHTML,http://themeforest.net/item/mindup-a-flexible-corporate-html-theme/3076980?ref=Designare">
+						<span class="theme_name">Mindup-html</span>
+						<span class="theme_type">Corporate</span>
+				</a></li><li><a href="javascript:;" data-image="http://1.s3.envato.com/files/27750491/01_Preview.__large_preview.jpg" data-rel="http://designarethemes.com/themes/bloom_skins,http://themeforest.net/item/bloom-responsive-wordpress-theme/2390368?ref=Designare">
+						<span class="theme_name">Bloom</span>
+						<span class="theme_type">Creative</span>
+				</a></li><li><a href="javascript:;" data-image="http://0.s3.envato.com/files/24625755/01_Preview.__large_preview.png" data-rel="http://designarethemes.com/themes/walk,http://themeforest.net/item/walker-ajax-photography-portfolio-wp-theme/1951788?ref=Designare">
+						<span class="theme_name">Walker</span>
+						<span class="theme_type">Creative</span>
+				</a></li><li><a href="javascript:;" data-image="http://0.s3.envato.com/files/12129123/01_Preview.__large_preview.jpg" data-rel="http://designarethemes.com/themes/fully,http://themeforest.net/item/fully-portfoliobusiness-html-theme/full_screen_preview/1001504?ref=Designare">
+						<span class="theme_name">Fully</span>
+						<span class="theme_type">Corporate</span>
+				</a></li><li><a href="javascript:;" data-image="http://1.s3.envato.com/files/18112932/01_Preview.__large_preview.png" data-rel="http://designarethemes.com/themes/architec/light,http://themeforest.net/item/architec-architecture-html-template/526767?ref=Designare">
+						<span class="theme_name">Architec-html</span>
+						<span class="theme_type">Corporate</span>
+				</a></li>				
+			</ul>
+			
+			<div class="preview_picture"></div>
+		
+		</li>	
+		
+		<li class="remove_frame"><a href="http://designarethemes.com/themes/mindupwp">Remove Frame</a></li>
+		
+		<li class="purchase"><a href="http://themeforest.net/item/mindup-a-flexible-corporate-wordpress-theme/2911876?ref=Designare">Purchase</a></li>		
+				
+		
+		</div>
+		
+		</ul>
+		
+		
+	
+	</div>
+	
+    <iframe id="iframe" src="http://designarethemes.com/themes/mindupwp" frameborder="0" width="100%"></iframe>
+    
+</body>
+
+</html>
+

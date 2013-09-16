@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE8"/>
+  <title>Flight - Full Screen Slideshow Portfolio Website Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="Flight is a full screen slideshow portfolio website template by Theme Suite">
+  <meta name="keywords" content="flight, website template, full screen slideshow, portfolio, gallery, html5, css3, cufon, jquery, slide out menu">
+  <link rel="shortcut icon" href="flight/images/icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/msdropdown/dd.css" />
+  <link rel="stylesheet" href="farbtastic.css" type="text/css" />
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" type="text/css" rel="stylesheet">
+  
+  <script src="http://demo.themesuite.com/flight-wp/wp/wp-content/themes/flight/js/modernizr/modernizr.min.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="farbtastic.js"></script>
+  <script src="js/msdropdown/jquery.dd.min.js" type="text/javascript"></script>
+  <script src="panel.js" type="text/javascript"></script>
+  <!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
+  <style type="text/css">
+  html, body, #iframe {
+	 width: 100%; 
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+  }
+  
+  body { overflow-y: hidden; }
+  
+  #pullout-1 { max-height: 750px; }
+  
+  input[type=text] {
+	 font-size: 12px;
+	 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-weight: bold;
+	 width: 55px;
+	 height: 23px;
+	 border: 1px solid #CCC;
+	 float: right;
+	 -webkit-border-radius: 3px;
+  	 -moz-border-radius: 3px;
+	 border-radius: 3px;
+  }
+  
+  h4 {
+	 float: left;
+	 margin-bottom: 0;
+	 margin-top: 8px;
+  }
+  
+  select {
+	 width: 200px; 
+  }
+  
+  .close {
+	 font-size: 14px; 
+	 cursor: pointer;
+	 font-weight: bold;
+	 z-index: 9999999999998;
+  }
+  
+  #newTitle {
+	 width: 200px; 
+  }
+  
+  .color_picker {
+	  width: 193px;
+	  height: 193px;
+	  z-index: 9999999999999;
+  }
+  
+  .checkboxes { margin-left: -3px; }
+  
+  #error {
+	  width: 400px;
+	  height: 150px;
+	  background-color: #FFF;
+  }
+  
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {
+	  .customC {
+		  display: none;
+	  }
+	  
+	  .dd {
+		  width: 150px;
+	  }
+  }
+  </style>
+</head>
+
+<body id="body">
+  
+  <iframe src="wp/index.php" allowtransparency seamless frameborder="0" id="iframe"><center><img src='images/ajax-loader.gif'></center></iframe>
+  <aside id="pullout">
+	<table border='0'>
+    	<tr>
+        	<td>
+            <h3>Logo: </h3> <input type="text" id="newTitle" value="Take: Flight." style="float: left;" />
+            </td>
+            <td>
+            	<span class="checkboxes"><input type="checkbox" id="title_image" name="title_image" checked="checked" /> <label for="title_image">Enable Image Logo</label></span><br />
+                            	<span class="checkboxes"><input type="checkbox" class="hide_body" name="hide_body" id="hide_body" /> <label for="hide_body">Hide Body / Content</label></span>
+            </td>
+        </tr>
+        <tr>
+            <td><h3>Choose a page:</h3>
+            <select id='pagename' style='margin-right: 5px;'><option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=60'>1 Column With Details</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=51'>2 Columns Classic</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=62'>2 Columns With Details</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=56'>3 Columns Classic</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=64'>3 Columns With Details</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=58'>4 Columns Classic</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=66'>4 Columns With Details</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=120'>Blog</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=144'>Contact Us</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=148'>Features Page</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=159'>Gallery</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/index.php'>Homepage</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=206'>Location</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=68'>Portfolios & Projects</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=2'>Sample Page</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=528'>Sample Page</option>
+<option class='change_source' value='http://demo.themesuite.com/flight-wp/wp/?page_id=448'>Slideshow</option>
+</select>            </td>
+            
+            <td>
+            <h3>Background Overlay:</h3>
+            <select id="overlay" style="margin-right:5px;">
+                <option value='none' data-image='images/overlay/none.png'>Overlay 0</option>
+<option value='01' data-image='images/overlay/1.png'>Overlay 1</option>
+<option value='02' data-image='images/overlay/2.png'>Overlay 2</option>
+<option value='03' data-image='images/overlay/3.png'>Overlay 3</option>
+<option value='04' data-image='images/overlay/4.png'>Overlay 4</option>
+<option value='05' data-image='images/overlay/5.png'>Overlay 5</option>
+<option value='06' data-image='images/overlay/6.png'>Overlay 6</option>
+<option value='07' data-image='images/overlay/7.png'>Overlay 7</option>
+<option value='08' data-image='images/overlay/8.png'>Overlay 8</option>
+<option value='09' data-image='images/overlay/9.png'>Overlay 9</option>
+<option value='10' data-image='images/overlay/10.png'>Overlay 10</option>
+<option value='11' data-image='images/overlay/11.png'>Overlay 11</option>
+<option value='12' data-image='images/overlay/12.png'>Overlay 12</option>
+<option value='13' data-image='images/overlay/13.png'>Overlay 13</option>
+<option value='14' data-image='images/overlay/14.png'>Overlay 14</option>
+<option value='15' data-image='images/overlay/15.png'>Overlay 15</option>
+<option value='16' data-image='images/overlay/16.png'>Overlay 16</option>
+    
+            </select>
+            </td>    
+        </tr>
+    	<tr>
+            <td><h3>Menu Position:</h3>
+            <select id="menu_position" style="margin-right: 5px;">
+                <option value='left.css' data-image='images/left.png'>Left</option>
+                <option value='right.css' data-image='images/right.png'>Right</option>
+            </select>
+            
+            </td>
+            <td><h3>Logo Position:</h3>
+            <select id="logo_position">
+                <option value='logo' data-image='images/left.png'>Left</option>
+                <option value='logo-right' data-image='images/right.png'>Right</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+        	<td>
+            	<!-- <button class="erase">Erase Options</button> -->
+                <h3>Font Selector:</h3>
+                <div id="radio" style="width: 220px;">
+                    <input type="radio" id="radio1" name="radio" class='font' value='body' /><label for="radio1">Body</label>
+                    <input type="radio" id="radio2" name="radio" class='font' value='heading' checked="checked" /><label for="radio2">Heading</label>
+                    <input type="radio" id="radio3" name="radio" class='font' value='slogan' /><label for="radio3">Slogan</label>
+                </div>
+             </td>
+             <td>  
+                <div id="dropdown_font">
+                <h3 class='font_label'>Heading Font:</h3>
+                	<select class="font_dropdown" id="heading_dropdown" style="width: 181px;">
+                    	<option value='League Gothic Regular (Default)|default|default'>League Gothic Regular (Default)</option>
+<option value='Abel|sans-serif|http://fonts.googleapis.com/css?family=Abel'>Abel</option>
+<option value='Bangers|cursive|http://fonts.googleapis.com/css?family=Bangers'>Bangers</option>
+<option value='BenchNine|sans-serif|http://fonts.googleapis.com/css?family=BenchNine'>BenchNine</option>
+<option value='Cabin Condensed|sans-serif|http://fonts.googleapis.com/css?family=Cabin+Condensed'>Cabin Condensed</option>
+<option value='Crushed|cursive|http://fonts.googleapis.com/css?family=Crushed'>Crushed</option>
+<option value='Fresca|snas-serif|http://fonts.googleapis.com/css?family=Fresca'>Fresca</option>
+<option value='Jolly Lodger|cursive|http://fonts.googleapis.com/css?family=Jolly+Lodger'>Jolly Lodger</option>
+<option value='Magra|sans-serif|http://fonts.googleapis.com/css?family=Magra'>Magra</option>
+<option value='Open Sans Condensed|sans-serif|http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'>Open Sans Condensed</option>
+<option value='Pompiere|cursive|http://fonts.googleapis.com/css?family=Pompiere'>Pompiere</option>
+<option value='PT Sans Narrow|sans-serif|http://fonts.googleapis.com/css?family=PT+Sans+Narrow'>PT Sans Narrow</option>
+<option value='Ubuntu Condensed|sans-serif|http://fonts.googleapis.com/css?family=Ubuntu+Condensed'>Ubuntu Condensed</option>
+<option value='Voltaire|sans-serif|http://fonts.googleapis.com/css?family=Voltaire'>Voltaire</option>
+                    </select>
+                    
+                    <select class="font_dropdown" id="body_dropdown" style="width: 181px; display: none;">
+                    	<option value='Helvetica Neue (Default)|default|default'>Helvetica Neue (Default)</option>
+<option value='Arimo|sans-serif|http://fonts.googleapis.com/css?family=Arimo'>Arimo</option>
+<option value='Droid Sans|sans-serif|http://fonts.googleapis.com/css?family=Droid+Sans'>Droid Sans</option>
+<option value='Droid Serif|serif|http://fonts.googleapis.com/css?family=Droid+Serif'>Droid Serif</option>
+<option value='Economica|sans-serif|http://fonts.googleapis.com/css?family=Economica'>Economica</option>
+<option value='Lato|sans-serif|http://fonts.googleapis.com/css?family=Lato'>Lato</option>
+<option value='Marvel|sans-serif|http://fonts.googleapis.com/css?family=Marvel'>Marvel</option>
+<option value='Oswald|sans-serif|http://fonts.googleapis.com/css?family=Oswald'>Oswald</option>
+<option value='Open Sans|sans-serif|http://fonts.googleapis.com/css?family=Open+Sans'>Open Sans</option>
+<option value='Open Sans Condensed|sans-serif|http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'>Open Sans Condensed</option>
+<option value='Play|sans-serif|http://fonts.googleapis.com/css?family=Play'>Play</option>
+<option value='PT Sans|sans-serif|http://fonts.googleapis.com/css?family=PT+Sans'>PT Sans</option>
+<option value='PT Sans Narrow|sans-serif|http://fonts.googleapis.com/css?family=PT+Sans+Narrow'>PT Sans Narrow</option>
+<option value='Raleway|sans-serif|http://fonts.googleapis.com/css?family=Raleway'>Raleway</option>
+<option value='Rationale|sans-serif|http://fonts.googleapis.com/css?family=Rationale'>Rationale</option>
+<option value='Source Sans Pro|sans-serif|http://fonts.googleapis.com/css?family=Source+Sans+Pro'>Source Sans Pro</option>
+<option value='Ubuntu|sans-serif|http://fonts.googleapis.com/css?family=Ubuntu'>Ubuntu</option>
+<option value='Ubuntu Condensed|sans-serif|http://fonts.googleapis.com/css?family=Ubuntu+Condensed'>Ubuntu Condensed</option>
+<option value='Yanone Kaffeesatz|sans-serif|http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz'>Yanone Kaffeesatz</option>
+                    </select>
+                    
+                    <select class="font_dropdown" id="slogan_dropdown" style="width: 181px; display: none;">
+                    	<option value='Georgia (Default)|default|default'>Georgia (Default)</option>
+<option value='Archivo Narrow|sans-serif|http://fonts.googleapis.com/css?family=Archivo+Narrow:400italic'>Archivo Narrow</option>
+<option value='Bilbo|cursive|http://fonts.googleapis.com/css?family=Bilbo'>Bilbo</option>
+<option value='Cardo|serif|http://fonts.googleapis.com/css?family=Cardo'>Cardo</option>
+<option value='Dancing Script|cursive|http://fonts.googleapis.com/css?family=Dancing+Script'>Dancing Script</option>
+<option value='Lobster Two|cursive|http://fonts.googleapis.com/css?family=Lobster+Two:400italic'>Lobster Two</option>
+<option value='Open Sans|sans-serif|http://fonts.googleapis.com/css?family=Open+Sans:400italic'>Open Sans</option>
+<option value='Playball|cursive|http://fonts.googleapis.com/css?family=Playball'>Playball</option>
+<option value='PT Sans|sans-serif|http://fonts.googleapis.com/css?family=PT+Sans:400italic'>PT Sans</option>
+<option value='Rochester|cursive|http://fonts.googleapis.com/css?family=Rochester'>Rochester</option>
+<option value='Source Sans Pro|sans-serif|http://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic'>Source Sans Pro</option>
+<option value='Titillum Web|sans-serif|http://fonts.googleapis.com/css?family=Titillium+Web:400italic'>Titillum Web</option>
+<option value='Ubuntu|sans-serif|http://fonts.googleapis.com/css?family=Ubuntu:400italic'>Ubuntu</option>
+<option value='Volkhov|serif|http://fonts.googleapis.com/css?family=Volkhov:400italic'>Volkhov</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+        	<td>
+            	<input type="hidden" disabled="disabled" value="heading" id="font_adjustment" />
+            	<h3 id="font_size">Font Size (Relative):</h3>
+            	<div id="font_size_slider" class='slider' style="width: 200px"></div>
+                <input type="text" id="font_size_input" style="margin-right:25px; margin-top:4px;"/>
+            </td>
+            <td id="rowLineHeight" style="display: none;">
+            	<h3 id="line_height">Line Height:</h3>
+            	<div id="line_height_slider" class='slider'></div>
+                <input type="text" id="line_height_input" style="margin-top:4px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+            	<h3>Color Scheme:</h3>
+                <select id="colorscheme">
+                    <option value='army-green.css' data-image='images/colors/army-green.png'>Army Green</option>
+<option value='autumn-leaves.css' data-image='images/colors/autumn-leaves.png'>Autumn Leaves</option>
+<option value='baby-blue.css' data-image='images/colors/baby-blue.png'>Baby Blue</option>
+<option value='babygirl-pink.css' data-image='images/colors/babygirl-pink.png'>Babygirl Pink</option>
+<option value='banana-popsicle.css' data-image='images/colors/banana-popsicle.png'>Banana Popsicle</option>
+<option value='battleship-gray.css' data-image='images/colors/battleship-gray.png'>Battleship Gray</option>
+<option value='blush-pink.css' data-image='images/colors/blush-pink.png'>Blush Pink</option>
+<option value='burgundy-berry.css' data-image='images/colors/burgundy-berry.png'>Burgundy Berry</option>
+<option value='canary-yellow.css' data-image='images/colors/canary-yellow.png'>Canary Yellow</option>
+<option value='carnation-pink.css' data-image='images/colors/carnation-pink.png'>Carnation Pink</option>
+<option value='celadon-green.css' data-image='images/colors/celadon-green.png'>Celadon Green</option>
+<option value='champagne-toast.css' data-image='images/colors/champagne-toast.png'>Champagne Toast</option>
+<option value='coffee-bean.css' data-image='images/colors/coffee-bean.png'>Coffee Bean</option>
+<option value='coffee-cream.css' data-image='images/colors/coffee-cream.png'>Coffee Cream</option>
+<option value='crayola-fuchsia.css' data-image='images/colors/crayola-fuchsia.png'>Crayola Fuchsia</option>
+<option value='crimson-red.css' data-image='images/colors/crimson-red.png'>Crimson Red</option>
+<option value='espresso-bean.css' data-image='images/colors/espresso-bean.png'>Espresso Bean</option>
+<option value='evening-black.css' data-image='images/colors/evening-black.png'>Evening Black</option>
+<option value='forest-green.css' data-image='images/colors/forest-green.png'>Forest Green</option>
+<option value='giftwrap-red.css' data-image='images/colors/giftwrap-red.png'>Giftwrap Red</option>
+<option value='harvest-gold.css' data-image='images/colors/harvest-gold.png'>Harvest Gold</option>
+<option value='hot-iron.css' data-image='images/colors/hot-iron.png'>Hot Iron</option>
+<option value='hot-pink.css' data-image='images/colors/hot-pink.png'>Hot Pink</option>
+<option value='indigo-blue.css' data-image='images/colors/indigo-blue.png'>Indigo Blue</option>
+<option value='international-orange.css' data-image='images/colors/international-orange.png'>International Orange</option>
+<option value='italian-magenta.css' data-image='images/colors/italian-magenta.png'>Italian Magenta</option>
+<option value='khaki-beige.css' data-image='images/colors/khaki-beige.png'>Khaki Beige</option>
+<option value='lilac-purple.css' data-image='images/colors/lilac-purple.png'>Lilac Purple</option>
+<option value='lime-green.css' data-image='images/colors/lime-green.png'>Lime Green</option>
+<option value='meringue-pie.css' data-image='images/colors/meringue-pie.png'>Meringue Pie</option>
+<option value='midnight-teal.css' data-image='images/colors/midnight-teal.png'>Midnight Teal</option>
+<option value='mint-green.css' data-image='images/colors/mint-green.png'>Mint Green</option>
+<option value='ocean-teal.css' data-image='images/colors/ocean-teal.png'>Ocean Teal</option>
+<option value='old-lavender.css' data-image='images/colors/old-lavender.png'>Old Lavender</option>
+<option value='olive-green.css' data-image='images/colors/olive-green.png'>Olive Green</option>
+<option value='pine-needle.css' data-image='images/colors/pine-needle.png'>Pine Needle</option>
+<option value='prussian-blue.css' data-image='images/colors/prussian-blue.png'>Prussian Blue</option>
+<option value='robins-egg.css' data-image='images/colors/robins-egg.png'>Robins Egg</option>
+<option value='royal-gray.css' data-image='images/colors/royal-gray.png'>Royal Gray</option>
+<option value='sand-beige.css' data-image='images/colors/sand-beige.png'>Sand Beige</option>
+<option value='silver-lining.css' data-image='images/colors/silver-lining.png'>Silver Lining</option>
+<option value='sky-blue.css' data-image='images/colors/sky-blue.png' selected="selected">Sky Blue</option>
+<option value='snow-white.css' data-image='images/colors/snow-white.png'>Snow White</option>
+<option value='soft-red.css' data-image='images/colors/soft-red.png'>Soft Red</option>
+<option value='sterling-silver.css' data-image='images/colors/sterling-silver.png'>Sterling Silver</option>
+<option value='tangerine-orange.css' data-image='images/colors/tangerine-orange.png'>Tangerine Orange</option>
+<option value='timberwolf-beige.css' data-image='images/colors/timberwolf-beige.png'>Timberwolf Beige</option>
+<option value='true-blue.css' data-image='images/colors/true-blue.png'>True Blue</option>
+<option value='violet-purple.css' data-image='images/colors/violet-purple.png'>Violet Purple</option>
+<option value='yale-blue.css' data-image='images/colors/yale-blue.png'>Yale Blue</option>
+                </select>
+            </td>
+            <td>
+                <h3>Luminosity:</h3>
+                <select id="luminosity">
+                    <option value="dark.css" data-image="images/dark_luminosity.png">Dark</option>
+                    <option value="light.css" data-image="images/light_luminosity.png">Light</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <h3 class='customC'>Custom Colors: </h3>
+    <div id="customColors">
+    	<table border='0'>
+            <tr>
+            	<td valign="top" width="229px;"><h4>Menu From: </h4>
+                <form><input type="text" id="input_color_1" class="color_input" name="color" value="#ffffff" style="margin-right: 25px;" /></form>
+                <div style="clear: both"></div>
+                </td>
+                
+                <td valign="top"><h4>Header From: </h4>
+                <form><input type="text" id="input_color_3" class="color_input on_right" name="color" value="#ffffff" /></form>
+                <div style="clear: both"></div>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="229px;"><h4>Menu To: </h4>
+                <form><input type="text" id="input_color_2" class="color_input" name="color" value="#ffffff"  style="margin-right: 25px;" /></form>
+                <div style="clear: both"></div>
+                </td>
+                
+                <td valign="top"><h4>Header To: </h4>
+                <form><input type="text" id="input_color_4" class="color_input on_right" name="color" value="#ffffff" /></form>
+                <div style="clear: both"></div>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="229px;"><h4>Button Color: </h4>
+                <form><input type="text" id="input_color_5" class="color_input" name="color" value="#ffffff" style="margin-right: 25px;" /></form>
+                <div style="clear: both"></div>
+                </td>
+                
+                <td valign="top"><h4>Link Color: </h4>
+                <form><input type="text" id="input_color_7" class="color_input on_right" name="color" value="#ffffff"/></form>
+                <div style="clear: both"></div>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="229px;"><h4>Button Hover Color: </h4>
+                <form><input type="text" id="input_color_6" class="color_input" name="color" value="#ffffff"  style="margin-right: 25px;"  /></form>
+                <div style="clear: both"></div>
+                </td>
+                
+                <td valign="top"><h4>Logo Text Color<br />Border: <input type="checkbox" class="logo_border" checked="checked" /></h4>
+                <form><input type="text" id="input_color_8" class="color_input on_right" name="color" value="#ffffff" /></form>
+                <div style="clear: both"></div>
+                </td>
+            </tr>
+            <tr><td colspan="2"><button class="erase_colors" style="width: 434px;">Erase Custom Colors</button></td></tr>
+            <tr><td colspan="2"><button class="erase" style="width: 434px;">Reset Everything To Defaults</button></td></tr>
+        </table>
+    </div>
+    <div id="color_1" class="color_picker"></div><div id="color_2" class="color_picker"></div><div id="color_3" class="color_picker"></div><div id="color_4" class="color_picker"></div><div id="color_5" class="color_picker"></div><div id="color_6" class="color_picker"></div><div id="color_7" class="color_picker"></div><div id="color_8" class="color_picker"></div>
+  
+  <span class='close' id='close_color_1' style="display: none;">[ X ]</span>
+  <span class='close' id='close_color_2' style="display: none;">[ X ]</span>
+  <span class='close' id='close_color_3' style="display: none;">[ X ]</span>
+  <span class='close' id='close_color_4' style="display: none;">[ X ]</span>
+  <span class='close' id='close_color_5' style="display: none;">[ X ]</span>
+  <span class='close' id='close_color_6' style="display: none;">[ X ]</span>
+  <span class='close' id='close_color_7' style="display: none;">[ X ]</span>
+  <span class='close' id='close_color_8' style="display: none;">[ X ]</span>
+  </aside><!-- end pullout -->
+  <script src="wp/wp-content/themes/flight/js/pullouts/pullout.widgets.js" type="text/javascript"></script>
+  <script src="wp/wp-content/themes/flight/js/jquery/jquery.appear-1.1.1.min.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js" type="text/javascript"></script>
+  <script src="wp/wp-content/themes/flight//js/pullouts/pullouts.min.js" type="text/javascript"></script>
+  
+</body>
+</html>

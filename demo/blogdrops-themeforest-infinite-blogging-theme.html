@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<title>Blogdrops Theme | Just another WordPress site</title>
+
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="pingback" href="http://wpdemo.themnific.com/pre/13/xmlrpc.php" />
+    
+    <!-- load main css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/style.css" media="screen" />
+    
+    <!-- load prettyPhoto css -->
+    <link type="text/css" rel="stylesheet" href="http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/styles/prettyPhoto.css" />
+
+
+
+
+<!-- Themnific Styling -->
+<style type="text/css">
+body,.searchformhead input.s{background-color:#ebebeb}
+
+		.body2,.imageformat
+		{background-color:#333}
+#header{border-color:#333 !important}
+
+		.body3,.nav li ul,span#bg,.nav-previous a
+		{background-color:#ffffff}
+
+		.page-numbers.current,span.ribbon,#submit,#comments .navigation a,.tagssingle a,.contact-form .submit,a.mainbutton,.comment-reply-link{background-color:#EB5C57}
+.X{border-color:#EB5C57 !important}
+.entry a{color:#EB5C57}
+.body1 a, a:link, a:visited,.nav>li>ul>li>a {color:#303030}
+a:hover,.body1 a:hover,#serinfo a:hover,#main-nav>li.current-cat a,#main-nav>li.current_page_item a,
+		#portfolio-filter a.current,li.current-cat a,#portfolio-filter li.active a,
+		.tagline a,a.slant {color:#787878}
+#main-nav>li:hover,#main-nav>li.current-cat,#main-nav>li.current_page_item {border-color:#787878 !important}
+
+		.body2 a,a.body2 {color:#f2f2f2}
+
+		.body2 a:hover,
+		p.body2 a:hover
+		{color:#c7c7c7!important}
+
+		body
+		{background-image:url(http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/images/bg/bg-noise2.png)}
+.searchformhead,#main-nav,#main-nav>li,#singlecontent .tickercontainer,.postauthor,.postinfo,.postlist,#singlecontent,#homecontent h2,#homecenter h2,#homeright h2,h2.widget-single,.fblock,.tabitem,.etabs,.tab,#homecenter_bg,#homecontent,#homecenter,#homeright,.mi-slider nav a,#sidebar,#sidebar h2,ul#serinfo,.searchform input.s,.fullbox,.pagination,input, textarea,input checkbox,input radio,select, file{border-color:#e0e0e0 !important}
+#serinfo-nav li.current{background-color:#e0e0e0}
+.body2,#homecontent .body2 h2, {border-color:#cc1925 !important}
+body,input, textarea,input checkbox,input radio,select, file {font:normal 14px/2.0em Arial;color:#545454}
+.body2 {font:normal 11px/2.2em Arial;color:#ededed}
+.body2 h2,.body2 h3 {color:#ededed}
+h1 {font:normal 22px/1.1em Open Sans;color:#5c5c5c}h2,.nav-previous {font:bold 18px/1.2em Open Sans;color:#5c5c5c}h3 {font:normal 13px/1.5em Open Sans;color:#2e2e2e}p.special {font-family:Open Sans}h4 {font:normal 13px/1.5em Open Sans;color:#212121}.comment-author cite,#portfolio-filter a,.nav>li>a,.mi-slider nav a,#sidebar h2,h2.tagline{font-family:Open Sans}h5 {font:normal 13px/1.5em Open Sans;color:#5c5c5c}h6 {font:normal 13px/1.5em Open Sans;color:#5c5c5c}
+</style>
+<!-- Themnific Mobile & Special CSS -->
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arial|Arial|Open+Sans:300,400,700,800,900|Open+Sans:300,400,700,800,900|Open+Sans:300,400,700,800,900|Open+Sans:300,400,700,800,900|Open+Sans:300,400,700,800,900"/>
+<link href="http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/styles/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/styles/font-awesome-ie7.css" rel="stylesheet" type="text/css" />
+
+<link href="http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/styles/mobile.css" rel="stylesheet" type="text/css" />
+
+<link rel="alternate" type="application/rss+xml" title="Blogdrops Theme &raquo; Feed" href="http://wpdemo.themnific.com/pre/13/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blogdrops Theme &raquo; Comments Feed" href="http://wpdemo.themnific.com/pre/13/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blogdrops Theme &raquo; Home Comments Feed" href="http://wpdemo.themnific.com/pre/13/home/feed/" />
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/functions/js/shortcodes.js?ver=1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wpdemo.themnific.com/pre/13/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wpdemo.themnific.com/pre/13/wp-includes/wlwmanifest.xml" /> 
+<link rel='next' title='Blog' href='http://wpdemo.themnific.com/pre/13/blog-2/' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='http://wpdemo.themnific.com/pre/13/' />
+<link rel="shortcut icon" href="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2013/01/themnific-ico-desat.png"/>
+<!-- Themnific Shortcodes CSS -->
+<link href="http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/functions/css/shortcodes.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+     
+<body class="home page page-id-2126 page-template page-template-homepage-php">
+
+
+
+<header id="header" class="body3 boxshadow">
+
+	<div class="container_alt" style="overflow:visible;"> 
+    
+		                
+            <a href="http://wpdemo.themnific.com/pre/13/">
+            
+                <img class="logo" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2013/01/blogdrops-logo.png" alt="Blogdrops Theme"/>
+                    
+            </a>
+                
+        	
+
+		<nav id="navigation">
+        
+			<ul id="main-nav" class="nav custom-nav"><li id="menu-item-2254" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2126 current_page_item menu-item-2254"><a href="http://wpdemo.themnific.com/pre/13/">Home</a></li>
+<li id="menu-item-2257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2257"><a href="http://wpdemo.themnific.com/pre/13/shortcodes/">Shortcodes</a>
+<ul class="sub-menu">
+	<li id="menu-item-2258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2258"><a href="http://wpdemo.themnific.com/pre/13/shortcodes/buttons-and-links/">Buttons and Links</a></li>
+	<li id="menu-item-2259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2259"><a href="http://wpdemo.themnific.com/pre/13/shortcodes/columns/">Columns</a></li>
+	<li id="menu-item-2260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2260"><a href="http://wpdemo.themnific.com/pre/13/shortcodes/contact-form/">Contact Form</a></li>
+	<li id="menu-item-2261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2261"><a href="http://wpdemo.themnific.com/pre/13/shortcodes/info-box/">Info Box</a></li>
+	<li id="menu-item-2262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2262"><a href="http://wpdemo.themnific.com/pre/13/shortcodes/toggle/">Toggle</a></li>
+	<li id="menu-item-2263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2263"><a href="http://wpdemo.themnific.com/pre/13/shortcodes/typography/">Typography</a></li>
+</ul>
+</li>
+<li id="menu-item-2272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2272"><a href="#">Categories</a>
+<ul class="sub-menu">
+	<li id="menu-item-2264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2264"><a href="http://wpdemo.themnific.com/pre/13/category/audio/">Audio</a></li>
+	<li id="menu-item-2265" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2265"><a href="http://wpdemo.themnific.com/pre/13/category/design/">Design</a></li>
+	<li id="menu-item-2266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2266"><a href="http://wpdemo.themnific.com/pre/13/category/our-lifestyle/">Lifestyle</a></li>
+	<li id="menu-item-2268" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2268"><a href="http://wpdemo.themnific.com/pre/13/category/movies/">Movies</a></li>
+	<li id="menu-item-2269" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2269"><a href="http://wpdemo.themnific.com/pre/13/category/nature/">Nature</a></li>
+	<li id="menu-item-2270" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2270"><a href="http://wpdemo.themnific.com/pre/13/category/photos/">Photos</a></li>
+</ul>
+</li>
+<li id="menu-item-2281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2281"><a href="http://wpdemo.themnific.com/pre/13/features/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-2287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2287"><a href="http://wpdemo.themnific.com/pre/13/blog-2/">Alternative Homepage</a></li>
+	<li id="menu-item-2285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2285"><a href="http://wpdemo.themnific.com/pre/13/category/photos/">Archive Example</a></li>
+	<li id="menu-item-2286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2286"><a href="http://wpdemo.themnific.com/pre/13/author/fictotem/">Author Page</a></li>
+	<li id="menu-item-2282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2282"><a href="http://wpdemo.themnific.com/pre/13/features/error-404/">Error 404</a></li>
+	<li id="menu-item-2284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2284"><a href="http://wpdemo.themnific.com/pre/13/features/full-width/">Full Width</a></li>
+	<li id="menu-item-2283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2283"><a href="http://wpdemo.themnific.com/pre/13/features/redirect/">Redirect</a></li>
+</ul>
+</li>
+<li id="menu-item-2255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2255"><a href="http://wpdemo.themnific.com/pre/13/blog-2/">Blog</a></li>
+<li id="menu-item-2319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2319"><a href="http://themeforest.net/item/blogdrops-infinite-blogging-theme/3937660?ref=Dannci"><i class="icon-download-alt"></i> Purchase</a></li>
+</ul>
+	              
+		</nav>
+        
+ 		<div style="clear: both;"></div>
+        
+    </div> 
+
+ </header>
+ 
+
+<div class="container"> 
+
+	<ul class="medpost">
+          
+        
+              	<li id="slider" class="post boxshadow">              
+            <div class="mainflex flexslider body2">
+            
+                <ul class="slides">
+                
+                    	  
+                    
+                        <li>
+                        	<div class="slider_content">
+								                                                            
+                                <a href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/">
+                                <img width="483" height="400" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/egg-52915_1280-483x400.jpg" class="attachment-flex-main wp-post-image" alt="egg-52915_1280" />                                </a>
+                                 
+                            </div> 
+                            <div style="clear: both;"></div>
+                            <div class="stuff">
+                            
+                                <h1><a href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/">Nor would difference of country make any very...</a></h1>
+                                
+                                <div style="clear: both;"></div>
+                                
+                                    <p class="meta sserif">
+                                    
+                                        308 days ago  | 
+                                        <a href="http://wpdemo.themnific.com/pre/13/category/design/" title="View all posts in Design">Design</a>, <a href="http://wpdemo.themnific.com/pre/13/category/our-lifestyle/graphic/" title="View all posts in Graphic">Graphic</a>                                    
+                                    </p>
+                                
+                                <p class="teaser">Were this world an endless plain, and by sailing eastward we could for ever reach new distances, and discover sights more sweet and strange than any Cyclades or Islands of King...</p>
+                            	                                
+                                
+                            </div>
+                            
+                                <div style="clear: both;"></div>
+                        </li>
+                        
+                    	  
+                    
+                        <li>
+                        	<div class="slider_content">
+								                                                            
+                                <a href="http://wpdemo.themnific.com/pre/13/no-one-in-weybridge-could-tell-us-where-the-headquarters-were-established/">
+                                <img width="483" height="400" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/1395871_19682756-483x400.jpg" class="attachment-flex-main wp-post-image" alt="1395871_19682756" />                                </a>
+                                 
+                            </div> 
+                            <div style="clear: both;"></div>
+                            <div class="stuff">
+                            
+                                <h1><a href="http://wpdemo.themnific.com/pre/13/no-one-in-weybridge-could-tell-us-where-the-headquarters-were-established/">No one in Weybridge could tell us where...</a></h1>
+                                
+                                <div style="clear: both;"></div>
+                                
+                                    <p class="meta sserif">
+                                    
+                                        314 days ago  | 
+                                        <a href="http://wpdemo.themnific.com/pre/13/category/our-lifestyle/" title="View all posts in Lifestyle">Lifestyle</a>                                    
+                                    </p>
+                                
+                                <p class="teaser">Byfleet was in a tumult; people packing, and a score of hussars, some of them dismounted, some on horseback, were hunting them about. Three or four black government waggons, with...</p>
+                            	<span class="ribbon"></span><span class="ribbon_icon"><i class="icon-camera"></i></span>                                
+                                
+                            </div>
+                            
+                                <div style="clear: both;"></div>
+                        </li>
+                        
+                    	  
+                    
+                        <li>
+                        	<div class="slider_content">
+								                                                            
+                                <a href="http://wpdemo.themnific.com/pre/13/freed-from-its-enemy-stopped-short/">
+                                <img width="483" height="400" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/10/hamburg-66668-483x400.jpg" class="attachment-flex-main wp-post-image" alt="hamburg-66668" />                                </a>
+                                 
+                            </div> 
+                            <div style="clear: both;"></div>
+                            <div class="stuff">
+                            
+                                <h1><a href="http://wpdemo.themnific.com/pre/13/freed-from-its-enemy-stopped-short/">Freed from its enemy, stopped short</a></h1>
+                                
+                                <div style="clear: both;"></div>
+                                
+                                    <p class="meta sserif">
+                                    
+                                        350 days ago  | 
+                                        <a href="http://wpdemo.themnific.com/pre/13/category/our-lifestyle/" title="View all posts in Lifestyle">Lifestyle</a>, <a href="http://wpdemo.themnific.com/pre/13/category/photos/" title="View all posts in Photos">Photos</a>                                    
+                                    </p>
+                                
+                                <p class="teaser">The field mouse, now that it was freed from its enemy, stopped short; and coming slowly up to the Woodman it said, in a squeaky little voice: &#8220;Oh, thank you! Thank you ever...</p>
+                            	<span class="ribbon"></span><span class="ribbon_icon"><i class="icon-picture"></i></span>                                
+                                
+                            </div>
+                            
+                                <div style="clear: both;"></div>
+                        </li>
+                        
+                                        
+                </ul>
+                
+            </div>
+    
+                </li>
+                
+                
+        
+              	<li id="slider2" class="post body3 boxshadow">
+
+
+        	
+
+            <div class="flexslider widgetflexslider">
+            <ul class="slides">
+				
+
+			<li>
+					                    
+                        <div class="imgwrap">
+                        
+                             <a href="http://wpdemo.themnific.com/pre/13/the-tin-woodman-gave-a-sigh-of-satisfaction-and-lowered-his-axe/" title="The Tin Woodman gave a sigh of satisfaction and lowered his axe" >
+                             
+                             <img width="210" height="135" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/angle-19887-210x135.jpg" class="attachment-flex-carousel wp-post-image" alt="angle-19887" title="" />                             
+                             </a>
+                             
+                                                          
+                        </div>
+                    
+                    	<div style="clear: both;"></div>
+                    
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/the-tin-woodman-gave-a-sigh-of-satisfaction-and-lowered-his-axe/" title="The Tin Woodman gave a sigh of satisfaction and lowered his axe">The Tin Woodman gave a sigh of satisfaction...</a></h3>
+                    
+                        
+			</li>
+
+				
+
+			<li>
+					                    
+                        <div class="imgwrap">
+                        
+                             <a href="http://wpdemo.themnific.com/pre/13/he-read-and-re-read-the-paper-fearing-the-worst-had-happened-to-me/" title="He read and re-read the paper, fearing the worst had happened to me." >
+                             
+                             <img width="210" height="135" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/tallll-210x135.png" class="attachment-flex-carousel wp-post-image" alt="tallll" title="" />                             
+                             </a>
+                             
+                                                          
+                        </div>
+                    
+                    	<div style="clear: both;"></div>
+                    
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/he-read-and-re-read-the-paper-fearing-the-worst-had-happened-to-me/" title="He read and re-read the paper, fearing the worst had happened to me.">He read and re-read the paper, fearing the...</a></h3>
+                    
+                        
+			</li>
+
+				
+
+			<li>
+					                    
+                        <div class="imgwrap">
+                        
+                             <a href="http://wpdemo.themnific.com/pre/13/other-poets-have-warbled-the-praises-of-the-soft-eye-of-the-antelope/" title="Other poets have warbled the praises of the soft eye of the antelope" >
+                             
+                             <img width="210" height="135" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/brush-57527-940x545-210x135.jpg" class="attachment-flex-carousel wp-post-image" alt="brush-57527-940x545" title="" />                             
+                             </a>
+                             
+                                                          
+                        </div>
+                    
+                    	<div style="clear: both;"></div>
+                    
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/other-poets-have-warbled-the-praises-of-the-soft-eye-of-the-antelope/" title="Other poets have warbled the praises of the soft eye of the antelope">Other poets have warbled the praises of the...</a></h3>
+                    
+                        
+			</li>
+
+				
+
+			<li>
+					                    
+                        <div class="imgwrap">
+                        
+                             <a href="http://wpdemo.themnific.com/pre/13/freed-from-its-enemy-stopped-short/" title="Freed from its enemy, stopped short" >
+                             
+                             <img width="210" height="135" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/10/hamburg-66668-210x135.jpg" class="attachment-flex-carousel wp-post-image" alt="hamburg-66668" title="" />                             
+                             </a>
+                             
+                             <span class="ribbon"></span><span class="ribbon_icon"><i class="icon-picture"></i></span>                             
+                        </div>
+                    
+                    	<div style="clear: both;"></div>
+                    
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/freed-from-its-enemy-stopped-short/" title="Freed from its enemy, stopped short">Freed from its enemy, stopped short</a></h3>
+                    
+                        
+			</li>
+
+				
+
+			<li>
+					                    
+                        <div class="imgwrap">
+                        
+                             <a href="http://wpdemo.themnific.com/pre/13/little-by-little-one-travels-far/" title="Little by little, one travels far" >
+                             
+                             <img width="210" height="135" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2011/02/tumblr_m0kvohm5DI1qho97ro1_1280-210x135.jpg" class="attachment-flex-carousel wp-post-image" alt="tumblr_m0kvohm5DI1qho97ro1_1280" title="" />                             
+                             </a>
+                             
+                             <span class="ribbon"></span><span class="ribbon_icon"><i class="icon-camera"></i></span>                             
+                        </div>
+                    
+                    	<div style="clear: both;"></div>
+                    
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/little-by-little-one-travels-far/" title="Little by little, one travels far">Little by little, one travels far</a></h3>
+                    
+                        
+			</li>
+
+				
+
+			<li>
+					                    
+                        <div class="imgwrap">
+                        
+                             <a href="http://wpdemo.themnific.com/pre/13/then-they-both-bowed-low/" title="Then they both bowed low" >
+                             
+                             <img width="210" height="135" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2011/02/m0td9smYWm1qho97ro1_1280-210x135.jpg" class="attachment-flex-carousel wp-post-image" alt="m0td9smYWm1qho97ro1_1280" title="" />                             
+                             </a>
+                             
+                                                          
+                        </div>
+                    
+                    	<div style="clear: both;"></div>
+                    
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/then-they-both-bowed-low/" title="Then they both bowed low">Then they both bowed low</a></h3>
+                    
+                        
+			</li>
+
+						</ul>
+            </div>
+	</li>
+                
+                
+                
+            <li id="homewidget" class="post body3 boxshadow"><div class="inside">
+            
+            <form class="searchform" method="get" action="http://wpdemo.themnific.com/pre/13">
+<input type="text" name="s" class="s" size="30" value="Search" onfocus="if (this.value = '') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" /><input type="submit" class="searchSubmit" value="" />
+</form>		
+		
+			<h2 class="widget widget-single inn"><a href="http://wpdemo.themnific.com/pre/13/category/design/">Recent Posts</a></h2>
+			
+			            <ul>
+			
+			<li class="fblock">
+                    
+					                         <a href="http://wpdemo.themnific.com/pre/13/gallery-post-down-the-hill-i-saw-a-bevy-of-hussars-ride-under-the-railway-bridge/" title="Gallery Post &#8211; I realised that the crest of Maybury Hill must be within range of the Martians" >
+                         <img width="90" height="75" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/typo06-90x75.png" class="attachment-w_featured wp-post-image" alt="typo06" title="" />                         </a>
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/gallery-post-down-the-hill-i-saw-a-bevy-of-hussars-ride-under-the-railway-bridge/" title="Gallery Post &#8211; I realised that the crest of Maybury Hill must be within range of the Martians">Gallery Post &#8211; I realised that the crest of Maybury Hill must be...</a></h3>
+                    <p class="widgetmeta sserif">
+						306 days ago  | 
+                        <a href="http://wpdemo.themnific.com/pre/13/gallery-post-down-the-hill-i-saw-a-bevy-of-hussars-ride-under-the-railway-bridge/#comments" title="Comment on Gallery Post &#8211; I realised that the crest of Maybury Hill must be within range of the Martians">2 Comments</a>                    </p>
+                        
+			</li>
+
+			
+			<li class="fblock">
+                    
+					                         <a href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/" title="Nor would difference of country make any very essential difference" >
+                         <img width="90" height="75" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/egg-52915_1280-90x75.jpg" class="attachment-w_featured wp-post-image" alt="egg-52915_1280" title="" />                         </a>
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/" title="Nor would difference of country make any very essential difference">Nor would difference of country make any very essential difference</a></h3>
+                    <p class="widgetmeta sserif">
+						308 days ago  | 
+                        <a href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/#respond" title="Comment on Nor would difference of country make any very essential difference">No Comments</a>                    </p>
+                        
+			</li>
+
+			
+			<li class="fblock">
+                    
+					                         <a href="http://wpdemo.themnific.com/pre/13/all-night-a-wide-awake-watch-was-kept-by-all-the-officers-forward-and-aft/" title="All night a wide-awake watch was kept by all the officers, forward and aft" >
+                         <img width="90" height="75" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/5335295550_647fd38c25_z1-90x75.jpg" class="attachment-w_featured wp-post-image" alt="5335295550_647fd38c25_z1" title="" />                         </a>
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/all-night-a-wide-awake-watch-was-kept-by-all-the-officers-forward-and-aft/" title="All night a wide-awake watch was kept by all the officers, forward and aft">All night a wide-awake watch was kept by all the officers, forward and...</a></h3>
+                    <p class="widgetmeta sserif">
+						317 days ago  | 
+                        <a href="http://wpdemo.themnific.com/pre/13/all-night-a-wide-awake-watch-was-kept-by-all-the-officers-forward-and-aft/#comments" title="Comment on All night a wide-awake watch was kept by all the officers, forward and aft">1 Comment</a>                    </p>
+                        
+			</li>
+
+			
+			<li class="fblock">
+                    
+					                         <a href="http://wpdemo.themnific.com/pre/13/in-cavalier-attendance-upon-the-school-of-females-you-invariably-see-a-male-of-full-grown-magnitude/" title="In cavalier attendance upon the school of females, you invariably see a male" >
+                         <img width="90" height="75" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/book-58942-90x75.jpg" class="attachment-w_featured wp-post-image" alt="book-58942" title="" />                         </a>
+                                            
+                    <h3><a href="http://wpdemo.themnific.com/pre/13/in-cavalier-attendance-upon-the-school-of-females-you-invariably-see-a-male-of-full-grown-magnitude/" title="In cavalier attendance upon the school of females, you invariably see a male">In cavalier attendance upon the school of females, you invariably see a male</a></h3>
+                    <p class="widgetmeta sserif">
+						317 days ago  | 
+                        <a href="http://wpdemo.themnific.com/pre/13/in-cavalier-attendance-upon-the-school-of-females-you-invariably-see-a-male-of-full-grown-magnitude/#respond" title="Comment on In cavalier attendance upon the school of females, you invariably see a male">No Comments</a>                    </p>
+                        
+			</li>
+
+						</ul>
+
+		
+					<div class="inn">
+			<a href="http://themnific.com/"><img class="ad300 rad" src="http://media.tumblr.com/tumblr_m6ox7dPqrZ1qaidj6.png" alt="" /></a>
+            </div>
+			<div style="clear: both;"></div>
+				
+	        <h2 class="widget inn widget-single">Latest Comments</h2>        	
+            <ul class="inn">
+
+			            <li class="com_post">
+            
+                    <img alt='' src='http://0.gravatar.com/avatar/aacc823ac139f84d0825de27e8a9258a?s=35&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D35&amp;r=G' class='avatar avatar-35 photo' height='35' width='35' />                    <p><span><a href="http://wpdemo.themnific.com/pre/13/all-night-a-wide-awake-watch-was-kept-by-all-the-officers-forward-and-aft/#comment-20" title="on All night a wide-awake watch was kept by all the officers, forward and aft">
+                    Dannci says:</a></span>
+                    She was drifting some fifty feet above the ground, followed by all but some hundred of the warriors ...</p>
+                </li>
+           
+                        <li class="com_post">
+            
+                    <img alt='' src='http://1.gravatar.com/avatar/7fabf59b04374d5d8ef982d3c7130eaf?s=35&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D35&amp;r=G' class='avatar avatar-35 photo' height='35' width='35' />                    <p><span><a href="http://wpdemo.themnific.com/pre/13/gallery-post-down-the-hill-i-saw-a-bevy-of-hussars-ride-under-the-railway-bridge/#comment-19" title="on Gallery Post - I realised that the crest of Maybury Hill must be within range of the Martians">
+                    Themnific says:</a></span>
+                    Morbi in est nulla, ac iaculis dolor. Praesent at justo eu justo faucibus pharetra accumsan vel sem....</p>
+                </li>
+           
+                        <li class="com_post">
+            
+                    <img alt='' src='http://1.gravatar.com/avatar/7fabf59b04374d5d8ef982d3c7130eaf?s=35&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D35&amp;r=G' class='avatar avatar-35 photo' height='35' width='35' />                    <p><span><a href="http://wpdemo.themnific.com/pre/13/gallery-post-down-the-hill-i-saw-a-bevy-of-hussars-ride-under-the-railway-bridge/#comment-18" title="on Gallery Post - I realised that the crest of Maybury Hill must be within range of the Martians">
+                    Themnific says:</a></span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis magna a dolor lobortis et t...</p>
+                </li>
+           
+            </ul>            
+            </div></li>
+            
+        
+                						                                        
+                                
+						<li class="post-1392 post type-post status-publish format-image hentry category-movies tag-evil tag-illustration tag-post-formats body3 boxshadow postmore">
+
+	<span class="ribbon"></span><span class="ribbon_icon"><i class="icon-camera"></i></span>   
+		
+
+		<div class="imageformat">
+        
+            <a rel="prettyPhoto[gallery]"  href="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/10/photodune-1245140-portrait-of-businesswoman-m-samll.jpg">  
+                     <img width="359" height="355" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/10/photodune-1245140-portrait-of-businesswoman-m-samll-359x355.jpg" class="attachment-3c-image wp-post-image" alt="photodune-1245140-portrait-of-businesswoman-m-samll" />            </a>
+           
+        </div>
+    
+   		<div style="clear: both;"></div>
+        
+                 <p class="meta sserif">
+                
+                    Image: <a href="http://wpdemo.themnific.com/pre/13/and-now-abating-in-his-flurry/">And now abating in his flurry</a>
+                
+                </p>
+
+            
+</li>                            
+					            
+						<li class="post-1986 post type-post status-publish format-gallery hentry category-design tag-buildings tag-post-formats body3 boxshadow postmore">
+
+	<span class="ribbon"></span><span class="ribbon_icon"><i class="icon-picture"></i></span>
+			<div class="flexslider galleryslider">
+        <ul class="slides">
+			<li style="padding-bottom:25px"><img width="359" height="255" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/typo07-359x255.png" class="attachment-3c-image-slider" alt="typo07" /></li><li style="padding-bottom:25px"><img width="359" height="255" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/typo06-359x255.png" class="attachment-3c-image-slider" alt="typo06" /></li><li style="padding-bottom:25px"><img width="359" height="255" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/typo04-359x255.png" class="attachment-3c-image-slider" alt="typo04" /></li><li style="padding-bottom:25px"><img width="359" height="255" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/typo02-359x255.png" class="attachment-3c-image-slider" alt="typo02" /></li>             
+        </ul>
+    </div>                    
+            <h2><a href="http://wpdemo.themnific.com/pre/13/gallery-post-down-the-hill-i-saw-a-bevy-of-hussars-ride-under-the-railway-bridge/">Gallery Post &#8211; I realised that the crest of Maybury Hill must be within range of the Martians</a></h2>
+            
+            <div class="hrline"><span></span></div>  
+
+                <p class="meta sserif">
+                
+                    306 days ago  | 
+                    <a href="http://wpdemo.themnific.com/pre/13/category/design/" title="View all posts in Design">Design</a>                
+                </p>
+
+    		<div class="entry"> 
+            
+
+                
+                <p class="teaser">I and my wife stood amazed. Then I realised that the crest of Maybury Hill must be within range of the Martians&#8217; Heat-Ray now that the college was cleared out of the way. At that I gripped my wife&#8217;s arm, and without ceremony ran her out into the road. Then I fetched out the servant, ...</p>
+                
+                <a class="mainbutton fr" href="http://wpdemo.themnific.com/pre/13/gallery-post-down-the-hill-i-saw-a-bevy-of-hussars-ride-under-the-railway-bridge/">Read More &#187;</a>
+                  
+           	</div>
+            
+</li>                            
+					            
+						<li class="post-1984 post type-post status-publish format-standard hentry category-design category-graphic tag-buildings body3 boxshadow postmore" style="color:;background-color:">
+
+			                <a href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/">  
+                    <img width="359" height="256" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/egg-52915_1280-359x256.jpg" class="main-single wp-post-image" alt="egg-52915_1280" />                </a>
+                        
+			<div style="clear: both;"></div>
+            
+            <h2><a href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/">Nor would difference of country make any very essential difference</a></h2>
+            
+            <div class="hrline"><span></span></div>  
+
+            <p class="meta sserif">
+            
+                308 days ago  | 
+                <a href="http://wpdemo.themnific.com/pre/13/category/design/" title="View all posts in Design">Design</a>, <a href="http://wpdemo.themnific.com/pre/13/category/our-lifestyle/graphic/" title="View all posts in Graphic">Graphic</a>            
+            </p>
+
+    		<div class="entry"> 
+                
+                <p class="teaser">Were this world an endless plain, and by sailing eastward we could for ever reach new distances, and discover sights more sweet and strange than any Cyclades or Islands of King Solomon, then there were promise in the voyage. But in pursuit of those far mysteries we dream of, or in tormented chase of that ...</p>
+                
+                <a class="mainbutton fr" href="http://wpdemo.themnific.com/pre/13/nor-would-difference-of-country-make-any-very-essential-difference/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-685 post type-post status-publish format-image hentry category-our-lifestyle tag-photo body3 boxshadow postmore">
+
+	<span class="ribbon"></span><span class="ribbon_icon"><i class="icon-camera"></i></span>   
+		
+
+		<div class="imageformat">
+        
+            <a rel="prettyPhoto[gallery]"  href="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/1395871_19682756.jpg">  
+                     <img width="359" height="266" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/1395871_19682756-359x266.jpg" class="attachment-3c-image wp-post-image" alt="1395871_19682756" />            </a>
+           
+        </div>
+    
+   		<div style="clear: both;"></div>
+        
+                 <p class="meta sserif">
+                
+                    Image: <a href="http://wpdemo.themnific.com/pre/13/no-one-in-weybridge-could-tell-us-where-the-headquarters-were-established/">No one in Weybridge could tell us where the headquarters</a>
+                
+                </p>
+
+            
+</li>                            
+					            
+						<li class="post-1981 post type-post status-publish format-standard hentry category-design tag-foliage tag-macro body3 boxshadow postmore" style="color:;background-color:">
+
+			                <a href="http://wpdemo.themnific.com/pre/13/all-night-a-wide-awake-watch-was-kept-by-all-the-officers-forward-and-aft/">  
+                    <img width="359" height="258" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/5335295550_647fd38c25_z1-359x258.jpg" class="main-single wp-post-image" alt="5335295550_647fd38c25_z1" />                </a>
+                        
+			<div style="clear: both;"></div>
+            
+            <h2><a href="http://wpdemo.themnific.com/pre/13/all-night-a-wide-awake-watch-was-kept-by-all-the-officers-forward-and-aft/">All night a wide-awake watch was kept by all the officers, forward and aft</a></h2>
+            
+            <div class="hrline"><span></span></div>  
+
+            <p class="meta sserif">
+            
+                317 days ago  | 
+                <a href="http://wpdemo.themnific.com/pre/13/category/design/" title="View all posts in Design">Design</a>            
+            </p>
+
+    		<div class="entry"> 
+                
+                <p class="teaser">&#8220;The Lakeman now patrolled the barricade, all the while keeping his eye on the Captain, and jerking out such sentences as these:—&#8217;It&#8217;s not our fault; we didn&#8217;t want it; I told him to take his hammer away; it was boy&#8217;s business; he might have known me before this; I told him not to prick the ...</p>
+                
+                <a class="mainbutton fr" href="http://wpdemo.themnific.com/pre/13/all-night-a-wide-awake-watch-was-kept-by-all-the-officers-forward-and-aft/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-20 post type-post status-publish format-standard hentry category-photos tag-macro tag-smooth body3 boxshadow postmore" style="color:;background-color:">
+
+			                <a href="http://wpdemo.themnific.com/pre/13/the-tin-woodman-gave-a-sigh-of-satisfaction-and-lowered-his-axe/">  
+                    <img width="359" height="239" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/angle-19887-359x239.jpg" class="main-single wp-post-image" alt="angle-19887" />                </a>
+                        
+			<div style="clear: both;"></div>
+            
+            <h2><a href="http://wpdemo.themnific.com/pre/13/the-tin-woodman-gave-a-sigh-of-satisfaction-and-lowered-his-axe/">The Tin Woodman gave a sigh of satisfaction and lowered his axe</a></h2>
+            
+            <div class="hrline"><span></span></div>  
+
+            <p class="meta sserif">
+            
+                317 days ago  | 
+                <a href="http://wpdemo.themnific.com/pre/13/category/photos/" title="View all posts in Photos">Photos</a>            
+            </p>
+
+    		<div class="entry"> 
+                
+                <p class="teaser">&#8220;What can I do for you?&#8221; she inquired softly, for she was moved by the sad voice in which the man spoke. &#8220;Get an oil-can and oil my joints,&#8221; he answered. &#8220;They are rusted so badly that I cannot move them at all; if I am well oiled I shall soon be all right again. ...</p>
+                
+                <a class="mainbutton fr" href="http://wpdemo.themnific.com/pre/13/the-tin-woodman-gave-a-sigh-of-satisfaction-and-lowered-his-axe/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-58 post type-post status-publish format-link hentry category-movies tag-post-formats body3 boxshadow postmore">
+
+	<span class="ribbon"></span><span class="ribbon_icon"><i class="icon-signout"></i></span>
+			                <a href="http://wpdemo.themnific.com/pre/13/post-with-link-to-elsewhere/">  
+                    <img width="359" height="269" src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2012/11/1385026_82627277-359x269.jpg" class="main-single wp-post-image" alt="DCIM101MEDIA" />                </a>
+                        
+			<div style="clear: both;"></div>
+            
+	<h2><a href="http://photography.nationalgeographic.com/photography/photo-of-the-day"><i class="icon-signout"></i> [Link] Post with link to elsewhere</a></h2>
+    
+    <div class="hrline"><span></span></div>  
+
+                <p class="meta sserif">
+                
+                    317 days ago  | 
+                    <a href="http://wpdemo.themnific.com/pre/13/category/movies/" title="View all posts in Movies">Movies</a>                
+                </p>
+
+    		<div class="entry"> 
+
+                
+                <p class="teaser">But what thinks Lazarus? Can he warm his blue hands by holding them up to the grand northern lights? Would not Lazarus rather be in Sumatra than here? Would he not far rather lay him down lengthwise along the line of the equator; yea, ye gods! go down to the fiery pit itself, in order ...</p>
+                
+                <a class="mainbutton fr" href="http://wpdemo.themnific.com/pre/13/post-with-link-to-elsewhere/">Read More &#187;</a>
+                  
+           	</div>
+            
+</li>                            
+					            
+						<li class="post-1980 post type-post status-publish format-video hentry category-design tag-cards tag-post-formats body3 boxshadow postmore" style="background-color:">
+
+	<span class="ribbon"></span><span class="ribbon_icon"><i class="icon-play-circle"></i></span>    
+   <iframe src="http://player.vimeo.com/video/18528176?title=0&byline=0&portrait=0&color=ffffff" width="686" height="386" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>            
+			<div style="clear: both;"></div>
+    
+            <h2><a href="http://wpdemo.themnific.com/pre/13/in-cavalier-attendance-upon-the-school-of-females-you-invariably-see-a-male-of-full-grown-magnitude/">In cavalier attendance upon the school of females, you invariably see a male</a></h2>
+            
+            <div class="hrline"><span></span></div> 
+
+                <p class="meta sserif">
+                
+                    317 days ago  | 
+                    <a href="http://wpdemo.themnific.com/pre/13/category/design/" title="View all posts in Design">Design</a>                
+                </p> 
+
+    		<div class="entry"> 
+                
+                <p class="teaser">The boat was now all but jammed between two vast black bulks, leaving a narrow Dardanelles between their long lengths. But by desperate endeavor we at last shot into a temporary opening; then giving way rapidly, and at the same time earnestly watching for another outlet. After many similar hair-breadth escapes, we at last swiftly ...</p>
+                
+                <a class="mainbutton fr" href="http://wpdemo.themnific.com/pre/13/in-cavalier-attendance-upon-the-school-of-females-you-invariably-see-a-male-of-full-grown-magnitude/">Read More &#187;</a>
+                  
+           	</div>
+</li>                            
+					<!-- end post -->
+                    
+	</ul><!-- end latest posts section-->
+            
+        <div style="clear: both;"></div>
+
+            <div class="nav-previous fl"><a href="http://wpdemo.themnific.com/pre/13/page/2/" ><span>More Posts</span></a></div>
+            <div class="nav-next fr"></div>
+
+    
+
+
+</div>
+
+<footer id="footer" class="body3">
+
+	<div class="container"> 
+
+		            <div class="threecol first"> 
+				                
+                    <div class="aboutus">
+                        
+                    
+						                        
+                        <a href="http://wpdemo.themnific.com/pre/13/"><img src="http://wpdemo.themnific.com/pre/13/wp-content/uploads/2013/01/blogdrops-logo.png" alt="Blogdrops Theme"/></a>                        <div style="clear: both;"></div>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat posuere tristique. Nullam in libero eget nibh scelerisque suscipit vitae eget metus. Nulla non urna odio. Nullam in libero eget nibh.</p>
+                    
+                    </div>
+                    
+                            </div>
+            
+            
+            <div class="threecol">
+				<h2>		Photos on <span class="flickr">flick<span>r</span></span>        </h2>        <div class="inn">
+            
+        <div class="flickwrap">
+            <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;&amp;layout=x&amp;source=user&amp;user=11777784@N05&amp;size=s"></script>        
+        </div>
+
+	   </div>
+	               </div>
+            
+            <div class="threecol"> 
+				<h2>Tags</h2><div class="tagcloud"><a href='http://wpdemo.themnific.com/pre/13/tag/art/' class='tag-link-37' title='1 topic' style='font-size: 8pt;'>Art</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/buildings/' class='tag-link-41' title='2 topics' style='font-size: 11.405405405405pt;'>Buildings</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/cards/' class='tag-link-43' title='2 topics' style='font-size: 11.405405405405pt;'>Cards</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/evil/' class='tag-link-47' title='1 topic' style='font-size: 8pt;'>Evil</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/face/' class='tag-link-48' title='1 topic' style='font-size: 8pt;'>Face</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/flowers/' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>Flowers</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/fog/' class='tag-link-50' title='1 topic' style='font-size: 8pt;'>Fog</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/foliage/' class='tag-link-51' title='1 topic' style='font-size: 8pt;'>Foliage</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/food/' class='tag-link-7' title='1 topic' style='font-size: 8pt;'>Food</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/illustration/' class='tag-link-56' title='1 topic' style='font-size: 8pt;'>Illustration</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/images/' class='tag-link-57' title='1 topic' style='font-size: 8pt;'>Images</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/macro/' class='tag-link-61' title='2 topics' style='font-size: 11.405405405405pt;'>Macro</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/photo/' class='tag-link-16' title='1 topic' style='font-size: 8pt;'>Photo</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/post-formats/' class='tag-link-69' title='10 topics' style='font-size: 22pt;'>Post Formats</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/road/' class='tag-link-71' title='1 topic' style='font-size: 8pt;'>Road</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/sentinel/' class='tag-link-72' title='1 topic' style='font-size: 8pt;'>Sentinel</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/smooth/' class='tag-link-79' title='1 topic' style='font-size: 8pt;'>Smooth</a>
+<a href='http://wpdemo.themnific.com/pre/13/tag/song/' class='tag-link-80' title='1 topic' style='font-size: 8pt;'>Song</a></div>
+            </div>
+            
+            <div class="threecol"> 
+						        <h2>Get In Touch</h2>        	<ul class="social-menu">
+<li class="sprite-rss"><a title="Rss Feed" href="#">Rss Feed</a></li>
+<li class="sprite-google"><a title="Google+" href="https://plus.google.com/106146632944204005915/posts">Google+</a></li>
+
+
+
+
+<li class="sprite-behance"><a title="Behance" href="#">Behance</a></li>
+
+
+<li class="sprite-lastfm"><a title="Last FM" href="#">Last FM</a></li>
+<li class="sprite-linkedin"><a title="LinkedIn" href="#">Linked In</a></li>
+<li class="sprite-flickr"><a title="Flickr" href="http://www.flickr.com/photos/themnific/">Flickr</a></li>
+<li class="sprite-deviantart"><a title="Deviant Art" href="http://themnific.deviantart.com/">Deviant Art</a></li>
+<li class="sprite-tumblr"><a title="Tumblr" href="http://dannci.tumblr.com">Tumblr</a></li>
+<li class="sprite-vimeo"><a title="Vimeo" href="#">Vimeo</a></li>
+<li class="sprite-youtube"><a title="You Tube" href="#">You Tube</a></li>
+<li class="sprite-twitter"><a title="Twitter" href="http://twitter.com/#!/Themnific">Twitter</a></li>
+<li class="sprite-facebook"><a title="Facebook" href="#">Facebook</a></li>
+
+</ul>
+<div class="clear-floats"></div>            <div style="clear: both;"></div> 
+		   
+   <form class="searchform" method="get" action="http://wpdemo.themnific.com/pre/13">
+<input type="text" name="s" class="s" size="30" value="Search" onfocus="if (this.value = '') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" /><input type="submit" class="searchSubmit" value="" />
+</form>            </div>        
+        <div style="clear: both;"></div>
+        
+        <div id="copyright">
+                
+          	<div class="fl">
+                
+				                
+                    <p>&copy; 2013 Blogdrops Theme&trade;</p>
+                    
+                               
+			</div>
+            
+        	<div class="fr">
+            
+				                
+                    <p>Powered by <a href="http://www.wordpress.org">Wordpress</a>. Designed by <a href="http://themnific.com">Themnific&trade;</a></p>
+                    
+                                
+			</div>
+            
+        </div> 
+    
+    </div>
+    
+</footer><!-- /#footer  -->
+    
+
+
+
+<div class="scrollTo_top" style="display: block">
+<a title="Scroll to top" href="#">
+<img src="http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/images/icons/up.png" alt="Scroll to top"/>
+</a>
+</div>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/css3-mediaqueries.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/superfish.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/jquery.hoverIntent.minified.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/jquery.prettyPhoto.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/jquery.flexslider-min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/jquery.flexslider.start.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/tabs.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/ownScript.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/jquery.masonry.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/jquery.infinitescroll.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://wpdemo.themnific.com/pre/13/wp-content/themes/blogdrops/js/jquery.masonry.start.js?ver=3.5.1'></script>
+
+</body>
+</html>

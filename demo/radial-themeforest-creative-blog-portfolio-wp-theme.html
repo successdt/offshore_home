@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+	<title>Radial Premium Wordpress Theme</title>
+	<link rel="icon" type="image/png" href="http://radial.premiumcoding.com/wp-content/uploads/2012/02/favicon.png">
+	<link rel='stylesheet' id='main-css'  href='http://curvey.premiumcoding.com/wp-content/themes/fashy/style.css?ver=3.3.2' type='text/css' media='all' />
+	<link rel="stylesheet"  href="/bar/style_bar.css" type="text/css" media="all" />	
+	<script type='text/javascript' src='http://curvey.premiumcoding.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+	<link rel='stylesheet' id='googleFont-css'  href='http://fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+	<script type="text/javascript" src="/bar/js/styleswitcher.jquery.js"></script> 	
+	<script type="text/javascript">
+
+	
+		
+	var isIframe = (top.location != self.location);
+	if(isIframe){
+		top.location.href = self.location;
+	}
+	</script>	
+	<script>
+	jQuery(document).ready(function(){	
+	
+		jQuery('#style-switcher ,#theme-switcher ,#plugin-switcher').hide();
+		jQuery('#style-switcher-button').click(function() {
+				jQuery('#style-switcher').show();
+				jQuery('#style-switcher-button').hide();
+		});	
+		
+			jQuery('#theme-switcher-button').click(function() {
+				jQuery('#theme-switcher').show();
+				jQuery('#theme-switcher-button').hide();
+		});	
+		
+		jQuery('#style-switcher').click(function() {
+				jQuery('#style-switcher').hide();
+				jQuery('#style-switcher-button').show();
+		});	
+			jQuery('#theme-switcher').click(function() {
+				jQuery('#theme-switcher').hide();
+				jQuery('#theme-switcher-button').show();
+		});	
+		
+		jQuery('#plugin-switcher-button').click(function() {
+				jQuery('#plugin-switcher').show();
+				jQuery('#plugin-switcher-button').hide();
+		});	
+			jQuery('#plugin-switcher').click(function() {
+				jQuery('#plugin-switcher').hide();
+				jQuery('#plugin-switcher-button').show();
+		});	
+
+		jQuery('#style-switcher a').click(function() {
+			jQuery.cookie("style",jQuery(this).attr('rel'), {expires: 365, path: '/'});
+			jQuery("#frame").contents().find("#stylesheet").attr('href', '/bar/css/'+jQuery(this).attr('rel') );
+		
+		});
+
+				
+		jQuery("#frame").attr("height", (jQuery(window).height()  -60) + 'px');
+		jQuery("#frame").load(function (){
+			jQuery("#frame").contents().find("#stylesheet").attr('href', '/bar/css/'+getCookie('style') );
+			
+
+		});
+
+		
+	});
+	</script>
+
+
+
+
+</head>
+<body>	
+	<div class="bar">
+		<a class="barlogo" target="_blank"  href="http://premiumcoding.com/"></a>
+		<a class="closeframe" title="Close this frame" href="http://radial.premiumcoding.com/"></a>				
+		<a class="barcart" target="_blank"  title="Buy this template" href="http://themeforest.net/item/radial-creative-blog-portfolio-wordpress-theme/1831856?ref=premiumtemplates"></a>
+		<a class="bardocumentation" target="_blank" title="Read documentation about this theme" href="http://premiumcoding.com/premium-wordpress-theme-radial/"></a>		
+		<div class="switchercontainer">
+			<div class="barselecttheme">
+			<div id="theme-switcher-button" >Check our other Themes</div>  
+			 <div id="theme-switcher" >  
+				<div id="closetheme"></div><h4>Our Latest Themes</h4> 
+					<ul>  
+						<li><a href="http://themeforest.net/item/rock-palace-a-responsive-music-wordpress-theme/3908213?ref=premiumtemplates">Rock Palace WP<span class="creativeBar">Creative</span><img src = "http://0.s3.envato.com/files/46777284/01-home-2-music.__large_preview.jpg" /></a></li> 										
+						<li><a href="http://themeforest.net/item/studio-9-a-creative-agency-portfolio-wordpress-theme/3862204?ref=premiumtemplates">Studio WP<span class="creativeBar">Creative</span><img src = "http://3.s3.envato.com/files/46551588/01-home-2-studio.__large_preview.jpg" /></a></li> 					
+										
+						<li><a href="http://themeforest.net/item/musica-responsive-wordpress-woocommerce-theme/3756360?ref=premiumtemplates">Musica WooCommerce<span class="creativeBar">Shop</span><img src = "http://2.s3.envato.com/files/45042229/01-Musica-website-ecommerce-wordpress-theme.__large_preview.jpg" /></a></li> 										
+					
+						<li><a href="http://themeforest.net/item/emporium-responsive-wordpress-woocommerce-theme/3400657?ref=premiumtemplates">Emporium WooCommerce<span class="creativeBar">Shop</span><img src = "http://3.s3.envato.com/files/40814721/01-mercor-ecommerce-wordpress-theme.__large_preview.jpg" /></a></li> 					
+					
+						<li><a href="http://themeforest.net/item/daedra-responsive-portfolio-wordpress-theme/3229935?ref=premiumtemplates">Daedra WP<span class="creativeBar">Buisiness</span><img src = "http://2.s3.envato.com/files/37274895/1-featured-image.__large_preview.jpg" /></a></li> 					
+						<li><a href="http://themeforest.net/item/mercor-responsive-wordpress-woocommerce-theme/3037680?ref=premiumtemplates">Mercor WooCommerce<span class="creativeBar">Shop</span><img src = "http://2.s3.envato.com/files/34951999/01-mercor-ecommerce-wordpress-theme.__large_preview.jpg" /></a></li> 															
+						
+						<li><a href="http://themeforest.net/item/equipe-responsive-business-wordpress-theme/2946721?ref=premiumtemplates">Equipe WP<span class="creativeBar">Buisiness</span><img src = "http://0.s3.envato.com/files/33887342/01-equipe-minimal-business-theme-psd-590.__large_preview.jpg" /></a></li> 															
+
+						<li><a href="http://themeforest.net/item/darx-responsive-dark-portfolio-wordpress-theme/2780286?ref=premiumtemplates">Darx WP<span class="creativeBar">Portfolio</span><img src = "http://1.s3.envato.com/files/32024423/01-darx-responsive-portfolio-wordpress-theme.__large_preview.jpg" /></a></li> 															
+						<li><a href="http://themeforest.net/item/elegantica-responsive-business-wordpress-theme/2629870?ref=premiumtemplates">Elegantica WP<span class="creativeBar">Buisiness</span><img src = "http://premiumcoding.com/wp-content/uploads/2012/07/01-elegantica-minimal-business-theme-psd-5902.jpg" /></a></li> 					
+						<li><a href="http://themeforest.net/item/fashy-left-right-layout-wordpress-theme/2354489?ref=premiumtemplates">Fashy WP<span class="creativeBar">Creative</span><img src = "/bar/images/fashy.jpg" /></a></li>  	
+						<li><a href="http://themeforest.net/item/mistix-minimalistic-portfolio-wordpress-theme/2462419?ref=premiumtemplates">Mistix WP<span class="creativeBar">Creative</span><img src = "http://3.s3.envato.com/files/28513501/01-mistix-minimalistic-wordpress-theme.__large_preview.jpg" /></a></li> 						
+						<li><a href="http://themeforest.net/item/retyx-vintage-retro-blog-wordpress-theme/2165200?ref=premiumtemplates">Retyx WP<span class="creativeBar">Creative</span><img src = "/bar/images/retyx-wordpress-theme.jpg" /></a></li>  	
+						<li><a href="http://themeforest.net/item/radial-creative-blog-portfolio-wordpress-theme/1831856?ref=premiumtemplates">Radial WP<span class="portfolioBar">Portfolio</span><img src = "/bar/images/radial-wordpress-theme.jpg" /></a></li> 
+						<li><a href="http://themeforest.net/item/darx-responsive-dark-portfolio-htmlcss-theme/2890184?ref=premiumtemplates">Darx HTML<span class="creativeBar">Portfolio</span><img src = "http://0.s3.envato.com/files/33269425/01-darx-responsive-portfolio-wordpress-theme.__large_preview.jpg" /></a></li>  						
+
+						<li><a href="http://themeforest.net/item/elegantica-responsive-business-html-css-theme/2662094?ref=premiumtemplates">Elegantica HTML<span class="creativeBar">Buisiness</span><img src = "http://2.s3.envato.com/files/30695358/01-elegantica-minimal-business-theme-psd-590.__large_preview.jpg" /></a></li>  						
+						<li><a href="http://themeforest.net/item/mistix-minimal-portfolio-html-css-theme/2487247?ref=premiumtemplates">Mistix HTML<span class="creativeBar">Creative</span><img src = "http://2.s3.envato.com/files/28801086/01-mistix-minimalistic-html-theme.__large_preview.jpg" /></a></li>  						
+						<li><a href="http://themeforest.net/item/fashy-left-right-layout-htmlcss-theme/2393400?ref=premiumtemplates">Fashy HTML<span class="creativeBar">Creative</span><img src = "bar/images/fashy.jpg" /></a></li>  							
+						<li><a href="http://themeforest.net/item/retyx-html-retro-vintage-website-template/2198617?ref=premiumtemplates">Retyx HTML<span class="creativeBar">Creative</span><img src = "/bar/images/retyx-html-theme.jpg" /></a></li>  	
+						<li><a href="http://themeforest.net/item/radial-blog-html-css-website-template/1944012?ref=premiumtemplates">Radial HTML<span class="portfolioBar">Portfolio</span><img src = "/bar/images/radial-html-theme.jpg" /></a></li>  						
+					</ul>  
+				</div> 		
+			</div>
+			<div class="barselectplugin">
+			<div id="plugin-switcher-button" >Check our WP plugins</div>  
+			 <div id="plugin-switcher" >  
+				<div id="closeplugin"></div>
+					<h4>Our WP plugins</h4>  
+					<ul>  
+						<li><a href="http://codecanyon.net/item/wordpress-animated-posts-calendar/1960057?ref=premiumtemplates">Posts Calendar<span class="creativeBar">Date</span><img src = "/bar/images/Wordpress-event-calendar-big-featured12.jpg" /></a></li>  	
+						<li><a href="http://codecanyon.net/item/wordpress-blog-on-your-facebook-fan-page/1474727?ref=premiumtemplates">Facebook Blog<span class="creativeBar">Facebook</span><img src = "/bar/images/Wordpress-blog-facebook-fan-page.jpg" /></a></li>  
+						<li><a href="http://codecanyon.net/item/fading-menu-with-notification-bar-and-social-icons/1290726?ref=premiumtemplates">Fading Menu<span class="creativeBar">Menu</span><img src = "/bar/images/thumb-wordpress-fading-menu-featured-premium.jpg" /></a></li>  						
+						<li><a href="http://codecanyon.net/item/facebook-page-themes-via-wordpress-admin/690366?ref=premiumtemplates">FB Page Themes<span class="creativeBar">Facebook</span><img src = "/bar/images/Facebook-Page-Themes-590-preview.jpg" /></a></li>  	
+						<li><a href="http://codecanyon.net/item/wordpress-multiple-events-calendar-with-countdown/461007?ref=premiumtemplates">Events Calendar<span class="creativeBar">Date</span><img src = "/bar/images/Wordpress-event-calendar-big-featured12.jpg" /></a></li>  	
+						<li><a href="http://codecanyon.net/item/wordpress-3d-banner-rotator-with-statistics/410975?ref=premiumtemplates">3D Banner Rotator<span class="creativeBar">Slideshows</span><img src = "/bar/images/wordpress-banner-3d-rotator-statistics-featured.jpg" /></a></li>  	
+						<li><a href="http://codecanyon.net/item/wordpress-accordion-banner-rotator-slideshow/400161?ref=premiumtemplates">Accordion Slideshow<span class="creativeBar">Slideshows</span><img src = "/bar/images/accordian.png" /></a></li>  					
+					</ul>  
+				</div> 		
+			</div>		
+			<div class="barselectcolor">		
+			 <div id="style-switcher-button" >Choose style</div>  
+			 <div id="style-switcher" >  
+				<div id="closestyle"></div>
+					<h4>Choose style</h4>  
+					<ul>  
+                    <li id="fadeRedstyle" class="fadeRedstyle"><a rel="fadeRed.css">Fade Red Style</a></li>  	
+                    <li id="grungestyle" class="grungestyle"><a rel="grunge.css">Grunge Style</a></li>  	
+					<li id="yellowstyle" class="yellowstyle"><a rel="yellow.css">Yellow Style</a></li>
+                    <li id="lightBluestyle" class="lightBluestyle"><a rel="lightBlue.css">Light Blue Style</a></li>  
+                    <li id="orangestyle" class="orangestyle"><a rel="orange.css">Orange Style</a></li>  	
+					<li id="strongBluestyle" class="strongBluestyle"><a rel="strongBlue.css">Blue Style without border</a></li>			
+                    <li id="strongRedstyle" class="strongRedstyle"><a rel="strongRed.css">Red Style without border</a></li>  
+					<li id="greenBluestyle" class="greenBluestyle"><a rel="greenBlue.css">Green Blue Style</a></li>		
+					<li id="WithoutSidebarBorders" class="WithoutSidebarBorders"><a rel="WithoutSidebarBorders.css">Without Sidebar Borders</a></li>								
+					</ul>  
+				</div> 	
+			</div>
+		</div>
+	</div>
+	
+<iframe id="frame" src="http://radial.premiumcoding.com/" width="100%" height="100%" ></iframe>
+</body>

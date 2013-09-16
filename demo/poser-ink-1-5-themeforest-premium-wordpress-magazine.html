@@ -1,0 +1,200 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Devilcantburn Themes | Poser Ink A</title>
+		
+		<link  href="http://fonts.googleapis.com/css?family=Kreon:300,400,700" rel="stylesheet" type="text/css" >
+        
+        <link href="http://demo.devilcantburn.com/wp-content/themes/switcher/selector/styles.css" rel="stylesheet" media="all" />
+        
+		<!--[if IE]>
+			
+			<style type="text/css">
+			
+				li.purchase a {
+					padding-top: 5px;
+					background-position: 0px -4px;
+				}
+				
+				li.remove_frame a {
+					padding-top: 5px;
+					background-position: 0px -3px;
+				}
+				
+				#theme_select {
+					padding: 8px 8px;
+				}
+				
+				#theme_list {
+					margin-top: 2px;
+				}
+			
+			</style>
+			
+		<![endif]--> 
+		
+		<style type="text/css">
+		
+				
+	
+		li.purchase {
+			padding-top: 18px;
+		}
+		
+		li.purchase a {
+		
+		padding-top: 5px;
+		background-position: 0px -3px;
+		
+		}
+		
+		li.remove_frame {
+			padding-top: 18px;
+		}
+		
+		li.remove_frame a {
+		
+		padding-top: 5px;
+		background-position: 0px -2px;
+		
+		}
+				
+		#theme_select {
+			padding: 7px 8px;
+		}
+		
+				
+		</style>
+	        
+        <script type="text/javascript" src="http://demo.devilcantburn.com/wp-content/themes/switcher/selector/jquery-1.4.2.min.js"></script>
+        
+        <script type="text/javascript">
+        
+       if (top.location != location) {
+            top.location.href = document.location.href ;
+        }
+        
+        
+        var theme_list_open = false;
+        
+        $(document).ready(function () {
+            
+            var links = $("#theme_list ul li a"),
+                prev_area = $(".preview_picture"),
+                title_tag = $('title');
+            
+            function fixHeight () {
+            
+                var headerHeight = $("#switcher").height();
+                $("#iframe").attr("height", (($(window).height()) - headerHeight) + 'px');
+            
+            }
+            
+            $(window).resize(function () 
+            {
+                fixHeight();
+            
+            }).resize();
+            
+            
+            $("#theme_select").click( function () 
+            {
+                if (theme_list_open == true) 
+                {
+                    $(".center ul li ul").hide();
+                    prev_area.hide();
+                    theme_list_open = false;
+                } 
+                else 
+                {
+                    var current = $('.hovered_item');
+                    if(current.length)
+                    {
+                        prev_area.css({display:'block'}).html("<img src='" + current.attr("data-image") + "' alt=''/>");
+                    }
+                    $(".center ul li ul").show();               
+                    theme_list_open = true;
+                }
+                return false;
+            });
+            
+            links.click(function () {
+            
+                var current = $(this),
+                    theme_data = current.attr("data-rel").split(","),
+                    themename = current.find('.theme_name').text();
+                            
+                $("li.purchase a").attr("href", theme_data[1]);
+                $("li.remove_frame a").attr("href", theme_data[0]);
+                $("#iframe").attr("src", theme_data[0]);
+                
+                $("#theme_list a#theme_select").text(themename);
+                
+                $(".center ul li ul").hide();
+                prev_area.hide();
+                if(title_tag.length && !$.browser.msie) title_tag.text('Devilcantburn Themes | '+ themename);
+                theme_list_open = false;
+                
+                return false;
+            
+            });
+            
+            
+            links.hover(function()
+            {
+                var current = $(this);
+                links.removeClass('hovered_item');
+                current.addClass('hovered_item');
+                prev_area.css({display:'block'}).html("<img src='" + current.attr("data-image") + "' alt=''/>");
+            },
+            function()
+            {
+                
+            });
+            
+        
+        });
+        
+        </script>
+         
+</head>
+
+<body>
+
+	<div id="switcher">
+	
+		<div class="center">
+		
+		<ul class='main_list'>
+		
+		<li><img src="http://demo.devilcantburn.com/wp-content/themes/switcher/selector/logo.png"  class='logo'  alt="" /></li>
+		
+		<li id="theme_list"><a id="theme_select" href="#">Poser Ink A</a>
+		
+			<ul>
+			
+				<li><a href="#" data-image="http://2.s3.envato.com/files/28783870/screenshots/1_promo.__large_preview.jpg" data-rel="http://demo.devilcantburn.com/convention/,http://themeforest.net/item/convention-responsive-photo-theme/2485823?ref=Devilcantburn"><span class="theme_name">Convention</span><span class="theme_type">Responsive</span></a></li><li><a href="#" data-image="http://1.s3.envato.com/files/26984381/screenshots/1_promo.__large_preview.jpg" data-rel="http://eclipse.devilcantburn.com/,http://themeforest.net/item/eclipse-responsive-wordpress-theme/2336061"><span class="theme_name">Eclipse</span><span class="theme_type">Responsive</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/25323477/Screenshots/1_promo.__large_preview.jpg" data-rel="http://timesquare.devilcantburn.com/,http://themeforest.net/item/timesquare-premium-wordpress-theme/2188072"><span class="theme_name">TimeSquare</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/20278126/screenshots/1_promo.__large_preview.jpg" data-rel="http://strings.devilcantburn.com/,http://themeforest.net/item/strings-music-and-art-magazine-wordpress/1735108"><span class="theme_name">Strings</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://3.s3.envato.com/files/17875283/screenshots/1_promo.__large_preview.jpg" data-rel="http://addictive.devilcantburn.com/,http://themeforest.net/item/addictive-premium-wordpress-theme/1547811"><span class="theme_name">Addictive</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/15795427/Screenshots/1_promo.__large_preview.jpg" data-rel="http://wilderness.devilcantburn.com/,http://themeforest.net/item/wilderness-premium-wordpress-theme-html-5-css3/1365501"><span class="theme_name">Wilderness</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://1.s3.envato.com/files/13402568/screenshots/1_promo.__large_preview.jpg" data-rel="http://nightbrand.devilcantburn.com/,http://themeforest.net/item/nightbrand-wordpress-theme/1148747"><span class="theme_name">NightBrand</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/11265557/Screenshots/1_promo.__large_preview.jpg" data-rel="http://fuzio.devilcantburn.com/,http://themeforest.net/item/fuzio-agency-business-wordpress-theme/973702"><span class="theme_name">Fuzio</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://1.s3.envato.com/files/9915753/Screenshots/1_promo.__large_preview.jpg" data-rel="http://empire.devilcantburn.com/,http://themeforest.net/item/pixel-gathering-premium-portfolio-wordpress-theme/854392"><span class="theme_name">Pixel Gathering</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://1.s3.envato.com/files/9086870/screenshots/1_promo.__large_preview.jpg" data-rel="http://greatwonder.devilcantburn.com/,http://themeforest.net/item/the-great-and-wonder-photo-magazine-for-wordpress/786527"><span class="theme_name">The Great And Wonder</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/7630888/Screenshots/1_promo.__large_preview.jpg" data-rel="http://lastcover.devilcantburn.com/,http://themeforest.net/item/lastcover-magazine-premium-wordpress-theme/671734"><span class="theme_name">LastCover</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://0.s3.envato.com/files/6960622/screenshots/1_promo.__large_preview.jpg" data-rel="http://mediascene.devilcantburn.com/,http://themeforest.net/item/mediascene-music-premium-wordpress-theme/606227"><span class="theme_name">MediaScene</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/6294246/Parallels-screenshots/1_promo.__large_preview.jpg" data-rel="http://parallels.devilcantburn.com/,http://themeforest.net/item/parallels-premium-wordpress/544502"><span class="theme_name">Parallels</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/5907435/SCREENSHOTS/1_promo.__large_preview.jpg" data-rel="http://dailycious.devilcantburn.com/,http://themeforest.net/item/dailycious-creative-design-premium-wordpress-theme/511151"><span class="theme_name">Dailycious Creative Design</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://3.s3.envato.com/files/4533500/SCREENSHOTS/1_promo.__large_preview.jpg" data-rel="http://diabolik.devilcantburn.com/,http://themeforest.net/item/diabolik-premium-wordpress-theme/407529"><span class="theme_name">Diabolik</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://1.s3.envato.com/files/3367087/SCREENSHOTS/1_promo.__large_preview.jpg" data-rel="http://poserinka.devilcantburn.com/,http://themeforest.net/item/poser-ink-a-premium-wordpress-magazine/306482"><span class="theme_name">Poser Ink A</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://1.s3.envato.com/files/2501055/SCREENSHOTS/1_promo.__large_preview.jpg" data-rel="http://madnessmag.devilcantburn.com/,http://themeforest.net/item/madness-magazine-wordpress/245135"><span class="theme_name">Madness Mag</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://0.s3.envato.com/files/2455404/SCREENSHOTS/1_promo.__large_preview.jpg" data-rel="http://factorybox.devilcantburn.com/,http://themeforest.net/item/factorybox-premium-wordpress-theme/238790"><span class="theme_name">FactoryBox</span><span class="theme_type">960px</span></a></li><li><a href="#" data-image="http://2.s3.envato.com/files/2456212/SCREENSHOTS/1_promo.__large_preview.jpg" data-rel="http://walken.devilcantburn.com/,http://themeforest.net/item/walken-wordpress-premium-theme/236646"><span class="theme_name">Walken</span><span class="theme_type">960px</span></a></li>				
+			</ul>
+			<div class='preview_picture'></div>
+		</li>
+        
+		
+		<li class="purchase" rel="http://themeforest.net/item/poser-ink-a-premium-wordpress-magazine/306482"><a href="http://themeforest.net/item/poser-ink-a-premium-wordpress-magazine/306482">Purchase</a></li>		
+		<li class="remove_frame" rel="http://poserinka.devilcantburn.com/"><a href="http://poserinka.devilcantburn.com/">Remove Frame</a></li>		
+		
+		</div>
+		
+		</ul>
+	
+	</div>
+	
+    <iframe id="iframe" src="http://poserinka.devilcantburn.com/" frameborder="0" width="100%"></iframe>
+    
+</body>
+
+</html>
+

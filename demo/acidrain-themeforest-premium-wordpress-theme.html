@@ -1,0 +1,224 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Premium WordPress Themes - THBThemes | AcidRain</title>
+		<link href="http://themes.thehappybit.com/asset/themes/thbthemes/theme_switcher/selector/styles.css" rel="stylesheet" media="all" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript">
+			var theme_list_open = false;
+			var iframe_modes = {
+				'desktop': '100%',
+				'mobile_portrait': '320px',
+				'mobile_landscape': '480px',
+				'tablet_portrait': '720px',
+				'tablet_landscape': '1024px'
+			};
+
+			$(document).ready(function () {
+
+				function fixHeight () {
+					var headerHeight = $("#switcher").height();
+					$("#iframe").css("height", ($(window).height() - headerHeight) + 'px');
+				}
+
+				$(window).resize(function () {
+					fixHeight();
+				}).resize();
+
+				$("#theme_select").click( function () {
+					if(theme_list_open == true) {
+						$("ul li ul").hide();
+						theme_list_open = false;
+					}
+					else {
+						$("ul li ul").show();
+						theme_list_open = true;
+					}
+
+					return false;
+				});
+
+				$(".viewport a").click(function() {
+					var parent = $(this).parent();
+
+					var mobile = parent.hasClass('mobile');
+					var tablet = parent.hasClass('tablet');
+					var desktop = parent.hasClass('desktop');
+
+					parent.addClass('active');
+
+					if( mobile || tablet ) {
+						if( parent.attr('data-toggle') == '1' ) {
+							if( parent.hasClass('landscape') ) {
+								parent.removeClass('landscape');
+							}
+							else {
+								parent.addClass('landscape');
+							}
+						}
+						parent.attr('data-toggle', '1');
+						$(".viewport a").not($(this)).parent().removeClass('landscape active');
+						$(".viewport a").not($(this)).parent().attr('data-toggle', '0');
+					}
+					else {
+						$(".viewport a").not($(this)).parent().removeClass('landscape active');
+						$(".viewport a").not($(this)).parent().attr('data-toggle', '0');
+					}
+
+					var landscape = parent.hasClass('landscape');
+
+					var mode = 'desktop';
+					if( mobile ) { mode = 'mobile' };
+					if( tablet ) { mode = 'tablet' };
+					if( desktop ) { mode = 'desktop' };
+
+					if( mobile || tablet ) {
+						if( landscape ) {
+							mode += '_landscape';
+						}
+						else {
+							mode += '_portrait';
+						}
+					}
+
+					$("#iframe").css({
+						width: iframe_modes[mode]
+					});
+
+					return false;
+				});
+
+				$("#theme_list ul li a").click(function () {
+					var theme_data = $(this).attr("rel").split(",");
+
+					$("li.purchase a")
+						.attr("href", theme_data[1])
+						.text(theme_data[2] == '1' ? 'Download' : 'Buy');
+
+					$("li.remove_frame a").attr("href", theme_data[0]);
+					$("#iframe").attr("src", theme_data[0]);
+
+					$("#theme_list a#theme_select").text($(this).text());
+
+					$("ul li ul").hide();
+
+					theme_list_open = false;
+
+					return false;
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+		<div id="switcher">
+			<ul id="thb-box">
+				<li id="thb_logo" >
+					<a href="http://themes.thehappybit.com/themes">THB Themes</a>
+				</li>
+				<li id="theme_list">
+					<a id="theme_select" href="#">
+						AcidRain					</a>
+					<ul>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/shutter,http://themeforest.net/item/shutter-photography-portfolio-wordpress-theme/1491735?ref=THBThemes,0">
+									Shutter								</a>
+								<span class="type Photography">
+									Photography								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/resolution,http://themeforest.net/item/resolution/835554?ref=THBThemes,0">
+									Resolution								</a>
+								<span class="type Blog">
+									Blog								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/push,http://themeforest.net/item/push-wordpress/588386?ref=THBThemes,0">
+									Push								</a>
+								<span class="type Blog">
+									Blog								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://simonemaranzana.com/themeforest/wp/metropolis,http://themeforest.net/item/metropolis-responsive-wordpress-theme/2284171?ref=THBThemes,0">
+									Metropolis								</a>
+								<span class="type Business">
+									Business								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/fotografia,http://themeforest.net/item/fotografia-wordpress-responsive-theme-for-artists/4076002?ref=THBThemes,0">
+									Fotografia								</a>
+								<span class="type Creative">
+									Creative								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/extremist,http://themeforest.net/item/extremist-powerful-responsive-multipurpose-theme/4818183?ref=THBThemes,0">
+									Extremist								</a>
+								<span class="type Creative">
+									Creative								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/exposure,http://themeforest.net/item/exposure-fullscreen-responsive-photography-theme/4380990?ref=THBThemes,0">
+									Exposure								</a>
+								<span class="type Creative">
+									Creative								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/eruption,http://themeforest.net/item/eruption-wordpress/405712?ref=THBThemes,0">
+									Eruption								</a>
+								<span class="type Business">
+									Business								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://thehappybit.com/demo/bigfoot,http://themes.thehappybit.com/themes/bigfoot/,1">
+									BigFoot								</a>
+								<span class="type Free">
+									Free								</span>
+							</li>
+													<li>
+								<a href="#" rel="http://simonemaranzana.com/themeforest/wp/acidrain,http://themeforest.net/item/acidrain/2950376?ref=THBThemes,0">
+									AcidRain								</a>
+								<span class="type Business">
+									Business								</span>
+							</li>
+											</ul>
+				</li>
+				<li class="viewport mobile">
+					<a href="#">Mobile</a>
+				</li>
+				<li class="viewport tablet">
+					<a href="#">Tablet</a>
+				</li>
+				<li class="viewport desktop active">
+					<a href="#">Desktop</a>
+				</li>
+				<li class="purchase" rel="http://themeforest.net/item/acidrain/2950376?ref=THBThemes">
+					<a href="http://themeforest.net/item/acidrain/2950376?ref=THBThemes">
+						Buy					</a>
+				</li>
+				<li class="remove_frame" rel="http://simonemaranzana.com/themeforest/wp/acidrain">
+					<a href="http://simonemaranzana.com/themeforest/wp/acidrain">Remove Frame</a>
+				</li>
+			</ul>
+		</div>
+		<iframe id="iframe" src="http://simonemaranzana.com/themeforest/wp/acidrain" frameborder="0" width="100%"></iframe>
+	</body>
+</html>
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			if (top.location != location) {
+			    top.location.href = document.location.href ;
+				// top.location.href = 'http://themes.thehappybit.com/theme-switcher?theme=acidrain';
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

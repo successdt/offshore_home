@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Genova | A Themeforest WordPress Theme</title>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.png" />
+  <link rel="stylesheet" type="text/css" href="flipper/layout.css" /></head>
+<body>
+  <div id="flipper"><h1><a href="#"><span class="icon"></span><span class="title">Hide Frame</span></a></h1><div class="styles"><h2>Flip Style</h2><a href="#" target="main" class="arrow"></a><a href="http://flipthemes.de/genova/blog/genova/" target="main" class="styles-genova" title="Genova"><span></span></a><a href="http://flipthemes.de/genova/blog/cyan/" target="main" class="styles-cyan" title="Cyan"><span></span></a><a href="http://flipthemes.de/genova/blog/dark-black/" target="main" class="styles-dark-black" title="dark-black"><span></span></a><a href="http://flipthemes.de/genova/blog/black-blue/" target="main" class="styles-black-blue" title="Black-Blue"><span></span></a><a href="http://flipthemes.de/genova/blog/black-orange/" target="main" class="styles-black-orange" title="Black-Orange"><span></span></a><a href="http://flipthemes.de/genova/blog/black-grey/" target="main" class="styles-black-grey" title="Black-Grey"><span></span></a><a href="http://flipthemes.de/genova/blog/red/" target="main" class="styles-red" title="Red"><span></span></a><a href="http://flipthemes.de/genova/blog/orange/" target="main" class="styles-orange" title="Orange"><span></span></a><a href="http://flipthemes.de/genova/blog/blue/" target="main" class="styles-blue" title="Blue"><span></span></a><a href="http://flipthemes.de/genova/blog/frosted-green/" target="main" class="styles-frosted-green" title="Frosted-Green"><span></span></a><a href="http://flipthemes.de/genova/blog/frosted-blue/" target="main" class="styles-frosted-blue" title="Frosted-blue"><span></span></a><a href="http://flipthemes.de/genova/blog/green/" target="main" class="styles-green" title="Green"><span></span></a><a href="http://flipthemes.de/genova/blog/burgundy/" target="main" class="styles-burgundy" title="Burgundy"><span></span></a><a href="http://flipthemes.de/genova/blog/ocher/" target="main" class="styles-ocher" title="Ocher"><span></span></a><a href="#" target="main" class="arrow arrow-right"></a></div><div class="logo"><a href="http://www.flipthemes.de/" target="_blank"><span class="title">customization services @</span><span class="icon"></span></a></div></div>  
+  <iframe src="http://flipthemes.de/genova/blog/genova/" name="main"></iframe>
+
+  
+	<script type="text/javascript" src="flipper/jquery.js"></script>
+	<script type="text/javascript" src="flipper/jquery.cookie.js"></script>
+	<script type="text/javascript">
+		function frameSize () {
+			if ($("#flipper").css("position") != "absolute") $("iframe").css({ height: parseInt($("html").height()) - parseInt($("#flipper").height()) - 1 + "px" });
+			else $("iframe").css({ height: parseInt($("html").height()) + "px" })
+		}
+				
+		function arrows () {
+			$("#flipper .styles a.arrow:first").attr("href", $("#flipper .styles a.active").attr("href"));
+			$("#flipper .styles a.arrow:last").attr("href", $("#flipper .styles a.active").attr("href"));
+		}
+
+		$(document).ready( function () {
+				if ($.cookie("flipper_frame") == "false") $("#flipper").addClass("closed");
+				frameSize ();
+				
+				$("#flipper h1").click( function () {
+						if ($.cookie("flipper_frame") == undefined) {
+							$("#flipper").addClass("closed");
+							$.cookie("flipper_frame", "false", { path: "/", expires: 3 });
+						}
+						else if ($.cookie("flipper_frame") == "true") { 
+							$("#flipper").addClass("closed");
+							$.cookie("flipper_frame", "false", { path: "/", expires: 3 });
+						}
+						else { 
+							$("#flipper").removeClass("closed");
+							$.cookie("flipper_frame", "true", { path: "/", expires: 3 });
+						}
+						
+						frameSize ();
+						return false;
+					});
+				
+				$("#flipper .styles a").each( function () {
+						if ($(this).attr("href") == $("iframe").attr("src")) $(this).addClass("active");
+					});
+				
+				$("#flipper .styles a:first").next().addClass("active");
+				arrows ();
+				
+				$("#flipper .styles a:not(.arrow)").click( function () {
+						$("#flipper .styles a.active").removeClass("active");
+						$(this).addClass("active");
+						arrows();
+					});
+				
+				$("#flipper .styles a.arrow:first").click( function () {
+						if ($("#flipper .styles a.active").attr("class") == $("#flipper .styles a:not(.arrow):first").attr("class")) {
+							$("#flipper .styles a.active").removeClass("active");
+							$("#flipper .styles a:not(.arrow):last").addClass("active");
+						}
+						else $("#flipper .styles a.active").removeClass("active").prev().addClass("active");
+						$(this).removeClass("active");
+						arrows();
+					});
+				
+				$("#flipper .styles a.arrow:last").click( function () {
+						if ($("#flipper .styles a.active").attr("class") == $("#flipper .styles a:not(.arrow):last").attr("class")) {
+							$("#flipper .styles a.active").removeClass("active");
+							$("#flipper .styles a:not(.arrow):first").addClass("active");
+						}
+						else $("#flipper .styles a.active").removeClass("active").next().addClass("active");
+						$(this).removeClass("active");
+						arrows();
+					});
+				
+				$("body").append("<div id=\"loader\" />");
+				$("#flipper .styles a").each( function () {
+						$("#loader").load($(this).attr("src"));
+					});
+				
+			});
+		$(window).resize( function () {
+				frameSize ();
+			});
+	</script>  
+</body>
+</html>

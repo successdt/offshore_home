@@ -1,0 +1,1340 @@
+<!DOCTYPE HTML>
+<html dir="ltr" lang="en-US">
+<head>
+	<title>Adorable &#8211; Clean and responsive wordpress theme</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+	<!-- for mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	
+	<!-- Meta Tags -->
+	<meta charset="UTF-8" />
+	
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/favicon1.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="icon" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/favicon1.ico" type="image/x-ico"/>	
+	
+	
+    <!--[if lt IE 9]>
+  	<script src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/html5.js"></script>
+    <![endif]-->
+	<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'></div>
+	<![endif]-->
+	
+	     <!-- start for google maps -->	
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>					
+	<script type="text/javascript">
+			(function() {
+				window.onload = function(){
+					var pinkParksStyles = '';
+				var pinkMapType = new google.maps.StyledMapType(pinkParksStyles,
+					{name: "Our Location"});
+				var mapOptions = {
+					zoom: 11,
+					center: new google.maps.LatLng(40.4166909, -3.7003454),
+					mapTypeControlOptions: {
+					mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'pink_parks']
+					}
+				};
+				var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+				  map.mapTypes.set('pink_parks', pinkMapType);
+				  map.setMapTypeId('pink_parks');
+  
+				
+				var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(40.4166909, -3.7003454),
+					map: map
+				}); 
+				}
+			})();
+
+	</script>
+	<!-- end for google maps -->
+	<script type="text/javascript">
+	var isResponsive = 'NotResponsive';
+	</script>		
+
+					
+	<!-- Fonts -->
+				
+		<link rel="alternate" type="application/rss+xml" title="Adorable - Clean and responsive wordpress theme &raquo; Feed" href="http://trendis.si/wp-themes/adorable/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Adorable - Clean and responsive wordpress theme &raquo; Comments Feed" href="http://trendis.si/wp-themes/adorable/comments/feed/" />
+<link rel='stylesheet' id='google-font-style-css'  href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='reset-style-css'  href='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/css/reset.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-style-css'  href='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/css/jquery.fancybox-1.3.4.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='layout-style-css'  href='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/css/layout.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://trendis.si/wp-themes/adorable/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://trendis.si/wp-themes/adorable/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4.1" />
+	
+	
+	<link href="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/style.css" rel="stylesheet">
+	
+					<script type="text/javascript">
+					isResponsive = 'AmResponsive';
+				</script>
+				<link rel="stylesheet" href="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/css/media.css">
+				
+	<!-- custom CSS -->
+	<style type="text/css"> 
+		#footer p a,
+		.filters .filter-cat  a:hover,
+		.filters .filter-cat  a.selected,
+		ul.images-list li p span,
+		h1.blog-post-time,
+		span.published,
+		.required,
+		.comment-awaiting-moderation,
+		#cancel-comment-reply-link,
+		.logged-in-as a,
+		.home-slider 	.text2,
+		.read-arrow a
+		{ color: #92ae6a; }  
+		input#submit-button,
+		.post-details,
+		.slogan 
+		{ background-color: #92ae6a; }  
+		.circle1,
+		p.form-submit input#submit,
+		input#submit-comment		
+		{ background: #92ae6a; }  body, p  {  }  h1 {  }  .color1 {  }  h1.like_h2 {  }  h1.like_h3 {  }  h1.like_h4 {  }  h1.like_h5 {  }  .list li {  }  #menu > li a, li.with_ul a  {  }   #menu >li.active>a, #menu >li.active>a:hover, #menu  li a:hover {  }  #menu li.with_ul ul.submenu li a {  }  .filters .filter-cat, .filters .filter-cat a {  }  .filters .filter-cat a:hover, .filters .filter-cat a.selected {  }  h1.folio-title a {  }  h1.folio-title a:hover {  }  #leftPanel {  background: ;  }  #contentHolder, #contentHolder1 {  background: ;  }  #menu >li.active>a, #menu >li.active>a:hover  {  }  #menu  li a:hover {  }  #menu li.with_ul ul.submenu li a:hover  {  } </style>
+</head>
+<body class="home blog">
+<script type="text/javascript">
+var isSingle = 'NisemSingle';
+</script>
+
+	<div class="spinner"></div>
+    <div id="bgStretch">
+		
+	
+        <img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/bg_pic1.jpg" alt="" />
+    </div>
+    <div id="glob">
+        
+        <!-- CONTENT -->
+        <section id="content">
+            <div id="leftPanel">
+                <div class="subLeftPanel">
+                    <!-- HEADER -->
+                    <header>
+					<div class="logoWrapper">
+											<h1 style="text-align:center;"><a href="#!/" id="logo"><img src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/logo.png" alt="" /></a></h1>
+										</div>
+					
+                    </header>
+                    <!-- END HEADER -->
+                    <!-- MENU -->
+					
+						<nav class="menu"><ul id="menu"><li><a href="#!/">Home </a></li><li  ><a href="#!/about-us">About us</a></li><li  ><a href="#!/our-services">Our services</a></li><li  class="with_ul"><a href="#!/portfolio">Portfolio</a><ul class="submenu"><li><a href="#!/photo-and-city">Photo and city</a></li><li><a href="#!/popup-items-and-video">PopUp items and video</a></li></ul></li><li  ><a href="#!/contact">Contact</a></li><li  ><a href="#!/blog">Blog</a></li><li><a href="http://themeforest.net/user/pego/portfolio">Buy it</a></li></ul></nav>					
+                    <!-- END MENU -->
+                    <!-- FOOTER -->
+                    <div id="footer"> 
+					<div id="socials">
+<ul class="social-links">
+<li class="twitter"><a target="_blank" title="" href="#">Twitter</a></li>
+								<li class="facebook"><a target="_blank" title="" href="#">Facebook</a></li>
+								<li class="linkedin"><a target="_blank" title="" href="#">LindkedIn</a></li>
+								<li class="googleplus"><a target="_blank" title="" href="#">GooglePlus</a></li>
+								<li class="skype"><a target="_blank" title="" href="#">Skype</a></li>
+							</ul><!-- end .social-links -->						
+						</div>
+
+						
+                        <p>ADORABLE © 2012 • made by <a href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&WT.seg_1=item_portfolio&WT.z_author=pego" target="_blank" title="Responsive wordpress premium">PEGO</a></p>        
+               
+				    </div>
+                    <!-- END FOOTER -->
+                </div>
+            </div>            <div id="contentHolder">            
+                <ul> 
+					    <li id="page_splash" class="no_disp"></li>
+
+	<script type="text/javascript">
+jQuery(window).load(function($) {
+
+	  	var container = jQuery('.around-folios');
+
+	// initialize isotope
+
+	      container.isotope({
+        itemSelector : '.folio-item'
+      });
+	
+	 var optionSets = jQuery('.option-set'),
+          optionLinks = optionSets.find('a');
+
+      optionLinks.click(function(){
+        var $this = jQuery(this);
+        // don't proceed if already selected
+        if ( $this.hasClass('selected') ) {
+          return false;
+        }
+        var optionSet = $this.parents('.option-set');
+        optionSet.find('.selected').removeClass('selected');
+        $this.addClass('selected');
+  
+        // make option object dynamically, i.e. { filter: '.my-filter-class' }
+        var options = {},
+            key = optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+        // parse 'false' as false boolean
+        value = value === 'false' ? false : value;
+        options[ key ] = value;
+        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          // changes in layout modes need extra logic
+          changeLayoutMode( $this, options )
+        } else {
+          // otherwise, apply new options
+          container.isotope( options );
+        }
+        
+        return false;
+      });
+	  
+
+});
+</script>
+     <li id="photo-and-city">
+                        <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    <div>
+                                       										   <h1><span class="color1">Photo and city</span></h1>
+										 										
+										<!-- filter -->
+																				<div class="filters option-set" data-option-key="filter">
+										<div class="filter-cat left"><a href="#filter" data-option-value="*" class="selected">All</a></div><div class="filter-cat left">/</div>
+																					  <div class="filter-cat left"><a href="#filter" data-option-value=".city">City</a></div><div class="filter-cat left">/</div>
+																					  <div class="filter-cat left"><a href="#filter" data-option-value=".photo">Photo</a></div>	
+										</div>
+																			
+										<div class="clear"></div>
+										<div class="scroll v2">
+									<!-- portf items -->
+																				
+												<div class="portfolio-items around-folios isotope" >
+																									<div class="folio-item city photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/cornflakes">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/folio1-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="folio1" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/cornflakes">Old bus</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>																															<div class="folio-item photo popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="tree-and-nature" href="javascript:;">
+																					<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="men" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="tree-and-nature" href="javascript:;">Men and nature</a></h1>
+																	</div>
+																</div>
+																</div>
+																  <script type="text/javascript">
+																jQuery(document).ready(function($) {
+																	jQuery(".tree-and-nature").click(function() {
+																		$.fancybox([
+																																				 'http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men.jpg', 																		 'http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men2.jpg' 																		], {
+																			'transitionIn'	:	'elastic',
+																			'transitionOut'	:	'elastic',
+																			'type'              : 'image'
+																	});
+																});
+																});
+																</script>
+															<div class="clear"></div>																															<div class="folio-item city">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="glasses" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses.jpg">Sunshine girl</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/red-flowers">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/beach-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="beach" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/red-flowers">Beach</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item city" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/slideshow">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/car2-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="car2" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/slideshow">Slideshow</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div><div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/autumn-leaf">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/nature-men-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="nature-men" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/autumn-leaf">Nature men</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item city" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/garden-park">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/cooking-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="cooking" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/garden-park">Cooking</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div><div class="clear"></div><div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/old-house">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/ocean-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="ocean" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/old-house">Church and ocean</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item city" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/big-city">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/popup1-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="popup1" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/big-city">Slide images</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/umbrella">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/time-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="time" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/umbrella">Time</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div><div class="clear"></div>														</div>	
+														<div class="clear"></div>
+																						<div style="height:20px; width:100%;"></div>				
+									</div>																			
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>			
+								</div>
+                            </div>
+                        </div>
+					</div>
+                    </li>
+	     <li id="test-page">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    										<h1><span class="color1">Test</span> page</h1>
+									                                     <div class="scroll v2">
+										
+									<div style="height:20px; width:100%;"></div>
+                                    </div>
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+   
+	<script type="text/javascript">
+jQuery(window).load(function($) {
+
+	  	var container1 = jQuery('.around-folios1');
+
+	// initialize isotope
+
+	      container1.isotope({
+        itemSelector : '.folio-item'
+      });
+	
+	 var optionSets1 = jQuery('.option-set1'),
+          optionLinks1 = optionSets1.find('a');
+
+      optionLinks1.click(function(){
+        var $this = jQuery(this);
+        // don't proceed if already selected
+        if ( $this.hasClass('selected') ) {
+          return false;
+        }
+        var optionSet = $this.parents('.option-set1');
+        optionSet.find('.selected').removeClass('selected');
+        $this.addClass('selected');
+  
+        // make option object dynamically, i.e. { filter: '.my-filter-class' }
+        var options = {},
+            key = optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+        // parse 'false' as false boolean
+        value = value === 'false' ? false : value;
+        options[ key ] = value;
+        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          // changes in layout modes need extra logic
+          changeLayoutMode( $this, options )
+        } else {
+          // otherwise, apply new options
+          container1.isotope( options );
+        }
+        
+        return false;
+      });
+	  
+
+});
+</script>
+     <li id="popup-items-and-video">
+                        <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    <div>
+                                       										   <h1><span class="color1">PopUp items and video</span></h1>
+										 										
+										<!-- filter -->
+																				<div class="filters option-set1" data-option-key="filter">
+										<div class="filter-cat left"><a href="#filter" data-option-value="*" class="selected">All</a></div><div class="filter-cat left">/</div>
+																					  <div class="filter-cat left"><a href="#filter" data-option-value=".popup-items">Popup Items</a></div><div class="filter-cat left">/</div>
+																					  <div class="filter-cat left"><a href="#filter" data-option-value=".video">Video</a></div>	
+										</div>
+																			
+										<div class="clear"></div>
+										<div class="scroll v2">
+									<!-- portf items -->
+																				
+												<div class="portfolio-items around-folios1 isotope" >
+											<div class="clear"></div>																															<div class="folio-item photo popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="tree-and-nature" href="javascript:;">
+																					<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="men" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="tree-and-nature" href="javascript:;">Men and nature</a></h1>
+																	</div>
+																</div>
+																</div>
+																  <script type="text/javascript">
+																jQuery(document).ready(function($) {
+																	jQuery(".tree-and-nature").click(function() {
+																		$.fancybox([
+																																				 'http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men.jpg', 																		 'http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men2.jpg' 																		], {
+																			'transitionIn'	:	'elastic',
+																			'transitionOut'	:	'elastic',
+																			'type'              : 'image'
+																	});
+																});
+																});
+																</script>
+															<div class="clear"></div><div class="clear"></div><div class="clear"></div><div class="clear"></div>																															<div class="folio-item popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="curly" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly.jpg">curly girl</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div><div class="clear"></div><div class="clear"></div>																															<div class="folio-item video">
+																	<div class="columnBox-portfolio">
+																		<div>
+																		<a class="iframe" href="http://player.vimeo.com/video/24535181">
+																			<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/target-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="target" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-video.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="iframe" href="http://player.vimeo.com/video/24535181">Envato video</a></h1>
+																	</div>
+																</div>
+															</div>
+																<div class="clear"></div>																															<div class="folio-item popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/poster.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/poster-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="poster" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/poster.jpg">Poster design</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div><div class="clear"></div><div class="clear"></div><div class="clear"></div>																															<div class="folio-item popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/paris.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/paris-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="paris" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/paris.jpg">Paris</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div>														</div>	
+														<div class="clear"></div>
+																						<div style="height:20px; width:100%;"></div>				
+									</div>																			
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>			
+								</div>
+                            </div>
+                        </div>
+					</div>
+                    </li>
+	     <li id="about-us">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    										<h1><span class="color1">about us</span> like us</h1>
+									                                     <div class="scroll v2">
+									<div class="one_third"><h1 class="like_h4">Who we are</h1><strong>We are Design Studio based in Central Europe. We are creating WordPress Themes and Flash Apps.</strong>
+<br /><br />
+We are  based in Central Europe. After some other projects we also started to make WordPress themes for Themeforest. So that we can share our knowledge.</div><div class="one_third"><h1 class="like_h4">Our Vision</h1><strong>Our main vision is to create unique web designs with all features that are top at the moment.</strong>
+<br /><br />
+We also take advices from basic users of the themes we create. There opinion is the basic on which we build the entire theme. So we combine unique and fresh.</div><div class="one_third column-last"><h1 class="like_h4">What we do</h1><ul class="list list-arrow" ><li> Responsive WordPress themes for ThemeForest </li><li> One Page slide themes </li><li> Flash Applications</li><li> Plugins for WordPress themes </li><li> Custom development </li><li> Custom C# Applications </li></ul><a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> View More </span></a></div><div class="clear"></div>
+
+<h1 class="like_h4">Meet our fantastic team</h1><ul class="images-list"><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team1.jpg" alt="" /><p>Mike Smith <span>Director</span></p></li><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team2.jpg" alt="" /><p>Julia Carter <span>Manager</span></p></li><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team3.jpg" alt="" /><p>Paul Jones <span>Programmer</span></p></li><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team4.jpg" alt="" /><p>Dith Lessy <span>Financial</span></p></li><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team4.jpg" alt="" /><p>Nancy Blue <span>Director</span></p></li><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team3.jpg" alt="" /><p>Peter Blake <span>Manager</span></p></li><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team2.jpg" alt="" /><p>Carolina Joes <span>Programmer</span></p></li><li><img class="imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/wordpress-team1.jpg" alt="" /><p>Tome Orlando <span>Financial</span></p></li></ul>	
+									<div style="height:20px; width:100%;"></div>
+                                    </div>
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+   
+     <li id="our-services">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    										<h1><span class="color1">Our services</span> what we do</h1>
+									                                     <div class="scroll v2">
+									<div class="one_third"><h1 class="like_h4">What we do</h1><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </strong>
+<br /><br />
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.<ul class="list list-arrow" style="list-style-image: url(http://trendis.si/wp-themes/booster/wp-content/themes/booster/images/li-image.png);"><li>Responsive WordPress Themes</li><li>One Page Slide Themes</li><li>Unique Design </li><li> Flash Applications  </li><li> Modules for WordPress</li><li>Marketing Themes</li><li>Professional Advertisment</li><li>Going Out</li><li>Drinking Beer</li></ul></div><div class="two_third column-last"><h1 class="like_h4">Main services</h1><div class="one_half"><img class="imgWithBorder"  src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/services2.jpg" style="max-width:95%; height:auto;" alt="" />
+
+</div><div class="one_half column-last"><h1 class="like_h4">Design</h1><strong>Pellentes que quam est, imper diet vel comm odo non</strong><ul class="list list-arrow" style="list-style-image: url(http://trendis.si/wp-themes/booster/wp-content/themes/booster/images/li-image.png);"><li>Lorem ipsum dolor sit</li><li>Incididunt ut labore et dolore</li><li>Excepteur sint occaecat </li><li>Lorem ipsum dolor sit</li></ul></div><div class="clear"></div><div class="one_half"><img class="imgWithBorder"  src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/services1.jpg" style="max-width:95%; height:auto;" alt="" /></div><div class="one_half column-last"><h1 class="like_h4">Wordpress themes</h1><strong>Pellentes que quam est, imper diet vel comm odo non</strong><ul class="list list-arrow" style="list-style-image: url(http://trendis.si/wp-themes/booster/wp-content/themes/booster/images/li-image.png);">
+<li>Lorem ipsum dolor sit</li><li>Incididunt ut labore et dolore</li><li>Excepteur sint occaecat </li><li>Lorem ipsum dolor sit</li></ul></div><div class="clear"></div>
+
+<div class="one_half"><img class="imgWithBorder"  src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/services3.jpg" style="max-width:95%; height:auto;" alt="" /></div>
+<div class="one_half column-last"><h1 class="like_h4">Flash Apps</h1><strong>Pellentes que quam est, imper diet vel comm odo non</strong><ul class="list list-arrow" style="list-style-image: url(http://trendis.si/wp-themes/booster/wp-content/themes/booster/images/li-image.png);">
+<li>Lorem ipsum dolor sit</li><li>Incididunt ut labore et dolore</li><li>Excepteur sint occaecat </li><li>Lorem ipsum dolor sit</li></ul></div><div class="clear"></div></div><div class="clear"></div>
+	
+									<div style="height:20px; width:100%;"></div>
+                                    </div>
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+   
+	<script type="text/javascript">
+jQuery(window).load(function($) {
+
+	  	var container2 = jQuery('.around-folios2');
+
+	// initialize isotope
+
+	      container2.isotope({
+        itemSelector : '.folio-item'
+      });
+	
+	 var optionSets2 = jQuery('.option-set2'),
+          optionLinks2 = optionSets2.find('a');
+
+      optionLinks2.click(function(){
+        var $this = jQuery(this);
+        // don't proceed if already selected
+        if ( $this.hasClass('selected') ) {
+          return false;
+        }
+        var optionSet = $this.parents('.option-set2');
+        optionSet.find('.selected').removeClass('selected');
+        $this.addClass('selected');
+  
+        // make option object dynamically, i.e. { filter: '.my-filter-class' }
+        var options = {},
+            key = optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+        // parse 'false' as false boolean
+        value = value === 'false' ? false : value;
+        options[ key ] = value;
+        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          // changes in layout modes need extra logic
+          changeLayoutMode( $this, options )
+        } else {
+          // otherwise, apply new options
+          container2.isotope( options );
+        }
+        
+        return false;
+      });
+	  
+
+});
+</script>
+     <li id="portfolio">
+                        <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    <div>
+                                       											<h1><span class="color1">Our</span> work</h1>
+										 										
+										<!-- filter -->
+																				<div class="filters option-set2" data-option-key="filter">
+										<div class="filter-cat left"><a href="#filter" data-option-value="*" class="selected">All</a></div><div class="filter-cat left">/</div>
+																			<div class="filter-cat left"><a href="#filter" data-option-value=".city">City</a></div><div class="filter-cat left">/</div>
+																			<div class="filter-cat left"><a href="#filter" data-option-value=".photo">Photo</a></div><div class="filter-cat left">/</div>
+																			<div class="filter-cat left"><a href="#filter" data-option-value=".popup-items">Popup Items</a></div><div class="filter-cat left">/</div>
+																			<div class="filter-cat left"><a href="#filter" data-option-value=".video">Video</a></div>	
+										</div>
+																			
+										<div class="clear"></div>
+										<div class="scroll v2">
+									<!-- portf items -->
+																				
+												<div class="portfolio-items around-folios2 isotope" >
+																									<div class="folio-item city photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/cornflakes">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/folio1-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="folio1" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/cornflakes">Old bus</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>																															<div class="folio-item photo popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="tree-and-nature" href="javascript:;">
+																					<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="men" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="tree-and-nature" href="javascript:;">Men and nature</a></h1>
+																	</div>
+																</div>
+																</div>
+																  <script type="text/javascript">
+																jQuery(document).ready(function($) {
+																	jQuery(".tree-and-nature").click(function() {
+																		$.fancybox([
+																																				 'http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men.jpg', 																		 'http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men2.jpg' 																		], {
+																			'transitionIn'	:	'elastic',
+																			'transitionOut'	:	'elastic',
+																			'type'              : 'image'
+																	});
+																});
+																});
+																</script>
+															<div class="clear"></div>																															<div class="folio-item city">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="glasses" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses.jpg">Sunshine girl</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/red-flowers">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/beach-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="beach" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/red-flowers">Beach</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item city" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/slideshow">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/car2-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="car2" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/slideshow">Slideshow</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>																															<div class="folio-item popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="curly" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly.jpg">curly girl</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/autumn-leaf">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/nature-men-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="nature-men" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/autumn-leaf">Nature men</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item city" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/garden-park">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/cooking-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="cooking" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/garden-park">Cooking</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>																															<div class="folio-item video">
+																	<div class="columnBox-portfolio">
+																		<div>
+																		<a class="iframe" href="http://player.vimeo.com/video/24535181">
+																			<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/target-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="target" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-video.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="iframe" href="http://player.vimeo.com/video/24535181">Envato video</a></h1>
+																	</div>
+																</div>
+															</div>
+																<div class="clear"></div>																															<div class="folio-item popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/poster.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/poster-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="poster" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/poster.jpg">Poster design</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/old-house">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/ocean-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="ocean" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/old-house">Church and ocean</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item city" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/big-city">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/popup1-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="popup1" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/big-city">Slide images</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>														<div class="folio-item photo" style="float:left;">
+															<div class="columnBox-portfolio">
+																<div>
+																	<a href="#!/umbrella">
+																		<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/time-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="time" />																																					<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																																			</a>
+																	<h1 class="folio-title"><a href="#!/umbrella">Time</a></h1>
+																</div>
+															</div>
+														</div>
+														
+														<div class="clear"></div>																															<div class="folio-item popup-items">
+																	<div class="columnBox-portfolio">
+																		<div>
+																			<a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/paris.jpg">
+																				<img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/paris-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="paris" />																				<span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span>
+																			</a>
+																		<h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/paris.jpg">Paris</a></h1>
+															
+																	</div>
+																</div>
+															</div>
+															<div class="clear"></div>														</div>	
+														<div class="clear"></div>
+																						<div style="height:20px; width:100%;"></div>				
+									</div>																			
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>			
+								</div>
+                            </div>
+                        </div>
+					</div>
+                    </li>
+		
+	 <li id="contact">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+																			<h1><span class="color1">Contact</span> us</h1>
+									 							   <div class="scroll v2">
+								<div id="map">
+									<div id="map_canvas" style="width:100%; height:202px; margin-bottom:30px;"></div>
+								</div>
+								<div class="contact-address">
+									<h1 class="like_h4">our locations</h1><strong><span style="color: #92ae6a;">Adorable</span></strong> &#8211; responsive wordpress theme<br /><br />Street Name 123b<br />12345 Madrid<br />
+Worldwide
+<br /><br />
+<span style="color: #92ae6a;">Office in Madrid:</span>
+<br /><br />
+<span style="color: #92ae6a;">Tel:</span> +386 040 585 585<br />
+<span style="color: #92ae6a;">Fax:</span> +386 040 586 586<br />
+<span style="color: #92ae6a;">E-mail:</span> mail@domain-name.com	
+								</div>
+																<div class="contact-form">
+								
+			<h1 class="like_h4">Use contact form</h1>
+			
+														
+															<div class="testSlide"><p class="tick"><img src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/logo-light.png" /><br />Thank you!<br />Your email has been delivered. We will contact you ASAP. </p></div>
+					<form id="contact-form1" action="/wp-themes/adorable/index.php" method="post">						
+						<div class="fl" style="margin-right: 30px; margin-bottom:20px;">
+						
+						
+							<!--<label for="contactName">Name<span class="required">*</span></label><br />-->
+							<input type="text" onblur="if(value=='') value = 'Name:'" onfocus="this.value=''"  name="contactName" id="contactName" value="Name: " class="txt requiredField"  />
+													</div>
+						
+						
+                        <div class="fl" style="margin-bottom:20px;">
+							<!--<label for="email">Email<span class="required">*</span></label><br />-->
+							<input type="text" onblur="if(value=='') value = 'Email:'" onfocus="this.value=''" name="email" id="email" value="Email: " class="txt requiredField email" />
+													</div>
+						
+						<div class="fl">
+							<!--<label for="commentsText">Message<span class="required">*</span></label><br />-->
+							<textarea name="comments" id="commentsText" class="txtarea requiredField" onblur="if(value=='') value = 'Message:'" onfocus="this.value=''">Message:</textarea>
+														</div>
+						
+						<input type="submit" value="send" id="submit-button" name="submit"  />
+						<input type="hidden" name="submitted" id="submitted" value="true" />  
+					</form>							
+				</div>
+								<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+	<!--//--><![CDATA[//><!--
+	jQuery(document).ready(function($) {
+		jQuery('form#contact-form1').submit(function() {
+			jQuery('form#contact-form1 .error').remove();
+			var hasError = false;
+			jQuery('.requiredField').each(function() {
+				if(jQuery.trim(jQuery(this).val()) == '') {
+					var labelText = jQuery(this).prev('label').text();
+					jQuery(this).parent().append('<p class="error">*This field is required.</p>');
+					jQuery(this).addClass('inputError');
+					hasError = true;
+				} else if(jQuery(this).hasClass('email')) {
+					var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+					if(!emailReg.test(jQuery.trim(jQuery(this).val()))) {
+						var labelText = jQuery(this).prev('label').text();
+						jQuery(this).parent().append('<p class="error">*This is not a valid email address.</p>');
+						jQuery(this).addClass('inputError');
+						hasError = true;
+					}
+				}
+			});
+			if(!hasError) {
+				var formInput = jQuery(this).serialize();
+				jQuery.post(jQuery(this).attr('action'),formInput, function(data){
+					jQuery('form#contact-form1').slideUp("slow", function() {				   
+						jQuery('.testSlide').slideDown(2000);
+					});
+				});
+			}
+			
+			return false;	
+		});
+	});
+	//-->!]]>
+	//-->!]]>
+</script>						
+								 <div style="height:20px; width:100%;"></div>
+								 </div>
+                                  <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>
+								
+								
+								
+                                </div>    
+                            </div>    
+                        </div>    
+                    </li>
+	   
+     <li id="blog">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    										<h1><span class="color1">blog</span> see our posts</h1>
+									                                     <div class="scroll v2">
+					
+                    	<!-- start POSTS holder -->
+										<div class="arround-posts">
+										    													<!-- start post -->
+													
+					
+												<div class="postBlogTemplate">
+												<h1 class="blog-post-time">August 28, 2012</h1>
+												<h1 class="blog-post-title"><a href="http://trendis.si/wp-themes/adorable/example-post-with-image/">Example post with image</a></h1>							
+												<div>
+													<a href="http://trendis.si/wp-themes/adorable/example-post-with-image/">
+													<img width="291" height="150" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/folio11-291x150.jpg" class="imgWithBorder wp-post-image" alt="" title="folio1" />													</a>	
+												</div>
+																								<div style="" class="circle1 circle">
+													<a class="" href="http://trendis.si/wp-themes/adorable/example-post-with-image/">Read</a>
+												</div>
+											</div>
+													<!-- end post -->
+																									<!-- start post -->
+													
+					
+												<div class="postBlogTemplate">
+												<h1 class="blog-post-time">August 28, 2012</h1>
+												<h1 class="blog-post-title"><a href="http://trendis.si/wp-themes/adorable/check-some-red-flowers-in-nature/">Small church and the ocean</a></h1>							
+												<div>
+													<a href="http://trendis.si/wp-themes/adorable/check-some-red-flowers-in-nature/">
+													<img width="291" height="150" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/post2-291x150.jpg" class="imgWithBorder wp-post-image" alt="" title="post2" />													</a>	
+												</div>
+																								<div style="" class="circle1 circle">
+													<a class="" href="http://trendis.si/wp-themes/adorable/check-some-red-flowers-in-nature/">Read</a>
+												</div>
+											</div>
+													<!-- end post -->
+																									<!-- start post -->
+													
+					
+												<div class="postBlogTemplate">
+												<h1 class="blog-post-time">August 28, 2012</h1>
+												<h1 class="blog-post-title"><a href="http://trendis.si/wp-themes/adorable/big-tree-in-the-field/">Big poster design</a></h1>							
+												<div>
+													<a href="http://trendis.si/wp-themes/adorable/big-tree-in-the-field/">
+													<img width="291" height="150" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/post3-291x150.jpg" class="imgWithBorder wp-post-image" alt="" title="post3" />													</a>	
+												</div>
+																								<div style="" class="circle1 circle">
+													<a class="" href="http://trendis.si/wp-themes/adorable/big-tree-in-the-field/">Read</a>
+												</div>
+											</div>
+													<!-- end post -->
+																									<!-- start post -->
+													
+					
+												<div class="postBlogTemplate">
+												<h1 class="blog-post-time">August 28, 2012</h1>
+												<h1 class="blog-post-title"><a href="http://trendis.si/wp-themes/adorable/we-were-in-big-city/">Love in paris</a></h1>							
+												<div>
+													<a href="http://trendis.si/wp-themes/adorable/we-were-in-big-city/">
+													<img width="291" height="150" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/post4-291x150.jpg" class="imgWithBorder wp-post-image" alt="" title="post4" />													</a>	
+												</div>
+																								<div style="" class="circle1 circle">
+													<a class="" href="http://trendis.si/wp-themes/adorable/we-were-in-big-city/">Read</a>
+												</div>
+											</div>
+													<!-- end post -->
+												<div class="clear"></div>													<!-- start post -->
+													
+					
+												<div class="postBlogTemplate">
+												<h1 class="blog-post-time">August 28, 2012</h1>
+												<h1 class="blog-post-title"><a href="http://trendis.si/wp-themes/adorable/example-post-with-slideshow/">Example post with slideshow</a></h1>							
+												<div>
+													<a href="http://trendis.si/wp-themes/adorable/example-post-with-slideshow/">
+													<img width="291" height="150" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/post5a-291x150.jpg" class="imgWithBorder wp-post-image" alt="" title="post5a" />													</a>	
+												</div>
+																								<div style="" class="circle1 circle">
+													<a class="" href="http://trendis.si/wp-themes/adorable/example-post-with-slideshow/">Read</a>
+												</div>
+											</div>
+													<!-- end post -->
+																									<!-- start post -->
+													
+					
+												<div class="postBlogTemplate">
+												<h1 class="blog-post-time">August 21, 2012</h1>
+												<h1 class="blog-post-title"><a href="http://trendis.si/wp-themes/adorable/video-we-made-some-extra-video/">Video: We made some extra Video</a></h1>							
+												<div>
+													<a href="http://trendis.si/wp-themes/adorable/video-we-made-some-extra-video/">
+													<img width="291" height="150" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/post7-291x150.jpg" class="imgWithBorder wp-post-image" alt="" title="post7" />													</a>	
+												</div>
+																								<div style="" class="circle1 circle">
+													<a class="" href="http://trendis.si/wp-themes/adorable/video-we-made-some-extra-video/">Read</a>
+												</div>
+											</div>
+													<!-- end post -->
+																		
+										</div>
+										<!-- end POSTS holder -->
+									<div style="height:20px; width:100%;"></div>
+                                    </div>
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>   
+        <li id="buy-it">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+                                    									   <h1><span class="color1">Buy it</span></h1>
+									                                     <div class="scroll v2">
+										
+									<div style="height:20px; width:100%;"></div>
+                                    </div>
+                                    <div class="scrollBtns">
+                                        <a href="#" class="scrollDown"></a>
+                                        <a href="#" class="scrollUp"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+   
+										
+											     <li id="cornflakes">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Old bus<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																																							<img class="singlePortfImg imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/folio1.jpg" alt="" />
+																																						</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> WordPress </li> <li> Photoshop </li> <li> Brushes </li> <li> Images </li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																												<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+														     <li id="red-flowers">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Beach<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																																							<img class="singlePortfImg imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/beach.jpg" alt="" />
+																																						</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> WordPress </li> <li> Photoshop </li> <li> Brushes </li> <li> Images </li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																												<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+														     <li id="slideshow">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Slideshow<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																			<div class="imgWithBorder"><div class="portfolio-slider"><div class="slides"><div class="slides_container"><div class="slide">																							
+																							<a href="#"><img src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/car1.jpg" title="" alt=""></a>
+																							</div><div class="slide">																							
+																							<a href="#"><img src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/car2.jpg" title="" alt=""></a>
+																							</div></div></div></div><div class="clear"></div></div>																			</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> WordPress </li> <li> Photoshop </li> <li> Multiple images</li> <li> Nikon 1000</li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																			<div style="width:100%; height:400px;"></div>									<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+														     <li id="autumn-leaf">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Nature men<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																																							<img class="singlePortfImg imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/nature-men.jpg" alt="" />
+																																						</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> WordPress </li> <li> Photoshop </li> <li> Brushes </li> <li> Images </li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																												<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+														     <li id="garden-park">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Cooking<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																																							<img class="singlePortfImg imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/cooking.jpg" alt="" />
+																																						</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> Avicii &#8211; Levels</li> <li> Recording new Album</li> <li> Cinema 3D</li> <li> Camera Nikon</li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																												<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+														     <li id="old-house">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Church and ocean<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																																							<img class="singlePortfImg imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/ocean.jpg" alt="" />
+																																						</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> WordPress </li> <li> Photoshop </li> <li> Brushes </li> <li> Images </li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																												<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+														     <li id="big-city">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Slide images<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																			<div class="imgWithBorder"><div class="portfolio-slider"><div class="slides"><div class="slides_container"><div class="slide">																							
+																							<a href="#"><img src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/popup1.jpg" title="" alt=""></a>
+																							</div><div class="slide">																							
+																							<a href="#"><img src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/popup2.jpg" title="" alt=""></a>
+																							</div></div></div></div><div class="clear"></div></div>																			</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> Canon 550D</li> <li> Photoshop </li> <li> Lights </li> <li> Images </li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																			<div style="width:100%; height:400px;"></div>									<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+														     <li id="umbrella">
+                         <div class="container">
+                            <div class="col3 pad1">
+                                <div class="wrapper">
+									   <h1><span class="color1">Time<a href="javascript:history.go(-1)" title=""><span class="backPortf">&larr; back</span></a></span></h1>
+                                    <div class="scrollS v2">
+																		
+																			<div class="col-full-withScroller">
+																																							<img class="singlePortfImg imgWithBorder" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/time.jpg" alt="" />
+																																						</div>
+																			<div class="singlePortfContent">
+																				<div class="one_third"><h1 class="like_h5">What we have used</h1> <ul class="list list-arrow" > <li> WordPress </li> <li> Photoshop </li> <li> Brushes </li> <li> Images </li> </ul> </div> <div class="two_third column-last"><h1 class="like_h5">Overview</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+<br /><br />
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.
+<br /><br />
+<a class="a_button small mainCol" href="http://themeforest.net/user/pego/portfolio?WT.ac=item_portfolio&amp;WT.seg_1=item_portfolio&amp;WT.z_author=pego" style=" background-color:#92ae6a; " ><span> More themes </span></a> </div><div class="clear"></div>	
+																			</div>
+																												<div style="height:20px; width:100%;"></div>										
+									</div>
+                                    <div class="scrollBtnsS">
+                                        <a href="#" class="scrollDownS"></a>
+                                        <a href="#" class="scrollUpS"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+																												
+														
+                </ul>
+				
+							<div id="homepage">
+			                        <div class="container">
+										<div class="col1">
+											<div class="wrapper">											 
+											  														<div class="home-slider">
+																													<div class="slides">
+																	<div class="slides_container">	
+																																						
+																				<div class="slide">	
+																				 <a href="#"> 																					<img width="660" height="330" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/slide1.jpg" class="attachment-HomeSliderImg wp-post-image" alt="" title="slide1" />																																											<div class="caption"><div class="text1">Adorable &#8211; responsive wordpress</div><div class="text2">Adorable is one-page slide wordpress theme...</div></div>
+																																									 </a> 																				</div>
+																				
+																				
+																																							
+																				<div class="slide">	
+																																									<img width="660" height="330" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/slide31.jpg" class="attachment-HomeSliderImg wp-post-image" alt="" title="slide3" />																																											<div class="caption"><div class="text1">Non-branded theme options</div><div class="text2">Shortcodes are integrated in theme, use just a click :)</div></div>
+																																																													</div>
+																				
+																				
+																																							
+																				<div class="slide">	
+																																									<img width="660" height="330" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/slide2.jpg" class="attachment-HomeSliderImg wp-post-image" alt="" title="slide2" />																																											<div class="caption"><div class="text1">Multiple portfolios</div><div class="text2">Unlimited portfolios pages with or without filters</div></div>
+																																																													</div>
+																				
+																				
+																																				   </div>  
+																	 </div>
+																 		
+												</div>	
+												<div class="clear"></div>
+													
+													<div class="slogan">
+														<h1 class="slogan-title">Hello and welcome, we are adorable</h1>
+														We are presenting our new theme ADORABLE, theme is fully responsive, it has a lot of theme options. If you like Adorable and have any question just ask us :).  													</div>
+																								</div>	
+												</div>	
+													<div class="col3 col640width">
+											<div class="wrapper">	
+													
+											<div class="clear"></div>
+											
+													<div class="scroll v3 pad1" style="margin-top:20px;">
+									
+													
+														 <div class="one_third"><div class="icon"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/leaf.png" alt=""></div><div class="title"><a href="#"><h2>Worpdress</h2></a></div><div class="clear"></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. <div class="read-arrow"><a href="#" class="">Read More →</a></div></div><div class="one_third"><div class="icon"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/monitor.png" alt=""></div><div class="title"><a href="#"><h2>Responsive</h2></a></div><div class="clear"></div>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.<div class="read-arrow"><a href="#" class="">Read More →</a></div></div> <div class="one_third column-last"> <div class="icon"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/settings.png" alt=""></div><div class="title"><a href="#"><h2>Theme options</h2></a></div><div class="clear"></div>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <div class="read-arrow"><a href="#" class="">Read More →</a></div></div><div class="clear"></div> <div class="clear"></div><h1 class="like_h4">Our latest projects</h1><div class="portfolio-items around-foliosS isotope"><div class="folio-item" style="float:left;"><div class="columnBox-portfolio"><div><a href="#!/cornflakes"><img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/folio1-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="folio1" /><span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span></a><h1 class="folio-title"><a href="#!/cornflakes">Old bus</a></h1></div></div></div><div class="folio-item"><div class="columnBox-portfolio"><div><a class="tree-and-nature" href="javascript:;"><img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/men-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="men" /><span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span></a><h1 class="folio-title"><a class="tree-and-nature" href="javascript:;">Men and nature</a></h1></div></div></div><div class="folio-item"><div class="columnBox-portfolio"><div><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses.jpg"><img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="glasses" /><span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span></a><h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/glasses.jpg">Sunshine girl</a></h1></div></div></div><div class="clear"></div><div class="folio-item" style="float:left;"><div class="columnBox-portfolio"><div><a href="#!/red-flowers"><img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/beach-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="beach" /><span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span></a><h1 class="folio-title"><a href="#!/red-flowers">Beach</a></h1></div></div></div><div class="folio-item" style="float:left;"><div class="columnBox-portfolio"><div><a href="#!/slideshow"><img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/car2-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="car2" /><span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-slideshow.png" alt=""></span></a><h1 class="folio-title"><a href="#!/slideshow">Slideshow</a></h1></div></div></div><div class="folio-item"><div class="columnBox-portfolio"><div><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly.jpg"><img width="179" height="125" src="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly-179x125.jpg" class="imgWithBorder wp-post-image" alt="" title="curly" /><span class="overlay"><img src="http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/images/icon-image.png" alt=""></span></a><h1 class="folio-title"><a class="portfPic" href="http://trendis.si/wp-themes/adorable/wp-content/uploads/2012/08/curly.jpg">curly girl</a></h1></div></div></div><div class="clear"></div></div>													<div style="height:20px; width:100%;"></div>
+													</div>
+													<div class="scrollBtnsS pad1">
+														<a href="#" class="scrollDown"></a>
+															<a href="#" class="scrollUp"></a>
+													</div>										
+											
+									</div>
+								</div>
+                      </div>
+				</div>
+            </div>            
+        </section>
+        <!-- END CONTENT -->
+    </div>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/jquery.backgroundpos.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/jquery.easing.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/slides.min.jquery.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/jquery.mousewheel.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/jquery.fancybox-1.3.4.pack.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/jquery-ui-1.8.11.custom.min.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/cScroll.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/superfish.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/switcher.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/bgStretch.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/sImg.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/jquery.mobilemenu.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/scripts.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://trendis.si/wp-themes/adorable/wp-content/themes/adorable/js/jquery.isotope.min.js?ver=3.4.1'></script>
+</body>
+</html>

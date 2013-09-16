@@ -1,0 +1,1690 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>MGU</title>
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://webincode.net/themes/mgu/feed/" />
+<link rel="pingback" href="http://webincode.net/themes/mgu/xmlrpc.php" />
+<link href="http://webincode.net/themes/mgu/wp-content/themes/mgu/style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="http://webincode.net/themes/mgu/wp-content/themes/mgu/css/colorpicker.css" type="text/css" />
+<link href="http://webincode.net/themes/mgu/wp-content/themes/mgu/css/superfish.css" rel="stylesheet" type="text/css" />
+<link href="http://webincode.net/themes/mgu/wp-content/themes/mgu/css/prettyphoto.css" rel="stylesheet" type="text/css" />
+<link href="http://webincode.net/themes/mgu/wp-content/themes/mgu/colors/black.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+	#header-container, #footer-container, #main-nav ul li ul {background-color:#0a0a0a}
+	#main-nav ul li a, #main-nav .sf-menu li li a {color:#bdbdbd}
+	#main-nav ul li a:hover, #main-nav .sf-menu li li a:hover, #main-nav ul li.current-menu-item a{color:#FFFFFF}
+</style>
+
+<meta name='robots' content='noindex,nofollow' />
+<link rel="alternate" type="application/rss+xml" title="MGU &raquo; Image Gallery Comments Feed" href="http://webincode.net/themes/mgu/image-gallery/feed/" />
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/jquery-ui-1.8.6.min.js?ver=1.8.6'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/jquery.easing.1.3.js?ver=1.3'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/script.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/colorpicker.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/custom.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/superfish.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/flowplayer-3.2.4.min.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/audio-player.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/resize.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/cufon/cufon-yui.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-content/themes/mgu/js/cufon/nobile_font.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://webincode.net/themes/mgu/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://webincode.net/themes/mgu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://webincode.net/themes/mgu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Style' href='http://webincode.net/themes/mgu/style/' />
+<link rel='next' title='Video' href='http://webincode.net/themes/mgu/video/' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='http://webincode.net/themes/mgu/' />
+<link rel="shortcut icon" href="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/mgu_icon.png" />
+
+<script type="text/javascript">
+//** jQuery Scroll to Top Control script- (c) Dynamic Drive DHTML code library: http://www.dynamicdrive.com.
+//** Available/ usage terms at http://www.dynamicdrive.com (March 30th, 09')
+//** v1.1 (April 7th, 09'):
+//** 1) Adds ability to scroll to an absolute position (from top of page) or specific element on the page instead.
+//** 2) Fixes scroll animation not working in Opera. 
+
+
+var scrolltotop={
+	//startline: Integer. Number of pixels from top of doc scrollbar is scrolled before showing control
+	//scrollto: Keyword (Integer, or "Scroll_to_Element_ID"). How far to scroll document up when control is clicked on (0=top).
+	setting: {startline:100, scrollto: 0, scrollduration:1000, fadeduration:[500, 100]},
+	controlHTML: '<img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/top.png" style="width:26px; height:26px" alt="" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+	controlattrs: {offsetx:15, offsety:23}, //offset of control relative to right/ bottom of window corner
+	anchorkeyword: '#top', //Enter href value of HTML anchors on the page that should also act as "Scroll Up" links
+
+	state: {isvisible:false, shouldvisible:false},
+
+	scrollup:function(){
+		if (!this.cssfixedsupport) //if control is positioned using JavaScript
+			this.$control.css({opacity:0}) //hide control immediately after clicking it
+		var dest=isNaN(this.setting.scrollto)? this.setting.scrollto : parseInt(this.setting.scrollto)
+		if (typeof dest=="string" && jQuery('#'+dest).length==1) //check element set by string exists
+			dest=jQuery('#'+dest).offset().top
+		else
+			dest=0
+		this.$body.animate({scrollTop: dest}, this.setting.scrollduration);
+	},
+
+	keepfixed:function(){
+		var $window=jQuery(window)
+		var controlx=$window.scrollLeft() + $window.width() - this.$control.width() - this.controlattrs.offsetx
+		var controly=$window.scrollTop() + $window.height() - this.$control.height() - this.controlattrs.offsety
+		this.$control.css({left:controlx+'px', top:controly+'px'})
+	},
+
+	togglecontrol:function(){
+		var scrolltop=jQuery(window).scrollTop()
+		if (!this.cssfixedsupport)
+			this.keepfixed()
+		this.state.shouldvisible=(scrolltop>=this.setting.startline)? true : false
+		if (this.state.shouldvisible && !this.state.isvisible){
+			this.$control.stop().animate({opacity:1}, this.setting.fadeduration[0])
+			this.state.isvisible=true
+		}
+		else if (this.state.shouldvisible==false && this.state.isvisible){
+			this.$control.stop().animate({opacity:0}, this.setting.fadeduration[1])
+			this.state.isvisible=false
+		}
+	},
+	
+	init:function(){
+		jQuery(document).ready(function($){
+			var mainobj=scrolltotop
+			var iebrws=document.all
+			mainobj.cssfixedsupport=!iebrws || iebrws && document.compatMode=="CSS1Compat" && window.XMLHttpRequest //not IE or IE7+ browsers in standards mode
+			mainobj.$body=(window.opera)? (document.compatMode=="CSS1Compat"? $('html') : $('body')) : $('html,body')
+			mainobj.$control=$('<div id="topcontrol">'+mainobj.controlHTML+'</div>')
+				.css({position:mainobj.cssfixedsupport? 'fixed' : 'absolute', bottom:mainobj.controlattrs.offsety, right:mainobj.controlattrs.offsetx, opacity:0, cursor:'pointer'})
+				.attr({title:'Scroll Back to Top'})
+				.click(function(){mainobj.scrollup(); return false})
+				.appendTo('body')
+			if (document.all && !window.XMLHttpRequest && mainobj.$control.text()!='') //loose check for IE6 and below, plus whether control contains any text
+				mainobj.$control.css({width:mainobj.$control.width()}) //IE6- seems to require an explicit width on a DIV containing text
+			mainobj.togglecontrol()
+			$('a[href="' + mainobj.anchorkeyword +'"]').click(function(){
+				mainobj.scrollup()
+				return false
+			})
+			$(window).bind('scroll resize', function(e){
+				mainobj.togglecontrol()
+			})
+		})
+	}
+}
+
+scrolltotop.init()
+</script><script type="text/javascript">
+/* ------------------------------------------------------------------------
+	Class: prettyPhoto
+	Use: Lightbox clone for jQuery
+	Author: Stephane Caron (http://www.no-margin-for-errors.com)
+	Version: 3.0
+------------------------------------------------------------------------- */
+
+(function($) {
+	$.prettyPhoto = {version: '3.0'};
+	
+	$.fn.prettyPhoto = function(pp_settings) {
+		pp_settings = jQuery.extend({
+			animation_speed: 'fast', /* fast/slow/normal */
+			slideshow: false, /* false OR interval time in ms */
+			autoplay_slideshow: false, /* true/false */
+			opacity: 0.80, /* Value between 0 and 1 */
+			show_title: false, /* true/false */
+			allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+			default_width: 500,
+			default_height: 344,
+			counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+			theme: 'facebook', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+			hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+			wmode: 'opaque', /* Set the flash wmode attribute */
+			autoplay: true, /* Automatically start videos: True/False */
+			modal: false, /* If set to true, only the close button will close the window */
+			overlay_gallery: true, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+			keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
+			changepicturecallback: function(){}, /* Called everytime an item is shown/changed */
+			callback: function(){}, /* Called when prettyPhoto is closed */
+			markup: '<div class="pp_pic_holder"> \
+						<div class="ppt">&nbsp;</div> \
+						<div class="pp_top"> \
+							<div class="pp_left"></div> \
+							<div class="pp_middle"></div> \
+							<div class="pp_right"></div> \
+						</div> \
+						<div class="pp_content_container"> \
+							<div class="pp_left"> \
+							<div class="pp_right"> \
+								<div class="pp_content"> \
+									<div class="pp_loaderIcon"></div> \
+									<div class="pp_fade"> \
+										<a href="#" class="pp_expand" title="Expand the image">Expand</a> \
+										<div class="pp_hoverContainer"> \
+											<a class="pp_next" href="#">next</a> \
+											<a class="pp_previous" href="#">previous</a> \
+										</div> \
+										<div id="pp_full_res"></div> \
+										<div class="pp_details clearfix"> \
+											<p class="pp_description"></p> \
+											<a class="pp_close" href="#">Close</a> \
+											<div class="pp_nav"> \
+												<a href="#" class="pp_arrow_previous">Previous</a> \
+												<p class="currentTextHolder">0/0</p> \
+												<a href="#" class="pp_arrow_next">Next</a> \
+											</div> \
+										</div> \
+									</div> \
+								</div> \
+							</div> \
+							</div> \
+						</div> \
+						<div class="pp_bottom"> \
+							<div class="pp_left"></div> \
+							<div class="pp_middle"></div> \
+							<div class="pp_right"></div> \
+						</div> \
+					</div> \
+					<div class="pp_overlay"></div>',
+			gallery_markup: '<div class="pp_gallery"> \
+								<a href="#" class="pp_arrow_previous">Previous</a> \
+								<ul> \
+									{gallery} \
+								</ul> \
+								<a href="#" class="pp_arrow_next">Next</a> \
+							</div>',
+			image_markup: '<img id="fullResImage" src="" />',
+			flash_markup: '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="{width}" height="{height}"><param name="wmode" value="{wmode}" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="{path}" /><embed src="{path}" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="{width}" height="{height}" wmode="{wmode}"></embed></object>',
+			quicktime_markup: '<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" height="{height}" width="{width}"><param name="src" value="{path}"><param name="autoplay" value="{autoplay}"><param name="type" value="video/quicktime"><embed src="{path}" height="{height}" width="{width}" autoplay="{autoplay}" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/"></embed></object>',
+			iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
+			mp3_markup: '<object type="application/x-shockwave-flash" data="http://webincode.net/themes/mgu/wp-content/themes/mgu/swf_players/mp3-player.swf" id="audioplayer" height="{height}" width="{width}"><param name="movie" value="http://webincode.net/themes/mgu/wp-content/themes/mgu/swf_players/mp3-player.swf"><param name="FlashVars" value="playerID=audioplayer&soundFile={path}"><param name="quality" value="high"><param name="menu" value="false"><param name="wmode" value="transparent"></object>',
+			flv_markup: '<object width="{width}" height="{height}" type="application/x-shockwave-flash" data="http://webincode.net/themes/mgu/wp-content/themes/mgu/swf_players/flowplayer-3.2.4.swf" name="player_api" id="player_api"><param value="true" name="allowfullscreen"><param value="always" name="allowscriptaccess"><param value="high" name="quality"><param value="true" name="cachebusting"><param value="#000000" name="bgcolor"><param value="config={&quot;playerId&quot;:&quot;player&quot;,&quot;clip&quot;:{&quot;url&quot;:&quot;{path}&quot;},&quot;playlist&quot;:[{&quot;url&quot;:&quot;{path}&quot;}]}" name="flashvars"></object>',
+			inline_markup: '<div class="pp_inline clearfix">{content}</div>',
+			custom_markup: ''
+		}, pp_settings);
+		
+		// Global variables accessible only by prettyPhoto
+		var matchedObjects = this, percentBased = false, correctSizes, pp_open,
+		
+		// prettyPhoto container specific
+		pp_contentHeight, pp_contentWidth, pp_containerHeight, pp_containerWidth,
+		
+		// Window size
+		windowHeight = $(window).height(), windowWidth = $(window).width(),
+
+		// Global elements
+		pp_slideshow;
+		
+		doresize = true, scroll_pos = _get_scroll();
+	
+		// Window/Keyboard events
+		$(window).unbind('resize').resize(function(){ _center_overlay(); _resize_overlay(); });
+		
+		if(pp_settings.keyboard_shortcuts) {
+			$(document).unbind('keydown').keydown(function(e){
+				if(typeof $pp_pic_holder != 'undefined'){
+					if($pp_pic_holder.is(':visible')){
+						switch(e.keyCode){
+							case 37:
+								$.prettyPhoto.changePage('previous');
+								break;
+							case 39:
+								$.prettyPhoto.changePage('next');
+								break;
+							case 27:
+								if(!settings.modal)
+								$.prettyPhoto.close();
+								break;
+						};
+						return false;
+					};
+				};
+			});
+		}
+		
+		
+		/**
+		* Initialize prettyPhoto.
+		*/
+		$.prettyPhoto.initialize = function() {
+			settings = pp_settings;
+			
+			if($.browser.msie && parseInt($.browser.version) == 6) settings.theme = "light_square"; // Fallback to a supported theme for IE6
+			
+			_buildOverlay(this); // Build the overlay {this} being the caller
+			
+			if(settings.allow_resize)
+				$(window).scroll(function(){ _center_overlay(); });
+				
+			_center_overlay();
+			
+			set_position = jQuery.inArray($(this).attr('href'), pp_images); // Define where in the array the clicked item is positionned
+			
+			$.prettyPhoto.open();
+			
+			return false;
+		}
+
+
+		/**
+		* Opens the prettyPhoto modal box.
+		* @param image {String,Array} Full path to the image to be open, can also be an array containing full images paths.
+		* @param title {String,Array} The title to be displayed with the picture, can also be an array containing all the titles.
+		* @param description {String,Array} The description to be displayed with the picture, can also be an array containing all the descriptions.
+		*/
+		$.prettyPhoto.open = function() {
+			if(typeof settings == "undefined"){ // Means it's an API call, need to manually get the settings and set the variables
+				settings = pp_settings;
+				if($.browser.msie && $.browser.version == 6) settings.theme = "light_square"; // Fallback to a supported theme for IE6
+				_buildOverlay(this); // Build the overlay {this} being the caller
+				pp_images = $.makeArray(arguments[0]);
+				pp_titles = (arguments[1]) ? $.makeArray(arguments[1]) : $.makeArray("");
+				pp_descriptions = (arguments[2]) ? $.makeArray(arguments[2]) : $.makeArray("");
+				isSet = (pp_images.length > 1) ? true : false;
+				set_position = 0;
+			}
+
+			if($.browser.msie && $.browser.version == 6) $('select').css('visibility','hidden'); // To fix the bug with IE select boxes
+			
+			if(settings.hideflash) $('object,embed').css('visibility','hidden'); // Hide the flash
+
+			_checkPosition($(pp_images).size()); // Hide the next/previous links if on first or last images.
+		
+			$('.pp_loaderIcon').show();
+		
+			// Fade the content in
+			if($ppt.is(':hidden')) $ppt.css('opacity',0).show();
+			$pp_overlay.show().fadeTo(settings.animation_speed,settings.opacity);
+
+			// Display the current position
+			$pp_pic_holder.find('.currentTextHolder').text((set_position+1) + settings.counter_separator_label + $(pp_images).size());
+
+			// Set the description
+			$pp_pic_holder.find('.pp_description').show().html(unescape(pp_descriptions[set_position]));
+
+			// Set the title
+			(settings.show_title && pp_titles[set_position] != "") ? $ppt.html(unescape(pp_titles[set_position])) : $ppt.html('&nbsp;');
+			
+			// Get the dimensions
+			movie_width = ( parseFloat(grab_param('width',pp_images[set_position])) ) ? grab_param('width',pp_images[set_position]) : settings.default_width.toString();
+			movie_height = ( parseFloat(grab_param('height',pp_images[set_position])) ) ? grab_param('height',pp_images[set_position]) : settings.default_height.toString();
+			
+			// If the size is % based, calculate according to window dimensions
+			if(movie_width.indexOf('%') != -1 || movie_height.indexOf('%') != -1){
+				movie_height = parseFloat(($(window).height() * parseFloat(movie_height) / 100) - 150);
+				movie_width = parseFloat(($(window).width() * parseFloat(movie_width) / 100) - 150);
+				percentBased = true;
+			}else{
+				percentBased = false;
+			}
+			
+			// Fade the holder
+			$pp_pic_holder.fadeIn(function(){
+				imgPreloader = "";
+				
+				// Inject the proper content
+				switch(_getFileType(pp_images[set_position])){
+					case 'image':
+						imgPreloader = new Image();
+
+						// Preload the neighbour images
+						nextImage = new Image();
+						if(isSet && set_position > $(pp_images).size()) nextImage.src = pp_images[set_position + 1];
+						prevImage = new Image();
+						if(isSet && pp_images[set_position - 1]) prevImage.src = pp_images[set_position - 1];
+
+						$pp_pic_holder.find('#pp_full_res')[0].innerHTML = settings.image_markup;
+						$pp_pic_holder.find('#fullResImage').attr('src',pp_images[set_position]);
+
+						imgPreloader.onload = function(){
+							// Fit item to viewport
+							correctSizes = _fitToViewport(imgPreloader.width,imgPreloader.height);
+
+							_showContent();
+						};
+
+						imgPreloader.onerror = function(){
+							alert('Image cannot be loaded. Make sure the path is correct and image exist.');
+							$.prettyPhoto.close();
+						};
+					
+						imgPreloader.src = pp_images[set_position];
+					break;
+				
+					case 'youtube':
+						correctSizes = _fitToViewport(500,344); // Fit item to viewport
+
+						movie = 'http://www.youtube.com/v/'+grab_param('v',pp_images[set_position]);
+						if(settings.autoplay) movie += "&autoplay=1";
+					
+						toInject = settings.flash_markup.replace(/{width}/g,correctSizes['width']).replace(/{height}/g,correctSizes['height']).replace(/{wmode}/g,settings.wmode).replace(/{path}/g,movie);
+					break;
+				
+					case 'vimeo':
+						correctSizes = _fitToViewport(movie_width,movie_height); // Fit item to viewport
+					
+						movie_id = pp_images[set_position];
+						var regExp = /http:\/\/(www\.)?vimeo.com\/(\d+)/;
+						var match = movie_id.match(regExp);
+						
+						movie = 'http://player.vimeo.com/video/'+ match[2] +'?title=0&amp;byline=0&amp;portrait=0';
+						if(settings.autoplay) movie += "&autoplay=1;";
+				
+						vimeo_width = correctSizes['width'] + '/embed/?moog_width='+ correctSizes['width'];
+				
+						toInject = settings.iframe_markup.replace(/{width}/g,vimeo_width).replace(/{height}/g,correctSizes['height']).replace(/{path}/g,movie);
+					break;
+				
+					case 'quicktime':
+						correctSizes = _fitToViewport(movie_width,movie_height); // Fit item to viewport
+						correctSizes['height']+=15; correctSizes['contentHeight']+=15; correctSizes['containerHeight']+=15; // Add space for the control bar
+				
+						toInject = settings.quicktime_markup.replace(/{width}/g,correctSizes['width']).replace(/{height}/g,correctSizes['height']).replace(/{wmode}/g,settings.wmode).replace(/{path}/g,pp_images[set_position]).replace(/{autoplay}/g,settings.autoplay);
+					break;
+				
+					case 'flash':
+						correctSizes = _fitToViewport(movie_width,movie_height); // Fit item to viewport
+					
+						flash_vars = pp_images[set_position];
+						flash_vars = flash_vars.substring(pp_images[set_position].indexOf('flashvars') + 10,pp_images[set_position].length);
+
+						filename = pp_images[set_position];
+						filename = filename.substring(0,filename.indexOf('?'));
+					
+						toInject =  settings.flash_markup.replace(/{width}/g,correctSizes['width']).replace(/{height}/g,correctSizes['height']).replace(/{wmode}/g,settings.wmode).replace(/{path}/g,filename+'?'+flash_vars);
+					break;
+					
+					case 'flv':
+						correctSizes = _fitToViewport(500,344); // Fit item to viewport
+					
+						toInject =  settings.flv_markup.replace(/{width}/g,correctSizes['width']).replace(/{height}/g,correctSizes['height']).replace(/{path}/g,pp_images[set_position]);
+					
+					break;
+					
+					case 'mp3':
+						correctSizes = _fitToViewport(movie_width,movie_height); // Fit item to viewport
+						correctSizes['width']=500;correctSizes['height']=24;correctSizes['containerHeight']=90; correctSizes['contentHeight']=90;
+					
+						toInject =  settings.mp3_markup.replace(/{width}/g,correctSizes['width']).replace(/{height}/g,correctSizes['height']).replace(/{path}/g,pp_images[set_position]);
+					
+					break;
+				
+					case 'iframe':
+						correctSizes = _fitToViewport(movie_width,movie_height); // Fit item to viewport
+				
+						frame_url = pp_images[set_position];
+						frame_url = frame_url.substr(0,frame_url.indexOf('iframe')-1);
+				
+						toInject = settings.iframe_markup.replace(/{width}/g,correctSizes['width']).replace(/{height}/g,correctSizes['height']).replace(/{path}/g,frame_url);
+					break;
+					
+					case 'custom':
+						correctSizes = _fitToViewport(movie_width,movie_height); // Fit item to viewport
+					
+						toInject = settings.custom_markup;
+					break;
+				
+					case 'inline':
+						// to get the item height clone it, apply default width, wrap it in the prettyPhoto containers , then delete
+						myClone = $(pp_images[set_position]).clone().css({'width':settings.default_width}).wrapInner('<div id="pp_full_res"><div class="pp_inline clearfix"></div></div>').appendTo($('body'));
+						correctSizes = _fitToViewport($(myClone).width(),$(myClone).height());
+						$(myClone).remove();
+						toInject = settings.inline_markup.replace(/{content}/g,$(pp_images[set_position]).html());
+					break;
+				};
+
+				if(!imgPreloader){
+					$pp_pic_holder.find('#pp_full_res')[0].innerHTML = toInject;
+				
+					// Show content
+					_showContent();
+				};
+			});
+
+			return false;
+		};
+
+	
+		/**
+		* Change page in the prettyPhoto modal box
+		* @param direction {String} Direction of the paging, previous or next.
+		*/
+		$.prettyPhoto.changePage = function(direction){
+			currentGalleryPage = 0;
+			
+			if(direction == 'previous') {
+				set_position--;
+				if (set_position < 0){
+					set_position = 0;
+					return;
+				};
+			}else if(direction == 'next'){
+				set_position++;
+				if(set_position > $(pp_images).size()-1) {
+					set_position = 0;
+				}
+			}else{
+				set_position=direction;
+			};
+
+			if(!doresize) doresize = true; // Allow the resizing of the images
+			$('.pp_contract').removeClass('pp_contract').addClass('pp_expand');
+
+			_hideContent(function(){ $.prettyPhoto.open(); });
+		};
+
+
+		/**
+		* Change gallery page in the prettyPhoto modal box
+		* @param direction {String} Direction of the paging, previous or next.
+		*/
+		$.prettyPhoto.changeGalleryPage = function(direction){
+			if(direction=='next'){
+				currentGalleryPage ++;
+
+				if(currentGalleryPage > totalPage){
+					currentGalleryPage = 0;
+				};
+			}else if(direction=='previous'){
+				currentGalleryPage --;
+
+				if(currentGalleryPage < 0){
+					currentGalleryPage = totalPage;
+				};
+			}else{
+				currentGalleryPage = direction;
+			};
+			
+			// Slide the pages, if we're on the last page, find out how many items we need to slide. To make sure we don't have an empty space.
+			itemsToSlide = (currentGalleryPage == totalPage) ? pp_images.length - ((totalPage) * itemsPerPage) : itemsPerPage;
+			
+			$pp_pic_holder.find('.pp_gallery li').each(function(i){
+				$(this).animate({
+					'left': (i * itemWidth) - ((itemsToSlide * itemWidth) * currentGalleryPage)
+				});
+			});
+		};
+
+
+		/**
+		* Start the slideshow...
+		*/
+		$.prettyPhoto.startSlideshow = function(){
+			if(typeof pp_slideshow == 'undefined'){
+				$pp_pic_holder.find('.pp_play').unbind('click').removeClass('pp_play').addClass('pp_pause').click(function(){
+					$.prettyPhoto.stopSlideshow();
+					return false;
+				});
+				pp_slideshow = setInterval($.prettyPhoto.startSlideshow,settings.slideshow);
+			}else{
+				$.prettyPhoto.changePage('next');	
+			};
+		}
+
+
+		/**
+		* Stop the slideshow...
+		*/
+		$.prettyPhoto.stopSlideshow = function(){
+			$pp_pic_holder.find('.pp_pause').unbind('click').removeClass('pp_pause').addClass('pp_play').click(function(){
+				$.prettyPhoto.startSlideshow();
+				return false;
+			});
+			clearInterval(pp_slideshow);
+			pp_slideshow=undefined;
+		}
+
+
+		/**
+		* Closes prettyPhoto.
+		*/
+		$.prettyPhoto.close = function(){
+
+			clearInterval(pp_slideshow);
+			
+			$pp_pic_holder.stop().find('object,embed').css('visibility','hidden');
+			
+			$('div.pp_pic_holder,div.ppt,.pp_fade').fadeOut(settings.animation_speed,function(){ $(this).remove(); });
+			
+			$pp_overlay.fadeOut(settings.animation_speed, function(){
+				if($.browser.msie && $.browser.version == 6) $('select').css('visibility','visible'); // To fix the bug with IE select boxes
+				
+				if(settings.hideflash) $('object,embed').css('visibility','visible'); // Show the flash
+				
+				$(this).remove(); // No more need for the prettyPhoto markup
+				
+				$(window).unbind('scroll');
+				
+				settings.callback();
+				
+				doresize = true;
+				
+				pp_open = false;
+				
+				delete settings;
+			});
+		};
+	
+		/**
+		* Set the proper sizes on the containers and animate the content in.
+		*/
+		_showContent = function(){
+			$('.pp_loaderIcon').hide();
+			
+			$ppt.fadeTo(settings.animation_speed,1);
+
+			// Calculate the opened top position of the pic holder
+			projectedTop = scroll_pos['scrollTop'] + ((windowHeight/2) - (correctSizes['containerHeight']/2));
+			if(projectedTop < 0) projectedTop = 0;
+
+			// Resize the content holder
+			$pp_pic_holder.find('.pp_content').animate({'height':correctSizes['contentHeight']},settings.animation_speed);
+			
+			// Resize picture the holder
+			$pp_pic_holder.animate({
+				'top': projectedTop,
+				'left': (windowWidth/2) - (correctSizes['containerWidth']/2),
+				'width': correctSizes['containerWidth']
+			},settings.animation_speed,function(){
+				$pp_pic_holder.find('.pp_hoverContainer,#fullResImage').height(correctSizes['height']).width(correctSizes['width']);
+
+				$pp_pic_holder.find('.pp_fade').fadeIn(settings.animation_speed); // Fade the new content
+
+				// Show the nav
+				if(isSet && _getFileType(pp_images[set_position])=="image") { $pp_pic_holder.find('.pp_hoverContainer').show(); }else{ $pp_pic_holder.find('.pp_hoverContainer').hide(); }
+			
+				if(correctSizes['resized']) $('a.pp_expand,a.pp_contract').fadeIn(settings.animation_speed); // Fade the resizing link if the image is resized
+				
+				if(settings.autoplay_slideshow && !pp_slideshow && !pp_open) $.prettyPhoto.startSlideshow();
+				
+				settings.changepicturecallback(); // Callback!
+				
+				pp_open = true;
+			});
+			
+			_insert_gallery();
+		};
+		
+		/**
+		* Hide the content...DUH!
+		*/
+		function _hideContent(callback){
+			// Fade out the current picture
+			$pp_pic_holder.find('#pp_full_res object,#pp_full_res embed').css('visibility','hidden');
+			$pp_pic_holder.find('.pp_fade').fadeOut(settings.animation_speed,function(){
+				$('.pp_loaderIcon').show();
+				
+				callback();
+			});
+		};
+	
+		/**
+		* Check the item position in the gallery array, hide or show the navigation links
+		* @param setCount {integer} The total number of items in the set
+		*/
+		function _checkPosition(setCount){
+			// If at the end, hide the next link
+			if(set_position == setCount-1) {
+				$pp_pic_holder.find('a.pp_next').css('visibility','hidden');
+				$pp_pic_holder.find('a.pp_next').addClass('disabled').unbind('click');
+			}else{ 
+				$pp_pic_holder.find('a.pp_next').css('visibility','visible');
+				$pp_pic_holder.find('a.pp_next.disabled').removeClass('disabled').bind('click',function(){
+					$.prettyPhoto.changePage('next');
+					return false;
+				});
+			};
+		
+			// If at the beginning, hide the previous link
+			if(set_position == 0) {
+				$pp_pic_holder
+					.find('a.pp_previous')
+					.css('visibility','hidden')
+					.addClass('disabled')
+					.unbind('click');
+			}else{
+				$pp_pic_holder.find('a.pp_previous.disabled')
+					.css('visibility','visible')
+					.removeClass('disabled')
+					.bind('click',function(){
+						$.prettyPhoto.changePage('previous');
+						return false;
+					});
+			};
+			
+			(setCount > 1) ? $('.pp_nav').show() : $('.pp_nav').hide(); // Hide the bottom nav if it's not a set.
+		};
+	
+		/**
+		* Resize the item dimensions if it's bigger than the viewport
+		* @param width {integer} Width of the item to be opened
+		* @param height {integer} Height of the item to be opened
+		* @return An array containin the "fitted" dimensions
+		*/
+		function _fitToViewport(width,height){
+			resized = false;
+
+			_getDimensions(width,height);
+			
+			// Define them in case there's no resize needed
+			imageWidth = width, imageHeight = height;
+
+			if( ((pp_containerWidth > windowWidth) || (pp_containerHeight > windowHeight)) && doresize && settings.allow_resize && !percentBased) {
+				resized = true, fitting = false;
+			
+				while (!fitting){
+					if((pp_containerWidth > windowWidth)){
+						imageWidth = (windowWidth - 200);
+						imageHeight = (height/width) * imageWidth;
+					}else if((pp_containerHeight > windowHeight)){
+						imageHeight = (windowHeight - 200);
+						imageWidth = (width/height) * imageHeight;
+					}else{
+						fitting = true;
+					};
+
+					pp_containerHeight = imageHeight, pp_containerWidth = imageWidth;
+				};
+			
+				_getDimensions(imageWidth,imageHeight);
+			};
+
+			return {
+				width:Math.floor(imageWidth),
+				height:Math.floor(imageHeight),
+				containerHeight:Math.floor(pp_containerHeight),
+				containerWidth:Math.floor(pp_containerWidth) + 40, // 40 behind the side padding
+				contentHeight:Math.floor(pp_contentHeight),
+				contentWidth:Math.floor(pp_contentWidth),
+				resized:resized
+			};
+		};
+		
+		/**
+		* Get the containers dimensions according to the item size
+		* @param width {integer} Width of the item to be opened
+		* @param height {integer} Height of the item to be opened
+		*/
+		function _getDimensions(width,height){
+			width = parseFloat(width);
+			height = parseFloat(height);
+			
+			// Get the details height, to do so, I need to clone it since it's invisible
+			$pp_details = $pp_pic_holder.find('.pp_details');
+			$pp_details.width(width);
+			detailsHeight = parseFloat($pp_details.css('marginTop')) + parseFloat($pp_details.css('marginBottom'));
+			$pp_details = $pp_details.clone().appendTo($('body')).css({
+				'position':'absolute',
+				'top':-10000
+			});
+			detailsHeight += $pp_details.height();
+			detailsHeight = (detailsHeight <= 34) ? 36 : detailsHeight; // Min-height for the details
+			if($.browser.msie && $.browser.version==7) detailsHeight+=8;
+			$pp_details.remove();
+			
+			// Get the container size, to resize the holder to the right dimensions
+			pp_contentHeight = height + detailsHeight;
+			pp_contentWidth = width;
+			pp_containerHeight = pp_contentHeight + $ppt.height() + $pp_pic_holder.find('.pp_top').height() + $pp_pic_holder.find('.pp_bottom').height();
+			pp_containerWidth = width;
+		}
+	
+		function _getFileType(itemSrc){
+			if (itemSrc.match(/youtube\.com\/watch/i)) {
+				return 'youtube';
+			}else if (itemSrc.match(/vimeo\.com/i)) {
+				return 'vimeo';
+			}else if(itemSrc.indexOf('.mov') != -1){ 
+				return 'quicktime';
+			}else if(itemSrc.indexOf('.swf') != -1){
+				return 'flash';
+			}else if(itemSrc.indexOf('.flv') != -1){
+				return 'flv';
+			}else if(itemSrc.indexOf('.mp4') != -1){
+				return 'flv';
+			}else if(itemSrc.indexOf('.mp3') != -1){
+				return 'mp3';				
+			}else if(itemSrc.indexOf('iframe') != -1){
+				return 'iframe';
+			}else if(itemSrc.indexOf('custom') != -1){
+				return 'custom';
+			}else if(itemSrc.substr(0,1) == '#'){
+				return 'inline';
+			}else{
+				return 'image';
+			};
+		};
+	
+		function _center_overlay(){
+			if(doresize && typeof $pp_pic_holder != 'undefined') {
+				scroll_pos = _get_scroll();
+				
+				titleHeight = $ppt.height(), contentHeight = $pp_pic_holder.height(), contentwidth = $pp_pic_holder.width();
+				
+				projectedTop = (windowHeight/2) + scroll_pos['scrollTop'] - (contentHeight/2);
+				
+				$pp_pic_holder.css({
+					'top': projectedTop,
+					'left': (windowWidth/2) + scroll_pos['scrollLeft'] - (contentwidth/2)
+				});
+			};
+		};
+	
+		function _get_scroll(){
+			if (self.pageYOffset) {
+				return {scrollTop:self.pageYOffset,scrollLeft:self.pageXOffset};
+			} else if (document.documentElement && document.documentElement.scrollTop) { // Explorer 6 Strict
+				return {scrollTop:document.documentElement.scrollTop,scrollLeft:document.documentElement.scrollLeft};
+			} else if (document.body) {// all other Explorers
+				return {scrollTop:document.body.scrollTop,scrollLeft:document.body.scrollLeft};
+			};
+		};
+	
+		function _resize_overlay() {
+			windowHeight = $(window).height(), windowWidth = $(window).width();
+			
+			if(typeof $pp_overlay != "undefined") $pp_overlay.height($(document).height());
+		};
+	
+		function _insert_gallery(){
+			if(isSet && settings.overlay_gallery && _getFileType(pp_images[set_position])=="image") {
+				itemWidth = 52+5; // 52 beign the thumb width, 5 being the right margin.
+				navWidth = (settings.theme == "facebook") ? 58 : 38; // Define the arrow width depending on the theme
+				
+				itemsPerPage = Math.floor((correctSizes['containerWidth'] - 100 - navWidth) / itemWidth);
+				itemsPerPage = (itemsPerPage < pp_images.length) ? itemsPerPage : pp_images.length;
+				totalPage = Math.ceil(pp_images.length / itemsPerPage) - 1;
+
+				// Hide the nav in the case there's no need for links
+				if(totalPage == 0){
+					navWidth = 0; // No nav means no width!
+					$pp_pic_holder.find('.pp_gallery .pp_arrow_next,.pp_gallery .pp_arrow_previous').hide();
+				}else{
+					$pp_pic_holder.find('.pp_gallery .pp_arrow_next,.pp_gallery .pp_arrow_previous').show();
+				};
+
+				galleryWidth = itemsPerPage * itemWidth + navWidth;
+				
+				// Set the proper width to the gallery items
+				$pp_pic_holder.find('.pp_gallery')
+					.width(galleryWidth)
+					.css('margin-left',-(galleryWidth/2));
+					
+				$pp_pic_holder
+					.find('.pp_gallery ul')
+					.width(itemsPerPage * itemWidth)
+					.find('li.selected')
+					.removeClass('selected');
+				
+				goToPage = (Math.floor(set_position/itemsPerPage) <= totalPage) ? Math.floor(set_position/itemsPerPage) : totalPage;
+				
+				
+				if(itemsPerPage) {
+					$pp_pic_holder.find('.pp_gallery').hide().show().removeClass('disabled');
+				}else{
+					$pp_pic_holder.find('.pp_gallery').hide().addClass('disabled');
+				}
+				
+				$.prettyPhoto.changeGalleryPage(goToPage);
+				
+				$pp_pic_holder
+					.find('.pp_gallery ul li:eq('+set_position+')')
+					.addClass('selected');
+			}else{
+				$pp_pic_holder.find('.pp_content').unbind('mouseenter mouseleave');
+				$pp_pic_holder.find('.pp_gallery').hide();
+			}
+		}
+	
+		function _buildOverlay(caller){
+			// Find out if the picture is part of a set
+			theRel = $(caller).attr('rel');
+			galleryRegExp = /\[(?:.*)\]/;
+			isSet = (galleryRegExp.exec(theRel)) ? true : false;
+			
+			// Put the SRCs, TITLEs, ALTs into an array.
+			pp_images = (isSet) ? jQuery.map(matchedObjects, function(n, i){ if($(n).attr('rel').indexOf(theRel) != -1) return $(n).attr('href'); }) : $.makeArray($(caller).attr('href'));
+			pp_titles = (isSet) ? jQuery.map(matchedObjects, function(n, i){ if($(n).attr('rel').indexOf(theRel) != -1) return ($(n).find('img').attr('alt')) ? $(n).find('img').attr('alt') : ""; }) : $.makeArray($(caller).find('img').attr('alt'));
+			pp_descriptions = (isSet) ? jQuery.map(matchedObjects, function(n, i){ if($(n).attr('rel').indexOf(theRel) != -1) return ($(n).attr('title')) ? $(n).attr('title') : ""; }) : $.makeArray($(caller).attr('title'));
+			
+			$('body').append(settings.markup); // Inject the markup
+			
+			$pp_pic_holder = $('.pp_pic_holder') , $ppt = $('.ppt'), $pp_overlay = $('div.pp_overlay'); // Set my global selectors
+			
+			// Inject the inline gallery!
+			if(isSet && settings.overlay_gallery) {
+				currentGalleryPage = 0;
+				toInject = "";
+				for (var i=0; i < pp_images.length; i++) {
+					var regex = new RegExp("(.*?)\.(jpg|jpeg|png|gif)$");
+					var results = regex.exec( pp_images[i] );
+					if(!results){
+						classname = 'default';
+					}else{
+						classname = '';
+					}
+					toInject += "<li class='"+classname+"'><a href='#'><img src='" + pp_images[i] + "' width='50' alt='' /></a></li>";
+				};
+				
+				toInject = settings.gallery_markup.replace(/{gallery}/g,toInject);
+				
+				$pp_pic_holder.find('#pp_full_res').after(toInject);
+				
+				$pp_pic_holder.find('.pp_gallery .pp_arrow_next').click(function(){
+					$.prettyPhoto.changeGalleryPage('next');
+					$.prettyPhoto.stopSlideshow();
+					return false;
+				});
+				
+				$pp_pic_holder.find('.pp_gallery .pp_arrow_previous').click(function(){
+					$.prettyPhoto.changeGalleryPage('previous');
+					$.prettyPhoto.stopSlideshow();
+					return false;
+				});
+				
+				$pp_pic_holder.find('.pp_content').hover(
+					function(){
+						$pp_pic_holder.find('.pp_gallery:not(.disabled)').fadeIn();
+					},
+					function(){
+						$pp_pic_holder.find('.pp_gallery:not(.disabled)').fadeOut();
+					});
+
+				itemWidth = 52+5; // 52 beign the thumb width, 5 being the right margin.
+				$pp_pic_holder.find('.pp_gallery ul li').each(function(i){
+					$(this).css({
+						'position':'absolute',
+						'left': i * itemWidth
+					});
+
+					$(this).find('a').unbind('click').click(function(){
+						$.prettyPhoto.changePage(i);
+						$.prettyPhoto.stopSlideshow();
+						return false;
+					});
+				});
+			};
+			
+			
+			// Inject the play/pause if it's a slideshow
+			if(settings.slideshow){
+				$pp_pic_holder.find('.pp_nav').prepend('<a href="#" class="pp_play">Play</a>')
+				$pp_pic_holder.find('.pp_nav .pp_play').click(function(){
+					$.prettyPhoto.startSlideshow();
+					return false;
+				});
+			}
+			
+			$pp_pic_holder.attr('class','pp_pic_holder ' + settings.theme); // Set the proper theme
+			
+			$pp_overlay
+				.css({
+					'opacity':0,
+					'height':$(document).height(),
+					'width':$(document).width()
+					})
+				.bind('click',function(){
+					if(!settings.modal) $.prettyPhoto.close();
+				});
+
+			$('a.pp_close').bind('click',function(){ $.prettyPhoto.close(); return false; });
+
+			$('a.pp_expand').bind('click',function(e){
+				// Expand the image
+				if($(this).hasClass('pp_expand')){
+					$(this).removeClass('pp_expand').addClass('pp_contract');
+					doresize = false;
+				}else{
+					$(this).removeClass('pp_contract').addClass('pp_expand');
+					doresize = true;
+				};
+			
+				_hideContent(function(){ $.prettyPhoto.open(); });
+		
+				return false;
+			});
+		
+			$pp_pic_holder.find('.pp_previous, .pp_nav .pp_arrow_previous').bind('click',function(){
+				$.prettyPhoto.changePage('previous');
+				$.prettyPhoto.stopSlideshow();
+				return false;
+			});
+		
+			$pp_pic_holder.find('.pp_next, .pp_nav .pp_arrow_next').bind('click',function(){
+				$.prettyPhoto.changePage('next');
+				$.prettyPhoto.stopSlideshow();
+				return false;
+			});
+			
+			_center_overlay(); // Center it
+		};
+		
+		return this.unbind('click').click($.prettyPhoto.initialize); // Return the jQuery object for chaining. The unbind method is used to avoid click conflict when the plugin is called more than once
+	};
+	
+	function grab_param(name,url){
+	  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+	  var regexS = "[\\?&]"+name+"=([^&#]*)";
+	  var regex = new RegExp( regexS );
+	  var results = regex.exec( url );
+	  return ( results == null ) ? "" : results[1];
+	}
+	
+})(jQuery);
+</script>
+<!--[if IE ]>
+<link href="http://webincode.net/themes/mgu/wp-content/themes/mgu/css/ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+
+</head>
+
+<body class="home page page-id-55 page-template page-template-page-fullsize-gallery-php">
+
+<!--HEADER CONTAINER-->
+<div id="header-container">
+  <div id="header">
+    <div id="logo">
+    <a href="http://webincode.net/themes/mgu">
+    
+        	<img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/logo.png" alt="MGU" />
+        
+    </a>
+    
+    </div>
+    
+    <!--MENU CONTAINER-->
+		<div id="menu-container" class="">
+  
+ 
+    <!--PRIMARY MENU-->
+
+    <div id="main-nav" class="menu-main-container"><ul id="menu-main" class="sf-menu"><li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-5"><a href="http://webincode.net/themes/mgu/">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"><a href="http://webincode.net/themes/mgu/classic-homepage/">Classic Homepage</a></li>
+	<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-153"><a href="http://webincode.net/themes/mgu/">Image Gallery</a></li>
+</ul>
+</li>
+<li id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a href="http://webincode.net/themes/mgu/category/blog/">Blog</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="http://webincode.net/themes/mgu/galleries/">Gallery</a>
+<ul class="sub-menu">
+	<li id="menu-item-101" class="menu-item menu-item-type-taxonomy menu-item-object-gal-categories menu-item-101"><a href="http://webincode.net/themes/mgu/gal-categories/images/">images</a></li>
+	<li id="menu-item-323" class="menu-item menu-item-type-taxonomy menu-item-object-gal-categories menu-item-323"><a href="http://webincode.net/themes/mgu/gal-categories/photos/">Photos</a></li>
+	<li id="menu-item-151" class="menu-item menu-item-type-taxonomy menu-item-object-gal-categories menu-item-151"><a href="http://webincode.net/themes/mgu/gal-categories/video/">Video</a></li>
+	<li id="menu-item-322" class="menu-item menu-item-type-taxonomy menu-item-object-gal-categories menu-item-322"><a href="http://webincode.net/themes/mgu/gal-categories/music/">Music</a></li>
+</ul>
+</li>
+<li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"><a href="http://webincode.net/themes/mgu/portfolio-ful/">Portfolio</a>
+<ul class="sub-menu">
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="http://webincode.net/themes/mgu/2-columns/">two columns</a></li>
+	<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a href="http://webincode.net/themes/mgu/3-columns/">Three columns</a></li>
+	<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="http://webincode.net/themes/mgu/4-columns/">Four columns</a></li>
+	<li id="menu-item-155" class="menu-item menu-item-type-taxonomy menu-item-object-folio-categories menu-item-155"><a href="http://webincode.net/themes/mgu/folio-categories/nature/">Nature</a></li>
+</ul>
+</li>
+<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="http://webincode.net/themes/mgu/video/">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a href="http://webincode.net/themes/mgu/video/">Video</a></li>
+	<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://webincode.net/themes/mgu/style/">Style</a></li>
+	<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://webincode.net/themes/mgu/columns/">Columns</a></li>
+</ul>
+</li>
+<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="http://webincode.net/themes/mgu/about/">Contact</a></li>
+</ul></div><!--//PRIMARY MENU-->
+
+	</div>
+<!--//MENU CONTAINER-->
+  
+  </div>
+</div>
+<!--//HEADER CONTAINER-->
+
+
+
+
+    
+
+<!--BACKGROUND IMAGE-->
+        
+<div id="bg"><a href="#" class="nextImageBtn" title="next"></a><a href="#" class="prevImageBtn" title="previous"></a><img src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5460.jpg" alt="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness." title="Donec condimentum hendrerit nisl" id="bgimg" style="display:block;" />
+
+</div>
+
+<div id="preloader" style="display:none;">
+<img alt="" src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/ajax-loader.gif" width="31" height="31" /></div>
+
+
+<div id="toolbar"><a href="#" title="Maximize" onClick="ImageViewMode('full');return false"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/resize_in.png" width="30" height="30"  /></a></div>
+
+
+    <div id="img_meta">
+        <a href="#" id="closePane">close</a>
+                    
+        <div id="img_title">Donec condimentum hendrerit nisl</div>
+        
+        
+        <div id="img_desc">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</div>
+                
+            </div>
+
+<div id="thumbnails_wrapper">
+
+<div id="outer_container">
+  <div class="thumbScroller">
+    <div class="container">
+    
+    
+      <div class="content">
+        <div><a title="Donec condimentum hendrerit nisl" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5460.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5460-100x67.jpg" class="thumb wp-post-image" alt="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.&nbsp;" title="Donec condimentum hendrerit nisl" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Fusce porta pretium ipsum" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5567.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5567-100x67.jpg" class="thumb wp-post-image" alt="No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances...&nbsp;" title="Fusce porta pretium ipsum" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Phasellus at elit nulla" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5496.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5496-100x67.jpg" class="thumb wp-post-image" alt="Suspendisse accumsan hendrerit augue non pharetra. Fusce lobortis sapien eget lacus venenatis laoreet. Aenean sed sem leo. Nulla sollicitudin gravida erat, sed rutrum justo ultricies sed. Curabitur commodo, ligula ac laoreet scelerisque, mauris purus pharetra massa, sit amet luctus nunc enim ut mauris.&nbsp;" title="Phasellus at elit nulla" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Nullam sollicitudin" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5515.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5515-100x67.jpg" class="thumb wp-post-image" alt="Sed sodales velit sed quam sodales dapibus. Donec ultricies nulla id mauris sagittis at sodales velit placerat. In hac habitasse platea dictumst. Morbi consectetur consectetur eros, sit amet accumsan risus lacinia in. Nam a dolor at purus pharetra adipiscing sit amet sit amet eros. Nunc eu sapien tellus. Pellentesque tincidunt orci eu urna commodo...&nbsp;" title="Nullam sollicitudin" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Suspendisse potenti" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5540.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5540-100x67.jpg" class="thumb wp-post-image" alt="Mauris pulvinar, urna nec consectetur molestie, ligula justo sodales turpis, quis dignissim tellus magna at odio.&nbsp;" title="Suspendisse potenti" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Cras posuere" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-263-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-263-1-100x67.jpg" class="thumb wp-post-image" alt="Sed libero odio, laoreet ut tristique et, feugiat a metus. Fusce accumsan est accumsan eros ultricies rhoncus. Pellentesque rhoncus turpis id dolor consequat mattis. Fusce nunc orci, consectetur sit amet eleifend ac, eleifend at lorem.&nbsp;" title="Cras posuere" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Fusce lacus neque" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-245-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-245-1-100x67.jpg" class="thumb wp-post-image" alt="Fusce accumsan est accumsan eros ultricies rhoncus. Pellentesque rhoncus turpis id dolor consequat mattis. Fusce nunc orci, consectetur sit amet eleifend ac, eleifend at lorem. Sed libero odio, laoreet ut tristique et, feugiat a metus.&nbsp;" title="Fusce lacus neque" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Phasellus metus dui" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-206-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-206-1-100x67.jpg" class="thumb wp-post-image" alt="Sed libero odio, laoreet ut tristique et, feugiat a metus.&nbsp;" title="Phasellus metus dui" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Etiam et risus" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-186-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-186-1-100x67.jpg" class="thumb wp-post-image" alt="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur tempus tincidunt nulla et condimentum.&nbsp;" title="Etiam et risus" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Praesent sed elit" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-162-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-162-1-100x67.jpg" class="thumb wp-post-image" alt="Donec id facilisis nunc. Mauris lacus nulla, aliquet quis scelerisque nec, malesuada sit amet odio. Vivamus erat neque, feugiat eu suscipit vel, consectetur ac purus. Fusce in consectetur velit. Fusce laoreet imperdiet lacus, a dictum enim gravida at. Morbi volutpat augue pretium tortor tincidunt suscipit. Donec dictum, magna ac sodales luctus, quam risus fermentum...&nbsp;" title="Praesent sed elit" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Vestibulum ante ipsum" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-136-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-136-1-100x67.jpg" class="thumb wp-post-image" alt="Morbi volutpat augue pretium tortor tincidunt suscipit. Donec dictum, magna ac sodales luctus, quam risus fermentum velit, ac auctor urna nisl ac lectus. Duis et consequat dolor. Praesent accumsan, ante at viverra tincidunt, orci lorem congue ligula, sed posuere tortor risus in ipsum.&nbsp;" title="Vestibulum ante ipsum" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Cum sociis natoque penatibus" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-100-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-100-1-100x67.jpg" class="thumb wp-post-image" alt="Donec id facilisis nunc. Mauris lacus nulla, aliquet quis scelerisque nec, malesuada sit amet odio. Vivamus erat neque, feugiat eu suscipit vel, consectetur ac purus. Fusce in consectetur velit. Fusce laoreet imperdiet lacus, a dictum enim gravida at. Morbi volutpat augue pretium tortor tincidunt suscipit.&nbsp;" title="Cum sociis natoque penatibus" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Hasellus at elit nulla" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-047-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-047-1-100x67.jpg" class="thumb wp-post-image" alt="Vivamus erat neque, feugiat eu suscipit vel, consectetur ac purus. Fusce in consectetur velit. Fusce laoreet imperdiet lacus, a dictum enim gravida at. Morbi volutpat augue pretium tortor tincidunt suscipit. Donec dictum, magna ac sodales luctus, quam risus fermentum velit, ac auctor urna nisl ac lectus. Duis et consequat dolor. Praesent accumsan, ante at...&nbsp;" title="Hasellus at elit nulla" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Aliquam mattis" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-041-1.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/batani4eskii-1-041-1-100x67.jpg" class="thumb wp-post-image" alt="Aliquam fermentum mauris vitae purus bibendum bibendum. In mollis, metus et congue interdum, turpis sem bibendum lectus, tristique posuere neque nunc non ligula. Aliquam dignissim posuere massa quis convallis. Cras id erat ac turpis ultrices feugiat. Mauris pulvinar, urna nec consectetur molestie, ligula justo sodales turpis, quis dignissim tellus magna at odio. Sed libero...&nbsp;" title="Aliquam mattis" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Maecenas non quam in metus" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5460.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5460-100x67.jpg" class="thumb wp-post-image" alt="In mollis, metus et congue interdum, turpis sem bibendum lectus, tristique posuere neque nunc non ligula. Aliquam dignissim posuere massa quis convallis. Cras id erat ac turpis ultrices feugiat. Mauris pulvinar, urna nec consectetur molestie, ligula justo sodales turpis, quis dignissim tellus magna at odio. Sed libero odio, laoreet ut tristique et, feugiat a...&nbsp;" title="Maecenas non quam in metus" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Cum sociis natoque penatibus" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5472.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5472-100x67.jpg" class="thumb wp-post-image" alt="Aliquam fermentum mauris vitae purus bibendum bibendum. Aliquam dignissim posuere massa quis convallis. Cras id erat ac turpis ultrices feugiat. Mauris pulvinar, urna nec consectetur molestie, ligula justo sodales turpis, quis dignissim tellus magna at odio. Sed libero odio, laoreet ut tristique et, feugiat a metus.&nbsp;" title="Cum sociis natoque penatibus" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Nullam vehicula dapibus" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5567.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5567-100x67.jpg" class="thumb wp-post-image" alt="Mauris pulvinar, urna nec consectetur molestie, ligula justo sodales turpis, quis dignissim tellus magna at odio. Sed libero odio, laoreet ut tristique et, feugiat a metus.&nbsp;" title="Nullam vehicula dapibus" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="My fast red car" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5493.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5493-100x67.jpg" class="thumb wp-post-image" alt="Donec id facilisis nunc. Mauris lacus nulla, aliquet quis scelerisque nec, malesuada sit amet odio. Vivamus erat neque, feugiat eu suscipit vel, consectetur ac purus. Fusce in consectetur velit. Fusce laoreet imperdiet lacus, a dictum enim gravida at. Morbi volutpat augue pretium tortor tincidunt suscipit. Donec dictum, magna ac sodales luctus, quam risus fermentum...&nbsp;" title="My fast red car" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="VIP person" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5496.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5496-100x67.jpg" class="thumb wp-post-image" alt="Morbi volutpat augue pretium tortor tincidunt suscipit. Donec dictum, magna ac sodales luctus, quam risus fermentum velit, ac auctor urna nisl ac lectus. Duis et consequat dolor. Praesent accumsan, ante at viverra tincidunt, orci lorem congue ligula, sed posuere tortor risus in ipsum. In purus massa, tincidunt a porttitor nec, tincidunt ac risus. Curabitur...&nbsp;" title="VIP person" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Go ahead" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5515.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5515-100x67.jpg" class="thumb wp-post-image" alt="Etiam non est ut nunc tempor lacinia eu eu mauris. Quisque volutpat malesuada mauris eget posuere.&nbsp;" title="Go ahead" />
+        </a></div>
+      </div>
+      
+
+     
+      <div class="content">
+        <div><a title="Best car forever" href="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5540.jpg"><img width="100" height="67" src="http://webincode.net/themes/mgu/wp-content/uploads/2010/11/IMG_5540-100x67.jpg" class="thumb wp-post-image" alt="Suspendisse ut lacus quis ligula tempus tincidunt. Nam lectus nunc, egestas nec porta tincidunt, tempor vitae eros. Fusce vel eros est. Vestibulum vitae elit eget turpis euismod semper. Nullam sed mattis dolor. Phasellus quam sapien, lobortis id malesuada porttitor, mattis sit amet justo.&nbsp;" title="Best car forever" />
+        </a></div>
+      </div>
+      
+
+     </div>
+    </div>
+  </div>
+</div>
+<!--//BACKGROUND IMAGE-->
+<div id="main-wrapper">
+ </div>
+
+
+<!--FOOTER-->
+<div id="footer-container">
+<div id="footer">
+	<div class="copyright">MGU WP Theme © 2010 All rights reserved.</div>
+    <!--FOOTER WIDGETS SECTION-->
+    <div id="footer-widgets-container">
+            
+<div id="mgu_social-3" class="footer_widget widget-social">  
+    <div class="social-container">
+    	<div>
+      <ul>
+      	
+		        <li><a href="#"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/social_icons/apple.png" alt="" /></a></li>
+                
+                <li><a href="http://www.facebook.com/"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/social_icons/facebook.png" alt="" /></a></li>
+                
+		        <li><a href="#"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/social_icons/delicious.png" alt="" /></a></li>
+                
+		        <li><a href="#"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/social_icons/drupal.png" alt="" /></a></li>
+                
+                <li><a href="#"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/social_icons/mobileme.png" alt="" /></a></li>
+                
+                <li><a href="#"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/social_icons/paypal.png" alt="" /></a></li>
+                
+                <li class="last"><a href="#"><img src="http://webincode.net/themes/mgu/wp-content/themes/mgu/images/social_icons/icq.png" alt="" /></a></li>
+                
+      </ul>
+      	</div>
+    </div>
+  </div><!-- end module -->        
+		    <!--//END OF FOOTER WIDGETS SECTION-->
+    </div>
+</div>
+
+
+</div>
+<!--//FOOTER-->
+<div id="switchColors">
+<div id="colorSelector">
+<div style="background-color: #0a0a0a"></div></div>
+<div id="colorSelector2">
+<div style="background-color: #FFFFFF"></div></div>
+</div>
+
+<script type="text/javascript">  
+	 Cufon.replace('h1,h2,h3,h4,h5,h6');
+</script>
+<script type="text/javascript">
+jQuery.noConflict();
+//config
+//set default images view mode
+$defaultViewMode="full"; //full, normal, original
+$tsMargin=30; //first and last thumbnail margin (for better cursor interaction) 
+$scrollEasing=600; //scroll easing amount (0 for no easing) 
+$scrollEasingType="easeOutCirc"; //scroll easing type 
+$thumbnailsContainerOpacity=0.8; //thumbnails area default opacity
+$thumbnailsContainerMouseOutOpacity=0; //thumbnails area opacity on mouse out
+$thumbnailsOpacity=0.6; //thumbnails default opacity
+$nextPrevBtnsInitState="true"; //next/previous image buttons initial state ("hide" or "show")
+$keyboardNavigation="true"; //enable/disable keyboard navigation ("true" or "false")
+
+//cache vars
+$thumbnails_wrapper=jQuery("#thumbnails_wrapper");
+$outer_container=jQuery("#outer_container");
+$thumbScroller=jQuery(".thumbScroller");
+$thumbScroller_container=jQuery(".thumbScroller .container");
+$thumbScroller_content=jQuery(".thumbScroller .content");
+$thumbScroller_thumb=jQuery(".thumbScroller .thumb");
+$preloader=jQuery("#preloader");
+$toolbar=jQuery("#toolbar");
+$toolbar_a=jQuery("#toolbar a");
+$bgimg=jQuery("#bgimg");
+$img_title=jQuery("#img_title");
+$img_alt=jQuery("#img_desc");
+$nextImageBtn=jQuery(".nextImageBtn");
+$prevImageBtn=jQuery(".prevImageBtn");
+
+jQuery(window).load(function() {
+	$toolbar.data("imageViewMode",$defaultViewMode); //default view mode
+	if($defaultViewMode=="full"){
+		$toolbar_a.html("<img src='http://webincode.net/themes/mgu/wp-content/themes/mgu/images/resize_in.png' width='30' height='30'  />").attr("onClick", "ImageViewMode('normal');return false").attr("title", "Restore");
+	} else {
+		$toolbar_a.html("<img src='http://webincode.net/themes/mgu/wp-content/themes/mgu/images/resize_out.png' width='30' height='30'  />").attr("onClick", "ImageViewMode('full');return false").attr("title", "Maximize");
+	}
+	ShowHideNextPrev($nextPrevBtnsInitState);
+	//thumbnail scroller
+	$thumbScroller_container.css("marginLeft",$tsMargin+"px"); //add margin
+	sliderLeft=$thumbScroller_container.position().left;
+	sliderWidth=$outer_container.width();
+	$thumbScroller.css("width",sliderWidth);
+	var totalContent=0;
+	fadeSpeed=4000;
+	
+	var $the_outer_container=document.getElementById("outer_container");
+	var $placement=findPos($the_outer_container);
+	
+	$thumbScroller_content.each(function () {
+		var $this=jQuery(this);
+		totalContent+=$this.innerWidth();
+		$thumbScroller_container.css("width",totalContent);
+		$this.children().children().children(".thumb").fadeTo(fadeSpeed, $thumbnailsOpacity);
+	});
+
+	$thumbScroller.mousemove(function(e){
+		if($thumbScroller_container.width()>sliderWidth){
+	  		var mouseCoords=(e.pageX - $placement[1]);
+	  		var mousePercentX=mouseCoords/sliderWidth;
+	  		var destX=-((((totalContent+($tsMargin*2))-(sliderWidth))-sliderWidth)*(mousePercentX));
+	  		var thePosA=mouseCoords-destX;
+	  		var thePosB=destX-mouseCoords;
+	  		if(mouseCoords>destX){
+		  		$thumbScroller_container.stop().animate({left: -thePosA}, $scrollEasing,$scrollEasingType); //with easing
+	  		} else if(mouseCoords<destX){
+		  		$thumbScroller_container.stop().animate({left: thePosB}, $scrollEasing,$scrollEasingType); //with easing
+	  		} else {
+				$thumbScroller_container.stop();  
+	  		}
+		}
+	});
+
+	$thumbnails_wrapper.fadeTo(fadeSpeed, $thumbnailsContainerOpacity);
+	$thumbnails_wrapper.hover(
+		function(){ //mouse over
+			var $this=jQuery(this);
+			$this.stop().fadeTo("slow", 1);
+		},
+		function(){ //mouse out
+			var $this=jQuery(this);
+			$this.stop().fadeTo("slow", $thumbnailsContainerMouseOutOpacity);
+		}
+	);
+
+	$thumbScroller_thumb.hover(
+		function(){ //mouse over
+			var $this=jQuery(this);
+			$this.stop().fadeTo(fadeSpeed, 1);
+		},
+		function(){ //mouse out
+			var $this=jQuery(this);
+			$this.stop().fadeTo(fadeSpeed, $thumbnailsOpacity);
+		}
+	);
+
+	//on window resize scale image and reset thumbnail scroller
+	jQuery(window).resize(function() {
+		FullScreenBackground("#bgimg",$bgimg.data("newImageW"),$bgimg.data("newImageH"));
+		$thumbScroller_container.stop().animate({left: sliderLeft}, 400,"easeOutCirc"); 
+		var newWidth=$outer_container.width();
+		$thumbScroller.css("width",newWidth);
+		sliderWidth=newWidth;
+		$placement=findPos($the_outer_container);
+	});
+
+	//load 1st image
+	var the1stImg = new Image();
+	the1stImg.onload = CreateDelegate(the1stImg, theNewImg_onload);
+	the1stImg.src = $bgimg.attr("src");
+	$outer_container.data("nextImage",jQuery(".content").first().next().find("a").attr("href"));
+	$outer_container.data("prevImage",jQuery(".content").last().find("a").attr("href"));
+});
+
+function BackgroundLoad($this,imageWidth,imageHeight,imgSrc){
+	$this.fadeOut("fast",function(){
+		$this.attr("src", "").attr("src", imgSrc); //change image source
+		FullScreenBackground($this,imageWidth,imageHeight); //scale background image
+		$preloader.fadeOut("fast",function(){$this.fadeIn("slow");});
+		var imageTitle=$img_title.data("imageTitle");		
+		if(imageTitle){
+			$this.attr("title", imageTitle);
+			$img_title.fadeOut("fast",function(){
+				$img_title.html(imageTitle).fadeIn();
+			});
+		} else {
+			$img_title.fadeOut("fast",function(){
+				$img_title.html($this.attr("title")).fadeIn();
+			});
+		}
+		var imageDesc=$img_alt.data("imageDesc");
+		if(imageDesc){
+			$this.attr("alt", imageDesc);
+			$img_alt.fadeOut("fast",function(){
+				$img_alt.html(imageDesc).fadeIn();
+			});
+		} else {
+			$img_alt.fadeOut("fast",function(){
+				$img_alt.html($this.attr("alt")).fadeIn();
+			});
+		}
+	});
+}
+
+//mouseover toolbar
+if($toolbar.css("display")!="none"){
+	$toolbar.fadeTo("fast", 0.4);
+}
+$toolbar.hover(
+	function(){ //mouse over
+		var $this=jQuery(this);
+		$this.stop().fadeTo("fast", 1);
+	},
+	function(){ //mouse out
+		var $this=jQuery(this);
+		$this.stop().fadeTo("fast", 0.4);
+	}
+);
+
+//Clicking on thumbnail changes the background image
+jQuery("#outer_container a").click(function(event){
+	event.preventDefault();
+	var $this=jQuery(this);
+	GetNextPrevImages($this);
+	GetImageTitle($this);
+	GetImageAlt($this);
+	SwitchImage(this);
+	ShowHideNextPrev($nextPrevBtnsInitState);
+}); 
+
+//next/prev images buttons
+$nextImageBtn.click(function(event){
+	event.preventDefault();
+	SwitchImage($outer_container.data("nextImage"));
+	var $this=jQuery("#outer_container a[href='"+$outer_container.data("nextImage")+"']");
+	GetNextPrevImages($this);
+	GetImageTitle($this);
+	GetImageAlt($this);
+});
+
+$prevImageBtn.click(function(event){
+	event.preventDefault();
+	SwitchImage($outer_container.data("prevImage"));
+	var $this=jQuery("#outer_container a[href='"+$outer_container.data("prevImage")+"']");
+	GetNextPrevImages($this);
+	GetImageTitle($this);
+	GetImageAlt($this);
+});
+
+//next/prev images keyboard arrows
+if($keyboardNavigation=="true"){
+jQuery(window).keydown(function(ev) {
+    if(ev.keyCode == 39) { //right arrow
+        SwitchImage($outer_container.data("nextImage"));
+		var $this=jQuery("#outer_container a[href='"+$outer_container.data("nextImage")+"']");
+		GetNextPrevImages($this);
+		GetImageTitle($this);
+		GetImageAlt($this);
+        return false; // don't execute the default action (scrolling or whatever)
+    } else if(ev.keyCode == 37) { //left arrow
+        SwitchImage($outer_container.data("prevImage"));
+		var $this=jQuery("#outer_container a[href='"+$outer_container.data("prevImage")+"']");
+		GetNextPrevImages($this);
+		GetImageTitle($this);
+		GetImageAlt($this);
+        return false; // don't execute the default action (scrolling or whatever)
+    }
+});
+}
+
+function ShowHideNextPrev(state){
+	if(state=="false"){
+		$nextImageBtn.fadeOut();
+		$prevImageBtn.fadeOut();
+	} else {
+		$nextImageBtn.fadeIn();
+		$prevImageBtn.fadeIn();
+	}
+}
+
+//get image title
+function GetImageTitle(elem){
+	var title_attr=elem.children("img").attr("title"); //get image title attribute
+	$img_title.data("imageTitle", title_attr); //store image title
+}
+
+//get image alt
+function GetImageAlt(elem){
+	var alt_attr=elem.children("img").attr("alt"); //get image alt attribute
+	$img_alt.data("imageDesc", alt_attr); //store image alt
+}
+
+
+
+//get next/prev images
+function GetNextPrevImages(curr){
+	var nextImage=curr.parents(".content").next().find("a").attr("href");
+	if(nextImage==null){ //if last image, next is first
+		var nextImage=jQuery(".content").first().find("a").attr("href");
+	}
+	$outer_container.data("nextImage",nextImage);
+	var prevImage=curr.parents(".content").prev().find("a").attr("href");
+	if(prevImage==null){ //if first image, previous is last
+		var prevImage=jQuery(".content").last().find("a").attr("href");
+	}
+	$outer_container.data("prevImage",prevImage);
+}
+
+//switch image
+function SwitchImage(img){
+	$preloader.fadeIn("fast"); //show preloader
+	var theNewImg = new Image();
+	theNewImg.onload = CreateDelegate(theNewImg, theNewImg_onload);
+	theNewImg.src = img;
+}
+
+//get new image dimensions
+function CreateDelegate(contextObject, delegateMethod){
+	return function(){
+		return delegateMethod.apply(contextObject, arguments);
+	}
+}
+
+//new image on load
+function theNewImg_onload(){
+	$bgimg.data("newImageW",this.width).data("newImageH",this.height);
+	BackgroundLoad($bgimg,this.width,this.height,this.src);
+}
+
+//Image scale function
+function FullScreenBackground(theItem,imageWidth,imageHeight){
+	var winWidth=jQuery(window).width();
+	var winHeight=jQuery(window).height();
+	if($toolbar.data("imageViewMode")!="original"){ //scale
+		var picHeight = imageHeight / imageWidth;
+		var picWidth = imageWidth / imageHeight;
+		if($toolbar.data("imageViewMode")=="full"){ //fullscreen size image mode
+			if ((winHeight / winWidth) < picHeight) {
+				jQuery(theItem).attr("width",winWidth);
+				jQuery(theItem).attr("height",picHeight*winWidth);
+			} else {
+				jQuery(theItem).attr("height",winHeight);
+				jQuery(theItem).attr("width",picWidth*winHeight);
+			};
+		} else { //normal size image mode
+			if ((winHeight / winWidth) > picHeight) {
+				jQuery(theItem).attr("width",winWidth);
+				jQuery(theItem).attr("height",picHeight*winWidth);
+			} else {
+				jQuery(theItem).attr("height",winHeight);
+				jQuery(theItem).attr("width",picWidth*winHeight);
+			};
+		}
+		jQuery(theItem).css("margin-left",(winWidth-jQuery(theItem).width())/2);
+		jQuery(theItem).css("margin-top",(winHeight-jQuery(theItem).height())/2);
+	} else { //no scale
+		jQuery(theItem).attr("width",imageWidth);
+		jQuery(theItem).attr("height",imageHeight);
+		jQuery(theItem).css("margin-left",(winWidth-imageWidth)/2);
+		jQuery(theItem).css("margin-top",(winHeight-imageHeight)/2);
+	}
+}
+
+//Image view mode function - fullscreen or normal size
+function ImageViewMode(theMode){
+	$toolbar.data("imageViewMode", theMode);
+	FullScreenBackground($bgimg,$bgimg.data("newImageW"),$bgimg.data("newImageH"));
+	if(theMode=="full"){
+		$toolbar_a.html("<img src='http://webincode.net/themes/mgu/wp-content/themes/mgu/images/resize_in.png' width='30' height='30'  />").attr("onClick", "ImageViewMode('normal');return false").attr("title", "Restore");
+	} else {
+		$toolbar_a.html("<img src='http://webincode.net/themes/mgu/wp-content/themes/mgu/images/resize_out.png' width='30' height='30'  />").attr("onClick", "ImageViewMode('full');return false").attr("title", "Maximize");
+	}
+}
+
+//function to find element Position
+	function findPos(obj) {
+		var curleft = curtop = 0;
+		if (obj.offsetParent) {
+			curleft = obj.offsetLeft
+			curtop = obj.offsetTop
+			while (obj = obj.offsetParent) {
+				curleft += obj.offsetLeft
+				curtop += obj.offsetTop
+			}
+		}
+		return [curtop, curleft];
+	}
+// yak, 2011-02-14
+// add simple slideshow functionality
+// 
+var slideshow_enabled     = true; // enable or disable the slideshow on page load
+var slideshow_delay       = 8000; // slideshow delay in msec.
+var slideshow_extra_delay = 8000; // slideshow additional delay (when directly clicking on a thumbnail), in msec
+
+var slideshow_timeout=false;
+var slideshow_real_delay=slideshow_delay;
+if(slideshow_enabled){
+    var increase_delay_func=function(event){
+        slideshow_real_delay=slideshow_delay+slideshow_extra_delay;
+        window.clearTimeout(slideshow_timeout);
+        slideshow_timeout=window.setTimeout(slideshow_loop,slideshow_real_delay);
+    };
+    jQuery("#outer_container a").click(increase_delay_func);
+    slideshow_timeout=window.setTimeout(slideshow_loop,slideshow_real_delay);
+}
+
+function slideshow_loop(){
+    slideshow_real_delay=slideshow_delay;
+    $nextImageBtn.trigger('click');
+    slideshow_timeout=window.setTimeout(slideshow_loop, slideshow_real_delay);
+}	
+									
+</script>
+
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(function(){
+	jQuery('ul.sf-menu').superfish({
+		delay:       300,                            // one second delay on mouseout 
+        animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation 
+        speed:       'normal',                          // faster animation speed 
+        autoArrows:  true,                           // disable generation of arrow mark-up 
+        dropShadows: false                            // disable drop shadows 
+	});
+});
+
+</script>
+<script type="text/javascript" charset="utf-8">
+jQuery.noConflict();
+jQuery(document).ready(function(){
+	jQuery("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_rounded'});
+	});
+</script>
+    
+<script type="text/javascript">
+jQuery.noConflict();		
+jQuery(document).ready( function(){	
+	var buttons = { 
+		previous:jQuery('#lofslidecontent45 .lof-previous') ,
+		next:jQuery('#lofslidecontent45 .lof-next') };
+	  	$obj = jQuery('#lofslidecontent45').lofJSidernews( { 
+           interval         : 5000,
+		   direction		: 'opacitys',	
+		   easing			: 'easeInOutExpo',
+		   duration 		: 1200,
+           auto 		 	: false,
+           maxItemDisplay   : 8,
+           navPosition      : 'horizontal', // horizontal
+           navigatorHeight  : 80,
+           navigatorWidth   : 107,
+		   mainWidth        : 950,
+           buttons			: buttons} );
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17436341-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

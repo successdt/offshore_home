@@ -1,0 +1,244 @@
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>THEMEDUTCH | PRESENTS
+	NOTIME	</title>
+	<link href="selector/styles.css" rel="stylesheet" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet" media="all" />
+
+	<!--[if IE]><style type="text/css">li.purchase a {padding-top: 5px;background-position: 0px -4px;}li.remove_frame a {padding-top: 5px;background-position: 0px -3px;}#theme_select {padding: 8px 8px;}#theme_list {margin-top: 2px;}</style><![endif]-->
+
+	<style type="text/css">
+	 li.purchase {
+	 padding-top: 18px;
+	}
+	li.purchase a {
+		padding-top: 5px;
+		background-position: 0px -3px;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 18px;
+	}
+	li.remove_frame {
+		padding-top: 18px;
+	}
+	li.remove_frame a {
+		padding-top: 5px;
+		background-position: 0px -2px;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 18px;
+	}
+	#theme_select {
+		padding: 7px 8px;
+	}
+	 	</style>
+	<script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+	<!--<script type="text/javascript" src="selector/jquery-1.4.2.min.js"></script>-->
+	<link rel="stylesheet" type="text/css" href="css/sbtooltip.css" media="screen" />
+	<script type='text/javascript' src='jscripts/jquery.sbtooltip.js'></script>
+	<script type="text/javascript"> 
+	$(document).ready(function(){
+							   
+		$("a.sbtooltip").sbTooltip();
+		
+	}); 
+	</script>
+
+	<script type="text/javascript">
+        
+        var theme_list_open = false;
+        
+        $(document).ready(function () {
+        
+        	function fixHeight () {
+        	
+        	var headerHeight = $("#switcher").height();
+        	        	
+        	$("#iframe").attr("height", (($(window).height() - 10) - headerHeight) + 'px');
+        	
+        	}
+        	
+        	$(window).resize(function () {
+               	
+        		fixHeight();
+        	
+        	}).resize();
+        	
+        	$("#theme_select").click( function () {
+        	
+        		if (theme_list_open == true) {
+        	
+        		$(".list-pnl").slideUp("slow");
+        		
+        		theme_list_open = false;
+        		
+        		} else {
+					if ($(".ad-pnl").is(":visible"))
+					{
+						$(".ad-pnl").slideUp("slow");
+					}
+					
+        		$(".list-pnl").slideDown("slow");         		
+        		
+        		theme_list_open = true;
+        		
+        		}
+        		
+        		return false;
+        	
+        	});
+        	
+        	$("#slider ul li a").click(function () {
+        	
+        	var theme_data = $(this).attr("rel").split(",");
+        	        	
+        	$("#lnk-purchase").attr("href", theme_data[1]);
+        	$("#lnk-closeframe").attr("href", theme_data[0]);
+        	$("#iframe").attr("src", theme_data[0]);
+        	
+        	$("a#theme_select").text($(this).attr('title'));
+        	
+        		$(".list-pnl").slideUp("slow");
+        	//$(".center ul li ul").hide();
+        	
+        	theme_list_open = false;
+        	
+        	return false;
+        	
+        	});
+			// Easy Slider (start)
+			$("#slider").easySlider({
+				auto: 			true, 
+				continuous: 	true,
+				pause:			4000,
+				prevId: 		'prevBtn',
+				prevText: 		'',
+				nextId: 		'nextBtn',	
+				nextText: 		'',
+				hoverpause:     true
+			});
+			// Easy Slider (end)
+		  resizeListPanel();
+        });
+		$(window).resize(function() {
+			resizeListPanel();
+		  
+		});
+    	function resizeListPanel()
+		{
+			var windowWidth =  $(window).width();
+			
+			$(".list-pnl").css({ position: "absolute", visibility: "hidden", display: "block" });
+			var sliderPnlWidth = $("#slider-pnl").width();
+			$(".list-pnl").css({ position: "", visibility: "", display: "" });
+
+			
+			
+			var sliderWidth =  sliderPnlWidth;
+				$('#slider').css({
+					"width": sliderWidth
+				} )
+		}
+    </script>
+	<script type="text/javascript" src="jscripts/easySlider1.7.js"></script>
+	
+	
+	</head>
+
+	<body>
+<div id="switcher">
+		<div class="center">
+		<div class="hleft-blk">
+				<div class="logo-blk"> <a href="http://www.theme-dutch.com" target="_blank"><img src="selector/td-logo.png" alt="Theme Dutch" /></a> </div>
+				<div class="header-textblk">
+				<div id="quotes">
+						<div class="textItem">Check out our latest theme ZOZO, a responsive multi business WP theme</div>
+						<div class="textItem">Look for Mikmag 2.0 a responsive Magazine theme incl. Buddypress and Woocommerce </div>
+						<div class="textItem">Buy James 2.0, a responsive and amazing portfolio theme including Woocommerce </div>
+					</div>
+			</div>
+			</div>
+		<div class="float-r font20">
+				<div class="icon-blk x-close"> <a class="sbtooltip" title="Remove frame" id="lnk-closeframe" href="http://theme-dutch.com/presents/notime/"><i class="icon-remove-sign">&nbsp;</i></a> </div>
+				<div class="ddl-blk">
+				<ul>
+						<li id="theme_list">
+						<div><a id="theme_select" href="#">
+							NOTIME							</a><i class="icon-double-angle-down icon-2x" style="float:right"></i></div>
+						
+					</li>
+					</ul>
+			</div>
+				<div class="icon-blk"> <a  class="sbtooltip btn-info" title="Introducing Themedutch" href="#"><i class="icon-exclamation-sign">&nbsp;</i></a> </div>
+				<div class="icon-blk"> <a  class="sbtooltip" title=" Buy & Download"   id="lnk-purchase" href="http://themeforest.net/item/notime-business-portfolio-wordpress-theme/3680229/" ><i class="icon-shopping-cart">&nbsp;</i></a> </div>
+			</div>
+	</div>
+	</div>
+<div class="ad-pnl">
+		<div class="cntr-ad">
+		<div class="admainblk">
+				<p>Howdy guys,</p>
+				<p>Theme Dutch is your one-stop theme collection for your website needs. From corporate and business websites, to e-commerce and shopping, to blogs and photography portfolios, we've got you covered.</p>
+				<p>We love to mix and match minimalist visual appeal with high-end coding into easy to use and ultra customizable Wordpress themes. Our multi-functioning websites are also hardwired for your SEO, sales and marketing as well as social media requirements.</p>
+				<p>Are you looking for a suitable WP theme to build your unique and personal website? We're offering creative and innovative theme designs that will provide you the ultimate website experience, and require the least amount of html knowledge.</p>
+				<p>Cheers,<br>
+				THEMEDUTCH TEAM</p>
+				<p> <a href="http://www.theme-dutch.com" target="_blank"><i class="icon-home icon-2x">&nbsp;</i></a> &nbsp;&nbsp; <a href="http://twitter.com/themedutch" target="_blank"><i class="icon-twitter icon-2x">&nbsp;</i></a> &nbsp;&nbsp; <a target="_blank" href="http://facebook.com/themedutch"><i class="icon-facebook icon-2x">&nbsp;</i></a> </p>
+			</div>
+	</div>
+	</div>
+<div class="list-pnl">
+		<div class="cntr-ad">
+			<div id="slider-pnl">
+				<div id="slider">
+					<ul>
+						<li>
+							<div><a href="#" rel="http://theme-dutch.com/presents/zozo/,http://www.mojo-themes.com/item/zozo-responsive-multi-business-wordpress-theme/" title="ZOZO"><img src="images/thumb/zozo.png"><br /></a>ZOZO</div><div><a href="#" rel="http://theme-dutch.com/presents/champi/,https://www.mojo-themes.com/item/champi-responsive-business-portfolio-wp-template/" title="CHAMPI"><img src="images/thumb/champi.jpg"><br /></a>CHAMPI</div><div><a href="#" rel="http://theme-dutch.com/presents/notime/,http://themeforest.net/item/notime-business-portfolio-wordpress-theme/3680229/" title="NOTIME"><img src="images/thumb/notime.jpg"><br /></a>NOTIME</div><div><a href="#" rel="http://theme-dutch.com/presents/freeze/,http://www.mojo-themes.com/item/freeze-multi-business-wp-theme/" title="FREEZE"><img src="images/thumb/freeze.jpg"><br /></a>FREEZE</div><div><a href="#" rel="http://theme-dutch.com/presents/mikmag/,http://themeforest.net/item/mikmag-responsive-buddypress-and-woocommerce/2728331" title="MIKMAG"><img src="images/thumb/mikmag.png"><br /></a>MIKMAG</div><div><a href="#" rel="http://www.theme-dutch.com/presents/cesare/,http://themeforest.net/item/cesare-wp-full-screen-portfolio-theme/1951811?WT" title="CESARE"><img src="images/thumb/cesare.png"><br /></a>CESARE</div></li><li class="li-class6"><div><a href="#" rel="http://theme-dutch.com/presents/james/,http://www.mojo-themes.com/item/james-2-0-responsive-full-screen-portfolio-woocommerce-theme/" title="JAMES"><img src="images/thumb/james.jpg"><br /></a>JAMES</div><div><a href="#" rel="http://theme-dutch.com/presents/thebasics/,http://www.mojo-themes.com/item/the-basics-wordpress-theme/" title="THE-BASICS"><img src="images/thumb/thebasics.jpg"><br /></a>THE-BASICS</div><div><a href="#" rel="http://www.theme-dutch.com/presents/siso/,http://www.mojo-themes.com/item/siso-woo-commerce-wordpress-theme/" title="SISO"><img src="images/thumb/siso.jpg"><br /></a>SISO</div><div><a href="#" rel="http://www.theme-dutch.com/presents/zagetti/,http://themeforest.net/item/zagetti-i-a-stylish-wordpress-theme/473986" title="ZAGETTI"><img src="images/thumb/zagetti.jpg"><br /></a>ZAGETTI</div><div><a href="#" rel="http://www.theme-dutch.com/presents/screen/,http://themeforest.net/item/screen-the-next-generation-wordpress-theme/125148" title="SCREEN"><img src="images/thumb/screen.jpg"><br /></a>SCREEN</div>						</li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	</div>
+<iframe id="iframe" src="http://theme-dutch.com/presents/notime/" frameborder="0" width="100%"></iframe>
+<script>
+if(top.location != self.location){
+  top.location.href=self.location.href;
+}
+		$(".btn-info").click(function () {
+			if ($(".ad-pnl").is(":hidden")) {
+				if ($(".list-pnl").is(":visible"))
+				{
+					$(".list-pnl").slideUp("slow");
+				}
+				$(".ad-pnl").slideDown("slow");
+			} else {
+				$(".ad-pnl").slideUp("slow");
+			}
+		});
+		
+		$(document).ready(function() {
+			setupRotator();
+      	});
+            function setupRotator() {
+                        if ($('.textItem').length > 1) {
+                                    $('.textItem:first').addClass('current').fadeIn("slow");
+                                    setInterval('textRotate()', 6000);
+                        }
+            }
+            function textRotate() {
+                        var current = $('#quotes > .current');
+                        if (current.next().length == 0) {
+                                    current.removeClass('current').fadeOut("slow");
+                                    $('.textItem:first').addClass('current').fadeIn("slow");
+                        } else {
+                                    current.removeClass('current').fadeOut("slow");
+                                    current.next().addClass('current').fadeIn("slow");
+                        }
+            }
+
+ 
+</script>
+</body>
+</html>

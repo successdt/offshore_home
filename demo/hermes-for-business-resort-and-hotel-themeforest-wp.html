@@ -1,0 +1,222 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Premium Wordpress Theme | Hermes</title>
+        
+        <link href="selector/styles.css" rel="stylesheet" media="all" />
+        
+		<!--[if IE 7]>
+			
+			<style type="text/css">
+			
+				li.remove_frame a {
+					display:none;
+				}
+				
+				span.type
+				{
+					margin-right: 35px;
+				}
+			
+			</style>
+			
+		<![endif]--> 
+		
+		<style type="text/css">
+		
+			
+		li.purchase {
+			padding-top: 18px;
+		}
+		
+		li.purchase a {
+		
+		padding-top: 5px;
+		background-position: 0px -3px;
+		
+		}
+		
+		li.remove_frame {
+			padding-top: 18px;
+		}
+		
+		li.remove_frame a {
+		
+		padding-top: 5px;
+		background-position: 0px -2px;
+		
+		}
+				
+		#theme_select {
+			padding: 7px 8px;
+		}
+		
+				
+		</style>
+	        
+        <script type="text/javascript" src="selector/jquery-1.4.2.min.js"></script>
+        
+        <script type="text/javascript">
+ 
+this.imagePreview = function(){	
+	/* CONFIG */
+		
+		xOffset = 10;
+		yOffset = 30;
+		
+		// these 2 variable determine popup's distance from the cursor
+		// you might want to adjust to get the right result
+		
+	/* END CONFIG */
+	$("a.preview").hover(function(e){
+		this.t = this.title;
+		this.title = "";	
+		var c = (this.t != "") ? "<br/>" + this.t : "";
+		$("#switcher").append("<p id='preview'><img src='"+ this.name +"' alt='Image preview' />"+ c +"</p>");								 
+		$("#preview")
+			.css("top",(e.pageY - xOffset) + "px")
+			.css("left",(e.pageX + yOffset) + "px")
+			.fadeIn("fast");						
+    },
+	function(){
+		this.title = this.t;	
+		$("#preview").remove();
+    });	
+	$("a.preview").mousemove(function(e){
+		$("#preview")
+			.css("top",(e.pageY - xOffset) + "px")
+			.css("left",(e.pageX + yOffset) + "px");
+	});			
+};
+
+
+// starting the script on page load
+$(document).ready(function(){
+	imagePreview();
+});
+        
+        var theme_list_open = false;
+        
+        $(document).ready(function () {
+        
+        	function fixHeight () {
+        	
+        	var headerHeight = $("#switcher").height();
+        	        	
+        	$("#iframe").attr("height", (($(window).height() - 10) - headerHeight) + 'px');
+        	
+        	}
+        	
+        	$(window).resize(function () {
+               	
+        		fixHeight();
+        	
+        	}).resize();
+        	
+        	$("#theme_select").click( function () {
+        	
+        		if (theme_list_open == true) {
+        	
+        		$(".center ul li ul").hide();
+        		
+        		theme_list_open = false;
+        		
+        		} else {
+        		
+        		$(".center ul li ul").show();         		
+        		
+        		theme_list_open = true;
+        		
+        		}
+        		
+        		return false;
+        	
+        	});
+        	
+        	$("#theme_list ul li a").click(function () {
+        	
+        	var theme_data = $(this).attr("rel").split(",");
+        	        	
+        	$("li.purchase a").attr("href", theme_data[1]);
+        	$("li.remove_frame a").attr("href", theme_data[0]);
+        	$("#iframe").attr("src", theme_data[0]);
+        	
+        	$("#theme_list a#theme_select").html($(this).children('.preview_wrapper').text()+'<span>'+$(this).children('.type').text()+'</span>');
+        	
+        	$(".center ul li ul").hide();
+        	
+        	theme_list_open = false;
+        	
+        	return false;
+        	
+        	});
+        
+        });
+        
+        </script>
+         
+</head>
+
+<body>
+
+	<div id="switcher">
+	
+		<div class="center">
+		
+		<ul>
+		
+		<li class="logo"><img src="selector/logo.png" alt="" /></li>
+		
+		<li id="theme_list"><a id="theme_select" href="#">Hermes<span>business</span></a>
+		
+			<ul>
+			
+				<li><a class="preview" href="#" name="http://2.s3.envato.com/files/47637507/Keres-Screenshot/01_cover.__large_preview.png" rel="http://themes.themegoods.com/keres_wp/,http://themeforest.net/item/keres-fullscreen-photography-theme/3960542?ref=peerapong"><span class="preview_wrapper">Keres</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/45707869/Kakia-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/kakia_wp/,http://themeforest.net/item/kakia-multipurpose-business-corporate-theme/3815270?ref=peerapong"><span class="preview_wrapper">Kakia</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/44133911/Athena-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/athena_wp/,http://themeforest.net/item/athena-simple-flexible-corporate-business-theme/3670986?ref=peerapong"><span class="preview_wrapper">Athena</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/42827162/Apollo-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/apollo_wp/,http://themeforest.net/item/apollo-modern-magazine-newspaper-template/3566316?ref=peerapong"><span class="preview_wrapper">Apollo</span><span class="type">blog</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/41853107/Iris-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/iris_wp/,http://themeforest.net/item/iris-bold-photography-portfolio-theme/3488459?ref=peerapong"><span class="preview_wrapper">Iris</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/37011550/Nyx-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/nyx_wp/,http://themeforest.net/item/nyx-responsive-church-wordpress-theme/3201232?ref=peerapong"><span class="preview_wrapper">Nyx</span><span class="type">church</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/35357543/Hades-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/hades_wp/,http://themeforest.net/item/hades-bold-magazine-newspaper-template/3068665?ref=peerapong"><span class="preview_wrapper">Hades</span><span class="type">blog</span></a></li><li><a class="preview" href="#" name="http://0.s3.envato.com/files/34557327/Pallas-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/pallas_wp/,http://themeforest.net/item/pallas-creative-designer-portfolio-theme/3001778?ref=peerapong"><span class="preview_wrapper">Pallas</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://0.s3.envato.com/files/34288504/Artemis-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/artemis_wp/,http://themeforest.net/item/artemis-photography-gallery-portfolio-theme/2885469?ref=peerapong"><span class="preview_wrapper">Artemis</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/32317987/Poseidon-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/poseidon_wp/,http://themeforest.net/item/poseidon-clean-design-business-software-company/2804736?ref=peerapong"><span class="preview_wrapper">Poseidon</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/29771416/Nemesis-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/nemesis_wp/,http://themeforest.net/item/nemesis-clean-design-for-creative-designer/2577225?ref=peerapong"><span class="preview_wrapper">Nemesis</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/28712722/Aphrodite-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/aphrodite_wp/,http://themeforest.net/item/aphrodite-responsive-corporate-business-portfolio/2480020?ref=peerapong"><span class="preview_wrapper">Aphrodite</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://1.s3.envato.com/files/26644021/Crius-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/crius_wp/,http://themeforest.net/item/crius-responsive-photography-creative-portfolio/2304486?ref=peerapong"><span class="preview_wrapper">Crius</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/20089953/Styx-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/styx_wp/,http://themeforest.net/item/styx-responsive-design-for-business-portfolio/1744465?ref=peerapong"><span class="preview_wrapper">Styx</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://0.s3.envato.com/files/17738304/icarus-screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/icarus_wp/,http://themeforest.net/item/icarus-business-ecommerce-theme/1535471?ref=peerapong"><span class="preview_wrapper">Icarus</span><span class="type">ecommerce</span></a></li><li><a class="preview" href="#" name="http://1.s3.envato.com/files/13802622/Rhea-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/rhea_wp/,http://themeforest.net/item/rhea-for-photography-creative-portfolio/1187949?ref=peerapong"><span class="preview_wrapper">Rhea</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://1.s3.envato.com/files/10609340/Ares-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/ares_wp/,http://themeforest.net/item/ares-blog-magazine-newspaper-template-/918661?ref=peerapong"><span class="preview_wrapper">Ares</span><span class="type">blog</span></a></li><li><a class="preview" href="#" name="http://1.s3.envato.com/files/8061548/Ovid-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/ovid_wp/,http://themeforest.net/item/ovid-for-business-corporate-portfolio/710654?ref=peerapong"><span class="preview_wrapper">Ovid</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/7219374/DK-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/dk_wp/,http://themeforest.net/item/dk-for-photography-creative-portfolio/631383?ref=peerapong"><span class="preview_wrapper">DK</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/6676838/Pandia-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/pandia_wp/,http://themeforest.net/item/pandia-for-portfolio-agency-creative-business/575976?ref=peerapong"><span class="preview_wrapper">Pandia</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/6209546/Pluto-Screenshot/01_cover.__large_preview.png" rel="http://themes.themegoods.com/pluto_wp/,http://themeforest.net/item/pluto-fullscreen-cafe-and-restaurant/534738?ref=peerapong"><span class="preview_wrapper">Pluto</span><span class="type">restaurant</span></a></li><li><a class="preview" href="#" name="http://1.s3.envato.com/files/5621223/Minos-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/minos_wp/,http://themeforest.net/item/minos-for-software-business-corporate-portfolio/492742?ref=peerapong"><span class="preview_wrapper">Minos</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/4844694/Helious-Screenshots/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/helious_wp/,http://themeforest.net/item/helious-grid-style-portfolio-creative-template/438263?ref=peerapong"><span class="preview_wrapper">Helious</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://2.s3.envato.com/files/4487756/Gaia-Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/gaia_wp,http://themeforest.net/item/gaia-clean-business-corporate-and-portfolio/403036?ref=peerapong"><span class="preview_wrapper">Gaia</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/3376770/Atlas-Screenshot/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/atlas_wp,http://themeforest.net/item/atlas-for-photography-creative-portfolio/306532?ref=peerapong"><span class="preview_wrapper">Atlas</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://0.s3.envato.com/files/2796068/Hermes-Screenshots/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/hermes_wp,http://themeforest.net/item/hermes-for-business-corporate-resort-and-hotel/272347?ref=peerapong"><span class="preview_wrapper">Hermes</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/2572673/8Cells-Screenshots/01_cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/8cells_wp,http://themeforest.net/item/8cells-minimalist-and-clean-for-portfolio-creative/245903?ref=peerapong"><span class="preview_wrapper">8Cells</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/2454831/Core-Screenshots/01_Cover.__large_preview.png" rel="http://themes.themegoods.com/core_wp/,http://themeforest.net/item/core-minimalist-photography-portfolio/240185?ref=peerapong"><span class="preview_wrapper">Core</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/2405019/Accent-Screenshots/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/accent_wp,http://themeforest.net/item/accent-clean-wp-for-business-corporate-portfolio/238300?ref=peerapong"><span class="preview_wrapper">Accent</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/2353835/Amphawa-Screenshots/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/amphawa_wp,http://themeforest.net/item/amphawa-for-business-corporate-portfolio/236063?ref=peerapong"><span class="preview_wrapper">Amphawa</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/2200915/Nuke-Screenshots/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/nuke_wp,http://themeforest.net/item/nuke-seo-support-for-magazine-blog-news/223233?ref=peerapong"><span class="preview_wrapper">Nuke</span><span class="type">blog</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1975282/Chamber-Screenshots/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/chamber_wp,http://themeforest.net/item/chamber-for-business-corporate-software-company/198249?ref=peerapong"><span class="preview_wrapper">Chamber</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1727815/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/anan_wp,http://themeforest.net/item/anan-for-photography-creative-portfolio/174507?ref=peerapong"><span class="preview_wrapper">ANAN</span><span class="type">photography</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1598062/Screenshots/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/lotus_wp,http://themeforest.net/item/lotus-for-business-software-corporate-portfolio/164748?ref=peerapong"><span class="preview_wrapper">Lotus</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1566544/Screenshots/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/jai_wp,http://themeforest.net/item/jai-clean-style-portfolio-business-photography/161818?ref=peerapong"><span class="preview_wrapper">JAI</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1542735/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/chalong_wp,http://themeforest.net/item/chalong-simple-and-clean-for-business-portfolio/159780?ref=peerapong"><span class="preview_wrapper">Chalong</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1477104/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/sabuy_wp,http://themeforest.net/item/sabuy-premium-template-for-portfolio-photography/153525?ref=peerapong"><span class="preview_wrapper">Sabuy</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1451421/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/pleng_wp,http://themeforest.net/item/pleng-premium-theme-for-corporate-business/149778?ref=peerapong"><span class="preview_wrapper">Pleng</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1404256/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/link_wp,http://themeforest.net/item/link-clean-magazine-blog-newspaper-template/146944?ref=peerapong"><span class="preview_wrapper">Link</span><span class="type">blog</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1358935/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/kratong_wp,http://themeforest.net/item/kratong-flexible-portfolio-and-blog-template/142311?ref=peerapong"><span class="preview_wrapper">Kratong</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1320557/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/yen_wp,http://themeforest.net/item/yen-magazine-news-and-blog-wordpress-template/138918?ref=peerapong"><span class="preview_wrapper">YEN</span><span class="type">blog</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1329245/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/pai_wp,http://themeforest.net/item/pai-simple-and-clean-business-corporate-template/135346?ref=peerapong"><span class="preview_wrapper">Pai</span><span class="type">business</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1307724/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/jing_wp,http://themeforest.net/item/jing-portfolio-business-photography-template/132106?ref=peerapong"><span class="preview_wrapper">Jing</span><span class="type">portfolio</span></a></li><li><a class="preview" href="#" name="http://s3.envato.com/files/1307755/Screenshot/01_Cover.__large_preview.png" rel="http://www.gallyapp.com/tf_themes/pim_wp,http://themeforest.net/item/pim-newspaper-magazine-and-blog-template/129490?ref=peerapong"><span class="preview_wrapper">PIM</span><span class="type">blog</span></a></li><li><a class="preview" href="#" name="http://3.s3.envato.com/files/18333166/Kin-Screenshot/01_cover.__large_preview.png" rel="http://themes.themegoods.com/kin_wp,http://themeforest.net/item/kin-minimalist-photography-wordpress-template/123713?ref=peerapong"><span class="preview_wrapper">KIN</span><span class="type">photography</span></a></li>				
+			</ul>
+		
+		</li>	
+		
+		<li class="purchase" rel="http://themeforest.net/item/hermes-for-business-corporate-resort-and-hotel/272347?ref=peerapong"><a href="http://themeforest.net/item/hermes-for-business-corporate-resort-and-hotel/272347?ref=peerapong">&nbsp;</a></li>		
+		<li class="remove_frame" rel="http://www.gallyapp.com/tf_themes/hermes_wp"><a href="http://www.gallyapp.com/tf_themes/hermes_wp">&nbsp;</a></li>		
+		
+		</div>
+		
+		</ul>
+	
+	</div>
+	
+    <iframe id="iframe" src="http://www.gallyapp.com/tf_themes/hermes_wp" frameborder="0" width="100%"></iframe>
+    
+</body>
+
+</html>
+
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title></title>
+        
+        <script type="text/javascript">
+        
+		
+		top.location.href = 'http://www.gallyapp.com/tf_themes/?theme=Hermes';
+		
+        
+        </script>
+        
+</head>
+
+<body>
+
+
+</body>
+
+</html>

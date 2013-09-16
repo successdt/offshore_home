@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]>    <html class="lt-ie10" lang="en-US" > <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Apollo13 Team" />
+    <title>Beach Please Theme - Choose Version</title>
+
+    <link rel="shortcut icon" href="icon.png" />
+
+    <style type='text/css'>
+        html,body{
+            background-color: #fff;
+            min-height: 100%;
+            height: 100%;
+            margin: 0;
+            position: relative;
+        }
+        body:before{
+            content: "";
+            width: 50%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-image: linear-gradient(top, #FFFFFF 25%, #E8E8E8 50%, #E8E8E8 75%, #FFFFFF 100%);
+            background-image: -o-linear-gradient(top, #FFFFFF 25%, #E8E8E8 50%, #E8E8E8 75%, #FFFFFF 100%);
+            background-image: -moz-linear-gradient(top, #FFFFFF 25%, #E8E8E8 50%, #E8E8E8 75%, #FFFFFF 100%);
+            background-image: -webkit-linear-gradient(top, #FFFFFF 25%, #E8E8E8 50%, #E8E8E8 75%, #FFFFFF 100%);
+            background-image: -ms-linear-gradient(top, #FFFFFF 25%, #E8E8E8 50%, #E8E8E8 75%, #FFFFFF 100%);
+
+            background-image: -webkit-gradient(
+                linear,
+                left top,
+                left bottom,
+                color-stop(0.25, #FFFFFF),
+                color-stop(0.5, #E8E8E8),
+                color-stop(0.75, #E8E8E8),
+                color-stop(1, #FFFFFF)
+            );
+        }
+        .lt-ie10 body:before{
+            background-color: #E8E8E8;
+        }
+        #dark, #light{
+            display: block;
+            background: transparent url(screen.jpg) 0 0 no-repeat;
+            width: 420px;
+            height: 330px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -165px 0 0 -480px;
+            background-size: 957px 330px;
+        }
+        #light{
+            background-position: 100% 0;
+            margin-left: 60px;
+            height: 244px;
+        }
+        span{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            width: 160px;
+            margin-left: -65px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 32px;
+            text-transform: uppercase;
+            font-family: Calibri, "Lucida Sans", "Lucida Grande", sans-serif;
+            color: #fff;
+            background-color: #191919;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+
+            transition: all 0.25s ease-in-out;
+            -webkit-transition: all 0.25s ease-in-out;
+            -moz-transition: all 0.25s ease-in-out;
+        }
+        #light span{
+            bottom: -74px;
+            background-color: #fff;
+            color: #252525;
+        }
+        a:hover span{
+            box-shadow: 0 0 5px #000;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            body{
+                padding: 1px;
+            }
+            body:before{
+                display: none;
+            }
+            #dark, #light{
+                position: relative;
+                top: auto;
+                left: auto;
+                margin: 40px auto;
+                max-width: 100%;
+            }
+            #light{
+                margin-bottom: 124px;
+            }
+            #light span{
+                background-color: #e8e8e8;
+            }
+        }
+
+        /* HIGHER DPI IMAGES*/
+        @media only screen and (min--moz-device-pixel-ratio: 1.5),
+        (-o-min-device-pixel-ratio: 3/2),
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-device-pixel-ratio: 1.5) {
+            #dark, #light{
+                display: block;
+                background-image: url(screen_big.jpg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="chooser">
+        <a id="dark" href="http://bp.theme.apollo13.eu/" target="_blank"><span>Dark Version</span></a>
+        <a id="light" href="http://bp2.theme.apollo13.eu/" target="_blank"><span>Light Version</span></a>
+    </div>
+</body>
+</html>
