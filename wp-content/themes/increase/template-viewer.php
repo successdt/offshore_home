@@ -11,11 +11,25 @@
 	<meta name="author" content="LiveLong" />
 
 	<title>Kho giao diện Ecomwebpro | Dịch vụ xây dựng website chuyên nghiệp</title>
-	<?php wp_head(); ?>
+	<?php  wp_head(); ?>
 	<style type="text/css">
 		html {
 			margin-top: 0px !important;
 		}
+		#navigation li{
+			float: left !important;
+		}
+		#navigation li > a {
+			color: #FFF !important;
+		}
+		#navigation {
+			display: inline !important;
+		}
+		#header nav {
+			display: inline !important;
+			background: #3A454B !important;
+			padding: 0;
+		} 
 	</style>
 </head>
 
