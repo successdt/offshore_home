@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'ecomhome');
+define('DB_NAME', 'ecom_home');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -88,3 +88,11 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/* Compression */
+define('COMPRESS_CSS', true );
+define('COMPRESS_SCRIPTS', true );
+define('ENFORCE_GZIP', true );
+define('WP_ALLOW_REPAIR', true);
+define('WP_CACHE', true );
+
